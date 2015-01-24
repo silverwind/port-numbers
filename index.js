@@ -11,6 +11,15 @@ pn = function pn(port, protocol, cb) {
         cb = protocol;
         protocol = "tcp";
     }
+
+    if (typeof port !== "number") {
+        throw new Error("port is required an must be of type 'number'");
+    }
+
+    if (typeof cb !== "function") {
+        throw new Error("callback is required an must be of type 'function'");
+    }
+
     lookup(port, protocol, cb);
 };
 
