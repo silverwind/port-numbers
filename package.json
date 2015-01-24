@@ -1,0 +1,36 @@
+{
+  "name": "port-numbers",
+  "version": "0.1.0",
+  "description": "Get the information on network port numbers, based on IANA's public listing",
+  "author": "silverwind <me@silverwind.io> (https://github.com/silverwind)",
+  "license": "BSD-2-clause",
+  "bugs": {
+    "url": "https://github.com/silverwind/port-numbers/issues"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silverwind/port-numbers"
+  },
+  "homepage": "https://github.com/silverwind/port-numbers",
+  "keywords": [
+    "port",
+    "port-numbers",
+    "numbers",
+    "tcp",
+    "udp",
+    "network",
+    "networking",
+    "iana",
+    "well-known"
+  ],
+  "dependencies": {
+    "csv-parse": "0.0.6",
+    "got": "^2.3.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bump": "^0.0.16",
+    "grunt-shell": "^1.1.1"
+  }
+}
