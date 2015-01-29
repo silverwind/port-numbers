@@ -1,11 +1,11 @@
-#port-numbers [![NPM version](https://img.shields.io/npm/v/port-numbers.svg?style=flat)](https://www.npmjs.org/package/port-numbers) [![Dependency Status](http://img.shields.io/david/silverwind/port-numbers.svg?style=flat)](https://david-dm.org/silverwind/port-numbers)
+# port-numbers [![NPM version](https://img.shields.io/npm/v/port-numbers.svg?style=flat)](https://www.npmjs.org/package/port-numbers) [![Dependency Status](http://img.shields.io/david/silverwind/port-numbers.svg?style=flat)](https://david-dm.org/silverwind/port-numbers)
 > Get the information on network port numbers, based on IANA's public listing
 
-###Installation
+### Installation
 ```
 $ npm install --save port-numbers
 ```
-###Example
+### Example
 ```js
 var pn = require("port-numbers");
 pn(80, function(err, result) {
