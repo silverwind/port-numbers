@@ -1,6 +1,6 @@
 {
   "name": "port-numbers",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Get the information on network port numbers, based on IANA's public listing",
   "author": "silverwind <me@silverwind.io> (https://github.com/silverwind)",
   "license": "BSD-2-clause",
@@ -31,6 +31,7 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-bump": "^0.0.17",
-    "grunt-shell": "^1.1.1"
+    "grunt-shell": "^1.1.1",
+    "grunt-contrib-jshint": "^0.11.0"
   }
 }
