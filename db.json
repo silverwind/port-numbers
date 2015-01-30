@@ -42703,6 +42703,13 @@
     "name": "bveapi",
     "description": "BVEssentials HTTP API"
   },
+  "10933/tcp": {
+    "name": "octopustentacle",
+    "description": "Listen port used by the Octopus Deploy Tentacle deployment agent"
+  },
+  "10933/udp": {
+    "description": "Reserved"
+  },
   "10990/tcp": {
     "name": "rmiaux",
     "description": "Auxiliary RMI Port"
