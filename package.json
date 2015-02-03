@@ -13,6 +13,12 @@
     "url": "https://github.com/silverwind/port-numbers"
   },
   "homepage": "https://github.com/silverwind/port-numbers",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "keywords": [
     "port",
     "port-numbers",
