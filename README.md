@@ -8,19 +8,14 @@ $ npm install --save port-numbers
 ### Example
 ```js
 var pn = require("port-numbers");
-pn(80, function(err, result) {
-    console.log(result);
-    // => { name: 'http', description: 'World Wide Web HTTP' }
-});
-pn(53, "udp", function(err, result) {
-    console.log(result);
-    // => { name: 'domain', description: 'Domain Name Server' }
-});
+console.log(pn(80));
+// => { name: 'http', description: 'World Wide Web HTTP' }
+console.log(pn(53, "udp"));
+// => { name: 'domain', description: 'Domain Name Server' }
 ```
 ### API
 #### pn(port, [protocol], [callback])
 - `port` *number* : the port to lookup. Required.
 - `protocol` *string* : the protocol. Default: `tcp`.
-- `callback` *function* : the callback receives `err` and an object containing `name` and `description`.
 
 © 2015 [silverwind](https://github.com/silverwind), distributed under BSD licence
