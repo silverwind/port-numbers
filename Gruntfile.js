@@ -21,7 +21,7 @@ module.exports = function (grunt) {
                 failOnError: true
             },
             push: {
-                command: "git push -u -f --tags origin master"
+                command: "git push -u --tags origin master"
             },
             publish: {
                 command: "npm publish"
@@ -32,6 +32,9 @@ module.exports = function (grunt) {
             modules: {
                 command: "rm -rf node_modules && npm install"
             },
+            test: {
+                command: "npm test"
+            }
         },
         jshint: {
             options: {
@@ -44,9 +47,9 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask("update", ["shell:update", "shell:modules"]);
-    grunt.registerTask("patch",  ["jshint", "bump", "shell:push", "shell:publish"]);
-    grunt.registerTask("minor",  ["jshint", "bump:minor", "shell:push", "shell:publish"]);
-    grunt.registerTask("major",  ["jshint", "bump:major", "shell:push", "shell:publish"]);
+    grunt.registerTask("patch",  ["jshint", "shell:modules", "shell:test", "bump", "shell:push", "shell:publish"]);
+    grunt.registerTask("minor",  ["jshint", "shell:modules", "shell:test", "bump:minor", "shell:push", "shell:publish"]);
+    grunt.registerTask("major",  ["jshint", "shell:modules", "shell:test", "bump:major", "shell:push", "shell:publish"]);
     grunt.registerTask("jshint", ["jshint"]);
 
     grunt.loadNpmTasks("grunt-bump");
