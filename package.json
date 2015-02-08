@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/silverwind/port-numbers",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -C"
   },
   "engines": {
     "node": ">=0.10.0"

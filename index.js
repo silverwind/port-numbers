@@ -1,7 +1,8 @@
 "use strict";
 
-var pn = {},
-    db = require("./db.json");
+var pn       = {},
+    ports    = require("./ports.json"),
+    services = require("./services.json");
 
 // port -> service
 pn.getService = function getService(port, protocol) {
@@ -13,12 +14,13 @@ pn.getService = function getService(port, protocol) {
         protocol = "tcp";
     }
 
-    return db[port + "/" + protocol];
+    return ports[port + "/" + protocol] || null;
 };
+
 
 // service -> port
 pn.getPort = function getPort(service, protocol) {
-    var output;
+    var port, entry;
     if (typeof service !== "string") {
         throw new Error("expected a 'string'");
     }
@@ -28,19 +30,18 @@ pn.getPort = function getPort(service, protocol) {
     }
 
     // services are always lowercase
-    service = service.toLowerCase();
-
-    Object.keys(db).some(function (entry) {
-        if (db[entry].name === service && entry.match(/\w+$/)[0] === protocol) {
-            output = {
-                port: parseInt(entry.match(/^\d+/)[0], 10),
-                protocol: protocol,
-                description: db[entry].description
-            };
-            return true;
+    entry = services[service.toLowerCase()];
+    if (entry) {
+        // filter non-matching protocols
+        port = entry.ports.filter(function (port) {
+            return /\w+$/.exec(port)[0] === protocol;
+        })[0];
+        // return the first matching port
+        if (port) {
+            return { port: Number(/^\d+/.exec(port)[0]), protocol: /\w+$/.exec(port)[0], description: entry.description };
         }
-    });
-    return output;
+    }
+    return null;
 };
 
 module.exports = pn;

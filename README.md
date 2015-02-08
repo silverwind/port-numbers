@@ -10,24 +10,24 @@ $ npm install --save port-numbers
 var pn = require("port-numbers");
 
 // port -> service
-console.log(pn.getService(80));
+pn.getService(80);
 //=> { name: 'http', description: 'World Wide Web HTTP' }
-console.log(pn.getService(3306));
+pn.getService(3306);
 //=> { name: 'mysql', description: 'MySQL' }
 
 // service -> port
-console.log(pn.getPort("ntp", "udp"));
+pn.getPort("ntp", "udp");
 //=> { port: '123', protocol: 'udp', description: 'Network Time Protocol' }
-console.log(pn.getPort("postgresql");
+pn.getPort("postgresql");
 //=> { port: '5432', protocol: 'tcp', description: 'PostgreSQL Database' }
 ```
 
 ### API
-#### pn.getService(port, [protocol])
+#### .getService(port, [protocol])
 - `port` *number* : the port to lookup. Required.
 - `protocol` *string* : the protocol. Default: `tcp`.
 
-#### pn.getPort(service, [protocol])
+#### .getPort(service, [protocol])
 - `service` *string* : the service to lookup. Required.
 - `protocol` *string* : the protocol. Default: `tcp`.
 
