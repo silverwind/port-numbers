@@ -11102,12 +11102,12 @@
     ],
     "description": "CA eTrust Common Services"
   },
-  "ibm-mqisdp": {
+  "mqtt": {
     "ports": [
       "1883/tcp",
       "1883/udp"
     ],
-    "description": "IBM MQSeries SCADA"
+    "description": "Message Queuing Telemetry Transport Protocol"
   },
   "idmaps": {
     "ports": [
@@ -33508,6 +33508,18 @@
       "6634/udp"
     ],
     "description": "MPLS Performance Measurement out-of-band response"
+  },
+  "mpls-udp": {
+    "ports": [
+      "6635/udp"
+    ],
+    "description": "Encapsulate MPLS packets in UDP tunnels."
+  },
+  "mpls-udp-dtls": {
+    "ports": [
+      "6636/udp"
+    ],
+    "description": "Encapsulate MPLS packets in UDP tunnels with DTLS."
   },
   "ovsdb": {
     "ports": [

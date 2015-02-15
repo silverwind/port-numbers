@@ -12572,12 +12572,12 @@
     "description": "CA eTrust Common Services"
   },
   "1883/tcp": {
-    "name": "ibm-mqisdp",
-    "description": "IBM MQSeries SCADA"
+    "name": "mqtt",
+    "description": "Message Queuing Telemetry Transport Protocol"
   },
   "1883/udp": {
-    "name": "ibm-mqisdp",
-    "description": "IBM MQSeries SCADA"
+    "name": "mqtt",
+    "description": "Message Queuing Telemetry Transport Protocol"
   },
   "1884/tcp": {
     "name": "idmaps",
@@ -37894,6 +37894,22 @@
   "6634/tcp": {
     "name": "",
     "description": "Reserved"
+  },
+  "6635/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "6635/udp": {
+    "name": "mpls-udp",
+    "description": "Encapsulate MPLS packets in UDP tunnels."
+  },
+  "6636/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "6636/udp": {
+    "name": "mpls-udp-dtls",
+    "description": "Encapsulate MPLS packets in UDP tunnels with DTLS."
   },
   "6640/tcp": {
     "name": "ovsdb",
