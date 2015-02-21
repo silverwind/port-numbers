@@ -10,13 +10,19 @@ got(source, function (err, csv) {
     if (err) return console.error(err);
     parse(csv, null, function (err, data) {
         parsePorts(data, function (err) {
-            console.info(err ? err : "ports.json updated successfully!");
+            if (err) return exit(err);
             parseServices(data, function (err) {
-                console.info(err ? err : "services.json updated successfully!");
+                if (err) return exit(err);
+                process.exit(0);
             });
         });
     });
 });
+
+function exit(err) {
+    console.err(err);
+    process.exit(1);
+}
 
 /* Fields:
  *
