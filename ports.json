@@ -41431,6 +41431,22 @@
     "name": "cumulus-admin",
     "description": "Cumulus Admin Port"
   },
+  "8980/tcp": {
+    "name": "nod-provider",
+    "description": "Network of Devices Provider"
+  },
+  "8980/udp": {
+    "name": "nod-provider",
+    "description": "Network of Devices Provider"
+  },
+  "8981/udp": {
+    "name": "nod-client",
+    "description": "Network of Devices Client"
+  },
+  "8981/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "8989/tcp": {
     "name": "sunwebadmins",
     "description": "Sun Web Server SSL Admin Service"

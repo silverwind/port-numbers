@@ -36552,6 +36552,19 @@
     ],
     "description": "Cumulus Admin Port"
   },
+  "nod-provider": {
+    "ports": [
+      "8980/tcp",
+      "8980/udp"
+    ],
+    "description": "Network of Devices Provider"
+  },
+  "nod-client": {
+    "ports": [
+      "8981/udp"
+    ],
+    "description": "Network of Devices Client"
+  },
   "sunwebadmins": {
     "ports": [
       "8989/tcp",
