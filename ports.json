@@ -36643,6 +36643,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "6080/udp": {
+    "name": "gue",
+    "description": "Generic UDP Encapsulation"
+  },
+  "6080/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "6081/udp": {
     "name": "geneve",
     "description": "Generic Network Virtualization Encapsulation (Geneve)"
@@ -45279,6 +45287,14 @@
     "name": "cis",
     "description": "CompactIS Tunnel"
   },
+  "22335/tcp": {
+    "name": "shrewd-control",
+    "description": "Initium Labs Security and Automation Control"
+  },
+  "22335/udp": {
+    "name": "shrewd-stream",
+    "description": "Initium Labs Security and Automation Streaming"
+  },
   "22343/tcp": {
     "name": "cis-secure",
     "description": "CompactIS Secure Tunnel"
@@ -45590,6 +45606,14 @@
   "24577/udp": {
     "name": "bilobit-update",
     "description": "bilobit Service Update"
+  },
+  "24666/tcp": {
+    "name": "sdtvwcam",
+    "description": "Service used by SmarDTV to communicate between a CAM and a second screen application"
+  },
+  "24666/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "24676/tcp": {
     "name": "canditv",

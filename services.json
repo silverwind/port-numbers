@@ -32332,6 +32332,12 @@
     ],
     "description": "iConstruct Server"
   },
+  "gue": {
+    "ports": [
+      "6080/udp"
+    ],
+    "description": "Generic UDP Encapsulation"
+  },
   "geneve": {
     "ports": [
       "6081/udp"
@@ -39883,6 +39889,18 @@
     ],
     "description": "CompactIS Tunnel"
   },
+  "shrewd-control": {
+    "ports": [
+      "22335/tcp"
+    ],
+    "description": "Initium Labs Security and Automation Control"
+  },
+  "shrewd-stream": {
+    "ports": [
+      "22335/udp"
+    ],
+    "description": "Initium Labs Security and Automation Streaming"
+  },
   "cis-secure": {
     "ports": [
       "22343/tcp",
@@ -40164,6 +40182,12 @@
       "24577/udp"
     ],
     "description": "bilobit Service Update"
+  },
+  "sdtvwcam": {
+    "ports": [
+      "24666/tcp"
+    ],
+    "description": "Service used by SmarDTV to communicate between a CAM and a second screen application"
   },
   "canditv": {
     "ports": [
