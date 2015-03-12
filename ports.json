@@ -181,11 +181,11 @@
   },
   "21/tcp": {
     "name": "ftp",
-    "description": "File Transfer [Control]"
+    "description": "File Transfer Protocol [Control]"
   },
   "21/udp": {
     "name": "ftp",
-    "description": "File Transfer [Control]"
+    "description": "File Transfer Protocol [Control]"
   },
   "21/sctp": {
     "name": "ftp",
@@ -41527,6 +41527,14 @@
     "name": "dynamid",
     "description": "DynamID authentication"
   },
+  "9005/tcp": {
+    "name": "golem",
+    "description": "Golem Inter-System RPC"
+  },
+  "9005/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "9007/tcp": {
     "name": "",
     "description": "Reserved"
@@ -47004,6 +47012,14 @@
     "description": "NSi AutoStore Status Monitoring Protocol secure data transfer"
   },
   "45001/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "45002/tcp": {
+    "name": "rs-status",
+    "description": "Redspeed Status Monitor"
+  },
+  "45002/udp": {
     "name": "",
     "description": "Reserved"
   },

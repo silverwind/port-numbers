@@ -89,7 +89,7 @@
       "21/udp",
       "21/sctp"
     ],
-    "description": "File Transfer [Control]"
+    "description": "File Transfer Protocol [Control]"
   },
   "ssh": {
     "ports": [
@@ -36632,6 +36632,12 @@
     ],
     "description": "DynamID authentication"
   },
+  "golem": {
+    "ports": [
+      "9005/tcp"
+    ],
+    "description": "Golem Inter-System RPC"
+  },
   "ogs-client": {
     "ports": [
       "9007/udp"
@@ -41425,6 +41431,12 @@
       "45001/tcp"
     ],
     "description": "NSi AutoStore Status Monitoring Protocol secure data transfer"
+  },
+  "rs-status": {
+    "ports": [
+      "45002/tcp"
+    ],
+    "description": "Redspeed Status Monitor"
   },
   "synctest": {
     "ports": [
