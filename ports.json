@@ -39579,6 +39579,14 @@
     "name": "pando-pub",
     "description": "Pando Media Public Distribution"
   },
+  "7683/tcp": {
+    "name": "dmt",
+    "description": "Cleondris DMT"
+  },
+  "7683/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "7689/tcp": {
     "name": "collaber",
     "description": "Collaber Network Service"

@@ -34952,6 +34952,12 @@
     ],
     "description": "Pando Media Public Distribution"
   },
+  "dmt": {
+    "ports": [
+      "7683/tcp"
+    ],
+    "description": "Cleondris DMT"
+  },
   "collaber": {
     "ports": [
       "7689/tcp",
