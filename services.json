@@ -38217,7 +38217,7 @@
     "ports": [
       "10631/tcp"
     ],
-    "description": "Port to allow for administration and control of \"Printopia\" application software,\n      which provides printing services to mobile users"
+    "description": "Printopia Serve"
   },
   "gap": {
     "ports": [

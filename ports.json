@@ -43333,7 +43333,7 @@
   },
   "10631/tcp": {
     "name": "printopia",
-    "description": "Port to allow for administration and control of \"Printopia\" application software,\n      which provides printing services to mobile users"
+    "description": "Printopia Serve"
   },
   "10631/udp": {
     "name": "",
