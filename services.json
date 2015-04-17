@@ -30511,6 +30511,12 @@
     ],
     "description": "Kohler Power Device Protocol"
   },
+  "logcabin": {
+    "ports": [
+      "5254/tcp"
+    ],
+    "description": "LogCabin storage service"
+  },
   "3com-njack-1": {
     "ports": [
       "5264/tcp",
@@ -37236,6 +37242,12 @@
       "9344/udp"
     ],
     "description": "Mphlpdmc"
+  },
+  "rancher": {
+    "ports": [
+      "9345/tcp"
+    ],
+    "description": "Rancher Agent"
   },
   "ctechlicensing": {
     "ports": [

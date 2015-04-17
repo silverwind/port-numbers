@@ -34511,6 +34511,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "5254/tcp": {
+    "name": "logcabin",
+    "description": "LogCabin storage service"
+  },
+  "5254/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "5264/tcp": {
     "name": "3com-njack-1",
     "description": "3Com Network Jack Port 1"
@@ -42230,6 +42238,14 @@
   "9344/udp": {
     "name": "mphlpdmc",
     "description": "Mphlpdmc"
+  },
+  "9345/tcp": {
+    "name": "rancher",
+    "description": "Rancher Agent"
+  },
+  "9345/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "9346/tcp": {
     "name": "ctechlicensing",
