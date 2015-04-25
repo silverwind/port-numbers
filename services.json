@@ -22893,19 +22893,19 @@
     ],
     "description": "Quest Data Hub"
   },
-  "enc-eps": {
+  "dof-eps": {
     "ports": [
       "3567/tcp",
       "3567/udp"
     ],
-    "description": "EMIT protocol stack"
+    "description": "DOF Protocol Stack"
   },
-  "enc-tunnel-sec": {
+  "dof-tunnel-sec": {
     "ports": [
       "3568/tcp",
       "3568/udp"
     ],
-    "description": "EMIT secure tunnel"
+    "description": "DOF Secure Tunnel"
   },
   "mbg-ctrl": {
     "ports": [
@@ -29365,6 +29365,12 @@
     ],
     "description": "CCSS QSystemMonitor"
   },
+  "ctxs-vpp": {
+    "ports": [
+      "4980/udp"
+    ],
+    "description": "Citrix Virtual Path"
+  },
   "webyast": {
     "ports": [
       "4984/tcp"
@@ -31348,12 +31354,12 @@
     ],
     "description": "Westec Connect"
   },
-  "enc-eps-mc-sec": {
+  "dof-dps-mc-sec": {
     "ports": [
       "5567/tcp",
       "5567/udp"
     ],
-    "description": "EMIT protocol stack multicast/secure transport"
+    "description": "DOF Protocol Stack Multicast/Secure Transport"
   },
   "sdt": {
     "ports": [
@@ -32244,6 +32250,12 @@
     ],
     "description": "Consul InSight Security"
   },
+  "cim-rs": {
+    "ports": [
+      "5993/tcp"
+    ],
+    "description": "DMTF WEBM CIM REST"
+  },
   "cvsup": {
     "ports": [
       "5999/tcp",
@@ -32956,6 +32968,12 @@
       "6370/udp"
     ],
     "description": "MetaEdit+ Server Administration"
+  },
+  "redis": {
+    "ports": [
+      "6379/tcp"
+    ],
+    "description": "An advanced key-value cache and store"
   },
   "metatude-mds": {
     "ports": [
@@ -36186,12 +36204,12 @@
     ],
     "description": "SYMAX D-FENCE"
   },
-  "enc-tunnel": {
+  "dof-tunnel": {
     "ports": [
       "8567/tcp",
       "8567/udp"
     ],
-    "description": "EMIT tunneling protocol"
+    "description": "DOF Tunneling Protocol"
   },
   "asterix": {
     "ports": [

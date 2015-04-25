@@ -25848,20 +25848,20 @@
     "description": "Reserved"
   },
   "3567/tcp": {
-    "name": "enc-eps",
-    "description": "EMIT protocol stack"
+    "name": "dof-eps",
+    "description": "DOF Protocol Stack"
   },
   "3567/udp": {
-    "name": "enc-eps",
-    "description": "EMIT protocol stack"
+    "name": "dof-eps",
+    "description": "DOF Protocol Stack"
   },
   "3568/tcp": {
-    "name": "enc-tunnel-sec",
-    "description": "EMIT secure tunnel"
+    "name": "dof-tunnel-sec",
+    "description": "DOF Secure Tunnel"
   },
   "3568/udp": {
-    "name": "enc-tunnel-sec",
-    "description": "EMIT secure tunnel"
+    "name": "dof-tunnel-sec",
+    "description": "DOF Secure Tunnel"
   },
   "3569/tcp": {
     "name": "mbg-ctrl",
@@ -33171,6 +33171,14 @@
     "name": "ccss-qsm",
     "description": "CCSS QSystemMonitor"
   },
+  "4980/udp": {
+    "name": "ctxs-vpp",
+    "description": "Citrix Virtual Path"
+  },
+  "4980/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4984/tcp": {
     "name": "webyast",
     "description": "WebYast"
@@ -35484,12 +35492,12 @@
     "description": "Reserved"
   },
   "5567/tcp": {
-    "name": "enc-eps-mc-sec",
-    "description": "EMIT protocol stack multicast/secure transport"
+    "name": "dof-dps-mc-sec",
+    "description": "DOF Protocol Stack Multicast/Secure Transport"
   },
   "5567/udp": {
-    "name": "enc-eps-mc-sec",
-    "description": "EMIT protocol stack multicast/secure transport"
+    "name": "dof-dps-mc-sec",
+    "description": "DOF Protocol Stack Multicast/Secure Transport"
   },
   "5568/tcp": {
     "name": "sdt",
@@ -36539,6 +36547,14 @@
     "name": "consul-insight",
     "description": "Consul InSight Security"
   },
+  "5993/tcp": {
+    "name": "cim-rs",
+    "description": "DMTF WEBM CIM REST"
+  },
+  "5993/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "5999/tcp": {
     "name": "cvsup",
     "description": "CVSup"
@@ -37330,6 +37346,14 @@
   "6370/udp": {
     "name": "metaedit-se",
     "description": "MetaEdit+ Server Administration"
+  },
+  "6379/tcp": {
+    "name": "redis",
+    "description": "An advanced key-value cache and store"
+  },
+  "6379/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "6382/tcp": {
     "name": "metatude-mds",
@@ -41048,12 +41072,12 @@
     "description": "SYMAX D-FENCE"
   },
   "8567/tcp": {
-    "name": "enc-tunnel",
-    "description": "EMIT tunneling protocol"
+    "name": "dof-tunnel",
+    "description": "DOF Tunneling Protocol"
   },
   "8567/udp": {
-    "name": "enc-tunnel",
-    "description": "EMIT tunneling protocol"
+    "name": "dof-tunnel",
+    "description": "DOF Tunneling Protocol"
   },
   "8600/tcp": {
     "name": "asterix",
