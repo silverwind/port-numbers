@@ -32,10 +32,10 @@
   ],
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-bump": "^0.0.17",
-    "grunt-shell": "^1.1.1",
-    "grunt-contrib-jshint": "^0.11.0",
-    "csv-parse": "0.0.6",
-    "got": "^2.3.2"
+    "grunt-bump": "^0.3.1",
+    "grunt-shell": "^1.1.2",
+    "grunt-contrib-jshint": "^0.11.2",
+    "csv-parse": "0.1.1",
+    "got": "^3.2.0"
   }
 }
