@@ -36549,7 +36549,7 @@
   },
   "5993/tcp": {
     "name": "cim-rs",
-    "description": "DMTF WEBM CIM REST"
+    "description": "DMTF WBEM CIM REST"
   },
   "5993/udp": {
     "name": "",
@@ -37400,8 +37400,8 @@
     "description": "Simple VDR Protocol"
   },
   "6419/udp": {
-    "name": "",
-    "description": "Reserved"
+    "name": "svdrp-disc",
+    "description": "Simple VDR Protocol Discovery"
   },
   "6420/tcp": {
     "name": "nim-vdrshell",
@@ -40328,6 +40328,14 @@
     "description": "Toad BI Application Server"
   },
   "8066/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8067/tcp": {
+    "name": "infi-async",
+    "description": "Infinidat async replication"
+  },
+  "8067/udp": {
     "name": "",
     "description": "Reserved"
   },
@@ -44514,6 +44522,14 @@
   "16384/udp": {
     "name": "connected",
     "description": "Connected Corp"
+  },
+  "16385/tcp": {
+    "name": "rdgs",
+    "description": "Reliable Datagram Sockets"
+  },
+  "16385/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "16619/tcp": {
     "name": "xoms",

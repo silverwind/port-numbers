@@ -32254,7 +32254,7 @@
     "ports": [
       "5993/tcp"
     ],
-    "description": "DMTF WEBM CIM REST"
+    "description": "DMTF WBEM CIM REST"
   },
   "cvsup": {
     "ports": [
@@ -33014,6 +33014,12 @@
       "6419/tcp"
     ],
     "description": "Simple VDR Protocol"
+  },
+  "svdrp-disc": {
+    "ports": [
+      "6419/udp"
+    ],
+    "description": "Simple VDR Protocol Discovery"
   },
   "nim-vdrshell": {
     "ports": [
@@ -35583,6 +35589,12 @@
       "8066/tcp"
     ],
     "description": "Toad BI Application Server"
+  },
+  "infi-async": {
+    "ports": [
+      "8067/tcp"
+    ],
+    "description": "Infinidat async replication"
   },
   "gadugadu": {
     "ports": [
@@ -39223,6 +39235,12 @@
       "16384/udp"
     ],
     "description": "Connected Corp"
+  },
+  "rdgs": {
+    "ports": [
+      "16385/tcp"
+    ],
+    "description": "Reliable Datagram Sockets"
   },
   "xoms": {
     "ports": [
