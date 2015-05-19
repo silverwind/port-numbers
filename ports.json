@@ -31003,14 +31003,6 @@
     "name": "trim-ice",
     "description": "TRIM ICE Service"
   },
-  "4324/tcp": {
-    "name": "balour",
-    "description": "Balour Game Server"
-  },
-  "4324/udp": {
-    "name": "balour",
-    "description": "Balour Game Server"
-  },
   "4325/tcp": {
     "name": "geognosisman",
     "description": "Cadcorp GeognoSIS Manager Service"

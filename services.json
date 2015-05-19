@@ -27472,13 +27472,6 @@
     ],
     "description": "TRIM ICE Service"
   },
-  "balour": {
-    "ports": [
-      "4324/tcp",
-      "4324/udp"
-    ],
-    "description": "Balour Game Server"
-  },
   "geognosisman": {
     "ports": [
       "4325/tcp",
