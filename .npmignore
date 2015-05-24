@@ -1,8 +1,0 @@
-.editorconfig
-.npmignore
-.gitignore
-.gitattributes
-.jshintrc
-Gruntfile.js
-test.js
-update.js

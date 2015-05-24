@@ -4,17 +4,9 @@
   "description": "Get the information on network port numbers, based on IANA's public listing",
   "author": "silverwind <me@silverwind.io> (https://github.com/silverwind)",
   "license": "BSD-2-clause",
-  "bugs": {
-    "url": "https://github.com/silverwind/port-numbers/issues"
-  },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/silverwind/port-numbers"
-  },
-  "homepage": "https://github.com/silverwind/port-numbers",
+  "repository": "silverwind/port-numbers",
   "scripts": {
-    "test": "mocha -C"
+    "test": "mocha"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -29,6 +21,11 @@
     "networking",
     "iana",
     "well-known"
+  ],
+  "files": [
+    "index.js",
+    "ports.json",
+    "services.json"
   ],
   "devDependencies": {
     "grunt": "^0.4.5",
