@@ -9,6 +9,7 @@ var fs     = require("fs");
 got(source, function (err, csv) {
     if (err) return console.error(err);
     parse(csv, null, function (err, data) {
+        if (err) return exit(err);
         parsePorts(data, function (err) {
             if (err) return exit(err);
             parseServices(data, function (err) {

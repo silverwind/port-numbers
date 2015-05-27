@@ -38,7 +38,7 @@ pn.getPort = function getPort(service, protocol) {
         })[0];
         // return the first matching port
         if (port) {
-            return { port: Number(/^\d+/.exec(port)[0]), protocol: /\w+$/.exec(port)[0], description: entry.description };
+            return {port: Number(/^\d+/.exec(port)[0]), protocol: /\w+$/.exec(port)[0], description: entry.description};
         }
     }
     return null;

@@ -7,8 +7,8 @@ var getPort = require("./").getPort;
 
 it("should return correct services", function () {
     assert(getService(80).name === "http");
-    assert(getService(80,"tcp").name === "http");
-    assert(getService(53,"udp").name === "domain");
+    assert(getService(80, "tcp").name === "http");
+    assert(getService(53, "udp").name === "domain");
     assert(getService(3306).name === "mysql");
     assert(getService(12345).name === "italk");
 });
