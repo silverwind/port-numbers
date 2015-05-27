@@ -40637,6 +40637,13 @@
     ],
     "description": "Amicon FPSU-IP VPN"
   },
+  "rwp": {
+    "ports": [
+      "30100/tcp",
+      "30100/sctp"
+    ],
+    "description": "Remote Window Protocol"
+  },
   "kingdomsonline": {
     "ports": [
       "30260/tcp",

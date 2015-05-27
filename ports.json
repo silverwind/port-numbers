@@ -46143,6 +46143,18 @@
     "name": "",
     "description": "Reserved"
   },
+  "30100/tcp": {
+    "name": "rwp",
+    "description": "Remote Window Protocol"
+  },
+  "30100/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "30100/sctp": {
+    "name": "rwp",
+    "description": "Remote Window Protocol"
+  },
   "30260/tcp": {
     "name": "kingdomsonline",
     "description": "Kingdoms Online (CraigAvenue)"
