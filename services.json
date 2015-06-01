@@ -13490,12 +13490,12 @@
     ],
     "description": "NetIQ End2End"
   },
-  "rockwell-csp1": {
+  "ethernet-ip-s": {
     "ports": [
       "2221/tcp",
       "2221/udp"
     ],
-    "description": "Rockwell CSP1"
+    "description": "EtherNet/IP over TLS"
   },
   "EtherNet-IP-1": {
     "ports": [

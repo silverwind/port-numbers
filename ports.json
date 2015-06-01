@@ -15256,12 +15256,12 @@
     "description": "NetIQ End2End"
   },
   "2221/tcp": {
-    "name": "rockwell-csp1",
-    "description": "Rockwell CSP1"
+    "name": "ethernet-ip-s",
+    "description": "EtherNet/IP over TLS"
   },
   "2221/udp": {
-    "name": "rockwell-csp1",
-    "description": "Rockwell CSP1"
+    "name": "ethernet-ip-s",
+    "description": "EtherNet/IP over DTLS"
   },
   "2222/tcp": {
     "name": "EtherNet-IP-1",
