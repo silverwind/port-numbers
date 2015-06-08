@@ -29623,6 +29623,18 @@
     ],
     "description": "SignaCert Enterprise Trust Server Agent"
   },
+  "jtnetd-server": {
+    "ports": [
+      "5033/tcp"
+    ],
+    "description": "Janstor Secure Data"
+  },
+  "jtnetd-status": {
+    "ports": [
+      "5034/tcp"
+    ],
+    "description": "Janstor Status"
+  },
   "asnaacceler8db": {
     "ports": [
       "5042/tcp",
@@ -39252,6 +39264,12 @@
       "16666/udp"
     ],
     "description": "Vidder Tunnel Protocol"
+  },
+  "cadsisvr": {
+    "ports": [
+      "16789/tcp"
+    ],
+    "description": "This server provides callable services to mainframe External Security Managers from any TCP/IP platform"
   },
   "newbay-snc-mc": {
     "ports": [

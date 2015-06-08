@@ -33483,6 +33483,22 @@
     "name": "",
     "description": "Reserved"
   },
+  "5033/tcp": {
+    "name": "jtnetd-server",
+    "description": "Janstor Secure Data"
+  },
+  "5033/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "5034/tcp": {
+    "name": "jtnetd-status",
+    "description": "Janstor Status"
+  },
+  "5034/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "5042/tcp": {
     "name": "asnaacceler8db",
     "description": "asnaacceler8db"
@@ -44546,6 +44562,14 @@
   "16666/udp": {
     "name": "vtp",
     "description": "Vidder Tunnel Protocol"
+  },
+  "16789/tcp": {
+    "name": "cadsisvr",
+    "description": "This server provides callable services to mainframe External Security Managers from any TCP/IP platform"
+  },
+  "16789/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "16900/tcp": {
     "name": "newbay-snc-mc",
