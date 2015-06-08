@@ -36,7 +36,7 @@ module.exports = function (grunt) {
                 command: "npm test"
             },
             lint: {
-                command: "eslint --reset --color --quiet *.js"
+                command: "eslint --reset --color --quiet ." 
             }
         }
     });
