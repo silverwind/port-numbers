@@ -36049,6 +36049,12 @@
     ],
     "description": "M2m Services"
   },
+  "marathontp": {
+    "ports": [
+      "8384/udp"
+    ],
+    "description": "Marathon Transport Protocol"
+  },
   "cvd": {
     "ports": [
       "8400/tcp",
@@ -36206,6 +36212,12 @@
       "8502/tcp"
     ],
     "description": "FTN Message Transfer Protocol"
+  },
+  "lsp-self-ping": {
+    "ports": [
+      "8503/udp"
+    ],
+    "description": "MPLS LSP Self Ping"
   },
   "rtsp-alt": {
     "ports": [

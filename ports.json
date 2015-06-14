@@ -40883,6 +40883,14 @@
     "name": "m2mservices",
     "description": "M2m Services"
   },
+  "8384/udp": {
+    "name": "marathontp",
+    "description": "Marathon Transport Protocol"
+  },
+  "8384/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "8400/tcp": {
     "name": "cvd",
     "description": "cvd"
@@ -41068,6 +41076,14 @@
     "description": "FTN Message Transfer Protocol"
   },
   "8502/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8503/udp": {
+    "name": "lsp-self-ping",
+    "description": "MPLS LSP Self Ping"
+  },
+  "8503/tcp": {
     "name": "",
     "description": "Reserved"
   },
