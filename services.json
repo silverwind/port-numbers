@@ -7717,12 +7717,11 @@
     ],
     "description": "NetLabs License Manager"
   },
-  "dbsa-lm": {
+  "tibet-server": {
     "ports": [
-      "1407/tcp",
-      "1407/udp"
+      "1407/tcp"
     ],
-    "description": "DBSA License Manager"
+    "description": "TIBET Data Server"
   },
   "sophia-lm": {
     "ports": [
@@ -41111,6 +41110,18 @@
       "36422/sctp"
     ],
     "description": "X2-Control Plane (3GPP)"
+  },
+  "slmap": {
+    "ports": [
+      "36423/sctp"
+    ],
+    "description": "SLm Interface Application Protocol"
+  },
+  "nq-ap": {
+    "ports": [
+      "36424/sctp"
+    ],
+    "description": "Nq and Nq' Application Protocol"
   },
   "m2ap": {
     "ports": [

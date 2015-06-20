@@ -8784,12 +8784,12 @@
     "description": "NetLabs License Manager"
   },
   "1407/tcp": {
-    "name": "dbsa-lm",
-    "description": "DBSA License Manager"
+    "name": "tibet-server",
+    "description": "TIBET Data Server"
   },
   "1407/udp": {
-    "name": "dbsa-lm",
-    "description": "DBSA License Manager"
+    "name": "",
+    "description": "Reserved"
   },
   "1408/tcp": {
     "name": "sophia-lm",
@@ -46690,6 +46690,14 @@
   "36422/sctp": {
     "name": "x2-control",
     "description": "X2-Control Plane (3GPP)"
+  },
+  "36423/sctp": {
+    "name": "slmap",
+    "description": "SLm Interface Application Protocol"
+  },
+  "36424/sctp": {
+    "name": "nq-ap",
+    "description": "Nq and Nq' Application Protocol"
   },
   "36443/sctp": {
     "name": "m2ap",
