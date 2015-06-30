@@ -21107,6 +21107,12 @@
     ],
     "description": "pdrncs"
   },
+  "ceph": {
+    "ports": [
+      "3300/tcp"
+    ],
+    "description": "Ceph monitor"
+  },
   "mcs-fastmail": {
     "ports": [
       "3302/tcp",
@@ -38204,6 +38210,12 @@
     ],
     "description": "Apollo Relay Port"
   },
+  "eapol-relay": {
+    "ports": [
+      "10253/udp"
+    ],
+    "description": "Relay of EAPOL frames"
+  },
   "axis-wimp-port": {
     "ports": [
       "10260/tcp",
@@ -41303,6 +41315,13 @@
     ],
     "description": "Tentacle Server"
   },
+  "z-wave-s": {
+    "ports": [
+      "41230/tcp",
+      "41230/udp"
+    ],
+    "description": "Z-Wave Protocol over SSL/TLS"
+  },
   "crestron-cip": {
     "ports": [
       "41794/tcp",
@@ -41432,7 +41451,7 @@
     ],
     "description": "Cisco NetMgmt DB Ports"
   },
-  "z-wave-s": {
+  "z-wave-tunnel": {
     "ports": [
       "44123/tcp"
     ],

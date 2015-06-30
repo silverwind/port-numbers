@@ -23819,6 +23819,14 @@
     "name": "pdrncs",
     "description": "pdrncs"
   },
+  "3300/tcp": {
+    "name": "ceph",
+    "description": "Ceph monitor"
+  },
+  "3300/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "3302/tcp": {
     "name": "mcs-fastmail",
     "description": "MCS Fastmail"
@@ -43323,6 +43331,14 @@
     "name": "apollo-relay",
     "description": "Apollo Relay Port"
   },
+  "10253/udp": {
+    "name": "eapol-relay",
+    "description": "Relay of EAPOL frames"
+  },
+  "10253/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "10260/tcp": {
     "name": "axis-wimp-port",
     "description": "Axis WIMP Port"
@@ -46907,6 +46923,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "41230/tcp": {
+    "name": "z-wave-s",
+    "description": "Z-Wave Protocol over SSL/TLS"
+  },
+  "41230/udp": {
+    "name": "z-wave-s",
+    "description": "Z-Wave Protocol over DTLS"
+  },
   "41794/tcp": {
     "name": "crestron-cip",
     "description": "Crestron Control Port"
@@ -47036,7 +47060,7 @@
     "description": "Cisco NetMgmt DB Ports"
   },
   "44123/tcp": {
-    "name": "z-wave-s",
+    "name": "z-wave-tunnel",
     "description": "Z-Wave Secure Tunnel"
   },
   "44123/udp": {
