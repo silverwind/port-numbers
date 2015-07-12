@@ -38188,8 +38188,8 @@
     "description": "Fibotrader Communications"
   },
   "6716/tcp": {
-    "name": "printercare-cc",
-    "description": "PrinterCare cloud service"
+    "name": "princity-agent",
+    "description": "Princity Agent"
   },
   "6716/udp": {
     "name": "",

@@ -33749,11 +33749,11 @@
     ],
     "description": "Fibotrader Communications"
   },
-  "printercare-cc": {
+  "princity-agent": {
     "ports": [
       "6716/tcp"
     ],
-    "description": "PrinterCare cloud service"
+    "description": "Princity Agent"
   },
   "bmc-perf-agent": {
     "ports": [
