@@ -39715,6 +39715,18 @@
     "name": "trident-data",
     "description": "Trident Systems Data"
   },
+  "7728/tcp": {
+    "name": "osvr",
+    "description": "Open-Source Virtual Reality"
+  },
+  "7728/udp": {
+    "name": "osvr",
+    "description": "Open-Source Virtual Reality"
+  },
+  "7728/sctp": {
+    "name": "osvr",
+    "description": "Open-Source Virtual Reality"
+  },
   "7734/tcp": {
     "name": "smip",
     "description": "Smith Protocol over IP"

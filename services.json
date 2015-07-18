@@ -35067,6 +35067,14 @@
     ],
     "description": "Trident Systems Data"
   },
+  "osvr": {
+    "ports": [
+      "7728/tcp",
+      "7728/udp",
+      "7728/sctp"
+    ],
+    "description": "Open-Source Virtual Reality"
+  },
   "smip": {
     "ports": [
       "7734/tcp",
