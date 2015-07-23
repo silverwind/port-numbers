@@ -35459,6 +35459,14 @@
     "name": "amc",
     "description": "Amcom Mobile Connect"
   },
+  "5507/tcp": {
+    "name": "psl-management",
+    "description": "PowerSysLab Electrical Management"
+  },
+  "5507/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "5553/tcp": {
     "name": "sgi-eventmond",
     "description": "SGI Eventmond Port"

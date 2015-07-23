@@ -31324,6 +31324,12 @@
     ],
     "description": "Amcom Mobile Connect"
   },
+  "psl-management": {
+    "ports": [
+      "5507/tcp"
+    ],
+    "description": "PowerSysLab Electrical Management"
+  },
   "sgi-eventmond": {
     "ports": [
       "5553/tcp",
