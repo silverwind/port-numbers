@@ -7,22 +7,22 @@ var parse  = require("csv-parse");
 var fs     = require("fs");
 
 got(source, function (err, csv) {
-    if (err) return console.error(err);
-    parse(csv, null, function (err, data) {
+  if (err) return console.error(err);
+  parse(csv, null, function (err, data) {
+    if (err) return exit(err);
+    parsePorts(data, function (err) {
+      if (err) return exit(err);
+      parseServices(data, function (err) {
         if (err) return exit(err);
-        parsePorts(data, function (err) {
-            if (err) return exit(err);
-            parseServices(data, function (err) {
-                if (err) return exit(err);
-                process.exit(0);
-            });
-        });
+        process.exit(0);
+      });
     });
+  });
 });
 
 function exit(err) {
-    console.err(err);
-    process.exit(1);
+  console.err(err);
+  process.exit(1);
 }
 
 /* Fields:
@@ -39,32 +39,32 @@ function exit(err) {
  */
 
 function parsePorts(data, cb) {
-    var output = {};
-    data.forEach(function (entry) {
-        if (entry[1] && entry[2] && !output[entry[1] + "/" + entry[2]] && !isNaN(Number(entry[1]))) {
-            output[entry[1] + "/" + entry[2]] = {
-                name: entry[0],
-                description: entry[3]
-            };
-        }
-    });
-    fs.writeFile("./ports.json", JSON.stringify(output, null, 2), cb);
+  var output = {};
+  data.forEach(function (entry) {
+    if (entry[1] && entry[2] && !output[entry[1] + "/" + entry[2]] && !isNaN(Number(entry[1]))) {
+      output[entry[1] + "/" + entry[2]] = {
+        name: entry[0],
+        description: entry[3]
+      };
+    }
+  });
+  fs.writeFile("./ports.json", JSON.stringify(output, null, 2), cb);
 }
 
 function parseServices(data, cb) {
-    var output = {};
-    data.forEach(function (entry) {
-        if (!output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
-            entry[0].length && !isNaN(Number(entry[1]))) {
-            output[entry[0]] = {
-                ports: [Number(entry[1]) + "/" + entry[2]],
-                description: entry[3] || undefined
-            };
-        } else if (output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
-                   entry[0].length && !isNaN(Number(entry[1])) &&
-                   output[entry[0]].ports.indexOf(Number(entry[1]) + "/"  + entry[2]) === -1) {
-            output[entry[0]].ports.push(entry[1] + "/"  + entry[2]);
-        }
-    });
-    fs.writeFile("./services.json", JSON.stringify(output, null, 2), cb);
+  var output = {};
+  data.forEach(function (entry) {
+    if (!output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
+      entry[0].length && !isNaN(Number(entry[1]))) {
+      output[entry[0]] = {
+        ports: [Number(entry[1]) + "/" + entry[2]],
+        description: entry[3] || undefined
+      };
+    } else if (output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
+           entry[0].length && !isNaN(Number(entry[1])) &&
+           output[entry[0]].ports.indexOf(Number(entry[1]) + "/"  + entry[2]) === -1) {
+      output[entry[0]].ports.push(entry[1] + "/"  + entry[2]);
+    }
+  });
+  fs.writeFile("./services.json", JSON.stringify(output, null, 2), cb);
 }
