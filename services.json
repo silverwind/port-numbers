@@ -36019,6 +36019,13 @@
     ],
     "description": "Thin(ium) Network Protocol"
   },
+  "garmin-marine": {
+    "ports": [
+      "8322/tcp",
+      "8322/udp"
+    ],
+    "description": "Garmin Marine"
+  },
   "server-find": {
     "ports": [
       "8351/tcp",
@@ -39402,6 +39409,25 @@
       "17222/udp"
     ],
     "description": "Control Plane Synchronization Protocol (SPSP)"
+  },
+  "isa100-gci": {
+    "ports": [
+      "17223/tcp"
+    ],
+    "description": "ISA100 GCI is a service utilizing a common interface between an ISA100 Wireless gateway and a client application"
+  },
+  "trdp-pd": {
+    "ports": [
+      "17224/udp"
+    ],
+    "description": "Train Realtime Data Protocol (TRDP) Process Data"
+  },
+  "trdp-md": {
+    "ports": [
+      "17225/tcp",
+      "17225/udp"
+    ],
+    "description": "Train Realtime Data Protocol (TRDP) Message Data"
   },
   "integrius-stp": {
     "ports": [

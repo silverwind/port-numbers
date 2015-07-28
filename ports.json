@@ -40855,6 +40855,14 @@
     "name": "tnp",
     "description": "Thin(ium) Network Protocol"
   },
+  "8322/tcp": {
+    "name": "garmin-marine",
+    "description": "Garmin Marine"
+  },
+  "8322/udp": {
+    "name": "garmin-marine",
+    "description": "Garmin Marine"
+  },
   "8351/tcp": {
     "name": "server-find",
     "description": "Server Find"
@@ -44734,6 +44742,30 @@
   "17222/udp": {
     "name": "cpsp",
     "description": "Control Plane Synchronization Protocol (SPSP)"
+  },
+  "17223/tcp": {
+    "name": "isa100-gci",
+    "description": "ISA100 GCI is a service utilizing a common interface between an ISA100 Wireless gateway and a client application"
+  },
+  "17223/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "17224/udp": {
+    "name": "trdp-pd",
+    "description": "Train Realtime Data Protocol (TRDP) Process Data"
+  },
+  "17224/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "17225/tcp": {
+    "name": "trdp-md",
+    "description": "Train Realtime Data Protocol (TRDP) Message Data"
+  },
+  "17225/udp": {
+    "name": "trdp-md",
+    "description": "Train Realtime Data Protocol (TRDP) Message Data"
   },
   "17234/tcp": {
     "name": "integrius-stp",
