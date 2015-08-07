@@ -6,9 +6,8 @@ var got    = require("got");
 var parse  = require("csv-parse");
 var fs     = require("fs");
 
-got(source, function (err, csv) {
-  if (err) return console.error(err);
-  parse(csv, null, function (err, data) {
+got(source).catch(console.error).then(function (res) {
+  parse(res.body, null, function (err, data) {
     if (err) return exit(err);
     parsePorts(data, function (err) {
       if (err) return exit(err);
@@ -21,7 +20,7 @@ got(source, function (err, csv) {
 });
 
 function exit(err) {
-  console.err(err);
+  console.error(err);
   process.exit(1);
 }
 

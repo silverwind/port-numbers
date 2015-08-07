@@ -40963,6 +40963,12 @@
     ],
     "description": "Attachmate ID Manager"
   },
+  "mysqlx": {
+    "ports": [
+      "33060/tcp"
+    ],
+    "description": "MySQL Database Extended Interface"
+  },
   "aurora-balaena": {
     "ports": [
       "33123/tcp",

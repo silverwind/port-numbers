@@ -46519,6 +46519,14 @@
     "name": "idmgratm",
     "description": "Attachmate ID Manager"
   },
+  "33060/tcp": {
+    "name": "mysqlx",
+    "description": "MySQL Database Extended Interface"
+  },
+  "33060/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "33123/tcp": {
     "name": "aurora-balaena",
     "description": "Aurora (Balaena Ltd)"
