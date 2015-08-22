@@ -27931,6 +27931,12 @@
     ],
     "description": "Found Messaging Protocol"
   },
+  "smallchat": {
+    "ports": [
+      "4412/udp"
+    ],
+    "description": "SmallChat"
+  },
   "netrockey6": {
     "ports": [
       "4425/tcp",

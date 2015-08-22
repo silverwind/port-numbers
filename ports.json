@@ -31527,6 +31527,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "4412/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4412/udp": {
+    "name": "smallchat",
+    "description": "SmallChat"
+  },
   "4425/tcp": {
     "name": "netrockey6",
     "description": "NetROCKEY6 SMART Plus Service"
