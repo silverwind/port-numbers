@@ -17,7 +17,6 @@ pn.getService = function getService(port, protocol) {
   return ports[port + "/" + protocol] || null;
 };
 
-
 // service -> port
 pn.getPort = function getPort(service, protocol) {
   var port, entry;
