@@ -32,7 +32,7 @@ pn.getPort = function getPort(service, protocol) {
   entry = services[service.toLowerCase()];
   if (entry) {
     // filter non-matching protocols
-    port = entry.ports.filter(function (port) {
+    port = entry.ports.filter(function(port) {
       return /\w+$/.exec(port)[0] === protocol;
     })[0];
     // return the first matching port
