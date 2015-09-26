@@ -31535,6 +31535,14 @@
     "name": "smallchat",
     "description": "SmallChat"
   },
+  "4413/tcp": {
+    "name": "avi-nms",
+    "description": "AVI Systems NMS"
+  },
+  "4413/udp": {
+    "name": "avi-nms-disc",
+    "description": "AVI Systems NMS"
+  },
   "4425/tcp": {
     "name": "netrockey6",
     "description": "NetROCKEY6 SMART Plus Service"

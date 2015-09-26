@@ -27937,6 +27937,18 @@
     ],
     "description": "SmallChat"
   },
+  "avi-nms": {
+    "ports": [
+      "4413/tcp"
+    ],
+    "description": "AVI Systems NMS"
+  },
+  "avi-nms-disc": {
+    "ports": [
+      "4413/udp"
+    ],
+    "description": "AVI Systems NMS"
+  },
   "netrockey6": {
     "ports": [
       "4425/tcp",
