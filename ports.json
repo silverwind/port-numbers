@@ -5483,6 +5483,14 @@
     "name": "gdoi",
     "description": "GDOI"
   },
+  "853/tcp": {
+    "name": "domain-s",
+    "description": "DNS query-response protocol run over TLS/DTLS"
+  },
+  "853/udp": {
+    "name": "domain-s",
+    "description": "DNS query-response protocol run over TLS/DTLS"
+  },
   "860/tcp": {
     "name": "iscsi",
     "description": "iSCSI"
@@ -31543,6 +31551,14 @@
     "name": "avi-nms-disc",
     "description": "AVI Systems NMS"
   },
+  "4414/tcp": {
+    "name": "updog",
+    "description": "Updog Monitoring and Status Framework"
+  },
+  "4414/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4425/tcp": {
     "name": "netrockey6",
     "description": "NetROCKEY6 SMART Plus Service"
@@ -43463,6 +43479,14 @@
     "name": "MOS-soap-opt",
     "description": "MOS SOAP Optional Port"
   },
+  "10548/tcp": {
+    "name": "serverdocs",
+    "description": "Apple Document Sharing Service"
+  },
+  "10548/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "10631/tcp": {
     "name": "printopia",
     "description": "Printopia Serve"
@@ -46038,6 +46062,14 @@
   "26208/udp": {
     "name": "wnn6-ds",
     "description": "wnn6-ds"
+  },
+  "26257/tcp": {
+    "name": "cockroach",
+    "description": "CockroachDB"
+  },
+  "26257/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "26260/tcp": {
     "name": "ezproxy",

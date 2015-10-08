@@ -4804,6 +4804,13 @@
     ],
     "description": "GDOI"
   },
+  "domain-s": {
+    "ports": [
+      "853/tcp",
+      "853/udp"
+    ],
+    "description": "DNS query-response protocol run over TLS/DTLS"
+  },
   "iscsi": {
     "ports": [
       "860/tcp",
@@ -27949,6 +27956,12 @@
     ],
     "description": "AVI Systems NMS"
   },
+  "updog": {
+    "ports": [
+      "4414/tcp"
+    ],
+    "description": "Updog Monitoring and Status Framework"
+  },
   "netrockey6": {
     "ports": [
       "4425/tcp",
@@ -38322,6 +38335,12 @@
     ],
     "description": "MOS SOAP Optional Port"
   },
+  "serverdocs": {
+    "ports": [
+      "10548/tcp"
+    ],
+    "description": "Apple Document Sharing Service"
+  },
   "printopia": {
     "ports": [
       "10631/tcp"
@@ -40543,6 +40562,12 @@
       "26208/udp"
     ],
     "description": "wnn6-ds"
+  },
+  "cockroach": {
+    "ports": [
+      "26257/tcp"
+    ],
+    "description": "CockroachDB"
   },
   "ezproxy": {
     "ports": [
