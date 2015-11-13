@@ -33995,6 +33995,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "5107/tcp": {
+    "name": "actifioreplic",
+    "description": "Disk to Disk replication between Actifio Clusters"
+  },
+  "5107/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "5111/tcp": {
     "name": "taep-as-svc",
     "description": "TAEP AS service"
@@ -41149,7 +41157,7 @@
   },
   "8503/udp": {
     "name": "lsp-self-ping",
-    "description": "MPLS LSP Self Ping"
+    "description": "MPLS LSP Self-Ping"
   },
   "8503/tcp": {
     "name": "",

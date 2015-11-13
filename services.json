@@ -30062,6 +30062,12 @@
     ],
     "description": "Actifio UDS Agent"
   },
+  "actifioreplic": {
+    "ports": [
+      "5107/tcp"
+    ],
+    "description": "Disk to Disk replication between Actifio Clusters"
+  },
   "taep-as-svc": {
     "ports": [
       "5111/tcp",
@@ -36274,7 +36280,7 @@
     "ports": [
       "8503/udp"
     ],
-    "description": "MPLS LSP Self Ping"
+    "description": "MPLS LSP Self-Ping"
   },
   "rtsp-alt": {
     "ports": [
