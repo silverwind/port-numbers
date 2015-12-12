@@ -27253,12 +27253,12 @@
     ],
     "description": "Production Company Pro TCP Service"
   },
-  "gmmp": {
+  "cyborgnet": {
     "ports": [
       "4183/tcp",
       "4183/udp"
     ],
-    "description": "General Metaverse Messaging Protocol"
+    "description": "CyborgNet communications protocol"
   },
   "universe-suite": {
     "ports": [
@@ -27961,6 +27961,30 @@
       "4414/tcp"
     ],
     "description": "Updog Monitoring and Status Framework"
+  },
+  "brcd-vr-req": {
+    "ports": [
+      "4415/tcp"
+    ],
+    "description": "Brocade Virtual Router Request"
+  },
+  "pjj-player": {
+    "ports": [
+      "4416/tcp"
+    ],
+    "description": "PJJ Media Player"
+  },
+  "pjj-player-disc": {
+    "ports": [
+      "4416/udp"
+    ],
+    "description": "PJJ Media Player discovery"
+  },
+  "workflowdir": {
+    "ports": [
+      "4417/tcp"
+    ],
+    "description": "Workflow Director Communication"
   },
   "netrockey6": {
     "ports": [
@@ -34294,6 +34318,12 @@
     ],
     "description": "EmpowerID Communication"
   },
+  "zixi-transport": {
+    "ports": [
+      "7088/udp"
+    ],
+    "description": "Zixi live video transport protocol"
+  },
   "jdp-disc": {
     "ports": [
       "7095/udp"
@@ -35884,6 +35914,12 @@
       "8184/udp"
     ],
     "description": "Remote iTach Connection"
+  },
+  "gcp-rphy": {
+    "ports": [
+      "8190/tcp"
+    ],
+    "description": "Generic control plane for RPHY"
   },
   "limnerpressure": {
     "ports": [
@@ -41242,6 +41278,12 @@
     ],
     "description": "M3 Application Part"
   },
+  "xw-control": {
+    "ports": [
+      "36462/sctp"
+    ],
+    "description": "Xw-Control Plane (3GPP)"
+  },
   "febooti-aw": {
     "ports": [
       "36524/tcp"
@@ -41363,6 +41405,12 @@
       "40000/udp"
     ],
     "description": "SafetyNET p"
+  },
+  "k-patentssensor": {
+    "ports": [
+      "40023/udp"
+    ],
+    "description": "K-PatentsSensorInformation"
   },
   "sptx": {
     "ports": [

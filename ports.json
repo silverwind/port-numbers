@@ -30764,12 +30764,12 @@
     "description": "Production Company Pro TCP Service"
   },
   "4183/tcp": {
-    "name": "gmmp",
-    "description": "General Metaverse Messaging Protocol"
+    "name": "cyborgnet",
+    "description": "CyborgNet communications protocol"
   },
   "4183/udp": {
-    "name": "gmmp",
-    "description": "General Metaverse Messaging Protocol"
+    "name": "cyborgnet",
+    "description": "CyborgNet communications protocol"
   },
   "4184/tcp": {
     "name": "universe-suite",
@@ -31556,6 +31556,30 @@
     "description": "Updog Monitoring and Status Framework"
   },
   "4414/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4415/tcp": {
+    "name": "brcd-vr-req",
+    "description": "Brocade Virtual Router Request"
+  },
+  "4415/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4416/tcp": {
+    "name": "pjj-player",
+    "description": "PJJ Media Player"
+  },
+  "4416/udp": {
+    "name": "pjj-player-disc",
+    "description": "PJJ Media Player discovery"
+  },
+  "4417/tcp": {
+    "name": "workflowdir",
+    "description": "Workflow Director Communication"
+  },
+  "4417/udp": {
     "name": "",
     "description": "Reserved"
   },
@@ -38807,6 +38831,14 @@
     "name": "empowerid",
     "description": "EmpowerID Communication"
   },
+  "7088/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "7088/udp": {
+    "name": "zixi-transport",
+    "description": "Zixi live video transport protocol"
+  },
   "7095/udp": {
     "name": "jdp-disc",
     "description": "Java Discovery Protocol"
@@ -40694,6 +40726,14 @@
   "8184/udp": {
     "name": "itach",
     "description": "Remote iTach Connection"
+  },
+  "8190/tcp": {
+    "name": "gcp-rphy",
+    "description": "Generic control plane for RPHY"
+  },
+  "8190/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "8191/tcp": {
     "name": "limnerpressure",
@@ -46839,6 +46879,18 @@
     "name": "m3ap",
     "description": "M3 Application Part"
   },
+  "36462/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "36462/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "36462/sctp": {
+    "name": "xw-control",
+    "description": "Xw-Control Plane (3GPP)"
+  },
   "36524/tcp": {
     "name": "febooti-aw",
     "description": "Febooti Automation Workshop"
@@ -46982,6 +47034,14 @@
   "40000/udp": {
     "name": "safetynetp",
     "description": "SafetyNET p"
+  },
+  "40023/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "40023/udp": {
+    "name": "k-patentssensor",
+    "description": "K-PatentsSensorInformation"
   },
   "40404/tcp": {
     "name": "sptx",
