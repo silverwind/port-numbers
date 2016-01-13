@@ -27538,6 +27538,24 @@
     ],
     "description": "ArrowHead Service Protocol (AHSP)"
   },
+  "netconf-ch-ssh": {
+    "ports": [
+      "4334/tcp"
+    ],
+    "description": "NETCONF Call Home (SSH)"
+  },
+  "netconf-ch-tls": {
+    "ports": [
+      "4335/tcp"
+    ],
+    "description": "NETCONF Call Home (TLS)"
+  },
+  "restconf-ch-tls": {
+    "ports": [
+      "4336/tcp"
+    ],
+    "description": "RESTCONF Call Home (TLS)"
+  },
   "gaia": {
     "ports": [
       "4340/tcp",
@@ -41734,6 +41752,12 @@
       "45966/udp"
     ],
     "description": "SSRServerMgr"
+  },
+  "inedo": {
+    "ports": [
+      "46336/tcp"
+    ],
+    "description": "Listen port used for Inedo agent communication"
   },
   "spremotetablet": {
     "ports": [

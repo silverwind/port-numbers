@@ -31087,6 +31087,30 @@
     "name": "ahsp",
     "description": "ArrowHead Service Protocol (AHSP)"
   },
+  "4334/tcp": {
+    "name": "netconf-ch-ssh",
+    "description": "NETCONF Call Home (SSH)"
+  },
+  "4334/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4335/tcp": {
+    "name": "netconf-ch-tls",
+    "description": "NETCONF Call Home (TLS)"
+  },
+  "4335/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4336/tcp": {
+    "name": "restconf-ch-tls",
+    "description": "RESTCONF Call Home (TLS)"
+  },
+  "4336/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4340/tcp": {
     "name": "gaia",
     "description": "Gaia Connector Protocol"
@@ -47386,6 +47410,14 @@
   "45966/udp": {
     "name": "ssr-servermgr",
     "description": "SSRServerMgr"
+  },
+  "46336/tcp": {
+    "name": "inedo",
+    "description": "Listen port used for Inedo agent communication"
+  },
+  "46336/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "46998/tcp": {
     "name": "spremotetablet",
