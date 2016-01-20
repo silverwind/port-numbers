@@ -35595,6 +35595,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "5565/tcp": {
+    "name": "hpe-dp-bura",
+    "description": "HPE Advanced BURA"
+  },
+  "5565/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "5566/tcp": {
     "name": "westec-connect",
     "description": "Westec Connect"
@@ -40870,6 +40878,22 @@
   "8230/udp": {
     "name": "rexecj",
     "description": "RexecJ Server"
+  },
+  "8231/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8231/udp": {
+    "name": "hncp-udp-port",
+    "description": "HNCP"
+  },
+  "8232/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8232/udp": {
+    "name": "hncp-dtls-port",
+    "description": "HNCP over DTLS"
   },
   "8243/tcp": {
     "name": "synapse-nhttps",

@@ -29,6 +29,6 @@
   ],
   "devDependencies": {
     "csv-parse": "1.0.1",
-    "got": "^5.3.0"
+    "got": "^6.0.2"
   }
 }

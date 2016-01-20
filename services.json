@@ -31443,6 +31443,12 @@
     ],
     "description": "Sandlab FARENET"
   },
+  "hpe-dp-bura": {
+    "ports": [
+      "5565/tcp"
+    ],
+    "description": "HPE Advanced BURA"
+  },
   "westec-connect": {
     "ports": [
       "5566/tcp"
@@ -36034,6 +36040,18 @@
       "8230/udp"
     ],
     "description": "RexecJ Server"
+  },
+  "hncp-udp-port": {
+    "ports": [
+      "8231/udp"
+    ],
+    "description": "HNCP"
+  },
+  "hncp-dtls-port": {
+    "ports": [
+      "8232/udp"
+    ],
+    "description": "HNCP over DTLS"
   },
   "synapse-nhttps": {
     "ports": [
