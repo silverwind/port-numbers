@@ -35220,6 +35220,12 @@
     ],
     "description": "Put/Run/Get Protocol"
   },
+  "inetfs": {
+    "ports": [
+      "7775/tcp"
+    ],
+    "description": "A File System using TLS over a wide area network"
+  },
   "cbt": {
     "ports": [
       "7777/tcp",

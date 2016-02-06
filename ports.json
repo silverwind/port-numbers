@@ -39895,6 +39895,14 @@
     "name": "prgp",
     "description": "Put/Run/Get Protocol"
   },
+  "7775/tcp": {
+    "name": "inetfs",
+    "description": "A File System using TLS over a wide area network"
+  },
+  "7775/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "7777/tcp": {
     "name": "cbt",
     "description": "cbt"
