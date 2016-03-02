@@ -34516,6 +34516,18 @@
     ],
     "description": "DLIP"
   },
+  "PS-Server": {
+    "ports": [
+      "7215/tcp"
+    ],
+    "description": "Communication ports for PaperStream Server services"
+  },
+  "PS-Capture-Pro": {
+    "ports": [
+      "7216/tcp"
+    ],
+    "description": "PaperStream Capture Professional"
+  },
   "ramp": {
     "ports": [
       "7227/tcp",
@@ -34980,6 +34992,13 @@
       "7588/udp"
     ],
     "description": "Sun License Manager"
+  },
+  "mipi-debug": {
+    "ports": [
+      "7606/tcp",
+      "7606/udp"
+    ],
+    "description": "MIPI Alliance Debug"
   },
   "indi": {
     "ports": [
@@ -36079,6 +36098,18 @@
       "8280/udp"
     ],
     "description": "Synapse Non Blocking HTTP"
+  },
+  "libelle": {
+    "ports": [
+      "8282/tcp"
+    ],
+    "description": "Libelle EnterpriseBus"
+  },
+  "libelle-disc": {
+    "ports": [
+      "8282/udp"
+    ],
+    "description": "Libelle EnterpriseBus discovery"
   },
   "blp3": {
     "ports": [

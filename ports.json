@@ -39071,6 +39071,22 @@
     "name": "dlip",
     "description": "DLIP"
   },
+  "7215/tcp": {
+    "name": "PS-Server",
+    "description": "Communication ports for PaperStream Server services"
+  },
+  "7215/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "7216/tcp": {
+    "name": "PS-Capture-Pro",
+    "description": "PaperStream Capture Professional"
+  },
+  "7216/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "7227/tcp": {
     "name": "ramp",
     "description": "Registry A & M Protocol"
@@ -39606,6 +39622,14 @@
   "7588/udp": {
     "name": "sun-lm",
     "description": "Sun License Manager"
+  },
+  "7606/tcp": {
+    "name": "mipi-debug",
+    "description": "MIPI Alliance Debug"
+  },
+  "7606/udp": {
+    "name": "mipi-debug",
+    "description": "MIPI Alliance Debug"
   },
   "7624/tcp": {
     "name": "indi",
@@ -40926,6 +40950,22 @@
   "8280/udp": {
     "name": "synapse-nhttp",
     "description": "Synapse Non Blocking HTTP"
+  },
+  "8282/tcp": {
+    "name": "libelle",
+    "description": "Libelle EnterpriseBus"
+  },
+  "8282/udp": {
+    "name": "libelle-disc",
+    "description": "Libelle EnterpriseBus discovery"
+  },
+  "8282/sctp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8282/dccp": {
+    "name": "",
+    "description": "Reserved"
   },
   "8292/tcp": {
     "name": "blp3",
