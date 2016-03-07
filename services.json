@@ -28523,6 +28523,12 @@
     ],
     "description": "Direct End to End Secure Chat Protocol"
   },
+  "ventoso": {
+    "ports": [
+      "4621/udp"
+    ],
+    "description": "Bidirectional single port remote radio VOIP and Control stream"
+  },
   "playsta2-app": {
     "ports": [
       "4658/tcp",

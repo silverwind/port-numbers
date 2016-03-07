@@ -32215,6 +32215,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "4621/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4621/udp": {
+    "name": "ventoso",
+    "description": "Bidirectional single port remote radio VOIP and Control stream"
+  },
   "4658/tcp": {
     "name": "playsta2-app",
     "description": "PlayStation2 App Port"
