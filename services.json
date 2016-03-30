@@ -28004,6 +28004,18 @@
     ],
     "description": "Workflow Director Communication"
   },
+  "axysbridge": {
+    "ports": [
+      "4418/udp"
+    ],
+    "description": "AXYS communication protocol"
+  },
+  "cbp": {
+    "ports": [
+      "4419/tcp"
+    ],
+    "description": "Colnod Binary Protocol"
+  },
   "netrockey6": {
     "ports": [
       "4425/tcp",

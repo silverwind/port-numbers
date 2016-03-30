@@ -31607,6 +31607,22 @@
     "name": "",
     "description": "Reserved"
   },
+  "4418/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4418/udp": {
+    "name": "axysbridge",
+    "description": "AXYS communication protocol"
+  },
+  "4419/tcp": {
+    "name": "cbp",
+    "description": "Colnod Binary Protocol"
+  },
+  "4419/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4425/tcp": {
     "name": "netrockey6",
     "description": "NetROCKEY6 SMART Plus Service"
