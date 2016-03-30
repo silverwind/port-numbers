@@ -28,7 +28,7 @@
     "services.json"
   ],
   "devDependencies": {
-    "csv-parse": "1.0.1",
-    "got": "^6.1.0"
+    "csv-parse": "1.0.2",
+    "got": "^6.2.0"
   }
 }
