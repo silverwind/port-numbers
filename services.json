@@ -28016,6 +28016,13 @@
     ],
     "description": "Colnod Binary Protocol"
   },
+  "nvm-express": {
+    "ports": [
+      "4420/tcp",
+      "4420/udp"
+    ],
+    "description": "NVM Express over Fabrics storage access"
+  },
   "netrockey6": {
     "ports": [
       "4425/tcp",
@@ -31272,6 +31279,18 @@
       "5445/sctp"
     ],
     "description": "Server Message Block over Remote Direct Memory Access"
+  },
+  "tiepie": {
+    "ports": [
+      "5450/tcp"
+    ],
+    "description": "TiePie engineering data acquisition"
+  },
+  "tiepie-disc": {
+    "ports": [
+      "5450/udp"
+    ],
+    "description": "TiePie engineering data acquisition (discovery)"
   },
   "surebox": {
     "ports": [
@@ -40324,6 +40343,18 @@
       "23272/udp"
     ],
     "description": "S102 application"
+  },
+  "5afe-dir": {
+    "ports": [
+      "23294/tcp"
+    ],
+    "description": "5AFE SDN Directory"
+  },
+  "5afe-disc": {
+    "ports": [
+      "23294/udp"
+    ],
+    "description": "5AFE SDN Directory discovery"
   },
   "elxmgmt": {
     "ports": [

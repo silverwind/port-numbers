@@ -31623,6 +31623,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "4420/tcp": {
+    "name": "nvm-express",
+    "description": "NVM Express over Fabrics storage access"
+  },
+  "4420/udp": {
+    "name": "nvm-express",
+    "description": "NVM Express over Fabrics storage access"
+  },
   "4425/tcp": {
     "name": "netrockey6",
     "description": "NetROCKEY6 SMART Plus Service"
@@ -35394,6 +35402,14 @@
   "5445/sctp": {
     "name": "smbdirect",
     "description": "Server Message Block over Remote Direct Memory Access"
+  },
+  "5450/tcp": {
+    "name": "tiepie",
+    "description": "TiePie engineering data acquisition"
+  },
+  "5450/udp": {
+    "name": "tiepie-disc",
+    "description": "TiePie engineering data acquisition (discovery)"
   },
   "5453/tcp": {
     "name": "surebox",
@@ -45810,6 +45826,14 @@
   "23272/udp": {
     "name": "s102",
     "description": "S102 application"
+  },
+  "23294/tcp": {
+    "name": "5afe-dir",
+    "description": "5AFE SDN Directory"
+  },
+  "23294/udp": {
+    "name": "5afe-disc",
+    "description": "5AFE SDN Directory discovery"
   },
   "23333/tcp": {
     "name": "elxmgmt",
