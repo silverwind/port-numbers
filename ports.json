@@ -29141,11 +29141,11 @@
   },
   "3976/tcp": {
     "name": "opswagent",
-    "description": "Opsware Agent"
+    "description": "Server Automation Agent"
   },
   "3976/udp": {
     "name": "opswagent",
-    "description": "Opsware Agent"
+    "description": "Server Automation Agent"
   },
   "3977/tcp": {
     "name": "opswmanager",
@@ -31630,6 +31630,14 @@
   "4420/udp": {
     "name": "nvm-express",
     "description": "NVM Express over Fabrics storage access"
+  },
+  "4421/tcp": {
+    "name": "scaleft",
+    "description": "Multi-Platform Remote Management for Cloud Infrastructure"
+  },
+  "4421/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "4425/tcp": {
     "name": "netrockey6",
@@ -39174,6 +39182,14 @@
   "7237/udp": {
     "name": "",
     "description": "Reserved"
+  },
+  "7244/tcp": {
+    "name": "frc-hicp",
+    "description": "FrontRow Calypso Human Interface Control Protocol"
+  },
+  "7244/udp": {
+    "name": "frc-hicp-disc",
+    "description": "FrontRow Calypso Human Interface Control Protocol"
   },
   "7262/tcp": {
     "name": "cnap",

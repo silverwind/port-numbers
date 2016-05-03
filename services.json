@@ -25790,7 +25790,7 @@
       "3976/tcp",
       "3976/udp"
     ],
-    "description": "Opsware Agent"
+    "description": "Server Automation Agent"
   },
   "opswmanager": {
     "ports": [
@@ -28022,6 +28022,12 @@
       "4420/udp"
     ],
     "description": "NVM Express over Fabrics storage access"
+  },
+  "scaleft": {
+    "ports": [
+      "4421/tcp"
+    ],
+    "description": "Multi-Platform Remote Management for Cloud Infrastructure"
   },
   "netrockey6": {
     "ports": [
@@ -34601,6 +34607,18 @@
       "7237/tcp"
     ],
     "description": "PADS (Public Area Display System) Server"
+  },
+  "frc-hicp": {
+    "ports": [
+      "7244/tcp"
+    ],
+    "description": "FrontRow Calypso Human Interface Control Protocol"
+  },
+  "frc-hicp-disc": {
+    "ports": [
+      "7244/udp"
+    ],
+    "description": "FrontRow Calypso Human Interface Control Protocol"
   },
   "cnap": {
     "ports": [
