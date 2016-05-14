@@ -16439,20 +16439,6 @@
     ],
     "description": "AMInet"
   },
-  "sai-sentlm": {
-    "ports": [
-      "2640/tcp",
-      "2640/udp"
-    ],
-    "description": "Sabbagh Associates Licence Manager\nIANA assigned this well-formed service name as a replacement for \"sai_sentlm\"."
-  },
-  "sai_sentlm": {
-    "ports": [
-      "2640/tcp",
-      "2640/udp"
-    ],
-    "description": "Sabbagh Associates Licence Manager"
-  },
   "hdl-srv": {
     "ports": [
       "2641/tcp",
@@ -34423,6 +34409,12 @@
       "7107/udp"
     ],
     "description": "AES-X170"
+  },
+  "rothaga": {
+    "ports": [
+      "7117/tcp"
+    ],
+    "description": "Encrypted chat and file transfer service"
   },
   "virprot-lm": {
     "ports": [

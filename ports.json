@@ -18584,12 +18584,12 @@
     "description": "AMInet"
   },
   "2640/tcp": {
-    "name": "sai-sentlm",
-    "description": "Sabbagh Associates Licence Manager\nIANA assigned this well-formed service name as a replacement for \"sai_sentlm\"."
+    "name": "",
+    "description": "Reserved"
   },
   "2640/udp": {
-    "name": "sai-sentlm",
-    "description": "Sabbagh Associates Licence Manager\nIANA assigned this well-formed service name as a replacement for \"sai_sentlm\"."
+    "name": "",
+    "description": "Reserved"
   },
   "2641/tcp": {
     "name": "hdl-srv",
@@ -38958,6 +38958,14 @@
   "7107/udp": {
     "name": "aes-x170",
     "description": "AES-X170"
+  },
+  "7117/tcp": {
+    "name": "rothaga",
+    "description": "Encrypted chat and file transfer service"
+  },
+  "7117/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "7121/tcp": {
     "name": "virprot-lm",
