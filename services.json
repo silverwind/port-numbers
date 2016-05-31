@@ -16439,6 +16439,13 @@
     ],
     "description": "AMInet"
   },
+  "ami-control": {
+    "ports": [
+      "2640/tcp",
+      "2640/udp"
+    ],
+    "description": "Alcorn McBride Inc protocol used for device control"
+  },
   "hdl-srv": {
     "ports": [
       "2641/tcp",
@@ -28428,6 +28435,12 @@
     ],
     "description": "Service to distribute and update within a site deployment information for Oracle Communications Suite"
   },
+  "cardifftec-back": {
+    "ports": [
+      "4573/tcp"
+    ],
+    "description": "A port for communication between a server and client for a custom backup system"
+  },
   "rid": {
     "ports": [
       "4590/tcp"
@@ -39257,6 +39270,12 @@
       "14142/udp"
     ],
     "description": "IceWall Cert Protocol"
+  },
+  "icpps": {
+    "ports": [
+      "14143/tcp"
+    ],
+    "description": "IceWall Cert Protocol over TLS"
   },
   "gcm-app": {
     "ports": [

@@ -18584,12 +18584,12 @@
     "description": "AMInet"
   },
   "2640/tcp": {
-    "name": "",
-    "description": "Reserved"
+    "name": "ami-control",
+    "description": "Alcorn McBride Inc protocol used for device control"
   },
   "2640/udp": {
-    "name": "",
-    "description": "Reserved"
+    "name": "ami-control",
+    "description": "Alcorn McBride Inc protocol used for device control"
   },
   "2641/tcp": {
     "name": "hdl-srv",
@@ -32119,6 +32119,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "4573/tcp": {
+    "name": "cardifftec-back",
+    "description": "A port for communication between a server and client for a custom backup system"
+  },
+  "4573/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4590/tcp": {
     "name": "rid",
     "description": "RID over HTTP/TLS"
@@ -44566,6 +44574,14 @@
   "14142/udp": {
     "name": "icpp",
     "description": "IceWall Cert Protocol"
+  },
+  "14143/tcp": {
+    "name": "icpps",
+    "description": "IceWall Cert Protocol over TLS"
+  },
+  "14143/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "14145/tcp": {
     "name": "gcm-app",
