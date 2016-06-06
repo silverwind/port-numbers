@@ -45499,6 +45499,14 @@
     "name": "nfsrdma",
     "description": "Network File System (NFS) over RDMA"
   },
+  "20057/tcp": {
+    "name": "avesterra",
+    "description": "AvesTerra Hypergraph Transfer Protocol (HGTP)"
+  },
+  "20057/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "20167/tcp": {
     "name": "tolfab",
     "description": "TOLfab Data Change"
@@ -46662,6 +46670,14 @@
   "32249/udp": {
     "name": "t1distproc60",
     "description": "T1 Distributed Processor"
+  },
+  "32400/tcp": {
+    "name": "plex",
+    "description": "Plex multimedia"
+  },
+  "32400/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "32483/tcp": {
     "name": "apm-link",

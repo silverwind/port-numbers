@@ -40055,6 +40055,12 @@
     ],
     "description": "Network File System (NFS) over RDMA"
   },
+  "avesterra": {
+    "ports": [
+      "20057/tcp"
+    ],
+    "description": "AvesTerra Hypergraph Transfer Protocol (HGTP)"
+  },
   "tolfab": {
     "ports": [
       "20167/tcp",
@@ -41080,6 +41086,12 @@
       "32249/udp"
     ],
     "description": "T1 Distributed Processor"
+  },
+  "plex": {
+    "ports": [
+      "32400/tcp"
+    ],
+    "description": "Plex multimedia"
   },
   "apm-link": {
     "ports": [
