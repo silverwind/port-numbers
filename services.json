@@ -28022,6 +28022,12 @@
     ],
     "description": "Multi-Platform Remote Management for Cloud Infrastructure"
   },
+  "tsepisp": {
+    "ports": [
+      "4422/tcp"
+    ],
+    "description": "TSEP Installation Service Protocol"
+  },
   "netrockey6": {
     "ports": [
       "4425/tcp",
@@ -40895,6 +40901,12 @@
       "28240/udp"
     ],
     "description": "Siemens GSM"
+  },
+  "bosswave": {
+    "ports": [
+      "28589/tcp"
+    ],
+    "description": "Building operating system services wide area verified exchange"
   },
   "sgsap": {
     "ports": [

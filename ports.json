@@ -31639,6 +31639,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "4422/tcp": {
+    "name": "tsepisp",
+    "description": "TSEP Installation Service Protocol"
+  },
+  "4422/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4425/tcp": {
     "name": "netrockey6",
     "description": "NetROCKEY6 SMART Plus Service"
@@ -46454,6 +46462,14 @@
   "28240/udp": {
     "name": "siemensgsm",
     "description": "Siemens GSM"
+  },
+  "28589/tcp": {
+    "name": "bosswave",
+    "description": "Building operating system services wide area verified exchange"
+  },
+  "28589/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "29118/tcp": {
     "name": "",
