@@ -31647,6 +31647,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "4423/tcp": {
+    "name": "thingkit",
+    "description": "thingkit secure mesh"
+  },
+  "4423/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4425/tcp": {
     "name": "netrockey6",
     "description": "NetROCKEY6 SMART Plus Service"
@@ -36144,6 +36152,14 @@
     "description": "Key Management Interoperability Protocol"
   },
   "5696/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "5700/tcp": {
+    "name": "supportassist",
+    "description": "Dell SupportAssist data center management"
+  },
+  "5700/udp": {
     "name": "",
     "description": "Reserved"
   },

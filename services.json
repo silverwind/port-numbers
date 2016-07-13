@@ -28028,6 +28028,12 @@
     ],
     "description": "TSEP Installation Service Protocol"
   },
+  "thingkit": {
+    "ports": [
+      "4423/tcp"
+    ],
+    "description": "thingkit secure mesh"
+  },
   "netrockey6": {
     "ports": [
       "4425/tcp",
@@ -31903,6 +31909,12 @@
       "5696/tcp"
     ],
     "description": "Key Management Interoperability Protocol"
+  },
+  "supportassist": {
+    "ports": [
+      "5700/tcp"
+    ],
+    "description": "Dell SupportAssist data center management"
   },
   "proshareaudio": {
     "ports": [
