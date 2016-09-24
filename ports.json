@@ -9751,6 +9751,14 @@
     "name": "tlisrv",
     "description": "oracle"
   },
+  "1528/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "1528/udp": {
+    "name": "ngr-t",
+    "description": "NGR transport protocol for mobile ad-hoc networks"
+  },
   "1529/tcp": {
     "name": "coauthor",
     "description": "oracle"
@@ -32799,6 +32807,14 @@
     "name": "simon-disc",
     "description": "Simple Invocation of Methods Over Network (SIMON) Discovery"
   },
+  "4774/tcp": {
+    "name": "converge",
+    "description": "Converge RPC"
+  },
+  "4774/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4784/tcp": {
     "name": "bfd-multi-ctl",
     "description": "BFD Multihop Control"
@@ -38476,12 +38492,12 @@
     "description": "SMC-HTTP"
   },
   "6789/tcp": {
-    "name": "smc-https",
-    "description": "SMC-HTTPS"
+    "name": "radg",
+    "description": "GSS-API for the Oracle Remote Administration Daemon"
   },
   "6789/udp": {
-    "name": "smc-https",
-    "description": "SMC-HTTPS"
+    "name": "",
+    "description": "Reserved"
   },
   "6790/tcp": {
     "name": "hnmp",
@@ -47586,6 +47602,14 @@
   "45054/udp": {
     "name": "invision-ag",
     "description": "InVision AG"
+  },
+  "45514/tcp": {
+    "name": "cloudcheck",
+    "description": "ASSIA CloudCheck WiFi Management System"
+  },
+  "45514/udp": {
+    "name": "cloudcheck-ping",
+    "description": "ASSIA CloudCheck WiFi Management keepalive"
   },
   "45678/tcp": {
     "name": "eba",

@@ -8604,6 +8604,12 @@
     ],
     "description": "oracle"
   },
+  "ngr-t": {
+    "ports": [
+      "1528/udp"
+    ],
+    "description": "NGR transport protocol for mobile ad-hoc networks"
+  },
   "coauthor": {
     "ports": [
       "1529/tcp",
@@ -29022,6 +29028,12 @@
     ],
     "description": "Simple Invocation of Methods Over Network (SIMON) Discovery"
   },
+  "converge": {
+    "ports": [
+      "4774/tcp"
+    ],
+    "description": "Converge RPC"
+  },
   "bfd-multi-ctl": {
     "ports": [
       "4784/tcp",
@@ -33987,12 +33999,11 @@
     ],
     "description": "SMC-HTTP"
   },
-  "smc-https": {
+  "radg": {
     "ports": [
-      "6789/tcp",
-      "6789/udp"
+      "6789/tcp"
     ],
-    "description": "SMC-HTTPS"
+    "description": "GSS-API for the Oracle Remote Administration Daemon"
   },
   "hnmp": {
     "ports": [
@@ -41894,6 +41905,18 @@
       "45054/udp"
     ],
     "description": "InVision AG"
+  },
+  "cloudcheck": {
+    "ports": [
+      "45514/tcp"
+    ],
+    "description": "ASSIA CloudCheck WiFi Management System"
+  },
+  "cloudcheck-ping": {
+    "ports": [
+      "45514/udp"
+    ],
+    "description": "ASSIA CloudCheck WiFi Management keepalive"
   },
   "eba": {
     "ports": [
