@@ -5707,6 +5707,14 @@
     "name": "cadlock2",
     "description": ""
   },
+  "1001/tcp": {
+    "name": "webpush",
+    "description": "HTTP Web Push"
+  },
+  "1001/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "1008/udp": {
     "name": "",
     "description": "Possibly used by Sun Solaris????"
@@ -32807,6 +32815,30 @@
     "name": "simon-disc",
     "description": "Simple Invocation of Methods Over Network (SIMON) Discovery"
   },
+  "4754/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4754/udp": {
+    "name": "gre-in-udp",
+    "description": "GRE-in-UDP Encapsulation"
+  },
+  "4755/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4755/udp": {
+    "name": "gre-udp-dtls",
+    "description": "GRE-in-UDP Encapsulation with DTLS"
+  },
+  "4756/tcp": {
+    "name": "RDCenter",
+    "description": "Reticle Decision Center"
+  },
+  "4756/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4774/tcp": {
     "name": "converge",
     "description": "Converge RPC"
@@ -39883,6 +39915,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "7687/tcp": {
+    "name": "bolt",
+    "description": "Bolt database connection"
+  },
+  "7687/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "7689/tcp": {
     "name": "collaber",
     "description": "Collaber Network Service"
@@ -42035,6 +42075,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "9060/tcp": {
+    "name": "CardWeb-IO",
+    "description": "CardWeb request-response I/O exchange"
+  },
+  "9060/udp": {
+    "name": "CardWeb-RT",
+    "description": "CardWeb realtime device data"
+  },
   "9080/tcp": {
     "name": "glrpc",
     "description": "Groove GLRPC"
@@ -43663,6 +43711,14 @@
     "name": "axis-wimp-port",
     "description": "Axis WIMP Port"
   },
+  "10261/tcp": {
+    "name": "tile-ml",
+    "description": "Tile remote machine learning"
+  },
+  "10261/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "10288/tcp": {
     "name": "blocks",
     "description": "Blocks"
@@ -44671,6 +44727,14 @@
     "name": "ca-web-update",
     "description": "CA eTrust Web Update Service"
   },
+  "14500/tcp": {
+    "name": "xpra",
+    "description": "xpra network protocol"
+  },
+  "14500/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "14936/tcp": {
     "name": "hde-lcesrvr-1",
     "description": "hde-lcesrvr-1"
@@ -45278,6 +45342,14 @@
   "18635/udp": {
     "name": "rds-ip",
     "description": "Reliable Datagram Service over IP"
+  },
+  "18668/tcp": {
+    "name": "vdmmesh",
+    "description": "Manufacturing Execution Systems Mesh Communication"
+  },
+  "18668/udp": {
+    "name": "vdmmesh-disc",
+    "description": "Manufacturing Execution Systems Mesh Communication"
   },
   "18769/tcp": {
     "name": "ique",
@@ -46948,8 +47020,8 @@
     "description": "dhanalakshmi.org EDI Service"
   },
   "34567/udp": {
-    "name": "",
-    "description": "Reserved"
+    "name": "edi_service",
+    "description": "dhanalakshmi.org EDI Service"
   },
   "34962/tcp": {
     "name": "profinet-rt",

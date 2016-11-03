@@ -5017,6 +5017,12 @@
       "1000/udp"
     ]
   },
+  "webpush": {
+    "ports": [
+      "1001/tcp"
+    ],
+    "description": "HTTP Web Push"
+  },
   "surf": {
     "ports": [
       "1010/tcp",
@@ -29028,6 +29034,24 @@
     ],
     "description": "Simple Invocation of Methods Over Network (SIMON) Discovery"
   },
+  "gre-in-udp": {
+    "ports": [
+      "4754/udp"
+    ],
+    "description": "GRE-in-UDP Encapsulation"
+  },
+  "gre-udp-dtls": {
+    "ports": [
+      "4755/udp"
+    ],
+    "description": "GRE-in-UDP Encapsulation with DTLS"
+  },
+  "RDCenter": {
+    "ports": [
+      "4756/tcp"
+    ],
+    "description": "Reticle Decision Center"
+  },
   "converge": {
     "ports": [
       "4774/tcp"
@@ -35203,6 +35227,12 @@
     ],
     "description": "Cleondris DMT"
   },
+  "bolt": {
+    "ports": [
+      "7687/tcp"
+    ],
+    "description": "Bolt database connection"
+  },
   "collaber": {
     "ports": [
       "7689/tcp",
@@ -37044,6 +37074,18 @@
     ],
     "description": "Fusion-io Central Manager Service"
   },
+  "CardWeb-IO": {
+    "ports": [
+      "9060/tcp"
+    ],
+    "description": "CardWeb request-response I/O exchange"
+  },
+  "CardWeb-RT": {
+    "ports": [
+      "9060/udp"
+    ],
+    "description": "CardWeb realtime device data"
+  },
   "glrpc": {
     "ports": [
       "9080/tcp",
@@ -38479,6 +38521,12 @@
     ],
     "description": "Axis WIMP Port"
   },
+  "tile-ml": {
+    "ports": [
+      "10261/tcp"
+    ],
+    "description": "Tile remote machine learning"
+  },
   "blocks": {
     "ports": [
       "10288/tcp",
@@ -39347,6 +39395,12 @@
     ],
     "description": "CA eTrust Web Update Service"
   },
+  "xpra": {
+    "ports": [
+      "14500/tcp"
+    ],
+    "description": "xpra network protocol"
+  },
   "hde-lcesrvr-1": {
     "ports": [
       "14936/tcp",
@@ -39856,6 +39910,18 @@
       "18635/udp"
     ],
     "description": "Reliable Datagram Service over IP"
+  },
+  "vdmmesh": {
+    "ports": [
+      "18668/tcp"
+    ],
+    "description": "Manufacturing Execution Systems Mesh Communication"
+  },
+  "vdmmesh-disc": {
+    "ports": [
+      "18668/udp"
+    ],
+    "description": "Manufacturing Execution Systems Mesh Communication"
   },
   "ique": {
     "ports": [
@@ -41322,6 +41388,12 @@
   "dhanalakshmi": {
     "ports": [
       "34567/tcp"
+    ],
+    "description": "dhanalakshmi.org EDI Service"
+  },
+  "edi_service": {
+    "ports": [
+      "34567/udp"
     ],
     "description": "dhanalakshmi.org EDI Service"
   },
