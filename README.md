@@ -31,4 +31,4 @@ pn.getPort("postgresql");
 - `service` *string* : the service to lookup. Required.
 - `protocol` *string* : the protocol. Default: `tcp`.
 
-© 2015 [silverwind](https://github.com/silverwind), distributed under BSD licence
+© [silverwind](https://github.com/silverwind), distributed under BSD licence
