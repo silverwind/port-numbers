@@ -39978,6 +39978,18 @@
     ],
     "description": "UserAuthority SecureAgent"
   },
+  "cora": {
+    "ports": [
+      "19220/tcp"
+    ],
+    "description": "Client Connection Management and Data Exchange Service"
+  },
+  "cora-disc": {
+    "ports": [
+      "19220/udp"
+    ],
+    "description": "Discovery for Client Connection Management and Data Exchange Service"
+  },
   "keysrvr": {
     "ports": [
       "19283/tcp",

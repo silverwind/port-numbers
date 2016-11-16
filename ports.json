@@ -45415,6 +45415,14 @@
     "name": "ua-secureagent",
     "description": "UserAuthority SecureAgent"
   },
+  "19220/tcp": {
+    "name": "cora",
+    "description": "Client Connection Management and Data Exchange Service"
+  },
+  "19220/udp": {
+    "name": "cora-disc",
+    "description": "Discovery for Client Connection Management and Data Exchange Service"
+  },
   "19283/tcp": {
     "name": "keysrvr",
     "description": "Key Server for SASSAFRAS"
