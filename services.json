@@ -28988,6 +28988,12 @@
     ],
     "description": "Funambol Mobile Push"
   },
+  "intelliadm-disc": {
+    "ports": [
+      "4746/udp"
+    ],
+    "description": "IntelliAdmin Discovery"
+  },
   "buschtrommel": {
     "ports": [
       "4747/udp"
@@ -34938,6 +34944,12 @@
       "7474/tcp"
     ],
     "description": "Neo4j Graph Database"
+  },
+  "openit": {
+    "ports": [
+      "7478/tcp"
+    ],
+    "description": "IT Asset Management"
   },
   "telops-lmd": {
     "ports": [

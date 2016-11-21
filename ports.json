@@ -32767,6 +32767,14 @@
     "name": "fmp",
     "description": "Funambol Mobile Push"
   },
+  "4746/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4746/udp": {
+    "name": "intelliadm-disc",
+    "description": "IntelliAdmin Discovery"
+  },
   "4747/udp": {
     "name": "buschtrommel",
     "description": "peer-to-peer file exchange protocol"
@@ -39572,6 +39580,14 @@
     "description": "Neo4j Graph Database"
   },
   "7474/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "7478/tcp": {
+    "name": "openit",
+    "description": "IT Asset Management"
+  },
+  "7478/udp": {
     "name": "",
     "description": "Reserved"
   },
