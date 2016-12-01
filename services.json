@@ -26474,7 +26474,7 @@
       "4073/tcp",
       "4073/udp"
     ],
-    "description": "iRAPP Server Protocol"
+    "description": "Interactive Remote Application Pairing Protocol"
   },
   "cequint-cityid": {
     "ports": [
@@ -33729,6 +33729,13 @@
       "6628/udp"
     ],
     "description": "AFE Stock Channel M/C"
+  },
+  "nexgen-aux": {
+    "ports": [
+      "6629/tcp",
+      "6629/udp"
+    ],
+    "description": "Secondary, (non ANDI) multi-protocol multi-function interface to\n    the Allied ANDI-based family of forecourt controllers"
   },
   "mxodbc-connect": {
     "ports": [

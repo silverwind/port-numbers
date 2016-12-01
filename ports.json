@@ -29917,11 +29917,11 @@
   },
   "4073/tcp": {
     "name": "iRAPP",
-    "description": "iRAPP Server Protocol"
+    "description": "Interactive Remote Application Pairing Protocol"
   },
   "4073/udp": {
     "name": "iRAPP",
-    "description": "iRAPP Server Protocol"
+    "description": "Interactive Remote Application Pairing Protocol"
   },
   "4074/tcp": {
     "name": "cequint-cityid",
@@ -38166,6 +38166,14 @@
   "6628/udp": {
     "name": "afesc-mc",
     "description": "AFE Stock Channel M/C"
+  },
+  "6629/tcp": {
+    "name": "nexgen-aux",
+    "description": "Secondary, (non ANDI) multi-protocol multi-function interface to\n    the Allied ANDI-based family of forecourt controllers"
+  },
+  "6629/udp": {
+    "name": "nexgen-aux",
+    "description": "Secondary, (non ANDI) multi-protocol multi-function interface to\n      the Allied ANDI-based family of forecourt controllers"
   },
   "6632/tcp": {
     "name": "mxodbc-connect",
