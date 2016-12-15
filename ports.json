@@ -38627,6 +38627,14 @@
     "name": "muse",
     "description": "MUSE"
   },
+  "6900/tcp": {
+    "name": "rtimeviewer",
+    "description": "R*TIME Viewer Data Interface"
+  },
+  "6900/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "6901/tcp": {
     "name": "jetstream",
     "description": "Novell Jetstream messaging protocol"
@@ -46727,6 +46735,14 @@
     "name": "ovobs",
     "description": "OpenView Service Desk Client"
   },
+  "31016/tcp": {
+    "name": "ka-sddp",
+    "description": "Kollective Agent Secure Distributed Delivery Protocol"
+  },
+  "31016/udp": {
+    "name": "ka-kdp",
+    "description": "Kollective Agent Kollective Delivery Protocol"
+  },
   "31020/tcp": {
     "name": "autotrac-acp",
     "description": "Autotrac ACP 245"
@@ -47142,6 +47158,14 @@
   "35006/udp": {
     "name": "",
     "description": "Reserved"
+  },
+  "35100/tcp": {
+    "name": "axio-disc",
+    "description": "Axiomatic discovery protocol"
+  },
+  "35100/udp": {
+    "name": "axio-disc",
+    "description": "Axiomatic discovery protocol"
   },
   "35354/tcp": {
     "name": "kitim",

@@ -34116,6 +34116,12 @@
     ],
     "description": "MUSE"
   },
+  "rtimeviewer": {
+    "ports": [
+      "6900/tcp"
+    ],
+    "description": "R*TIME Viewer Data Interface"
+  },
   "jetstream": {
     "ports": [
       "6901/tcp"
@@ -41119,6 +41125,18 @@
     ],
     "description": "OpenView Service Desk Client"
   },
+  "ka-sddp": {
+    "ports": [
+      "31016/tcp"
+    ],
+    "description": "Kollective Agent Secure Distributed Delivery Protocol"
+  },
+  "ka-kdp": {
+    "ports": [
+      "31016/udp"
+    ],
+    "description": "Kollective Agent Kollective Delivery Protocol"
+  },
   "autotrac-acp": {
     "ports": [
       "31020/tcp"
@@ -41499,6 +41517,13 @@
       "35006/tcp"
     ],
     "description": "ReadyTech Helper Service"
+  },
+  "axio-disc": {
+    "ports": [
+      "35100/tcp",
+      "35100/udp"
+    ],
+    "description": "Axiomatic discovery protocol"
   },
   "kitim": {
     "ports": [
