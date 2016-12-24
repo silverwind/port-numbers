@@ -14616,6 +14616,12 @@
     ],
     "description": "Docker REST API (ssl)"
   },
+  "swarm": {
+    "ports": [
+      "2377/tcp"
+    ],
+    "description": "RPC interface for Docker Swarm"
+  },
   "etcd-client": {
     "ports": [
       "2379/tcp"
@@ -36753,6 +36759,12 @@
       "8804/udp"
     ],
     "description": "truecm"
+  },
+  "ssports-bcast": {
+    "ports": [
+      "8808/udp"
+    ],
+    "description": "STATSports Broadcast Service"
   },
   "dxspider": {
     "ports": [

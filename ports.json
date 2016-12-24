@@ -16511,6 +16511,14 @@
     "name": "docker-s",
     "description": "Docker REST API (ssl)"
   },
+  "2377/tcp": {
+    "name": "swarm",
+    "description": "RPC interface for Docker Swarm"
+  },
+  "2377/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "2379/tcp": {
     "name": "etcd-client",
     "description": "etcd client communication"
@@ -41738,6 +41746,14 @@
   "8804/udp": {
     "name": "truecm",
     "description": "truecm"
+  },
+  "8808/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8808/udp": {
+    "name": "ssports-bcast",
+    "description": "STATSports Broadcast Service"
   },
   "8873/tcp": {
     "name": "dxspider",
