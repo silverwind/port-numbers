@@ -35691,6 +35691,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "5550/tcp": {
+    "name": "cbus",
+    "description": "Model Railway control using the CBUS message protocol"
+  },
+  "5550/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "5553/tcp": {
     "name": "sgi-eventmond",
     "description": "SGI Eventmond Port"

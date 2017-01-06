@@ -31511,6 +31511,12 @@
     ],
     "description": "PowerSysLab Electrical Management"
   },
+  "cbus": {
+    "ports": [
+      "5550/tcp"
+    ],
+    "description": "Model Railway control using the CBUS message protocol"
+  },
   "sgi-eventmond": {
     "ports": [
       "5553/tcp",
