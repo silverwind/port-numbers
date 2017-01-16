@@ -28861,6 +28861,14 @@
     ],
     "description": "Assuria Insider"
   },
+  "trinity-dist": {
+    "ports": [
+      "4711/tcp",
+      "4711/udp",
+      "4711/sctp"
+    ],
+    "description": "Trinity Trust Network Node Communication"
+  },
   "truckstar": {
     "ports": [
       "4725/tcp",

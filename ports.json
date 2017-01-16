@@ -32623,6 +32623,18 @@
     "name": "",
     "description": "Reserved"
   },
+  "4711/tcp": {
+    "name": "trinity-dist",
+    "description": "Trinity Trust Network Node Communication"
+  },
+  "4711/udp": {
+    "name": "trinity-dist",
+    "description": "Trinity Trust Network Node Communication"
+  },
+  "4711/sctp": {
+    "name": "trinity-dist",
+    "description": "Trinity Trust Network Node Communication"
+  },
   "4725/tcp": {
     "name": "truckstar",
     "description": "TruckStar Service"
