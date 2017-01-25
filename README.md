@@ -1,4 +1,5 @@
-# port-numbers [![NPM version](https://img.shields.io/npm/v/port-numbers.svg?style=flat)](https://www.npmjs.org/package/port-numbers) [![Dependency Status](http://img.shields.io/david/silverwind/port-numbers.svg?style=flat)](https://david-dm.org/silverwind/port-numbers)
+# port-numbers
+[![](https://img.shields.io/npm/v/port-numbers.svg?style=flat)](https://www.npmjs.org/package/port-numbers) [![](https://img.shields.io/npm/dm/port-numbers.svg)](https://www.npmjs.org/package/port-numbers) [![](https://api.travis-ci.org/silverwind/port-numbers.svg?style=flat)](https://travis-ci.org/silverwind/port-numbers)
 > Get the information on network port numbers, based on [IANA's public listing](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
 
 ### Installation
