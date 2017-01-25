@@ -40007,6 +40007,18 @@
     "name": "",
     "description": "Reserved"
   },
+  "7701/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "7701/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "7701/sctp": {
+    "name": "nfapi",
+    "description": "SCF nFAPI defining MAC/PHY split"
+  },
   "7707/tcp": {
     "name": "sync-em7",
     "description": "EM7 Dynamic Updates"

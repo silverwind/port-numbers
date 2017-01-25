@@ -35298,6 +35298,12 @@
     ],
     "description": "EM7 Secure Communications"
   },
+  "nfapi": {
+    "ports": [
+      "7701/sctp"
+    ],
+    "description": "SCF nFAPI defining MAC/PHY split"
+  },
   "sync-em7": {
     "ports": [
       "7707/tcp",
