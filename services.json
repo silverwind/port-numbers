@@ -36255,6 +36255,12 @@
     ],
     "description": "Synapse Non Blocking HTTPS"
   },
+  "robot-remote": {
+    "ports": [
+      "8270/tcp"
+    ],
+    "description": "Robot Framework Remote Library Interface"
+  },
   "pando-sec": {
     "ports": [
       "8276/tcp",

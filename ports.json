@@ -41159,6 +41159,14 @@
     "name": "synapse-nhttps",
     "description": "Synapse Non Blocking HTTPS"
   },
+  "8270/tcp": {
+    "name": "robot-remote",
+    "description": "Robot Framework Remote Library Interface"
+  },
+  "8270/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "8276/tcp": {
     "name": "pando-sec",
     "description": "Pando Media Controlled Distribution"
