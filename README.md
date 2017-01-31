@@ -1,6 +1,6 @@
 # port-numbers
 [![](https://img.shields.io/npm/v/port-numbers.svg?style=flat)](https://www.npmjs.org/package/port-numbers) [![](https://img.shields.io/npm/dm/port-numbers.svg)](https://www.npmjs.org/package/port-numbers) [![](https://api.travis-ci.org/silverwind/port-numbers.svg?style=flat)](https://travis-ci.org/silverwind/port-numbers)
-> Get the information on network port numbers and services, based on [IANA's public listing](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml).
+> Get information on network port numbers and services, based on [IANA's public listing](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml).
 
 ### Installation
 ```
