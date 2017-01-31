@@ -1,12 +1,12 @@
 {
   "name": "port-numbers",
   "version": "1.1.51",
-  "description": "Get the information on network port numbers, based on IANA's public listing",
+  "description": "Get the information on network port numbers and services, based on IANA's public listing",
   "author": "silverwind <me@silverwind.io> (https://github.com/silverwind)",
   "license": "BSD-2-Clause",
   "repository": "silverwind/port-numbers",
   "scripts": {
-    "test": "mocha"
+    "test": "node test.js"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -28,7 +28,7 @@
     "services.json"
   ],
   "devDependencies": {
-    "csv-parse": "1.1.7",
+    "csv-parse": "1.2.0",
     "got": "^6.7.1"
   }
 }
