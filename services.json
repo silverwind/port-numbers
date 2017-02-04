@@ -2442,7 +2442,7 @@
       "433/tcp",
       "433/udp"
     ],
-    "description": "NNSP"
+    "description": "NNTP for transit servers (NNSP)"
   },
   "mobileip-agent": {
     "ports": [

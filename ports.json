@@ -2885,11 +2885,11 @@
   },
   "433/tcp": {
     "name": "nnsp",
-    "description": "NNSP"
+    "description": "NNTP for transit servers (NNSP)"
   },
   "433/udp": {
     "name": "nnsp",
-    "description": "NNSP"
+    "description": "NNTP for transit servers (NNSP)"
   },
   "434/tcp": {
     "name": "mobileip-agent",
