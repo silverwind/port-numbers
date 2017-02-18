@@ -27353,6 +27353,13 @@
     ],
     "description": "PxPlus remote file srvr"
   },
+  "hctl": {
+    "ports": [
+      "4197/tcp",
+      "4197/udp"
+    ],
+    "description": "Harman HControl Protocol"
+  },
   "eims-admin": {
     "ports": [
       "4199/tcp",

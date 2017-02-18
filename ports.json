@@ -30875,6 +30875,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "4197/tcp": {
+    "name": "hctl",
+    "description": "Harman HControl Protocol"
+  },
+  "4197/udp": {
+    "name": "hctl",
+    "description": "Harman HControl Protocol"
+  },
   "4199/tcp": {
     "name": "eims-admin",
     "description": "EIMS ADMIN"
