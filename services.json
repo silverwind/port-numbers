@@ -34663,6 +34663,12 @@
     ],
     "description": "DLIP"
   },
+  "pon-ictp": {
+    "ports": [
+      "7202/tcp"
+    ],
+    "description": "Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON\n    (Passive Optical Network) systems"
+  },
   "PS-Server": {
     "ports": [
       "7215/tcp"
@@ -35925,6 +35931,12 @@
       "8074/udp"
     ],
     "description": "Gadu-Gadu"
+  },
+  "mles": {
+    "ports": [
+      "8077/tcp"
+    ],
+    "description": "Mles is a client-server data distribution protocol \n      targeted to serve as a lightweight and reliable distributed \n      publish/subscribe database service."
   },
   "sunproxyadmin": {
     "ports": [

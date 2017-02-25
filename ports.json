@@ -39267,6 +39267,14 @@
     "name": "dlip",
     "description": "DLIP"
   },
+  "7202/tcp": {
+    "name": "pon-ictp",
+    "description": "Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON\n    (Passive Optical Network) systems"
+  },
+  "7702/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "7215/tcp": {
     "name": "PS-Server",
     "description": "Communication ports for PaperStream Server services"
@@ -40758,6 +40766,14 @@
   "8074/udp": {
     "name": "gadugadu",
     "description": "Gadu-Gadu"
+  },
+  "8077/tcp": {
+    "name": "mles",
+    "description": "Mles is a client-server data distribution protocol \n      targeted to serve as a lightweight and reliable distributed \n      publish/subscribe database service."
+  },
+  "8077/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "8080/tcp": {
     "name": "http-alt",
