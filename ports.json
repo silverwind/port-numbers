@@ -36255,6 +36255,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "5705/tcp": {
+    "name": "storageos",
+    "description": "StorageOS REST API"
+  },
+  "5705/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "5713/tcp": {
     "name": "proshareaudio",
     "description": "proshare conf audio"
@@ -37774,6 +37782,14 @@
   "6456/udp": {
     "name": "skip-cert-send",
     "description": "SKIP Certificate Send"
+  },
+  "6464/tcp": {
+    "name": "ieee11073-20701",
+    "description": "Port assignment for medical device communication in \n    accordance to IEEE 11073-20701"
+  },
+  "6464/udp": {
+    "name": "ieee11073-20701",
+    "description": "Port assignment for medical device communication in \n    accordance to IEEE 11073-20701"
   },
   "6471/tcp": {
     "name": "lvision-lm",

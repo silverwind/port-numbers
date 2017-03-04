@@ -31985,6 +31985,12 @@
     ],
     "description": "Dell SupportAssist data center management"
   },
+  "storageos": {
+    "ports": [
+      "5705/tcp"
+    ],
+    "description": "StorageOS REST API"
+  },
   "proshareaudio": {
     "ports": [
       "5713/tcp",
@@ -33332,6 +33338,13 @@
       "6456/udp"
     ],
     "description": "SKIP Certificate Send"
+  },
+  "ieee11073-20701": {
+    "ports": [
+      "6464/tcp",
+      "6464/udp"
+    ],
+    "description": "Port assignment for medical device communication in \n    accordance to IEEE 11073-20701"
   },
   "lvision-lm": {
     "ports": [
