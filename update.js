@@ -43,7 +43,7 @@ function parsePorts(data, cb) {
     if (entry[1] && entry[2] && !output[entry[1] + "/" + entry[2]] && !isNaN(Number(entry[1]))) {
       output[entry[1] + "/" + entry[2]] = {
         name: entry[0],
-        description: entry[3]
+        description: typeof entry[3] === "string" ? entry[3].replace(/[\s\n]+/g, " ") : undefined,
       };
     }
   });
@@ -57,7 +57,7 @@ function parseServices(data, cb) {
       entry[0].length && !isNaN(Number(entry[1]))) {
       output[entry[0]] = {
         ports: [Number(entry[1]) + "/" + entry[2]],
-        description: entry[3] || undefined
+        description: typeof entry[3] === "string" ? entry[3].replace(/[\s\n]+/g, " ") : undefined
       };
     } else if (output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
            entry[0].length && !isNaN(Number(entry[1])) &&
