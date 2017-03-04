@@ -517,11 +517,11 @@
   },
   "63/tcp": {
     "name": "whoispp",
-    "description": "whois++\nIANA assigned this well-formed service name as a replacement for \"whois++\"."
+    "description": "whois++"
   },
   "63/udp": {
     "name": "whoispp",
-    "description": "whois++\nIANA assigned this well-formed service name as a replacement for \"whois++\"."
+    "description": "whois++"
   },
   "64/tcp": {
     "name": "covia",
@@ -541,11 +541,11 @@
   },
   "66/tcp": {
     "name": "sql-net",
-    "description": "Oracle SQL*NET\nIANA assigned this well-formed service name as a replacement for \"sql*net\"."
+    "description": "Oracle SQL*NET"
   },
   "66/udp": {
     "name": "sql-net",
-    "description": "Oracle SQL*NET\nIANA assigned this well-formed service name as a replacement for \"sql*net\"."
+    "description": "Oracle SQL*NET"
   },
   "67/tcp": {
     "name": "bootps",
@@ -904,8 +904,7 @@
     "description": "McIDAS Data Transmission Protocol"
   },
   "113/tcp": {
-    "name": "ident",
-    "description": ""
+    "name": "ident"
   },
   "113/udp": {
     "name": "auth",
@@ -1369,11 +1368,11 @@
   },
   "172/tcp": {
     "name": "cl-1",
-    "description": "Network Innovations CL/1\nIANA assigned this well-formed service name as a replacement for \"cl/1\"."
+    "description": "Network Innovations CL/1"
   },
   "172/udp": {
     "name": "cl-1",
-    "description": "Network Innovations CL/1\nIANA assigned this well-formed service name as a replacement for \"cl/1\"."
+    "description": "Network Innovations CL/1"
   },
   "173/tcp": {
     "name": "xyplex-mux",
@@ -1677,19 +1676,19 @@
   },
   "210/tcp": {
     "name": "z39-50",
-    "description": "ANSI Z39.50\nIANA assigned this well-formed service name as a replacement for \"z39.50\"."
+    "description": "ANSI Z39.50"
   },
   "210/udp": {
     "name": "z39-50",
-    "description": "ANSI Z39.50\nIANA assigned this well-formed service name as a replacement for \"z39.50\"."
+    "description": "ANSI Z39.50"
   },
   "211/tcp": {
     "name": "914c-g",
-    "description": "Texas Instruments 914C/G Terminal\nIANA assigned this well-formed service name as a replacement for \"914c/g\"."
+    "description": "Texas Instruments 914C/G Terminal"
   },
   "211/udp": {
     "name": "914c-g",
-    "description": "Texas Instruments 914C/G Terminal\nIANA assigned this well-formed service name as a replacement for \"914c/g\"."
+    "description": "Texas Instruments 914C/G Terminal"
   },
   "212/tcp": {
     "name": "anet",
@@ -1837,11 +1836,11 @@
   },
   "247/tcp": {
     "name": "subntbcst-tftp",
-    "description": "SUBNTBCST_TFTP\nIANA assigned this well-formed service name as a replacement for \"subntbcst_tftp\"."
+    "description": "SUBNTBCST_TFTP"
   },
   "247/udp": {
     "name": "subntbcst-tftp",
-    "description": "SUBNTBCST_TFTP\nIANA assigned this well-formed service name as a replacement for \"subntbcst_tftp\"."
+    "description": "SUBNTBCST_TFTP"
   },
   "248/tcp": {
     "name": "bhfhs",
@@ -2325,11 +2324,11 @@
   },
   "363/tcp": {
     "name": "rsvp-tunnel",
-    "description": "RSVP Tunnel\nIANA assigned this well-formed service name as a replacement for \"rsvp_tunnel\"."
+    "description": "RSVP Tunnel"
   },
   "363/udp": {
     "name": "rsvp-tunnel",
-    "description": "RSVP Tunnel\nIANA assigned this well-formed service name as a replacement for \"rsvp_tunnel\"."
+    "description": "RSVP Tunnel"
   },
   "364/tcp": {
     "name": "aurora-cmgr",
@@ -2845,19 +2844,19 @@
   },
   "428/tcp": {
     "name": "ocs-cmu",
-    "description": "OCS_CMU\nIANA assigned this well-formed service name as a replacement for \"ocs_cmu\"."
+    "description": "OCS_CMU"
   },
   "428/udp": {
     "name": "ocs-cmu",
-    "description": "OCS_CMU\nIANA assigned this well-formed service name as a replacement for \"ocs_cmu\"."
+    "description": "OCS_CMU"
   },
   "429/tcp": {
     "name": "ocs-amu",
-    "description": "OCS_AMU\nIANA assigned this well-formed service name as a replacement for \"ocs_amu\"."
+    "description": "OCS_AMU"
   },
   "429/udp": {
     "name": "ocs-amu",
-    "description": "OCS_AMU\nIANA assigned this well-formed service name as a replacement for \"ocs_amu\"."
+    "description": "OCS_AMU"
   },
   "430/tcp": {
     "name": "utmpsd",
@@ -2957,11 +2956,11 @@
   },
   "442/tcp": {
     "name": "cvc-hostd",
-    "description": "cvc_hostd\nIANA assigned this well-formed service name as a replacement for \"cvc_hostd\"."
+    "description": "cvc_hostd"
   },
   "442/udp": {
     "name": "cvc-hostd",
-    "description": "cvc_hostd\nIANA assigned this well-formed service name as a replacement for \"cvc_hostd\"."
+    "description": "cvc_hostd"
   },
   "443/tcp": {
     "name": "https",
@@ -3524,8 +3523,7 @@
     "description": "remote process execution; authentication performed using passwords and UNIX login names"
   },
   "512/udp": {
-    "name": "comsat",
-    "description": ""
+    "name": "comsat"
   },
   "513/tcp": {
     "name": "login",
@@ -3540,8 +3538,7 @@
     "description": "cmd like exec, but automatic authentication is performed as for login server"
   },
   "514/udp": {
-    "name": "syslog",
-    "description": ""
+    "name": "syslog"
   },
   "515/tcp": {
     "name": "printer",
@@ -3568,12 +3565,10 @@
     "description": "like tenex link, but across machine - unfortunately, doesn't use link protocol (this is actually just a rendezvous port from which a tcp connection is established)"
   },
   "518/tcp": {
-    "name": "ntalk",
-    "description": ""
+    "name": "ntalk"
   },
   "518/udp": {
-    "name": "ntalk",
-    "description": ""
+    "name": "ntalk"
   },
   "519/tcp": {
     "name": "utime",
@@ -3768,12 +3763,10 @@
     "description": "commerce"
   },
   "543/tcp": {
-    "name": "klogin",
-    "description": ""
+    "name": "klogin"
   },
   "543/udp": {
-    "name": "klogin",
-    "description": ""
+    "name": "klogin"
   },
   "544/tcp": {
     "name": "kshell",
@@ -3864,12 +3857,10 @@
     "description": "Real Time Streaming Protocol (RTSP)"
   },
   "555/tcp": {
-    "name": "dsf",
-    "description": ""
+    "name": "dsf"
   },
   "555/udp": {
-    "name": "dsf",
-    "description": ""
+    "name": "dsf"
   },
   "556/tcp": {
     "name": "remotefs",
@@ -3912,12 +3903,10 @@
     "description": "rmonitord"
   },
   "561/tcp": {
-    "name": "monitor",
-    "description": ""
+    "name": "monitor"
   },
   "561/udp": {
-    "name": "monitor",
-    "description": ""
+    "name": "monitor"
   },
   "562/tcp": {
     "name": "chshell",
@@ -4417,11 +4406,11 @@
   },
   "625/tcp": {
     "name": "dec-dlm",
-    "description": "DEC DLM\nIANA assigned this well-formed service name as a replacement for \"dec_dlm\"."
+    "description": "DEC DLM"
   },
   "625/udp": {
     "name": "dec-dlm",
-    "description": "DEC DLM\nIANA assigned this well-formed service name as a replacement for \"dec_dlm\"."
+    "description": "DEC DLM"
   },
   "626/tcp": {
     "name": "asia",
@@ -4736,12 +4725,10 @@
     "description": "Sun DR"
   },
   "666/tcp": {
-    "name": "mdqs",
-    "description": ""
+    "name": "mdqs"
   },
   "666/udp": {
-    "name": "mdqs",
-    "description": ""
+    "name": "mdqs"
   },
   "667/tcp": {
     "name": "disclose",
@@ -5196,36 +5183,28 @@
     "description": "kerberos administration"
   },
   "750/tcp": {
-    "name": "rfile",
-    "description": ""
+    "name": "rfile"
   },
   "750/udp": {
-    "name": "loadav",
-    "description": ""
+    "name": "loadav"
   },
   "751/tcp": {
-    "name": "pump",
-    "description": ""
+    "name": "pump"
   },
   "751/udp": {
-    "name": "pump",
-    "description": ""
+    "name": "pump"
   },
   "752/tcp": {
-    "name": "qrh",
-    "description": ""
+    "name": "qrh"
   },
   "752/udp": {
-    "name": "qrh",
-    "description": ""
+    "name": "qrh"
   },
   "753/tcp": {
-    "name": "rrh",
-    "description": ""
+    "name": "rrh"
   },
   "753/udp": {
-    "name": "rrh",
-    "description": ""
+    "name": "rrh"
   },
   "754/tcp": {
     "name": "tell",
@@ -5236,68 +5215,52 @@
     "description": "send"
   },
   "758/tcp": {
-    "name": "nlogin",
-    "description": ""
+    "name": "nlogin"
   },
   "758/udp": {
-    "name": "nlogin",
-    "description": ""
+    "name": "nlogin"
   },
   "759/tcp": {
-    "name": "con",
-    "description": ""
+    "name": "con"
   },
   "759/udp": {
-    "name": "con",
-    "description": ""
+    "name": "con"
   },
   "760/tcp": {
-    "name": "ns",
-    "description": ""
+    "name": "ns"
   },
   "760/udp": {
-    "name": "ns",
-    "description": ""
+    "name": "ns"
   },
   "761/tcp": {
-    "name": "rxe",
-    "description": ""
+    "name": "rxe"
   },
   "761/udp": {
-    "name": "rxe",
-    "description": ""
+    "name": "rxe"
   },
   "762/tcp": {
-    "name": "quotad",
-    "description": ""
+    "name": "quotad"
   },
   "762/udp": {
-    "name": "quotad",
-    "description": ""
+    "name": "quotad"
   },
   "763/tcp": {
-    "name": "cycleserv",
-    "description": ""
+    "name": "cycleserv"
   },
   "763/udp": {
-    "name": "cycleserv",
-    "description": ""
+    "name": "cycleserv"
   },
   "764/tcp": {
-    "name": "omserv",
-    "description": ""
+    "name": "omserv"
   },
   "764/udp": {
-    "name": "omserv",
-    "description": ""
+    "name": "omserv"
   },
   "765/tcp": {
-    "name": "webster",
-    "description": ""
+    "name": "webster"
   },
   "765/udp": {
-    "name": "webster",
-    "description": ""
+    "name": "webster"
   },
   "767/tcp": {
     "name": "phonebook",
@@ -5308,68 +5271,54 @@
     "description": "phone"
   },
   "769/tcp": {
-    "name": "vid",
-    "description": ""
+    "name": "vid"
   },
   "769/udp": {
-    "name": "vid",
-    "description": ""
+    "name": "vid"
   },
   "770/tcp": {
-    "name": "cadlock",
-    "description": ""
+    "name": "cadlock"
   },
   "770/udp": {
-    "name": "cadlock",
-    "description": ""
+    "name": "cadlock"
   },
   "771/tcp": {
-    "name": "rtip",
-    "description": ""
+    "name": "rtip"
   },
   "771/udp": {
-    "name": "rtip",
-    "description": ""
+    "name": "rtip"
   },
   "772/tcp": {
-    "name": "cycleserv2",
-    "description": ""
+    "name": "cycleserv2"
   },
   "772/udp": {
-    "name": "cycleserv2",
-    "description": ""
+    "name": "cycleserv2"
   },
   "773/tcp": {
-    "name": "submit",
-    "description": ""
+    "name": "submit"
   },
   "773/udp": {
-    "name": "notify",
-    "description": ""
+    "name": "notify"
   },
   "774/tcp": {
-    "name": "rpasswd",
-    "description": ""
+    "name": "rpasswd"
   },
   "774/udp": {
     "name": "acmaint-dbd",
     "description": "IANA assigned this well-formed service name as a replacement for \"acmaint_dbd\"."
   },
   "775/tcp": {
-    "name": "entomb",
-    "description": ""
+    "name": "entomb"
   },
   "775/udp": {
     "name": "acmaint-transd",
     "description": "IANA assigned this well-formed service name as a replacement for \"acmaint_transd\"."
   },
   "776/tcp": {
-    "name": "wpages",
-    "description": ""
+    "name": "wpages"
   },
   "776/udp": {
-    "name": "wpages",
-    "description": ""
+    "name": "wpages"
   },
   "777/tcp": {
     "name": "multiling-http",
@@ -5380,12 +5329,10 @@
     "description": "Multiling HTTP"
   },
   "780/tcp": {
-    "name": "wpgs",
-    "description": ""
+    "name": "wpgs"
   },
   "780/udp": {
-    "name": "wpgs",
-    "description": ""
+    "name": "wpgs"
   },
   "800/tcp": {
     "name": "mdbs-daemon",
@@ -5396,12 +5343,10 @@
     "description": "IANA assigned this well-formed service name as a replacement for \"mdbs_daemon\"."
   },
   "801/tcp": {
-    "name": "device",
-    "description": ""
+    "name": "device"
   },
   "801/udp": {
-    "name": "device",
-    "description": ""
+    "name": "device"
   },
   "802/tcp": {
     "name": "mbap-s",
@@ -5533,11 +5478,11 @@
   },
   "887/tcp": {
     "name": "iclcnet-svinfo",
-    "description": "ICL coNETion server info\nIANA assigned this well-formed service name as a replacement for \"iclcnet_svinfo\"."
+    "description": "ICL coNETion server info"
   },
   "887/udp": {
     "name": "iclcnet-svinfo",
-    "description": "ICL coNETion server info\nIANA assigned this well-formed service name as a replacement for \"iclcnet_svinfo\"."
+    "description": "ICL coNETion server info"
   },
   "888/tcp": {
     "name": "accessbuilder",
@@ -5676,36 +5621,29 @@
     "description": "vsinet"
   },
   "997/tcp": {
-    "name": "maitrd",
-    "description": ""
+    "name": "maitrd"
   },
   "997/udp": {
-    "name": "maitrd",
-    "description": ""
+    "name": "maitrd"
   },
   "998/tcp": {
-    "name": "busboy",
-    "description": ""
+    "name": "busboy"
   },
   "998/udp": {
-    "name": "puparp",
-    "description": ""
+    "name": "puparp"
   },
   "999/tcp": {
-    "name": "garcon",
-    "description": ""
+    "name": "garcon"
   },
   "999/udp": {
     "name": "applix",
     "description": "Applix ac"
   },
   "1000/tcp": {
-    "name": "cadlock2",
-    "description": ""
+    "name": "cadlock2"
   },
   "1000/udp": {
-    "name": "cadlock2",
-    "description": ""
+    "name": "cadlock2"
   },
   "1001/tcp": {
     "name": "webpush",
@@ -6081,19 +6019,19 @@
   },
   "1067/tcp": {
     "name": "instl-boots",
-    "description": "Installation Bootstrap Proto. Serv.\nIANA assigned this well-formed service name as a replacement for \"instl_boots\"."
+    "description": "Installation Bootstrap Proto. Serv."
   },
   "1067/udp": {
     "name": "instl-boots",
-    "description": "Installation Bootstrap Proto. Serv.\nIANA assigned this well-formed service name as a replacement for \"instl_boots\"."
+    "description": "Installation Bootstrap Proto. Serv."
   },
   "1068/tcp": {
     "name": "instl-bootc",
-    "description": "Installation Bootstrap Proto. Cli.\nIANA assigned this well-formed service name as a replacement for \"instl_bootc\"."
+    "description": "Installation Bootstrap Proto. Cli."
   },
   "1068/udp": {
     "name": "instl-bootc",
-    "description": "Installation Bootstrap Proto. Cli.\nIANA assigned this well-formed service name as a replacement for \"instl_bootc\"."
+    "description": "Installation Bootstrap Proto. Cli."
   },
   "1069/tcp": {
     "name": "cognex-insight",
@@ -6645,11 +6583,11 @@
   },
   "1138/tcp": {
     "name": "encrypted-admin",
-    "description": "encrypted admin requests\nIANA assigned this well-formed service name as a replacement for \"encrypted_admin\"."
+    "description": "encrypted admin requests"
   },
   "1138/udp": {
     "name": "encrypted-admin",
-    "description": "encrypted admin requests\nIANA assigned this well-formed service name as a replacement for \"encrypted_admin\"."
+    "description": "encrypted admin requests"
   },
   "1139/tcp": {
     "name": "evm",
@@ -8049,11 +7987,11 @@
   },
   "1313/tcp": {
     "name": "bmc-patroldb",
-    "description": "BMC_PATROLDB\nIANA assigned this well-formed service name as a replacement for \"bmc_patroldb\"."
+    "description": "BMC_PATROLDB"
   },
   "1313/udp": {
     "name": "bmc-patroldb",
-    "description": "BMC_PATROLDB\nIANA assigned this well-formed service name as a replacement for \"bmc_patroldb\"."
+    "description": "BMC_PATROLDB"
   },
   "1314/tcp": {
     "name": "pdps",
@@ -8601,11 +8539,11 @@
   },
   "1382/tcp": {
     "name": "udt-os",
-    "description": "udt_os\nIANA assigned this well-formed service name as a replacement for \"udt_os\"."
+    "description": "udt_os"
   },
   "1382/udp": {
     "name": "udt-os",
-    "description": "udt_os\nIANA assigned this well-formed service name as a replacement for \"udt_os\"."
+    "description": "udt_os"
   },
   "1383/tcp": {
     "name": "gwha",
@@ -8625,11 +8563,11 @@
   },
   "1385/tcp": {
     "name": "atex-elmd",
-    "description": "Atex Publishing License Manager\nIANA assigned this well-formed service name as a replacement for \"atex_elmd\"."
+    "description": "Atex Publishing License Manager"
   },
   "1385/udp": {
     "name": "atex-elmd",
-    "description": "Atex Publishing License Manager\nIANA assigned this well-formed service name as a replacement for \"atex_elmd\"."
+    "description": "Atex Publishing License Manager"
   },
   "1386/tcp": {
     "name": "checksum",
@@ -8873,11 +8811,11 @@
   },
   "1416/tcp": {
     "name": "novell-lu6-2",
-    "description": "Novell LU6.2\nIANA assigned this well-formed service name as a replacement for \"novell-lu6.2\"."
+    "description": "Novell LU6.2"
   },
   "1416/udp": {
     "name": "novell-lu6-2",
-    "description": "Novell LU6.2\nIANA assigned this well-formed service name as a replacement for \"novell-lu6.2\"."
+    "description": "Novell LU6.2"
   },
   "1417/tcp": {
     "name": "timbuktu-srv1",
@@ -9097,11 +9035,11 @@
   },
   "1444/tcp": {
     "name": "marcam-lm",
-    "description": "Marcam  License Management"
+    "description": "Marcam License Management"
   },
   "1444/udp": {
     "name": "marcam-lm",
-    "description": "Marcam  License Management"
+    "description": "Marcam License Management"
   },
   "1445/tcp": {
     "name": "proxima-lm",
@@ -9177,11 +9115,11 @@
   },
   "1454/tcp": {
     "name": "interhdl-elmd",
-    "description": "interHDL License Manager\nIANA assigned this well-formed service name as a replacement for \"interhdl_elmd\"."
+    "description": "interHDL License Manager"
   },
   "1454/udp": {
     "name": "interhdl-elmd",
-    "description": "interHDL License Manager\nIANA assigned this well-formed service name as a replacement for \"interhdl_elmd\"."
+    "description": "interHDL License Manager"
   },
   "1455/tcp": {
     "name": "esl-lm",
@@ -9233,11 +9171,11 @@
   },
   "1461/tcp": {
     "name": "ibm-wrless-lan",
-    "description": "IBM Wireless LAN\nIANA assigned this well-formed service name as a replacement for \"ibm_wrless_lan\"."
+    "description": "IBM Wireless LAN"
   },
   "1461/udp": {
     "name": "ibm-wrless-lan",
-    "description": "IBM Wireless LAN\nIANA assigned this well-formed service name as a replacement for \"ibm_wrless_lan\"."
+    "description": "IBM Wireless LAN"
   },
   "1462/tcp": {
     "name": "world-lm",
@@ -9257,11 +9195,11 @@
   },
   "1464/tcp": {
     "name": "msl-lmd",
-    "description": "MSL License Manager\nIANA assigned this well-formed service name as a replacement for \"msl_lmd\"."
+    "description": "MSL License Manager"
   },
   "1464/udp": {
     "name": "msl-lmd",
-    "description": "MSL License Manager\nIANA assigned this well-formed service name as a replacement for \"msl_lmd\"."
+    "description": "MSL License Manager"
   },
   "1465/tcp": {
     "name": "pipes",
@@ -9433,11 +9371,11 @@
   },
   "1486/tcp": {
     "name": "nms-topo-serv",
-    "description": "nms_topo_serv\nIANA assigned this well-formed service name as a replacement for \"nms_topo_serv\"."
+    "description": "nms_topo_serv"
   },
   "1486/udp": {
     "name": "nms-topo-serv",
-    "description": "nms_topo_serv\nIANA assigned this well-formed service name as a replacement for \"nms_topo_serv\"."
+    "description": "nms_topo_serv"
   },
   "1487/tcp": {
     "name": "localinfosrvr",
@@ -9481,11 +9419,11 @@
   },
   "1493/tcp": {
     "name": "netmap-lm",
-    "description": "netmap_lm\nIANA assigned this well-formed service name as a replacement for \"netmap_lm\"."
+    "description": "netmap_lm"
   },
   "1493/udp": {
     "name": "netmap-lm",
-    "description": "netmap_lm\nIANA assigned this well-formed service name as a replacement for \"netmap_lm\"."
+    "description": "netmap_lm"
   },
   "1494/tcp": {
     "name": "ica",
@@ -9985,11 +9923,11 @@
   },
   "1556/tcp": {
     "name": "veritas-pbx",
-    "description": "VERITAS Private Branch Exchange\nIANA assigned this well-formed service name as a replacement for \"veritas_pbx\"."
+    "description": "VERITAS Private Branch Exchange"
   },
   "1556/udp": {
     "name": "veritas-pbx",
-    "description": "VERITAS Private Branch Exchange\nIANA assigned this well-formed service name as a replacement for \"veritas_pbx\"."
+    "description": "VERITAS Private Branch Exchange"
   },
   "1557/tcp": {
     "name": "arbortext-lm",
@@ -10233,11 +10171,11 @@
   },
   "1587/tcp": {
     "name": "pra-elmd",
-    "description": "pra_elmd\nIANA assigned this well-formed service name as a replacement for \"pra_elmd\"."
+    "description": "pra_elmd"
   },
   "1587/udp": {
     "name": "pra-elmd",
-    "description": "pra_elmd\nIANA assigned this well-formed service name as a replacement for \"pra_elmd\"."
+    "description": "pra_elmd"
   },
   "1588/tcp": {
     "name": "triquest-lm",
@@ -10745,11 +10683,11 @@
   },
   "1651/tcp": {
     "name": "shiva-confsrvr",
-    "description": "shiva_confsrvr\nIANA assigned this well-formed service name as a replacement for \"shiva_confsrvr\"."
+    "description": "shiva_confsrvr"
   },
   "1651/udp": {
     "name": "shiva-confsrvr",
-    "description": "shiva_confsrvr\nIANA assigned this well-formed service name as a replacement for \"shiva_confsrvr\"."
+    "description": "shiva_confsrvr"
   },
   "1652/tcp": {
     "name": "xnmp",
@@ -13540,20 +13478,17 @@
     "description": "Cisco SCCp"
   },
   "2001/tcp": {
-    "name": "dc",
-    "description": ""
+    "name": "dc"
   },
   "2001/udp": {
     "name": "wizard",
     "description": "curry"
   },
   "2002/tcp": {
-    "name": "globe",
-    "description": ""
+    "name": "globe"
   },
   "2002/udp": {
-    "name": "globe",
-    "description": ""
+    "name": "globe"
   },
   "2003/tcp": {
     "name": "brutus",
@@ -13564,56 +13499,45 @@
     "description": "Brutus Server"
   },
   "2004/tcp": {
-    "name": "mailbox",
-    "description": ""
+    "name": "mailbox"
   },
   "2004/udp": {
     "name": "emce",
     "description": "CCWS mm conf"
   },
   "2005/tcp": {
-    "name": "berknet",
-    "description": ""
+    "name": "berknet"
   },
   "2005/udp": {
-    "name": "oracle",
-    "description": ""
+    "name": "oracle"
   },
   "2006/tcp": {
-    "name": "invokator",
-    "description": ""
+    "name": "invokator"
   },
   "2006/udp": {
     "name": "raid-cd",
     "description": "raid"
   },
   "2007/tcp": {
-    "name": "dectalk",
-    "description": ""
+    "name": "dectalk"
   },
   "2007/udp": {
-    "name": "raid-am",
-    "description": ""
+    "name": "raid-am"
   },
   "2008/tcp": {
-    "name": "conf",
-    "description": ""
+    "name": "conf"
   },
   "2008/udp": {
-    "name": "terminaldb",
-    "description": ""
+    "name": "terminaldb"
   },
   "2009/tcp": {
-    "name": "news",
-    "description": ""
+    "name": "news"
   },
   "2009/udp": {
-    "name": "whosockami",
-    "description": ""
+    "name": "whosockami"
   },
   "2010/tcp": {
-    "name": "search",
-    "description": ""
+    "name": "search"
   },
   "2010/udp": {
     "name": "pipe-server",
@@ -13624,144 +13548,109 @@
     "description": "raid"
   },
   "2011/udp": {
-    "name": "servserv",
-    "description": ""
+    "name": "servserv"
   },
   "2012/tcp": {
-    "name": "ttyinfo",
-    "description": ""
+    "name": "ttyinfo"
   },
   "2012/udp": {
-    "name": "raid-ac",
-    "description": ""
+    "name": "raid-ac"
   },
   "2013/tcp": {
-    "name": "raid-am",
-    "description": ""
+    "name": "raid-am"
   },
   "2013/udp": {
-    "name": "raid-cd",
-    "description": ""
+    "name": "raid-cd"
   },
   "2014/tcp": {
-    "name": "troff",
-    "description": ""
+    "name": "troff"
   },
   "2014/udp": {
-    "name": "raid-sf",
-    "description": ""
+    "name": "raid-sf"
   },
   "2015/tcp": {
-    "name": "cypress",
-    "description": ""
+    "name": "cypress"
   },
   "2015/udp": {
-    "name": "raid-cs",
-    "description": ""
+    "name": "raid-cs"
   },
   "2016/tcp": {
-    "name": "bootserver",
-    "description": ""
+    "name": "bootserver"
   },
   "2016/udp": {
-    "name": "bootserver",
-    "description": ""
+    "name": "bootserver"
   },
   "2017/tcp": {
-    "name": "cypress-stat",
-    "description": ""
+    "name": "cypress-stat"
   },
   "2017/udp": {
-    "name": "bootclient",
-    "description": ""
+    "name": "bootclient"
   },
   "2018/tcp": {
-    "name": "terminaldb",
-    "description": ""
+    "name": "terminaldb"
   },
   "2018/udp": {
-    "name": "rellpack",
-    "description": ""
+    "name": "rellpack"
   },
   "2019/tcp": {
-    "name": "whosockami",
-    "description": ""
+    "name": "whosockami"
   },
   "2019/udp": {
-    "name": "about",
-    "description": ""
+    "name": "about"
   },
   "2020/tcp": {
-    "name": "xinupageserver",
-    "description": ""
+    "name": "xinupageserver"
   },
   "2020/udp": {
-    "name": "xinupageserver",
-    "description": ""
+    "name": "xinupageserver"
   },
   "2021/tcp": {
-    "name": "servexec",
-    "description": ""
+    "name": "servexec"
   },
   "2021/udp": {
-    "name": "xinuexpansion1",
-    "description": ""
+    "name": "xinuexpansion1"
   },
   "2022/tcp": {
-    "name": "down",
-    "description": ""
+    "name": "down"
   },
   "2022/udp": {
-    "name": "xinuexpansion2",
-    "description": ""
+    "name": "xinuexpansion2"
   },
   "2023/tcp": {
-    "name": "xinuexpansion3",
-    "description": ""
+    "name": "xinuexpansion3"
   },
   "2023/udp": {
-    "name": "xinuexpansion3",
-    "description": ""
+    "name": "xinuexpansion3"
   },
   "2024/tcp": {
-    "name": "xinuexpansion4",
-    "description": ""
+    "name": "xinuexpansion4"
   },
   "2024/udp": {
-    "name": "xinuexpansion4",
-    "description": ""
+    "name": "xinuexpansion4"
   },
   "2025/tcp": {
-    "name": "ellpack",
-    "description": ""
+    "name": "ellpack"
   },
   "2025/udp": {
-    "name": "xribs",
-    "description": ""
+    "name": "xribs"
   },
   "2026/tcp": {
-    "name": "scrabble",
-    "description": ""
+    "name": "scrabble"
   },
   "2026/udp": {
-    "name": "scrabble",
-    "description": ""
+    "name": "scrabble"
   },
   "2027/tcp": {
-    "name": "shadowserver",
-    "description": ""
+    "name": "shadowserver"
   },
   "2027/udp": {
-    "name": "shadowserver",
-    "description": ""
+    "name": "shadowserver"
   },
   "2028/tcp": {
-    "name": "submitserver",
-    "description": ""
+    "name": "submitserver"
   },
   "2028/udp": {
-    "name": "submitserver",
-    "description": ""
+    "name": "submitserver"
   },
   "2029/tcp": {
     "name": "hsrpv6",
@@ -13772,12 +13661,10 @@
     "description": "Hot Standby Router Protocol IPv6"
   },
   "2030/tcp": {
-    "name": "device2",
-    "description": ""
+    "name": "device2"
   },
   "2030/udp": {
-    "name": "device2",
-    "description": ""
+    "name": "device2"
   },
   "2031/tcp": {
     "name": "mobrien-chat",
@@ -13788,36 +13675,28 @@
     "description": "mobrien-chat"
   },
   "2032/tcp": {
-    "name": "blackboard",
-    "description": ""
+    "name": "blackboard"
   },
   "2032/udp": {
-    "name": "blackboard",
-    "description": ""
+    "name": "blackboard"
   },
   "2033/tcp": {
-    "name": "glogger",
-    "description": ""
+    "name": "glogger"
   },
   "2033/udp": {
-    "name": "glogger",
-    "description": ""
+    "name": "glogger"
   },
   "2034/tcp": {
-    "name": "scoremgr",
-    "description": ""
+    "name": "scoremgr"
   },
   "2034/udp": {
-    "name": "scoremgr",
-    "description": ""
+    "name": "scoremgr"
   },
   "2035/tcp": {
-    "name": "imsldoc",
-    "description": ""
+    "name": "imsldoc"
   },
   "2035/udp": {
-    "name": "imsldoc",
-    "description": ""
+    "name": "imsldoc"
   },
   "2036/tcp": {
     "name": "e-dpnet",
@@ -13836,12 +13715,10 @@
     "description": "APplus Application Server"
   },
   "2038/tcp": {
-    "name": "objectmanager",
-    "description": ""
+    "name": "objectmanager"
   },
   "2038/udp": {
-    "name": "objectmanager",
-    "description": ""
+    "name": "objectmanager"
   },
   "2039/tcp": {
     "name": "prizma",
@@ -13852,20 +13729,16 @@
     "description": "Prizma Monitoring Service"
   },
   "2040/tcp": {
-    "name": "lam",
-    "description": ""
+    "name": "lam"
   },
   "2040/udp": {
-    "name": "lam",
-    "description": ""
+    "name": "lam"
   },
   "2041/tcp": {
-    "name": "interbase",
-    "description": ""
+    "name": "interbase"
   },
   "2041/udp": {
-    "name": "interbase",
-    "description": ""
+    "name": "interbase"
   },
   "2042/tcp": {
     "name": "isis",
@@ -13884,52 +13757,40 @@
     "description": "isis-bcast"
   },
   "2044/tcp": {
-    "name": "rimsl",
-    "description": ""
+    "name": "rimsl"
   },
   "2044/udp": {
-    "name": "rimsl",
-    "description": ""
+    "name": "rimsl"
   },
   "2045/tcp": {
-    "name": "cdfunc",
-    "description": ""
+    "name": "cdfunc"
   },
   "2045/udp": {
-    "name": "cdfunc",
-    "description": ""
+    "name": "cdfunc"
   },
   "2046/tcp": {
-    "name": "sdfunc",
-    "description": ""
+    "name": "sdfunc"
   },
   "2046/udp": {
-    "name": "sdfunc",
-    "description": ""
+    "name": "sdfunc"
   },
   "2047/tcp": {
-    "name": "dls",
-    "description": ""
+    "name": "dls"
   },
   "2047/udp": {
-    "name": "dls",
-    "description": ""
+    "name": "dls"
   },
   "2048/tcp": {
-    "name": "dls-monitor",
-    "description": ""
+    "name": "dls-monitor"
   },
   "2048/udp": {
-    "name": "dls-monitor",
-    "description": ""
+    "name": "dls-monitor"
   },
   "2049/tcp": {
-    "name": "shilp",
-    "description": ""
+    "name": "shilp"
   },
   "2049/udp": {
-    "name": "shilp",
-    "description": ""
+    "name": "shilp"
   },
   "2049/sctp": {
     "name": "nfs",
@@ -15289,11 +15150,11 @@
   },
   "2222/tcp": {
     "name": "EtherNet-IP-1",
-    "description": "EtherNet/IP I/O\nIANA assigned this well-formed service name as a replacement for \"EtherNet/IP-1\"."
+    "description": "EtherNet/IP I/O"
   },
   "2222/udp": {
     "name": "EtherNet-IP-1",
-    "description": "EtherNet/IP I/O\nIANA assigned this well-formed service name as a replacement for \"EtherNet/IP-1\"."
+    "description": "EtherNet/IP I/O"
   },
   "2223/tcp": {
     "name": "rockwell-csp2",
@@ -16229,11 +16090,11 @@
   },
   "2340/tcp": {
     "name": "wrs-registry",
-    "description": "WRS Registry\nIANA assigned this well-formed service name as a replacement for \"wrs_registry\"."
+    "description": "WRS Registry"
   },
   "2340/udp": {
     "name": "wrs-registry",
-    "description": "WRS Registry\nIANA assigned this well-formed service name as a replacement for \"wrs_registry\"."
+    "description": "WRS Registry"
   },
   "2341/tcp": {
     "name": "xiostatus",
@@ -16277,35 +16138,35 @@
   },
   "2346/tcp": {
     "name": "redstorm-join",
-    "description": "Game Connection Port\nIANA assigned this well-formed service name as a replacement for \"redstorm_join\"."
+    "description": "Game Connection Port"
   },
   "2346/udp": {
     "name": "redstorm-join",
-    "description": "Game Connection Port\nIANA assigned this well-formed service name as a replacement for \"redstorm_join\"."
+    "description": "Game Connection Port"
   },
   "2347/tcp": {
     "name": "redstorm-find",
-    "description": "Game Announcement and Location\nIANA assigned this well-formed service name as a replacement for \"redstorm_find\"."
+    "description": "Game Announcement and Location"
   },
   "2347/udp": {
     "name": "redstorm-find",
-    "description": "Game Announcement and Location\nIANA assigned this well-formed service name as a replacement for \"redstorm_find\"."
+    "description": "Game Announcement and Location"
   },
   "2348/tcp": {
     "name": "redstorm-info",
-    "description": "Information to query for game status\nIANA assigned this well-formed service name as a replacement for \"redstorm_info\"."
+    "description": "Information to query for game status"
   },
   "2348/udp": {
     "name": "redstorm-info",
-    "description": "Information to query for game status\nIANA assigned this well-formed service name as a replacement for \"redstorm_info\"."
+    "description": "Information to query for game status"
   },
   "2349/tcp": {
     "name": "redstorm-diag",
-    "description": "Diagnostics Port\nIANA assigned this well-formed service name as a replacement for \"redstorm_diag\"."
+    "description": "Diagnostics Port"
   },
   "2349/udp": {
     "name": "redstorm-diag",
-    "description": "Diagnostics Port\nIANA assigned this well-formed service name as a replacement for \"redstorm_diag\"."
+    "description": "Diagnostics Port"
   },
   "2350/tcp": {
     "name": "psbserver",
@@ -16649,11 +16510,11 @@
   },
   "2395/tcp": {
     "name": "lan900-remote",
-    "description": "LAN900 Remote\nIANA assigned this well-formed service name as a replacement for \"lan900_remote\"."
+    "description": "LAN900 Remote"
   },
   "2395/udp": {
     "name": "lan900-remote",
-    "description": "LAN900 Remote\nIANA assigned this well-formed service name as a replacement for \"lan900_remote\"."
+    "description": "LAN900 Remote"
   },
   "2396/tcp": {
     "name": "wusage",
@@ -17057,11 +16918,11 @@
   },
   "2446/tcp": {
     "name": "bues-service",
-    "description": "bues_service\nIANA assigned this well-formed service name as a replacement for \"bues_service\"."
+    "description": "bues_service"
   },
   "2446/udp": {
     "name": "bues-service",
-    "description": "bues_service\nIANA assigned this well-formed service name as a replacement for \"bues_service\"."
+    "description": "bues_service"
   },
   "2447/tcp": {
     "name": "ovwdb",
@@ -17713,11 +17574,11 @@
   },
   "2528/tcp": {
     "name": "ncr-ccl",
-    "description": "NCR CCL\nIANA assigned this well-formed service name as a replacement for \"ncr_ccl\"."
+    "description": "NCR CCL"
   },
   "2528/udp": {
     "name": "ncr-ccl",
-    "description": "NCR CCL\nIANA assigned this well-formed service name as a replacement for \"ncr_ccl\"."
+    "description": "NCR CCL"
   },
   "2529/tcp": {
     "name": "utsftp",
@@ -18721,11 +18582,11 @@
   },
   "2654/tcp": {
     "name": "corel-vncadmin",
-    "description": "Corel VNC Admin\nIANA assigned this well-formed service name as a replacement for \"corel_vncadmin\"."
+    "description": "Corel VNC Admin"
   },
   "2654/udp": {
     "name": "corel-vncadmin",
-    "description": "Corel VNC Admin\nIANA assigned this well-formed service name as a replacement for \"corel_vncadmin\"."
+    "description": "Corel VNC Admin"
   },
   "2655/tcp": {
     "name": "unglue",
@@ -19456,44 +19317,34 @@
     "description": "CPUDPENCAP"
   },
   "2747/tcp": {
-    "name": "fjippol-swrly",
-    "description": ""
+    "name": "fjippol-swrly"
   },
   "2747/udp": {
-    "name": "fjippol-swrly",
-    "description": ""
+    "name": "fjippol-swrly"
   },
   "2748/tcp": {
-    "name": "fjippol-polsvr",
-    "description": ""
+    "name": "fjippol-polsvr"
   },
   "2748/udp": {
-    "name": "fjippol-polsvr",
-    "description": ""
+    "name": "fjippol-polsvr"
   },
   "2749/tcp": {
-    "name": "fjippol-cnsl",
-    "description": ""
+    "name": "fjippol-cnsl"
   },
   "2749/udp": {
-    "name": "fjippol-cnsl",
-    "description": ""
+    "name": "fjippol-cnsl"
   },
   "2750/tcp": {
-    "name": "fjippol-port1",
-    "description": ""
+    "name": "fjippol-port1"
   },
   "2750/udp": {
-    "name": "fjippol-port1",
-    "description": ""
+    "name": "fjippol-port1"
   },
   "2751/tcp": {
-    "name": "fjippol-port2",
-    "description": ""
+    "name": "fjippol-port2"
   },
   "2751/udp": {
-    "name": "fjippol-port2",
-    "description": ""
+    "name": "fjippol-port2"
   },
   "2752/tcp": {
     "name": "rsisysaccess",
@@ -20793,19 +20644,19 @@
   },
   "2916/tcp": {
     "name": "elvin-server",
-    "description": "Elvin Server\nIANA assigned this well-formed service name as a replacement for \"elvin_server\"."
+    "description": "Elvin Server"
   },
   "2916/udp": {
     "name": "elvin-server",
-    "description": "Elvin Server\nIANA assigned this well-formed service name as a replacement for \"elvin_server\"."
+    "description": "Elvin Server"
   },
   "2917/tcp": {
     "name": "elvin-client",
-    "description": "Elvin Client\nIANA assigned this well-formed service name as a replacement for \"elvin_client\"."
+    "description": "Elvin Client"
   },
   "2917/udp": {
     "name": "elvin-client",
-    "description": "Elvin Client\nIANA assigned this well-formed service name as a replacement for \"elvin_client\"."
+    "description": "Elvin Client"
   },
   "2918/tcp": {
     "name": "kastenchasepad",
@@ -21577,11 +21428,11 @@
   },
   "3014/tcp": {
     "name": "broker-service",
-    "description": "Broker Service\nIANA assigned this well-formed service name as a replacement for \"broker_service\"."
+    "description": "Broker Service"
   },
   "3014/udp": {
     "name": "broker-service",
-    "description": "Broker Service\nIANA assigned this well-formed service name as a replacement for \"broker_service\"."
+    "description": "Broker Service"
   },
   "3015/tcp": {
     "name": "nati-dstp",
@@ -21593,35 +21444,35 @@
   },
   "3016/tcp": {
     "name": "notify-srvr",
-    "description": "Notify Server\nIANA assigned this well-formed service name as a replacement for \"notify_srvr\"."
+    "description": "Notify Server"
   },
   "3016/udp": {
     "name": "notify-srvr",
-    "description": "Notify Server\nIANA assigned this well-formed service name as a replacement for \"notify_srvr\"."
+    "description": "Notify Server"
   },
   "3017/tcp": {
     "name": "event-listener",
-    "description": "Event Listener\nIANA assigned this well-formed service name as a replacement for \"event_listener\"."
+    "description": "Event Listener"
   },
   "3017/udp": {
     "name": "event-listener",
-    "description": "Event Listener\nIANA assigned this well-formed service name as a replacement for \"event_listener\"."
+    "description": "Event Listener"
   },
   "3018/tcp": {
     "name": "srvc-registry",
-    "description": "Service Registry\nIANA assigned this well-formed service name as a replacement for \"srvc_registry\"."
+    "description": "Service Registry"
   },
   "3018/udp": {
     "name": "srvc-registry",
-    "description": "Service Registry\nIANA assigned this well-formed service name as a replacement for \"srvc_registry\"."
+    "description": "Service Registry"
   },
   "3019/tcp": {
     "name": "resource-mgr",
-    "description": "Resource Manager\nIANA assigned this well-formed service name as a replacement for \"resource_mgr\"."
+    "description": "Resource Manager"
   },
   "3019/udp": {
     "name": "resource-mgr",
-    "description": "Resource Manager\nIANA assigned this well-formed service name as a replacement for \"resource_mgr\"."
+    "description": "Resource Manager"
   },
   "3020/tcp": {
     "name": "cifs",
@@ -21657,11 +21508,11 @@
   },
   "3024/tcp": {
     "name": "nds-sso",
-    "description": "NDS_SSO\nIANA assigned this well-formed service name as a replacement for \"nds_sso\"."
+    "description": "NDS_SSO"
   },
   "3024/udp": {
     "name": "nds-sso",
-    "description": "NDS_SSO\nIANA assigned this well-formed service name as a replacement for \"nds_sso\"."
+    "description": "NDS_SSO"
   },
   "3025/tcp": {
     "name": "arepa-raft",
@@ -21681,27 +21532,27 @@
   },
   "3027/tcp": {
     "name": "LiebDevMgmt-C",
-    "description": "LiebDevMgmt_C\nIANA assigned this well-formed service name as a replacement for \"LiebDevMgmt_C\"."
+    "description": "LiebDevMgmt_C"
   },
   "3027/udp": {
     "name": "LiebDevMgmt-C",
-    "description": "LiebDevMgmt_C\nIANA assigned this well-formed service name as a replacement for \"LiebDevMgmt_C\"."
+    "description": "LiebDevMgmt_C"
   },
   "3028/tcp": {
     "name": "LiebDevMgmt-DM",
-    "description": "LiebDevMgmt_DM\nIANA assigned this well-formed service name as a replacement for \"LiebDevMgmt_DM\"."
+    "description": "LiebDevMgmt_DM"
   },
   "3028/udp": {
     "name": "LiebDevMgmt-DM",
-    "description": "LiebDevMgmt_DM\nIANA assigned this well-formed service name as a replacement for \"LiebDevMgmt_DM\"."
+    "description": "LiebDevMgmt_DM"
   },
   "3029/tcp": {
     "name": "LiebDevMgmt-A",
-    "description": "LiebDevMgmt_A\nIANA assigned this well-formed service name as a replacement for \"LiebDevMgmt_A\"."
+    "description": "LiebDevMgmt_A"
   },
   "3029/udp": {
     "name": "LiebDevMgmt-A",
-    "description": "LiebDevMgmt_A\nIANA assigned this well-formed service name as a replacement for \"LiebDevMgmt_A\"."
+    "description": "LiebDevMgmt_A"
   },
   "3030/tcp": {
     "name": "arepa-cas",
@@ -21865,11 +21716,11 @@
   },
   "3050/tcp": {
     "name": "gds-db",
-    "description": "gds_db\nIANA assigned this well-formed service name as a replacement for \"gds_db\"."
+    "description": "gds_db"
   },
   "3050/udp": {
     "name": "gds-db",
-    "description": "gds_db\nIANA assigned this well-formed service name as a replacement for \"gds_db\"."
+    "description": "gds_db"
   },
   "3051/tcp": {
     "name": "galaxy-server",
@@ -22105,11 +21956,11 @@
   },
   "3080/tcp": {
     "name": "stm-pproc",
-    "description": "stm_pproc\nIANA assigned this well-formed service name as a replacement for \"stm_pproc\"."
+    "description": "stm_pproc"
   },
   "3080/udp": {
     "name": "stm-pproc",
-    "description": "stm_pproc\nIANA assigned this well-formed service name as a replacement for \"stm_pproc\"."
+    "description": "stm_pproc"
   },
   "3081/tcp": {
     "name": "tl1-lv",
@@ -24541,11 +24392,11 @@
   },
   "3396/tcp": {
     "name": "printer-agent",
-    "description": "Printer Agent\nIANA assigned this well-formed service name as a replacement for \"printer_agent\"."
+    "description": "Printer Agent"
   },
   "3396/udp": {
     "name": "printer-agent",
-    "description": "Printer Agent\nIANA assigned this well-formed service name as a replacement for \"printer_agent\"."
+    "description": "Printer Agent"
   },
   "3397/tcp": {
     "name": "cloanto-lm",
@@ -28365,11 +28216,11 @@
   },
   "3876/tcp": {
     "name": "dl-agent",
-    "description": "DirectoryLockdown Agent\nIANA assigned this well-formed service name as a replacement for \"dl_agent\"."
+    "description": "DirectoryLockdown Agent"
   },
   "3876/udp": {
     "name": "dl-agent",
-    "description": "DirectoryLockdown Agent\nIANA assigned this well-formed service name as a replacement for \"dl_agent\"."
+    "description": "DirectoryLockdown Agent"
   },
   "3877/tcp": {
     "name": "xmpcr-interface",
@@ -28557,11 +28408,11 @@
   },
   "3900/tcp": {
     "name": "udt-os",
-    "description": "Unidata UDT OS\nIANA assigned this well-formed service name as a replacement for \"udt_os\"."
+    "description": "Unidata UDT OS"
   },
   "3900/udp": {
     "name": "udt-os",
-    "description": "Unidata UDT OS\nIANA assigned this well-formed service name as a replacement for \"udt_os\"."
+    "description": "Unidata UDT OS"
   },
   "3901/tcp": {
     "name": "nimsh",
@@ -28861,11 +28712,11 @@
   },
   "3938/tcp": {
     "name": "dbcontrol-agent",
-    "description": "Oracle dbControl Agent po\nIANA assigned this well-formed service name as a replacement for \"dbcontrol_agent\"."
+    "description": "Oracle dbControl Agent po"
   },
   "3938/udp": {
     "name": "dbcontrol-agent",
-    "description": "Oracel dbControl Agent po\nIANA assigned this well-formed service name as a replacement for \"dbcontrol_agent\"."
+    "description": "Oracel dbControl Agent po"
   },
   "3939/tcp": {
     "name": "aamp",
@@ -29245,11 +29096,11 @@
   },
   "3986/tcp": {
     "name": "mapper-ws-ethd",
-    "description": "MAPPER workstation server\nIANA assigned this well-formed service name as a replacement for \"mapper-ws_ethd\"."
+    "description": "MAPPER workstation server"
   },
   "3986/udp": {
     "name": "mapper-ws-ethd",
-    "description": "MAPPER workstation server\nIANA assigned this well-formed service name as a replacement for \"mapper-ws_ethd\"."
+    "description": "MAPPER workstation server"
   },
   "3987/tcp": {
     "name": "centerline",
@@ -29821,11 +29672,11 @@
   },
   "4060/tcp": {
     "name": "dsmeter-iatc",
-    "description": "DSMETER Inter-Agent Transfer Channel\nIANA assigned this well-formed service name as a replacement for \"dsmeter_iatc\"."
+    "description": "DSMETER Inter-Agent Transfer Channel"
   },
   "4060/udp": {
     "name": "dsmeter-iatc",
-    "description": "DSMETER Inter-Agent Transfer Channel\nIANA assigned this well-formed service name as a replacement for \"dsmeter_iatc\"."
+    "description": "DSMETER Inter-Agent Transfer Channel"
   },
   "4061/tcp": {
     "name": "ice-location",
@@ -29861,11 +29712,11 @@
   },
   "4065/tcp": {
     "name": "avanti-cdp",
-    "description": "Avanti Common Data\nIANA assigned this well-formed service name as a replacement for \"avanti_cdp\"."
+    "description": "Avanti Common Data"
   },
   "4065/udp": {
     "name": "avanti-cdp",
-    "description": "Avanti Common Data\nIANA assigned this well-formed service name as a replacement for \"avanti_cdp\"."
+    "description": "Avanti Common Data"
   },
   "4066/tcp": {
     "name": "pmas",
@@ -30389,19 +30240,19 @@
   },
   "4132/tcp": {
     "name": "nuts-dem",
-    "description": "NUTS Daemon\nIANA assigned this well-formed service name as a replacement for \"nuts_dem\"."
+    "description": "NUTS Daemon"
   },
   "4132/udp": {
     "name": "nuts-dem",
-    "description": "NUTS Daemon\nIANA assigned this well-formed service name as a replacement for \"nuts_dem\"."
+    "description": "NUTS Daemon"
   },
   "4133/tcp": {
     "name": "nuts-bootp",
-    "description": "NUTS Bootp Server\nIANA assigned this well-formed service name as a replacement for \"nuts_bootp\"."
+    "description": "NUTS Bootp Server"
   },
   "4133/udp": {
     "name": "nuts-bootp",
-    "description": "NUTS Bootp Server\nIANA assigned this well-formed service name as a replacement for \"nuts_bootp\"."
+    "description": "NUTS Bootp Server"
   },
   "4134/tcp": {
     "name": "nifty-hmi",
@@ -30453,11 +30304,11 @@
   },
   "4140/tcp": {
     "name": "cedros-fds",
-    "description": "Cedros Fraud Detection System\nIANA assigned this well-formed service name as a replacement for \"cedros_fds\"."
+    "description": "Cedros Fraud Detection System"
   },
   "4140/udp": {
     "name": "cedros-fds",
-    "description": "Cedros Fraud Detection System\nIANA assigned this well-formed service name as a replacement for \"cedros_fds\"."
+    "description": "Cedros Fraud Detection System"
   },
   "4141/tcp": {
     "name": "oirtgsvc",
@@ -30533,19 +30384,19 @@
   },
   "4151/tcp": {
     "name": "menandmice-noh",
-    "description": "Men & Mice Remote Control\nIANA assigned this well-formed service name as a replacement for \"menandmice_noh\"."
+    "description": "Men & Mice Remote Control"
   },
   "4151/udp": {
     "name": "menandmice-noh",
-    "description": "Men & Mice Remote Control\nIANA assigned this well-formed service name as a replacement for \"menandmice_noh\"."
+    "description": "Men & Mice Remote Control"
   },
   "4152/tcp": {
     "name": "idig-mux",
-    "description": "iDigTech Multiplex\nIANA assigned this well-formed service name as a replacement for \"idig_mux\"."
+    "description": "iDigTech Multiplex"
   },
   "4152/udp": {
     "name": "idig-mux",
-    "description": "iDigTech Multiplex\nIANA assigned this well-formed service name as a replacement for \"idig_mux\"."
+    "description": "iDigTech Multiplex"
   },
   "4153/tcp": {
     "name": "mbl-battd",
@@ -30797,11 +30648,11 @@
   },
   "4184/tcp": {
     "name": "universe-suite",
-    "description": "UNIVERSE SUITE MESSAGE SERVICE\nIANA assigned this well-formed service name as a replacement for \"universe_suite\"."
+    "description": "UNIVERSE SUITE MESSAGE SERVICE"
   },
   "4184/udp": {
     "name": "universe-suite",
-    "description": "UNIVERSE SUITE MESSAGE SERVICE\nIANA assigned this well-formed service name as a replacement for \"universe_suite\"."
+    "description": "UNIVERSE SUITE MESSAGE SERVICE"
   },
   "4185/tcp": {
     "name": "wcpp",
@@ -30821,7 +30672,7 @@
   },
   "4187/tcp": {
     "name": "csc-proxy",
-    "description": "Cascade Proxy\nIANA assigned this well-formed service name as a replacement for \"csc_proxy\"."
+    "description": "Cascade Proxy"
   },
   "4187/udp": {
     "name": "",
@@ -31305,7 +31156,7 @@
   },
   "4360/tcp": {
     "name": "matrix-vnet",
-    "description": "Matrix VNet Communication Protocol\nIANA assigned this well-formed service name as a replacement for \"matrix_vnet\"."
+    "description": "Matrix VNet Communication Protocol"
   },
   "4360/udp": {
     "name": "",
@@ -31353,11 +31204,11 @@
   },
   "4370/tcp": {
     "name": "elpro-tunnel",
-    "description": "ELPRO V2 Protocol Tunnel\nIANA assigned this well-formed service name as a replacement for \"elpro_tunnel\"."
+    "description": "ELPRO V2 Protocol Tunnel"
   },
   "4370/udp": {
     "name": "elpro-tunnel",
-    "description": "ELPRO V2 Protocol Tunnel\nIANA assigned this well-formed service name as a replacement for \"elpro_tunnel\"."
+    "description": "ELPRO V2 Protocol Tunnel"
   },
   "4371/tcp": {
     "name": "l2c-control",
@@ -33069,11 +32920,11 @@
   },
   "4846/tcp": {
     "name": "contamac-icm",
-    "description": "Contamac ICM Service\nIANA assigned this well-formed service name as a replacement for \"contamac_icm\"."
+    "description": "Contamac ICM Service"
   },
   "4846/udp": {
     "name": "contamac-icm",
-    "description": "Contamac ICM Service\nIANA assigned this well-formed service name as a replacement for \"contamac_icm\"."
+    "description": "Contamac ICM Service"
   },
   "4847/tcp": {
     "name": "wfc",
@@ -33261,7 +33112,7 @@
   },
   "4901/tcp": {
     "name": "flr-agent",
-    "description": "FileLocator Remote Search Agent\nIANA assigned this well-formed service name as a replacement for \"flr_agent\"."
+    "description": "FileLocator Remote Search Agent"
   },
   "4901/udp": {
     "name": "",
@@ -33480,20 +33331,16 @@
     "description": "HFSQL Client/Server Database Engine Manager"
   },
   "5000/tcp": {
-    "name": "commplex-main",
-    "description": ""
+    "name": "commplex-main"
   },
   "5000/udp": {
-    "name": "commplex-main",
-    "description": ""
+    "name": "commplex-main"
   },
   "5001/tcp": {
-    "name": "commplex-link",
-    "description": ""
+    "name": "commplex-link"
   },
   "5001/udp": {
-    "name": "commplex-link",
-    "description": ""
+    "name": "commplex-link"
   },
   "5002/tcp": {
     "name": "rfe",
@@ -34297,11 +34144,11 @@
   },
   "5145/tcp": {
     "name": "rmonitor-secure",
-    "description": "RMONITOR SECURE\nIANA assigned this well-formed service name as a replacement for \"rmonitor_secure\"."
+    "description": "RMONITOR SECURE"
   },
   "5145/udp": {
     "name": "rmonitor-secure",
-    "description": "RMONITOR SECURE\nIANA assigned this well-formed service name as a replacement for \"rmonitor_secure\"."
+    "description": "RMONITOR SECURE"
   },
   "5146/tcp": {
     "name": "social-alarm",
@@ -34321,11 +34168,11 @@
   },
   "5151/tcp": {
     "name": "esri-sde",
-    "description": "ESRI SDE Instance\n    IANA assigned this well-formed service name as a replacement for \"esri_sde\"."
+    "description": "ESRI SDE Instance IANA assigned this well-formed service name as a replacement for \"esri_sde\"."
   },
   "5151/udp": {
     "name": "esri-sde",
-    "description": "ESRI SDE Remote Start\n    IANA assigned this well-formed service name as a replacement for \"esri_sde\"."
+    "description": "ESRI SDE Remote Start IANA assigned this well-formed service name as a replacement for \"esri_sde\"."
   },
   "5152/tcp": {
     "name": "sde-discovery",
@@ -34409,11 +34256,11 @@
   },
   "5165/tcp": {
     "name": "ife-icorp",
-    "description": "ife_1corp\nIANA assigned this well-formed service name as a replacement for \"ife_icorp\"."
+    "description": "ife_1corp"
   },
   "5165/udp": {
     "name": "ife-icorp",
-    "description": "ife_1corp\nIANA assigned this well-formed service name as a replacement for \"ife_icorp\"."
+    "description": "ife_1corp"
   },
   "5166/tcp": {
     "name": "winpcs",
@@ -34684,12 +34531,10 @@
     "description": "Galaxy Network Service"
   },
   "5236/tcp": {
-    "name": "padl2sim",
-    "description": ""
+    "name": "padl2sim"
   },
   "5236/udp": {
-    "name": "padl2sim",
-    "description": ""
+    "name": "padl2sim"
   },
   "5237/tcp": {
     "name": "mnet-discovery",
@@ -37489,11 +37334,11 @@
   },
   "6301/tcp": {
     "name": "bmc-ctd-ldap",
-    "description": "BMC CONTROL-D LDAP SERVER\nIANA assigned this well-formed service name as a replacement for \"bmc_ctd_ldap\"."
+    "description": "BMC CONTROL-D LDAP SERVER"
   },
   "6301/udp": {
     "name": "bmc-ctd-ldap",
-    "description": "BMC CONTROL-D LDAP SERVER\nIANA assigned this well-formed service name as a replacement for \"bmc_ctd_ldap\"."
+    "description": "BMC CONTROL-D LDAP SERVER"
   },
   "6306/tcp": {
     "name": "ufmp",
@@ -37745,19 +37590,19 @@
   },
   "6444/tcp": {
     "name": "sge-qmaster",
-    "description": "Grid Engine Qmaster Service\nIANA assigned this well-formed service name as a replacement for \"sge_qmaster\"."
+    "description": "Grid Engine Qmaster Service"
   },
   "6444/udp": {
     "name": "sge-qmaster",
-    "description": "Grid Engine Qmaster Service\nIANA assigned this well-formed service name as a replacement for \"sge_qmaster\"."
+    "description": "Grid Engine Qmaster Service"
   },
   "6445/tcp": {
     "name": "sge-execd",
-    "description": "Grid Engine Execution Service\nIANA assigned this well-formed service name as a replacement for \"sge_execd\"."
+    "description": "Grid Engine Execution Service"
   },
   "6445/udp": {
     "name": "sge-execd",
-    "description": "Grid Engine Execution Service\nIANA assigned this well-formed service name as a replacement for \"sge_execd\"."
+    "description": "Grid Engine Execution Service"
   },
   "6446/tcp": {
     "name": "mysql-proxy",
@@ -37785,11 +37630,11 @@
   },
   "6464/tcp": {
     "name": "ieee11073-20701",
-    "description": "Port assignment for medical device communication in \n    accordance to IEEE 11073-20701"
+    "description": "Port assignment for medical device communication in accordance to IEEE 11073-20701"
   },
   "6464/udp": {
     "name": "ieee11073-20701",
-    "description": "Port assignment for medical device communication in \n    accordance to IEEE 11073-20701"
+    "description": "Port assignment for medical device communication in accordance to IEEE 11073-20701"
   },
   "6471/tcp": {
     "name": "lvision-lm",
@@ -37889,59 +37734,59 @@
   },
   "6501/tcp": {
     "name": "boks-servc",
-    "description": "BoKS Servc\nIANA assigned this well-formed service name as a replacement for \"boks_servc\"."
+    "description": "BoKS Servc"
   },
   "6501/udp": {
     "name": "boks-servc",
-    "description": "BoKS Servc\nIANA assigned this well-formed service name as a replacement for \"boks_servc\"."
+    "description": "BoKS Servc"
   },
   "6502/tcp": {
     "name": "boks-servm",
-    "description": "BoKS Servm\nIANA assigned this well-formed service name as a replacement for \"boks_servm\"."
+    "description": "BoKS Servm"
   },
   "6502/udp": {
     "name": "boks-servm",
-    "description": "BoKS Servm\nIANA assigned this well-formed service name as a replacement for \"boks_servm\"."
+    "description": "BoKS Servm"
   },
   "6503/tcp": {
     "name": "boks-clntd",
-    "description": "BoKS Clntd\nIANA assigned this well-formed service name as a replacement for \"boks_clntd\"."
+    "description": "BoKS Clntd"
   },
   "6503/udp": {
     "name": "boks-clntd",
-    "description": "BoKS Clntd\nIANA assigned this well-formed service name as a replacement for \"boks_clntd\"."
+    "description": "BoKS Clntd"
   },
   "6505/tcp": {
     "name": "badm-priv",
-    "description": "BoKS Admin Private Port\nIANA assigned this well-formed service name as a replacement for \"badm_priv\"."
+    "description": "BoKS Admin Private Port"
   },
   "6505/udp": {
     "name": "badm-priv",
-    "description": "BoKS Admin Private Port\nIANA assigned this well-formed service name as a replacement for \"badm_priv\"."
+    "description": "BoKS Admin Private Port"
   },
   "6506/tcp": {
     "name": "badm-pub",
-    "description": "BoKS Admin Public Port\nIANA assigned this well-formed service name as a replacement for \"badm_pub\"."
+    "description": "BoKS Admin Public Port"
   },
   "6506/udp": {
     "name": "badm-pub",
-    "description": "BoKS Admin Public Port\nIANA assigned this well-formed service name as a replacement for \"badm_pub\"."
+    "description": "BoKS Admin Public Port"
   },
   "6507/tcp": {
     "name": "bdir-priv",
-    "description": "BoKS Dir Server, Private Port\nIANA assigned this well-formed service name as a replacement for \"bdir_priv\"."
+    "description": "BoKS Dir Server, Private Port"
   },
   "6507/udp": {
     "name": "bdir-priv",
-    "description": "BoKS Dir Server, Private Port\nIANA assigned this well-formed service name as a replacement for \"bdir_priv\"."
+    "description": "BoKS Dir Server, Private Port"
   },
   "6508/tcp": {
     "name": "bdir-pub",
-    "description": "BoKS Dir Server, Public Port\nIANA assigned this well-formed service name as a replacement for \"bdir_pub\"."
+    "description": "BoKS Dir Server, Public Port"
   },
   "6508/udp": {
     "name": "bdir-pub",
-    "description": "BoKS Dir Server, Public Port\nIANA assigned this well-formed service name as a replacement for \"bdir_pub\"."
+    "description": "BoKS Dir Server, Public Port"
   },
   "6509/tcp": {
     "name": "mgcs-mfp-port",
@@ -38052,12 +37897,10 @@
     "description": "Software Update Manager"
   },
   "6558/tcp": {
-    "name": "xdsxdm",
-    "description": ""
+    "name": "xdsxdm"
   },
   "6558/udp": {
-    "name": "xdsxdm",
-    "description": ""
+    "name": "xdsxdm"
   },
   "6566/tcp": {
     "name": "sane-port",
@@ -38069,7 +37912,7 @@
   },
   "6568/tcp": {
     "name": "canit-store",
-    "description": "CanIt Storage Manager\nIANA assigned this well-formed service name as a replacement for \"canit_store\"."
+    "description": "CanIt Storage Manager"
   },
   "6568/udp": {
     "name": "rp-reputation",
@@ -38221,11 +38064,11 @@
   },
   "6629/tcp": {
     "name": "nexgen-aux",
-    "description": "Secondary, (non ANDI) multi-protocol multi-function interface to\n    the Allied ANDI-based family of forecourt controllers"
+    "description": "Secondary, (non ANDI) multi-protocol multi-function interface to the Allied ANDI-based family of forecourt controllers"
   },
   "6629/udp": {
     "name": "nexgen-aux",
-    "description": "Secondary, (non ANDI) multi-protocol multi-function interface to\n      the Allied ANDI-based family of forecourt controllers"
+    "description": "Secondary, (non ANDI) multi-protocol multi-function interface to the Allied ANDI-based family of forecourt controllers"
   },
   "6632/tcp": {
     "name": "mxodbc-connect",
@@ -38325,19 +38168,19 @@
   },
   "6672/tcp": {
     "name": "vision-server",
-    "description": "vision_server\nIANA assigned this well-formed service name as a replacement for \"vision_server\"."
+    "description": "vision_server"
   },
   "6672/udp": {
     "name": "vision-server",
-    "description": "vision_server\nIANA assigned this well-formed service name as a replacement for \"vision_server\"."
+    "description": "vision_server"
   },
   "6673/tcp": {
     "name": "vision-elmd",
-    "description": "vision_elmd\nIANA assigned this well-formed service name as a replacement for \"vision_elmd\"."
+    "description": "vision_elmd"
   },
   "6673/udp": {
     "name": "vision-elmd",
-    "description": "vision_elmd\nIANA assigned this well-formed service name as a replacement for \"vision_elmd\"."
+    "description": "vision_elmd"
   },
   "6678/tcp": {
     "name": "vfbp",
@@ -39285,7 +39128,7 @@
   },
   "7202/tcp": {
     "name": "pon-ictp",
-    "description": "Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON\n    (Passive Optical Network) systems"
+    "description": "Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON (Passive Optical Network) systems"
   },
   "7702/udp": {
     "name": "",
@@ -40785,7 +40628,7 @@
   },
   "8077/tcp": {
     "name": "mles",
-    "description": "Mles is a client-server data distribution protocol \n      targeted to serve as a lightweight and reliable distributed \n      publish/subscribe database service."
+    "description": "Mles is a client-server data distribution protocol targeted to serve as a lightweight and reliable distributed publish/subscribe database service."
   },
   "8077/udp": {
     "name": "",
@@ -43085,7 +42928,7 @@
   },
   "9616/tcp": {
     "name": "erunbook-agent",
-    "description": "eRunbook Agent\nIANA assigned this well-formed service name as a replacement for \"erunbook_agent\"."
+    "description": "eRunbook Agent"
   },
   "9616/udp": {
     "name": "",
@@ -43093,7 +42936,7 @@
   },
   "9617/tcp": {
     "name": "erunbook-server",
-    "description": "eRunbook Server\nIANA assigned this well-formed service name as a replacement for \"erunbook_server\"."
+    "description": "eRunbook Server"
   },
   "9617/udp": {
     "name": "",
@@ -43561,11 +43404,11 @@
   },
   "10003/tcp": {
     "name": "documentum-s",
-    "description": "EMC-Documentum Content Server Product\nIANA assigned this well-formed service name as a replacement for \"documentum_s\"."
+    "description": "EMC-Documentum Content Server Product"
   },
   "10003/udp": {
     "name": "documentum-s",
-    "description": "EMC-Documentum Content Server Product\nIANA assigned this well-formed service name as a replacement for \"documentum_s\"."
+    "description": "EMC-Documentum Content Server Product"
   },
   "10004/tcp": {
     "name": "emcrmirccd",
@@ -45200,12 +45043,10 @@
     "description": "Intel(R) AMT Redirection/TLS"
   },
   "17007/tcp": {
-    "name": "isode-dua",
-    "description": ""
+    "name": "isode-dua"
   },
   "17007/udp": {
-    "name": "isode-dua",
-    "description": ""
+    "name": "isode-dua"
   },
   "17184/tcp": {
     "name": "vestasdlp",
@@ -45729,11 +45570,11 @@
   },
   "20034/tcp": {
     "name": "nburn-id",
-    "description": "NetBurner ID Port\nIANA assigned this well-formed service name as a replacement for \"nburn_id\"."
+    "description": "NetBurner ID Port"
   },
   "20034/udp": {
     "name": "nburn-id",
-    "description": "NetBurner ID Port\nIANA assigned this well-formed service name as a replacement for \"nburn_id\"."
+    "description": "NetBurner ID Port"
   },
   "20046/tcp": {
     "name": "tmophl7mts",
@@ -46293,11 +46134,11 @@
   },
   "24386/tcp": {
     "name": "intel-rci",
-    "description": "Intel RCI\nIANA assigned this well-formed service name as a replacement for \"intel_rci\"."
+    "description": "Intel RCI"
   },
   "24386/udp": {
     "name": "intel-rci",
-    "description": "Intel RCI\nIANA assigned this well-formed service name as a replacement for \"intel_rci\"."
+    "description": "Intel RCI"
   },
   "24465/tcp": {
     "name": "tonidods",
@@ -46905,7 +46746,7 @@
   },
   "31685/tcp": {
     "name": "dsx-monitor",
-    "description": "DS Expert Monitor\nIANA assigned this well-formed service name as a replacement for \"dsx_monitor\"."
+    "description": "DS Expert Monitor"
   },
   "31685/udp": {
     "name": "",
@@ -46921,19 +46762,19 @@
   },
   "31948/tcp": {
     "name": "iceedcp-tx",
-    "description": "Embedded Device Configuration Protocol TX\nIANA assigned this well-formed service name as a replacement for \"iceedcp_tx\"."
+    "description": "Embedded Device Configuration Protocol TX"
   },
   "31948/udp": {
     "name": "iceedcp-tx",
-    "description": "Embedded Device Configuration Protocol TX\nIANA assigned this well-formed service name as a replacement for \"iceedcp_tx\"."
+    "description": "Embedded Device Configuration Protocol TX"
   },
   "31949/tcp": {
     "name": "iceedcp-rx",
-    "description": "Embedded Device Configuration Protocol RX\nIANA assigned this well-formed service name as a replacement for \"iceedcp_rx\"."
+    "description": "Embedded Device Configuration Protocol RX"
   },
   "31949/udp": {
     "name": "iceedcp-rx",
-    "description": "Embedded Device Configuration Protocol RX\nIANA assigned this well-formed service name as a replacement for \"iceedcp_rx\"."
+    "description": "Embedded Device Configuration Protocol RX"
   },
   "32034/tcp": {
     "name": "iracinghelper",
@@ -47493,7 +47334,7 @@
   },
   "38800/tcp": {
     "name": "sruth",
-    "description": "Sruth is a service for the distribution of routinely-\n      generated but arbitrary files based on a publish/subscribe\n      distribution model and implemented using a peer-to-peer transport\n      mechanism"
+    "description": "Sruth is a service for the distribution of routinely- generated but arbitrary files based on a publish/subscribe distribution model and implemented using a peer-to-peer transport mechanism"
   },
   "38800/udp": {
     "name": "",
@@ -47789,11 +47630,11 @@
   },
   "44818/tcp": {
     "name": "EtherNet-IP-2",
-    "description": "EtherNet/IP messaging\nIANA assigned this well-formed service name as a replacement for \"EtherNet/IP-2\"."
+    "description": "EtherNet/IP messaging"
   },
   "44818/udp": {
     "name": "EtherNet-IP-2",
-    "description": "EtherNet/IP messaging\nIANA assigned this well-formed service name as a replacement for \"EtherNet/IP-2\"."
+    "description": "EtherNet/IP messaging"
   },
   "44900/tcp": {
     "name": "m3da",

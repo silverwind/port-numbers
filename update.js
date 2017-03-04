@@ -43,7 +43,7 @@ function parsePorts(data, cb) {
     if (entry[1] && entry[2] && !output[entry[1] + "/" + entry[2]] && !isNaN(Number(entry[1]))) {
       output[entry[1] + "/" + entry[2]] = {
         name: entry[0],
-        description: typeof entry[3] === "string" ? entry[3].replace(/[\s\n]+/g, " ") : undefined,
+        description: cleanupDescription(entry[3]),
       };
     }
   });
@@ -57,7 +57,7 @@ function parseServices(data, cb) {
       entry[0].length && !isNaN(Number(entry[1]))) {
       output[entry[0]] = {
         ports: [Number(entry[1]) + "/" + entry[2]],
-        description: typeof entry[3] === "string" ? entry[3].replace(/[\s\n]+/g, " ") : undefined
+        description: cleanupDescription(entry[3]),
       };
     } else if (output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
            entry[0].length && !isNaN(Number(entry[1])) &&
@@ -66,4 +66,16 @@ function parseServices(data, cb) {
     }
   });
   fs.writeFile("./services.json", JSON.stringify(output, null, 2), cb);
+}
+
+function cleanupDescription(str) {
+  if (!str) return undefined;
+
+  // remove historical descriptions
+  str = str.replace(/\nIANA assigned this.*/gm, "");
+
+  // force description to be single-line
+  str = str.replace(/[\s\n]+/g, " ");
+
+  return str;
 }

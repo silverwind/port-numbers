@@ -302,7 +302,7 @@
       "63/tcp",
       "63/udp"
     ],
-    "description": "whois++\nIANA assigned this well-formed service name as a replacement for \"whois++\"."
+    "description": "whois++"
   },
   "whois++": {
     "ports": [
@@ -332,7 +332,7 @@
       "150/tcp",
       "150/udp"
     ],
-    "description": "Oracle SQL*NET\nIANA assigned this well-formed service name as a replacement for \"sql*net\"."
+    "description": "Oracle SQL*NET"
   },
   "sql*net": {
     "ports": [
@@ -1058,7 +1058,7 @@
       "172/tcp",
       "172/udp"
     ],
-    "description": "Network Innovations CL/1\nIANA assigned this well-formed service name as a replacement for \"cl/1\"."
+    "description": "Network Innovations CL/1"
   },
   "cl/1": {
     "ports": [
@@ -1334,7 +1334,7 @@
       "210/tcp",
       "210/udp"
     ],
-    "description": "ANSI Z39.50\nIANA assigned this well-formed service name as a replacement for \"z39.50\"."
+    "description": "ANSI Z39.50"
   },
   "z39.50": {
     "ports": [
@@ -1348,7 +1348,7 @@
       "211/tcp",
       "211/udp"
     ],
-    "description": "Texas Instruments 914C/G Terminal\nIANA assigned this well-formed service name as a replacement for \"914c/g\"."
+    "description": "Texas Instruments 914C/G Terminal"
   },
   "914c/g": {
     "ports": [
@@ -1488,7 +1488,7 @@
       "247/tcp",
       "247/udp"
     ],
-    "description": "SUBNTBCST_TFTP\nIANA assigned this well-formed service name as a replacement for \"subntbcst_tftp\"."
+    "description": "SUBNTBCST_TFTP"
   },
   "subntbcst_tftp": {
     "ports": [
@@ -1931,7 +1931,7 @@
       "363/tcp",
       "363/udp"
     ],
-    "description": "RSVP Tunnel\nIANA assigned this well-formed service name as a replacement for \"rsvp_tunnel\"."
+    "description": "RSVP Tunnel"
   },
   "rsvp_tunnel": {
     "ports": [
@@ -2393,7 +2393,7 @@
       "428/tcp",
       "428/udp"
     ],
-    "description": "OCS_CMU\nIANA assigned this well-formed service name as a replacement for \"ocs_cmu\"."
+    "description": "OCS_CMU"
   },
   "ocs_cmu": {
     "ports": [
@@ -2407,7 +2407,7 @@
       "429/tcp",
       "429/udp"
     ],
-    "description": "OCS_AMU\nIANA assigned this well-formed service name as a replacement for \"ocs_amu\"."
+    "description": "OCS_AMU"
   },
   "ocs_amu": {
     "ports": [
@@ -2505,7 +2505,7 @@
       "442/tcp",
       "442/udp"
     ],
-    "description": "cvc_hostd\nIANA assigned this well-formed service name as a replacement for \"cvc_hostd\"."
+    "description": "cvc_hostd"
   },
   "cvc_hostd": {
     "ports": [
@@ -3834,7 +3834,7 @@
       "625/tcp",
       "625/udp"
     ],
-    "description": "DEC DLM\nIANA assigned this well-formed service name as a replacement for \"dec_dlm\"."
+    "description": "DEC DLM"
   },
   "dec_dlm": {
     "ports": [
@@ -4851,7 +4851,7 @@
       "887/tcp",
       "887/udp"
     ],
-    "description": "ICL coNETion server info\nIANA assigned this well-formed service name as a replacement for \"iclcnet_svinfo\"."
+    "description": "ICL coNETion server info"
   },
   "iclcnet_svinfo": {
     "ports": [
@@ -5318,7 +5318,7 @@
       "1067/tcp",
       "1067/udp"
     ],
-    "description": "Installation Bootstrap Proto. Serv.\nIANA assigned this well-formed service name as a replacement for \"instl_boots\"."
+    "description": "Installation Bootstrap Proto. Serv."
   },
   "instl_boots": {
     "ports": [
@@ -5332,7 +5332,7 @@
       "1068/tcp",
       "1068/udp"
     ],
-    "description": "Installation Bootstrap Proto. Cli.\nIANA assigned this well-formed service name as a replacement for \"instl_bootc\"."
+    "description": "Installation Bootstrap Proto. Cli."
   },
   "instl_bootc": {
     "ports": [
@@ -5828,7 +5828,7 @@
       "1138/tcp",
       "1138/udp"
     ],
-    "description": "encrypted admin requests\nIANA assigned this well-formed service name as a replacement for \"encrypted_admin\"."
+    "description": "encrypted admin requests"
   },
   "encrypted_admin": {
     "ports": [
@@ -7059,7 +7059,7 @@
       "1313/tcp",
       "1313/udp"
     ],
-    "description": "BMC_PATROLDB\nIANA assigned this well-formed service name as a replacement for \"bmc_patroldb\"."
+    "description": "BMC_PATROLDB"
   },
   "bmc_patroldb": {
     "ports": [
@@ -7544,7 +7544,7 @@
       "3900/tcp",
       "3900/udp"
     ],
-    "description": "udt_os\nIANA assigned this well-formed service name as a replacement for \"udt_os\"."
+    "description": "udt_os"
   },
   "udt_os": {
     "ports": [
@@ -7574,7 +7574,7 @@
       "1385/tcp",
       "1385/udp"
     ],
-    "description": "Atex Publishing License Manager\nIANA assigned this well-formed service name as a replacement for \"atex_elmd\"."
+    "description": "Atex Publishing License Manager"
   },
   "atex_elmd": {
     "ports": [
@@ -7797,7 +7797,7 @@
       "1416/tcp",
       "1416/udp"
     ],
-    "description": "Novell LU6.2\nIANA assigned this well-formed service name as a replacement for \"novell-lu6.2\"."
+    "description": "Novell LU6.2"
   },
   "novell-lu6.2": {
     "ports": [
@@ -8000,7 +8000,7 @@
       "1444/tcp",
       "1444/udp"
     ],
-    "description": "Marcam  License Management"
+    "description": "Marcam License Management"
   },
   "proxima-lm": {
     "ports": [
@@ -8070,7 +8070,7 @@
       "1454/tcp",
       "1454/udp"
     ],
-    "description": "interHDL License Manager\nIANA assigned this well-formed service name as a replacement for \"interhdl_elmd\"."
+    "description": "interHDL License Manager"
   },
   "interhdl_elmd": {
     "ports": [
@@ -8126,7 +8126,7 @@
       "1461/tcp",
       "1461/udp"
     ],
-    "description": "IBM Wireless LAN\nIANA assigned this well-formed service name as a replacement for \"ibm_wrless_lan\"."
+    "description": "IBM Wireless LAN"
   },
   "ibm_wrless_lan": {
     "ports": [
@@ -8154,7 +8154,7 @@
       "1464/tcp",
       "1464/udp"
     ],
-    "description": "MSL License Manager\nIANA assigned this well-formed service name as a replacement for \"msl_lmd\"."
+    "description": "MSL License Manager"
   },
   "msl_lmd": {
     "ports": [
@@ -8305,7 +8305,7 @@
       "1486/tcp",
       "1486/udp"
     ],
-    "description": "nms_topo_serv\nIANA assigned this well-formed service name as a replacement for \"nms_topo_serv\"."
+    "description": "nms_topo_serv"
   },
   "nms_topo_serv": {
     "ports": [
@@ -8354,7 +8354,7 @@
       "1493/tcp",
       "1493/udp"
     ],
-    "description": "netmap_lm\nIANA assigned this well-formed service name as a replacement for \"netmap_lm\"."
+    "description": "netmap_lm"
   },
   "netmap_lm": {
     "ports": [
@@ -8815,7 +8815,7 @@
       "1556/tcp",
       "1556/udp"
     ],
-    "description": "VERITAS Private Branch Exchange\nIANA assigned this well-formed service name as a replacement for \"veritas_pbx\"."
+    "description": "VERITAS Private Branch Exchange"
   },
   "veritas_pbx": {
     "ports": [
@@ -9044,7 +9044,7 @@
       "1587/tcp",
       "1587/udp"
     ],
-    "description": "pra_elmd\nIANA assigned this well-formed service name as a replacement for \"pra_elmd\"."
+    "description": "pra_elmd"
   },
   "pra_elmd": {
     "ports": [
@@ -9504,7 +9504,7 @@
       "1651/tcp",
       "1651/udp"
     ],
-    "description": "shiva_confsrvr\nIANA assigned this well-formed service name as a replacement for \"shiva_confsrvr\"."
+    "description": "shiva_confsrvr"
   },
   "shiva_confsrvr": {
     "ports": [
@@ -13520,7 +13520,7 @@
       "2222/tcp",
       "2222/udp"
     ],
-    "description": "EtherNet/IP I/O\nIANA assigned this well-formed service name as a replacement for \"EtherNet/IP-1\"."
+    "description": "EtherNet/IP I/O"
   },
   "EtherNet/IP-1": {
     "ports": [
@@ -14339,7 +14339,7 @@
       "2340/tcp",
       "2340/udp"
     ],
-    "description": "WRS Registry\nIANA assigned this well-formed service name as a replacement for \"wrs_registry\"."
+    "description": "WRS Registry"
   },
   "wrs_registry": {
     "ports": [
@@ -14388,7 +14388,7 @@
       "2346/tcp",
       "2346/udp"
     ],
-    "description": "Game Connection Port\nIANA assigned this well-formed service name as a replacement for \"redstorm_join\"."
+    "description": "Game Connection Port"
   },
   "redstorm_join": {
     "ports": [
@@ -14402,7 +14402,7 @@
       "2347/tcp",
       "2347/udp"
     ],
-    "description": "Game Announcement and Location\nIANA assigned this well-formed service name as a replacement for \"redstorm_find\"."
+    "description": "Game Announcement and Location"
   },
   "redstorm_find": {
     "ports": [
@@ -14416,7 +14416,7 @@
       "2348/tcp",
       "2348/udp"
     ],
-    "description": "Information to query for game status\nIANA assigned this well-formed service name as a replacement for \"redstorm_info\"."
+    "description": "Information to query for game status"
   },
   "redstorm_info": {
     "ports": [
@@ -14430,7 +14430,7 @@
       "2349/tcp",
       "2349/udp"
     ],
-    "description": "Diagnostics Port\nIANA assigned this well-formed service name as a replacement for \"redstorm_diag\"."
+    "description": "Diagnostics Port"
   },
   "redstorm_diag": {
     "ports": [
@@ -14742,7 +14742,7 @@
       "2395/tcp",
       "2395/udp"
     ],
-    "description": "LAN900 Remote\nIANA assigned this well-formed service name as a replacement for \"lan900_remote\"."
+    "description": "LAN900 Remote"
   },
   "lan900_remote": {
     "ports": [
@@ -15095,7 +15095,7 @@
       "2446/tcp",
       "2446/udp"
     ],
-    "description": "bues_service\nIANA assigned this well-formed service name as a replacement for \"bues_service\"."
+    "description": "bues_service"
   },
   "bues_service": {
     "ports": [
@@ -15669,7 +15669,7 @@
       "2528/tcp",
       "2528/udp"
     ],
-    "description": "NCR CCL\nIANA assigned this well-formed service name as a replacement for \"ncr_ccl\"."
+    "description": "NCR CCL"
   },
   "ncr_ccl": {
     "ports": [
@@ -16560,7 +16560,7 @@
       "2654/tcp",
       "2654/udp"
     ],
-    "description": "Corel VNC Admin\nIANA assigned this well-formed service name as a replacement for \"corel_vncadmin\"."
+    "description": "Corel VNC Admin"
   },
   "corel_vncadmin": {
     "ports": [
@@ -18354,7 +18354,7 @@
       "2916/tcp",
       "2916/udp"
     ],
-    "description": "Elvin Server\nIANA assigned this well-formed service name as a replacement for \"elvin_server\"."
+    "description": "Elvin Server"
   },
   "elvin_server": {
     "ports": [
@@ -18368,7 +18368,7 @@
       "2917/tcp",
       "2917/udp"
     ],
-    "description": "Elvin Client\nIANA assigned this well-formed service name as a replacement for \"elvin_client\"."
+    "description": "Elvin Client"
   },
   "elvin_client": {
     "ports": [
@@ -19067,7 +19067,7 @@
       "3014/tcp",
       "3014/udp"
     ],
-    "description": "Broker Service\nIANA assigned this well-formed service name as a replacement for \"broker_service\"."
+    "description": "Broker Service"
   },
   "broker_service": {
     "ports": [
@@ -19088,7 +19088,7 @@
       "3016/tcp",
       "3016/udp"
     ],
-    "description": "Notify Server\nIANA assigned this well-formed service name as a replacement for \"notify_srvr\"."
+    "description": "Notify Server"
   },
   "notify_srvr": {
     "ports": [
@@ -19102,7 +19102,7 @@
       "3017/tcp",
       "3017/udp"
     ],
-    "description": "Event Listener\nIANA assigned this well-formed service name as a replacement for \"event_listener\"."
+    "description": "Event Listener"
   },
   "event_listener": {
     "ports": [
@@ -19116,7 +19116,7 @@
       "3018/tcp",
       "3018/udp"
     ],
-    "description": "Service Registry\nIANA assigned this well-formed service name as a replacement for \"srvc_registry\"."
+    "description": "Service Registry"
   },
   "srvc_registry": {
     "ports": [
@@ -19130,7 +19130,7 @@
       "3019/tcp",
       "3019/udp"
     ],
-    "description": "Resource Manager\nIANA assigned this well-formed service name as a replacement for \"resource_mgr\"."
+    "description": "Resource Manager"
   },
   "resource_mgr": {
     "ports": [
@@ -19172,7 +19172,7 @@
       "3024/tcp",
       "3024/udp"
     ],
-    "description": "NDS_SSO\nIANA assigned this well-formed service name as a replacement for \"nds_sso\"."
+    "description": "NDS_SSO"
   },
   "nds_sso": {
     "ports": [
@@ -19200,7 +19200,7 @@
       "3027/tcp",
       "3027/udp"
     ],
-    "description": "LiebDevMgmt_C\nIANA assigned this well-formed service name as a replacement for \"LiebDevMgmt_C\"."
+    "description": "LiebDevMgmt_C"
   },
   "LiebDevMgmt_C": {
     "ports": [
@@ -19214,7 +19214,7 @@
       "3028/tcp",
       "3028/udp"
     ],
-    "description": "LiebDevMgmt_DM\nIANA assigned this well-formed service name as a replacement for \"LiebDevMgmt_DM\"."
+    "description": "LiebDevMgmt_DM"
   },
   "LiebDevMgmt_DM": {
     "ports": [
@@ -19228,7 +19228,7 @@
       "3029/tcp",
       "3029/udp"
     ],
-    "description": "LiebDevMgmt_A\nIANA assigned this well-formed service name as a replacement for \"LiebDevMgmt_A\"."
+    "description": "LiebDevMgmt_A"
   },
   "LiebDevMgmt_A": {
     "ports": [
@@ -19375,7 +19375,7 @@
       "3050/tcp",
       "3050/udp"
     ],
-    "description": "gds_db\nIANA assigned this well-formed service name as a replacement for \"gds_db\"."
+    "description": "gds_db"
   },
   "gds_db": {
     "ports": [
@@ -19592,7 +19592,7 @@
       "3080/tcp",
       "3080/udp"
     ],
-    "description": "stm_pproc\nIANA assigned this well-formed service name as a replacement for \"stm_pproc\"."
+    "description": "stm_pproc"
   },
   "stm_pproc": {
     "ports": [
@@ -21715,7 +21715,7 @@
       "3396/tcp",
       "3396/udp"
     ],
-    "description": "Printer Agent\nIANA assigned this well-formed service name as a replacement for \"printer_agent\"."
+    "description": "Printer Agent"
   },
   "printer_agent": {
     "ports": [
@@ -25094,7 +25094,7 @@
       "3876/tcp",
       "3876/udp"
     ],
-    "description": "DirectoryLockdown Agent\nIANA assigned this well-formed service name as a replacement for \"dl_agent\"."
+    "description": "DirectoryLockdown Agent"
   },
   "dl_agent": {
     "ports": [
@@ -25528,7 +25528,7 @@
       "3938/tcp",
       "3938/udp"
     ],
-    "description": "Oracle dbControl Agent po\nIANA assigned this well-formed service name as a replacement for \"dbcontrol_agent\"."
+    "description": "Oracle dbControl Agent po"
   },
   "dbcontrol_agent": {
     "ports": [
@@ -25871,7 +25871,7 @@
       "3986/tcp",
       "3986/udp"
     ],
-    "description": "MAPPER workstation server\nIANA assigned this well-formed service name as a replacement for \"mapper-ws_ethd\"."
+    "description": "MAPPER workstation server"
   },
   "mapper-ws_ethd": {
     "ports": [
@@ -26375,7 +26375,7 @@
       "4060/tcp",
       "4060/udp"
     ],
-    "description": "DSMETER Inter-Agent Transfer Channel\nIANA assigned this well-formed service name as a replacement for \"dsmeter_iatc\"."
+    "description": "DSMETER Inter-Agent Transfer Channel"
   },
   "dsmeter_iatc": {
     "ports": [
@@ -26417,7 +26417,7 @@
       "4065/tcp",
       "4065/udp"
     ],
-    "description": "Avanti Common Data\nIANA assigned this well-formed service name as a replacement for \"avanti_cdp\"."
+    "description": "Avanti Common Data"
   },
   "avanti_cdp": {
     "ports": [
@@ -26879,7 +26879,7 @@
       "4132/tcp",
       "4132/udp"
     ],
-    "description": "NUTS Daemon\nIANA assigned this well-formed service name as a replacement for \"nuts_dem\"."
+    "description": "NUTS Daemon"
   },
   "nuts_dem": {
     "ports": [
@@ -26893,7 +26893,7 @@
       "4133/tcp",
       "4133/udp"
     ],
-    "description": "NUTS Bootp Server\nIANA assigned this well-formed service name as a replacement for \"nuts_bootp\"."
+    "description": "NUTS Bootp Server"
   },
   "nuts_bootp": {
     "ports": [
@@ -26949,7 +26949,7 @@
       "4140/tcp",
       "4140/udp"
     ],
-    "description": "Cedros Fraud Detection System\nIANA assigned this well-formed service name as a replacement for \"cedros_fds\"."
+    "description": "Cedros Fraud Detection System"
   },
   "cedros_fds": {
     "ports": [
@@ -27026,7 +27026,7 @@
       "4151/tcp",
       "4151/udp"
     ],
-    "description": "Men & Mice Remote Control\nIANA assigned this well-formed service name as a replacement for \"menandmice_noh\"."
+    "description": "Men & Mice Remote Control"
   },
   "menandmice_noh": {
     "ports": [
@@ -27040,7 +27040,7 @@
       "4152/tcp",
       "4152/udp"
     ],
-    "description": "iDigTech Multiplex\nIANA assigned this well-formed service name as a replacement for \"idig_mux\"."
+    "description": "iDigTech Multiplex"
   },
   "idig_mux": {
     "ports": [
@@ -27276,7 +27276,7 @@
       "4184/tcp",
       "4184/udp"
     ],
-    "description": "UNIVERSE SUITE MESSAGE SERVICE\nIANA assigned this well-formed service name as a replacement for \"universe_suite\"."
+    "description": "UNIVERSE SUITE MESSAGE SERVICE"
   },
   "universe_suite": {
     "ports": [
@@ -27302,7 +27302,7 @@
     "ports": [
       "4187/tcp"
     ],
-    "description": "Cascade Proxy\nIANA assigned this well-formed service name as a replacement for \"csc_proxy\"."
+    "description": "Cascade Proxy"
   },
   "csc_proxy": {
     "ports": [
@@ -27723,7 +27723,7 @@
     "ports": [
       "4360/tcp"
     ],
-    "description": "Matrix VNet Communication Protocol\nIANA assigned this well-formed service name as a replacement for \"matrix_vnet\"."
+    "description": "Matrix VNet Communication Protocol"
   },
   "matrix_vnet": {
     "ports": [
@@ -27768,7 +27768,7 @@
       "4370/tcp",
       "4370/udp"
     ],
-    "description": "ELPRO V2 Protocol Tunnel\nIANA assigned this well-formed service name as a replacement for \"elpro_tunnel\"."
+    "description": "ELPRO V2 Protocol Tunnel"
   },
   "elpro_tunnel": {
     "ports": [
@@ -29253,7 +29253,7 @@
       "4846/tcp",
       "4846/udp"
     ],
-    "description": "Contamac ICM Service\nIANA assigned this well-formed service name as a replacement for \"contamac_icm\"."
+    "description": "Contamac ICM Service"
   },
   "contamac_icm": {
     "ports": [
@@ -29421,7 +29421,7 @@
     "ports": [
       "4901/tcp"
     ],
-    "description": "FileLocator Remote Search Agent\nIANA assigned this well-formed service name as a replacement for \"flr_agent\"."
+    "description": "FileLocator Remote Search Agent"
   },
   "flr_agent": {
     "ports": [
@@ -30297,7 +30297,7 @@
       "5145/tcp",
       "5145/udp"
     ],
-    "description": "RMONITOR SECURE\nIANA assigned this well-formed service name as a replacement for \"rmonitor_secure\"."
+    "description": "RMONITOR SECURE"
   },
   "rmonitor_secure": {
     "ports": [
@@ -30324,7 +30324,7 @@
       "5151/tcp",
       "5151/udp"
     ],
-    "description": "ESRI SDE Instance\n    IANA assigned this well-formed service name as a replacement for \"esri_sde\"."
+    "description": "ESRI SDE Instance IANA assigned this well-formed service name as a replacement for \"esri_sde\"."
   },
   "esri_sde": {
     "ports": [
@@ -30407,7 +30407,7 @@
       "5165/tcp",
       "5165/udp"
     ],
-    "description": "ife_1corp\nIANA assigned this well-formed service name as a replacement for \"ife_icorp\"."
+    "description": "ife_1corp"
   },
   "ife_icorp": {
     "ports": [
@@ -33052,7 +33052,7 @@
       "6301/tcp",
       "6301/udp"
     ],
-    "description": "BMC CONTROL-D LDAP SERVER\nIANA assigned this well-formed service name as a replacement for \"bmc_ctd_ldap\"."
+    "description": "BMC CONTROL-D LDAP SERVER"
   },
   "bmc_ctd_ldap": {
     "ports": [
@@ -33295,7 +33295,7 @@
       "6444/tcp",
       "6444/udp"
     ],
-    "description": "Grid Engine Qmaster Service\nIANA assigned this well-formed service name as a replacement for \"sge_qmaster\"."
+    "description": "Grid Engine Qmaster Service"
   },
   "sge_qmaster": {
     "ports": [
@@ -33309,7 +33309,7 @@
       "6445/tcp",
       "6445/udp"
     ],
-    "description": "Grid Engine Execution Service\nIANA assigned this well-formed service name as a replacement for \"sge_execd\"."
+    "description": "Grid Engine Execution Service"
   },
   "sge_execd": {
     "ports": [
@@ -33344,7 +33344,7 @@
       "6464/tcp",
       "6464/udp"
     ],
-    "description": "Port assignment for medical device communication in \n    accordance to IEEE 11073-20701"
+    "description": "Port assignment for medical device communication in accordance to IEEE 11073-20701"
   },
   "lvision-lm": {
     "ports": [
@@ -33435,7 +33435,7 @@
       "6501/tcp",
       "6501/udp"
     ],
-    "description": "BoKS Servc\nIANA assigned this well-formed service name as a replacement for \"boks_servc\"."
+    "description": "BoKS Servc"
   },
   "boks_servc": {
     "ports": [
@@ -33449,7 +33449,7 @@
       "6502/tcp",
       "6502/udp"
     ],
-    "description": "BoKS Servm\nIANA assigned this well-formed service name as a replacement for \"boks_servm\"."
+    "description": "BoKS Servm"
   },
   "boks_servm": {
     "ports": [
@@ -33463,7 +33463,7 @@
       "6503/tcp",
       "6503/udp"
     ],
-    "description": "BoKS Clntd\nIANA assigned this well-formed service name as a replacement for \"boks_clntd\"."
+    "description": "BoKS Clntd"
   },
   "boks_clntd": {
     "ports": [
@@ -33477,7 +33477,7 @@
       "6505/tcp",
       "6505/udp"
     ],
-    "description": "BoKS Admin Private Port\nIANA assigned this well-formed service name as a replacement for \"badm_priv\"."
+    "description": "BoKS Admin Private Port"
   },
   "badm_priv": {
     "ports": [
@@ -33491,7 +33491,7 @@
       "6506/tcp",
       "6506/udp"
     ],
-    "description": "BoKS Admin Public Port\nIANA assigned this well-formed service name as a replacement for \"badm_pub\"."
+    "description": "BoKS Admin Public Port"
   },
   "badm_pub": {
     "ports": [
@@ -33505,7 +33505,7 @@
       "6507/tcp",
       "6507/udp"
     ],
-    "description": "BoKS Dir Server, Private Port\nIANA assigned this well-formed service name as a replacement for \"bdir_priv\"."
+    "description": "BoKS Dir Server, Private Port"
   },
   "bdir_priv": {
     "ports": [
@@ -33519,7 +33519,7 @@
       "6508/tcp",
       "6508/udp"
     ],
-    "description": "BoKS Dir Server, Public Port\nIANA assigned this well-formed service name as a replacement for \"bdir_pub\"."
+    "description": "BoKS Dir Server, Public Port"
   },
   "bdir_pub": {
     "ports": [
@@ -33635,7 +33635,7 @@
     "ports": [
       "6568/tcp"
     ],
-    "description": "CanIt Storage Manager\nIANA assigned this well-formed service name as a replacement for \"canit_store\"."
+    "description": "CanIt Storage Manager"
   },
   "canit_store": {
     "ports": [
@@ -33775,7 +33775,7 @@
       "6629/tcp",
       "6629/udp"
     ],
-    "description": "Secondary, (non ANDI) multi-protocol multi-function interface to\n    the Allied ANDI-based family of forecourt controllers"
+    "description": "Secondary, (non ANDI) multi-protocol multi-function interface to the Allied ANDI-based family of forecourt controllers"
   },
   "mxodbc-connect": {
     "ports": [
@@ -33857,7 +33857,7 @@
       "6672/tcp",
       "6672/udp"
     ],
-    "description": "vision_server\nIANA assigned this well-formed service name as a replacement for \"vision_server\"."
+    "description": "vision_server"
   },
   "vision_server": {
     "ports": [
@@ -33871,7 +33871,7 @@
       "6673/tcp",
       "6673/udp"
     ],
-    "description": "vision_elmd\nIANA assigned this well-formed service name as a replacement for \"vision_elmd\"."
+    "description": "vision_elmd"
   },
   "vision_elmd": {
     "ports": [
@@ -34680,7 +34680,7 @@
     "ports": [
       "7202/tcp"
     ],
-    "description": "Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON\n    (Passive Optical Network) systems"
+    "description": "Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON (Passive Optical Network) systems"
   },
   "PS-Server": {
     "ports": [
@@ -35949,7 +35949,7 @@
     "ports": [
       "8077/tcp"
     ],
-    "description": "Mles is a client-server data distribution protocol \n      targeted to serve as a lightweight and reliable distributed \n      publish/subscribe database service."
+    "description": "Mles is a client-server data distribution protocol targeted to serve as a lightweight and reliable distributed publish/subscribe database service."
   },
   "sunproxyadmin": {
     "ports": [
@@ -37934,7 +37934,7 @@
     "ports": [
       "9616/tcp"
     ],
-    "description": "eRunbook Agent\nIANA assigned this well-formed service name as a replacement for \"erunbook_agent\"."
+    "description": "eRunbook Agent"
   },
   "erunbook_agent": {
     "ports": [
@@ -37946,7 +37946,7 @@
     "ports": [
       "9617/tcp"
     ],
-    "description": "eRunbook Server\nIANA assigned this well-formed service name as a replacement for \"erunbook_server\"."
+    "description": "eRunbook Server"
   },
   "erunbook_server": {
     "ports": [
@@ -38361,7 +38361,7 @@
       "10003/tcp",
       "10003/udp"
     ],
-    "description": "EMC-Documentum Content Server Product\nIANA assigned this well-formed service name as a replacement for \"documentum_s\"."
+    "description": "EMC-Documentum Content Server Product"
   },
   "documentum_s": {
     "ports": [
@@ -40238,7 +40238,7 @@
       "20034/tcp",
       "20034/udp"
     ],
-    "description": "NetBurner ID Port\nIANA assigned this well-formed service name as a replacement for \"nburn_id\"."
+    "description": "NetBurner ID Port"
   },
   "nburn_id": {
     "ports": [
@@ -40732,7 +40732,7 @@
       "24386/tcp",
       "24386/udp"
     ],
-    "description": "Intel RCI\nIANA assigned this well-formed service name as a replacement for \"intel_rci\"."
+    "description": "Intel RCI"
   },
   "intel_rci": {
     "ports": [
@@ -41262,7 +41262,7 @@
     "ports": [
       "31685/tcp"
     ],
-    "description": "DS Expert Monitor\nIANA assigned this well-formed service name as a replacement for \"dsx_monitor\"."
+    "description": "DS Expert Monitor"
   },
   "dsx_monitor": {
     "ports": [
@@ -41282,7 +41282,7 @@
       "31948/tcp",
       "31948/udp"
     ],
-    "description": "Embedded Device Configuration Protocol TX\nIANA assigned this well-formed service name as a replacement for \"iceedcp_tx\"."
+    "description": "Embedded Device Configuration Protocol TX"
   },
   "iceedcp_tx": {
     "ports": [
@@ -41296,7 +41296,7 @@
       "31949/tcp",
       "31949/udp"
     ],
-    "description": "Embedded Device Configuration Protocol RX\nIANA assigned this well-formed service name as a replacement for \"iceedcp_rx\"."
+    "description": "Embedded Device Configuration Protocol RX"
   },
   "iceedcp_rx": {
     "ports": [
@@ -41792,7 +41792,7 @@
     "ports": [
       "38800/tcp"
     ],
-    "description": "Sruth is a service for the distribution of routinely-\n      generated but arbitrary files based on a publish/subscribe\n      distribution model and implemented using a peer-to-peer transport\n      mechanism"
+    "description": "Sruth is a service for the distribution of routinely- generated but arbitrary files based on a publish/subscribe distribution model and implemented using a peer-to-peer transport mechanism"
   },
   "secrmmsafecopya": {
     "ports": [
@@ -42058,7 +42058,7 @@
       "44818/tcp",
       "44818/udp"
     ],
-    "description": "EtherNet/IP messaging\nIANA assigned this well-formed service name as a replacement for \"EtherNet/IP-2\"."
+    "description": "EtherNet/IP messaging"
   },
   "EtherNet/IP-2": {
     "ports": [
