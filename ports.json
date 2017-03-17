@@ -45676,6 +45676,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "21221/tcp": {
+    "name": "aigairserver",
+    "description": "Services for Air Server"
+  },
+  "21221/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "21553/tcp": {
     "name": "rdm-tfs",
     "description": "Raima RDM TFS"

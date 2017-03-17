@@ -40330,6 +40330,12 @@
     ],
     "description": "Notezilla.Lan Server"
   },
+  "aigairserver": {
+    "ports": [
+      "21221/tcp"
+    ],
+    "description": "Services for Air Server"
+  },
   "rdm-tfs": {
     "ports": [
       "21553/tcp"
