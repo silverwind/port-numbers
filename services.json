@@ -34390,6 +34390,13 @@
     ],
     "description": "Talon Webserver"
   },
+  "spg": {
+    "ports": [
+      "7016/tcp",
+      "7016/udp"
+    ],
+    "description": "SPG Controls Carrier"
+  },
   "fisa-svc": {
     "ports": [
       "7018/tcp"
@@ -36500,6 +36507,12 @@
     ],
     "description": "eSpeech RTP Protocol"
   },
+  "aritts": {
+    "ports": [
+      "8423/tcp"
+    ],
+    "description": "Aristech text-to-speech server"
+  },
   "cybro-a-bus": {
     "ports": [
       "8442/tcp",
@@ -38414,6 +38427,12 @@
       "10010/tcp"
     ],
     "description": "ooRexx rxapi services"
+  },
+  "abb-hw": {
+    "ports": [
+      "10020/tcp"
+    ],
+    "description": "Hardware configuration and maintenance"
   },
   "zabbix-agent": {
     "ports": [

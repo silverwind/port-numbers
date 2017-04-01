@@ -38790,6 +38790,14 @@
     "name": "talon-webserver",
     "description": "Talon Webserver"
   },
+  "7016/tcp": {
+    "name": "spg",
+    "description": "SPG Controls Carrier"
+  },
+  "7016/udp": {
+    "name": "spg",
+    "description": "SPG Controls Carrier"
+  },
   "7018/tcp": {
     "name": "fisa-svc",
     "description": "FISA Service"
@@ -41306,6 +41314,14 @@
     "name": "espeech-rtp",
     "description": "eSpeech RTP Protocol"
   },
+  "8423/tcp": {
+    "name": "aritts",
+    "description": "Aristech text-to-speech server"
+  },
+  "8423/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "8442/tcp": {
     "name": "cybro-a-bus",
     "description": "CyBro A-bus Protocol"
@@ -43463,6 +43479,14 @@
     "description": "ooRexx rxapi services"
   },
   "10010/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "10020/tcp": {
+    "name": "abb-hw",
+    "description": "Hardware configuration and maintenance"
+  },
+  "10020/udp": {
     "name": "",
     "description": "Reserved"
   },
