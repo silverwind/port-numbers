@@ -4811,6 +4811,13 @@
     ],
     "description": "DNS query-response protocol run over TLS/DTLS"
   },
+  "dlep": {
+    "ports": [
+      "854/tcp",
+      "854/udp"
+    ],
+    "description": "Dynamic Link Exchange Protocol (DLEP)"
+  },
   "iscsi": {
     "ports": [
       "860/tcp",
@@ -35770,6 +35777,18 @@
       "8005/udp"
     ],
     "description": "MXI Generation II for z/OS"
+  },
+  "wpl-analytics": {
+    "ports": [
+      "8006/tcp"
+    ],
+    "description": "World Programming analytics"
+  },
+  "wpl-disc": {
+    "ports": [
+      "8006/udp"
+    ],
+    "description": "World Programming analytics discovery"
   },
   "qbdb": {
     "ports": [

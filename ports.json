@@ -5436,6 +5436,14 @@
     "name": "domain-s",
     "description": "DNS query-response protocol run over TLS/DTLS"
   },
+  "854/tcp": {
+    "name": "dlep",
+    "description": "Dynamic Link Exchange Protocol (DLEP)"
+  },
+  "854/udp": {
+    "name": "dlep",
+    "description": "Dynamic Link Exchange Protocol (DLEP)"
+  },
   "860/tcp": {
     "name": "iscsi",
     "description": "iSCSI"
@@ -40409,6 +40417,14 @@
   "8005/udp": {
     "name": "mxi",
     "description": "MXI Generation II for z/OS"
+  },
+  "8006/tcp": {
+    "name": "wpl-analytics",
+    "description": "World Programming analytics"
+  },
+  "8006/udp": {
+    "name": "wpl-disc",
+    "description": "World Programming analytics discovery"
   },
   "8008/tcp": {
     "name": "http-alt",
