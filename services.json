@@ -38284,6 +38284,12 @@
     ],
     "description": "XYBRID RT Server"
   },
+  "pumpkindb": {
+    "ports": [
+      "9981/tcp"
+    ],
+    "description": "Event sourcing database engine with a built-in programming language"
+  },
   "dsm-scm-target": {
     "ports": [
       "9987/tcp",
@@ -42363,5 +42369,17 @@
       "49000/tcp"
     ],
     "description": "Matahari Broker"
+  },
+  "nusrp": {
+    "ports": [
+      "49001/tcp"
+    ],
+    "description": "Nuance Unity Service Request Protocol"
+  },
+  "nusdp-disc": {
+    "ports": [
+      "49001/udp"
+    ],
+    "description": "Nuance Unity Service Discovery Protocol"
   }
 }

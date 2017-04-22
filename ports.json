@@ -43314,6 +43314,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "9981/tcp": {
+    "name": "pumpkindb",
+    "description": "Event sourcing database engine with a built-in programming language"
+  },
+  "9981/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "9987/tcp": {
     "name": "dsm-scm-target",
     "description": "DSM/SCM Target Interface"
@@ -47971,5 +47979,13 @@
   "49000/udp": {
     "name": "",
     "description": "Reserved"
+  },
+  "49001/tcp": {
+    "name": "nusrp",
+    "description": "Nuance Unity Service Request Protocol"
+  },
+  "49001/udp": {
+    "name": "nusdp-disc",
+    "description": "Nuance Unity Service Discovery Protocol"
   }
 }
