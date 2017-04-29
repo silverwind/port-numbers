@@ -34404,6 +34404,13 @@
     ],
     "description": "SPG Controls Carrier"
   },
+  "grasp": {
+    "ports": [
+      "7017/tcp",
+      "7017/udp"
+    ],
+    "description": "GeneRic Autonomic Signaling Protocol (TEMPORARY - registered 2017-04-28, expires 2018-04-28)"
+  },
   "fisa-svc": {
     "ports": [
       "7018/tcp"
@@ -42133,19 +42140,19 @@
     "ports": [
       "45000/tcp"
     ],
-    "description": "NSi AutoStore Status Monitoring Protocol data transfer"
+    "description": "Nuance AutoStore Status Monitoring Protocol (data transfer)"
   },
   "asmp-mon": {
     "ports": [
       "45000/udp"
     ],
-    "description": "NSi AutoStore Status Monitoring Protocol device monitoring"
+    "description": "Nuance AutoStore Status Monitoring Protocol (device monitoring)"
   },
   "asmps": {
     "ports": [
       "45001/tcp"
     ],
-    "description": "NSi AutoStore Status Monitoring Protocol secure data transfer"
+    "description": "Nuance AutoStore Status Monitoring Protocol (secure data transfer)"
   },
   "rs-status": {
     "ports": [

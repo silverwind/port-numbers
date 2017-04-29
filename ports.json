@@ -38806,6 +38806,14 @@
     "name": "spg",
     "description": "SPG Controls Carrier"
   },
+  "7017/tcp": {
+    "name": "grasp",
+    "description": "GeneRic Autonomic Signaling Protocol (TEMPORARY - registered 2017-04-28, expires 2018-04-28)"
+  },
+  "7017/udp": {
+    "name": "grasp",
+    "description": "GeneRic Autonomic Signaling Protocol (TEMPORARY - registered 2017-04-28, expires 2018-04-28)"
+  },
   "7018/tcp": {
     "name": "fisa-svc",
     "description": "FISA Service"
@@ -47702,15 +47710,15 @@
   },
   "45000/tcp": {
     "name": "asmp",
-    "description": "NSi AutoStore Status Monitoring Protocol data transfer"
+    "description": "Nuance AutoStore Status Monitoring Protocol (data transfer)"
   },
   "45000/udp": {
     "name": "asmp-mon",
-    "description": "NSi AutoStore Status Monitoring Protocol device monitoring"
+    "description": "Nuance AutoStore Status Monitoring Protocol (device monitoring)"
   },
   "45001/tcp": {
     "name": "asmps",
-    "description": "NSi AutoStore Status Monitoring Protocol secure data transfer"
+    "description": "Nuance AutoStore Status Monitoring Protocol (secure data transfer)"
   },
   "45001/udp": {
     "name": "",
