@@ -27423,12 +27423,12 @@
     ],
     "description": "Hellgate London"
   },
-  "visicron-vs": {
+  "trueconf": {
     "ports": [
       "4307/tcp",
       "4307/udp"
     ],
-    "description": "Visicron Videoconference Service"
+    "description": "TrueConf Videoconference Service"
   },
   "compx-lockview": {
     "ports": [
@@ -36869,6 +36869,12 @@
     ],
     "description": "truecm"
   },
+  "pfcp": {
+    "ports": [
+      "8805/udp"
+    ],
+    "description": "Destination Port number for PFCP"
+  },
   "ssports-bcast": {
     "ports": [
       "8808/udp"
@@ -38290,6 +38296,12 @@
       "9978/tcp"
     ],
     "description": "XYBRID RT Server"
+  },
+  "visweather": {
+    "ports": [
+      "9979/tcp"
+    ],
+    "description": "Valley Information Systems Weather station data"
   },
   "pumpkindb": {
     "ports": [

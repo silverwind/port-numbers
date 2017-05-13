@@ -30807,12 +30807,12 @@
     "description": "Hellgate London"
   },
   "4307/tcp": {
-    "name": "visicron-vs",
-    "description": "Visicron Videoconference Service"
+    "name": "trueconf",
+    "description": "TrueConf Videoconference Service"
   },
   "4307/udp": {
-    "name": "visicron-vs",
-    "description": "Visicron Videoconference Service"
+    "name": "trueconf",
+    "description": "TrueConf Videoconference Service"
   },
   "4308/tcp": {
     "name": "compx-lockview",
@@ -41726,6 +41726,14 @@
     "name": "truecm",
     "description": "truecm"
   },
+  "8805/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8805/udp": {
+    "name": "pfcp",
+    "description": "Destination Port number for PFCP"
+  },
   "8808/tcp": {
     "name": "",
     "description": "Reserved"
@@ -43319,6 +43327,14 @@
     "description": "XYBRID RT Server"
   },
   "9978/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "9979/tcp": {
+    "name": "visweather",
+    "description": "Valley Information Systems Weather station data"
+  },
+  "9979/udp": {
     "name": "",
     "description": "Reserved"
   },
