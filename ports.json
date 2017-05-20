@@ -396,12 +396,12 @@
     "description": "MPM [default send]"
   },
   "47/tcp": {
-    "name": "ni-ftp",
-    "description": "NI FTP"
+    "name": "",
+    "description": "Reserved"
   },
   "47/udp": {
-    "name": "ni-ftp",
-    "description": "NI FTP"
+    "name": "",
+    "description": "Reserved"
   },
   "48/tcp": {
     "name": "auditd",
@@ -500,12 +500,12 @@
     "description": "Unassigned"
   },
   "61/tcp": {
-    "name": "ni-mail",
-    "description": "NI MAIL"
+    "name": "",
+    "description": "Reserved"
   },
   "61/udp": {
-    "name": "ni-mail",
-    "description": "NI MAIL"
+    "name": "",
+    "description": "Reserved"
   },
   "62/tcp": {
     "name": "acas",
@@ -47411,6 +47411,30 @@
   "38203/udp": {
     "name": "agpolicy",
     "description": "AppGate Policy Server"
+  },
+  "38412/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "38412/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "38412/sctp": {
+    "name": "ng-control",
+    "description": "NG Control Plane (3GPP)"
+  },
+  "38422/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "38422/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "38422/sctp": {
+    "name": "xn-control",
+    "description": "Xn Control Plane (3GPP)"
   },
   "38800/tcp": {
     "name": "sruth",

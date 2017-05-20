@@ -213,13 +213,6 @@
     ],
     "description": "MPM [default send]"
   },
-  "ni-ftp": {
-    "ports": [
-      "47/tcp",
-      "47/udp"
-    ],
-    "description": "NI FTP"
-  },
   "auditd": {
     "ports": [
       "48/tcp",
@@ -282,13 +275,6 @@
       "58/udp"
     ],
     "description": "XNS Mail"
-  },
-  "ni-mail": {
-    "ports": [
-      "61/tcp",
-      "61/udp"
-    ],
-    "description": "NI MAIL"
   },
   "acas": {
     "ports": [
@@ -41856,6 +41842,18 @@
       "38203/udp"
     ],
     "description": "AppGate Policy Server"
+  },
+  "ng-control": {
+    "ports": [
+      "38412/sctp"
+    ],
+    "description": "NG Control Plane (3GPP)"
+  },
+  "xn-control": {
+    "ports": [
+      "38422/sctp"
+    ],
+    "description": "Xn Control Plane (3GPP)"
   },
   "sruth": {
     "ports": [
