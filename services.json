@@ -4922,6 +4922,12 @@
     ],
     "description": "APEX endpoint-relay service"
   },
+  "rndc": {
+    "ports": [
+      "953/tcp"
+    ],
+    "description": "BIND9 remote name daemon controller"
+  },
   "ftps-data": {
     "ports": [
       "989/tcp",
