@@ -1,6 +1,6 @@
 {
   "name": "port-numbers",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Get information on network port numbers and services, based on IANA's public listing",
   "author": "silverwind <me@silverwind.io> (https://github.com/silverwind)",
   "license": "BSD-2-Clause",
