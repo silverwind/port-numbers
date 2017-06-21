@@ -9,7 +9,7 @@
     "test": "node test.js"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "keywords": [
     "port",
