@@ -1,8 +1,8 @@
 "use strict";
 
-var pn       = module.exports = {};
-var ports    = require("./ports.json");
-var services = require("./services.json");
+const pn       = module.exports = {};
+const ports    = require("./ports.json");
+const services = require("./services.json");
 
 // port -> service
 pn.getService = function getService(port, protocol) {
@@ -19,7 +19,6 @@ pn.getService = function getService(port, protocol) {
 
 // service -> port
 pn.getPort = function getPort(service, protocol) {
-  var port, entry;
   if (typeof service !== "string") {
     throw new Error("expected a 'string'");
   }
@@ -29,13 +28,13 @@ pn.getPort = function getPort(service, protocol) {
   }
 
   // services are always lowercase
-  entry = services[service.toLowerCase()];
+  const entry = services[service.toLowerCase()];
   if (!entry) {
     return null;
   }
 
   // filter non-matching protocols
-  port = entry.ports.filter(function(port) {
+  const port = entry.ports.filter(function(port) {
     return /\w+$/.exec(port)[0] === protocol;
   })[0];
 

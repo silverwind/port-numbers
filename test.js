@@ -1,8 +1,8 @@
 "use strict";
 
-var assert = require("assert");
-var getService = require(".").getService;
-var getPort = require(".").getPort;
+const assert = require("assert");
+const getService = require(".").getService;
+const getPort = require(".").getPort;
 
 assert(getService(80).name === "http");
 assert(getService(80, "tcp").name === "http");

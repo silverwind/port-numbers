@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 "use strict";
 
-var source = "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv";
-var got    = require("got");
-var parse  = require("csv-parse");
-var fs     = require("fs");
+const source = "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv";
+const got    = require("got");
+const parse  = require("csv-parse");
+const fs     = require("fs");
 
 got(source).catch(console.error).then(function(res) {
   parse(res.body, null, function(err, data) {
@@ -38,7 +38,7 @@ function exit(err) {
  */
 
 function parsePorts(data, cb) {
-  var output = {};
+  const output = {};
   data.forEach(function(entry) {
     if (entry[1] && entry[2] && !output[entry[1] + "/" + entry[2]] && !isNaN(Number(entry[1]))) {
       output[entry[1] + "/" + entry[2]] = {
@@ -51,7 +51,7 @@ function parsePorts(data, cb) {
 }
 
 function parseServices(data, cb) {
-  var output = {};
+  const output = {};
   data.forEach(function(entry) {
     if (!output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
       entry[0].length && !isNaN(Number(entry[1]))) {
@@ -61,8 +61,8 @@ function parseServices(data, cb) {
       };
     } else if (output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
            entry[0].length && !isNaN(Number(entry[1])) &&
-           output[entry[0]].ports.indexOf(Number(entry[1]) + "/"  + entry[2]) === -1) {
-      output[entry[0]].ports.push(entry[1] + "/"  + entry[2]);
+           output[entry[0]].ports.indexOf(Number(entry[1]) + "/" + entry[2]) === -1) {
+      output[entry[0]].ports.push(entry[1] + "/" + entry[2]);
     }
   });
   fs.writeFile("./services.json", JSON.stringify(output, null, 2), cb);
