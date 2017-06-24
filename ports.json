@@ -47444,6 +47444,18 @@
     "name": "xn-control",
     "description": "Xn Control Plane (3GPP)"
   },
+  "38472/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "38472/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "38472/sctp": {
+    "name": "f1-control",
+    "description": "F1 Control Plane (3GPP)"
+  },
   "38800/tcp": {
     "name": "sruth",
     "description": "Sruth is a service for the distribution of routinely- generated but arbitrary files based on a publish/subscribe distribution model and implemented using a peer-to-peer transport mechanism"

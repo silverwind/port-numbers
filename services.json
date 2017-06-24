@@ -41861,6 +41861,12 @@
     ],
     "description": "Xn Control Plane (3GPP)"
   },
+  "f1-control": {
+    "ports": [
+      "38472/sctp"
+    ],
+    "description": "F1 Control Plane (3GPP)"
+  },
   "sruth": {
     "ports": [
       "38800/tcp"
