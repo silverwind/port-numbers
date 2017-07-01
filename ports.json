@@ -40530,6 +40530,14 @@
     "name": "ampify",
     "description": "Ampify Messaging Protocol"
   },
+  "8041/tcp": {
+    "name": "enguity-xccetp",
+    "description": "Xcorpeon ASIC Carrier Ethernet Transport"
+  },
+  "8041/udp": {
+    "name": "enguity-xccetp",
+    "description": "Xcorpeon ASIC Carrier Ethernet Transport"
+  },
   "8042/tcp": {
     "name": "fs-agent",
     "description": "FireScope Agent"

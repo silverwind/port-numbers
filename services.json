@@ -35859,6 +35859,13 @@
     ],
     "description": "Ampify Messaging Protocol"
   },
+  "enguity-xccetp": {
+    "ports": [
+      "8041/tcp",
+      "8041/udp"
+    ],
+    "description": "Xcorpeon ASIC Carrier Ethernet Transport"
+  },
   "fs-agent": {
     "ports": [
       "8042/tcp"
