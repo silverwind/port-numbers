@@ -1,8 +1,7 @@
 "use strict";
 
-const pn       = module.exports = {};
-const ports    = require("./ports.json");
-const services = require("./services.json");
+const pn = module.exports = {};
+let ports, services;
 
 // port -> service
 pn.getService = function getService(port, protocol) {
@@ -12,6 +11,10 @@ pn.getService = function getService(port, protocol) {
 
   if (!protocol) {
     protocol = "tcp";
+  }
+
+  if (!ports) {
+    ports = require("./ports.json");
   }
 
   return ports[port + "/" + protocol] || null;
@@ -25,6 +28,10 @@ pn.getPort = function getPort(service, protocol) {
 
   if (!protocol) {
     protocol = "tcp";
+  }
+
+  if (!services) {
+    services = require("./services.json");
   }
 
   // services are always lowercase
