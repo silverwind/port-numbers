@@ -34401,7 +34401,7 @@
       "7017/tcp",
       "7017/udp"
     ],
-    "description": "GeneRic Autonomic Signaling Protocol (TEMPORARY - registered 2017-04-28, expires 2018-04-28)"
+    "description": "GeneRic Autonomic Signaling Protocol"
   },
   "fisa-svc": {
     "ports": [
@@ -35788,6 +35788,13 @@
       "8006/udp"
     ],
     "description": "World Programming analytics discovery"
+  },
+  "warppipe": {
+    "ports": [
+      "8007/tcp",
+      "8007/udp"
+    ],
+    "description": "I/O oriented cluster computing software"
   },
   "qbdb": {
     "ports": [

@@ -38816,11 +38816,11 @@
   },
   "7017/tcp": {
     "name": "grasp",
-    "description": "GeneRic Autonomic Signaling Protocol (TEMPORARY - registered 2017-04-28, expires 2018-04-28)"
+    "description": "GeneRic Autonomic Signaling Protocol"
   },
   "7017/udp": {
     "name": "grasp",
-    "description": "GeneRic Autonomic Signaling Protocol (TEMPORARY - registered 2017-04-28, expires 2018-04-28)"
+    "description": "GeneRic Autonomic Signaling Protocol"
   },
   "7018/tcp": {
     "name": "fisa-svc",
@@ -40441,6 +40441,14 @@
   "8006/udp": {
     "name": "wpl-disc",
     "description": "World Programming analytics discovery"
+  },
+  "8007/tcp": {
+    "name": "warppipe",
+    "description": "I/O oriented cluster computing software"
+  },
+  "8007/udp": {
+    "name": "warppipe",
+    "description": "I/O oriented cluster computing software"
   },
   "8008/tcp": {
     "name": "http-alt",
