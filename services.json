@@ -41269,6 +41269,12 @@
     ],
     "description": "Kingdoms Online (CraigAvenue)"
   },
+  "gs-realtime": {
+    "ports": [
+      "30400/tcp"
+    ],
+    "description": "GroundStar RealTime System"
+  },
   "samsung-disc": {
     "ports": [
       "30832/udp"

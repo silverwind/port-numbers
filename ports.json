@@ -46776,6 +46776,14 @@
     "name": "kingdomsonline",
     "description": "Kingdoms Online (CraigAvenue)"
   },
+  "30400/tcp": {
+    "name": "gs-realtime",
+    "description": "GroundStar RealTime System"
+  },
+  "30400/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "30832/udp": {
     "name": "samsung-disc",
     "description": "Samsung Convergence Discovery Protocol"
