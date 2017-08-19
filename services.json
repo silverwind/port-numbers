@@ -19696,7 +19696,7 @@
       "3095/tcp",
       "3095/udp"
     ],
-    "description": "Panasas rendevous port"
+    "description": "Panasas rendezvous port"
   },
   "ndl-aps": {
     "ports": [

@@ -22084,11 +22084,11 @@
   },
   "3095/tcp": {
     "name": "panasas",
-    "description": "Panasas rendevous port"
+    "description": "Panasas rendezvous port"
   },
   "3095/udp": {
     "name": "panasas",
-    "description": "Panasas rendevous port"
+    "description": "Panasas rendezvous port"
   },
   "3096/tcp": {
     "name": "ndl-aps",
