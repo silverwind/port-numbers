@@ -19523,12 +19523,11 @@
     ],
     "description": "MGXSWITCH"
   },
-  "csd-mgmt-port": {
+  "xplat-replicate": {
     "ports": [
-      "3071/tcp",
-      "3071/udp"
+      "3071/tcp"
     ],
-    "description": "ContinuStor Manager Port"
+    "description": "Crossplatform replication protocol"
   },
   "csd-monitor": {
     "ports": [
@@ -29539,6 +29538,12 @@
       "4970/udp"
     ],
     "description": "CCSS QSystemMonitor"
+  },
+  "burp": {
+    "ports": [
+      "4971/tcp"
+    ],
+    "description": "BackUp and Restore Program"
   },
   "ctxs-vpp": {
     "ports": [

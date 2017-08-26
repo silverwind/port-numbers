@@ -21899,12 +21899,12 @@
     "description": "MGXSWITCH"
   },
   "3071/tcp": {
-    "name": "csd-mgmt-port",
-    "description": "ContinuStor Manager Port"
+    "name": "xplat-replicate",
+    "description": "Crossplatform replication protocol"
   },
   "3071/udp": {
-    "name": "csd-mgmt-port",
-    "description": "ContinuStor Manager Port"
+    "name": "",
+    "description": "Reserved"
   },
   "3072/tcp": {
     "name": "csd-monitor",
@@ -33265,6 +33265,14 @@
   "4970/udp": {
     "name": "ccss-qsm",
     "description": "CCSS QSystemMonitor"
+  },
+  "4971/tcp": {
+    "name": "burp",
+    "description": "BackUp and Restore Program"
+  },
+  "4971/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "4980/udp": {
     "name": "ctxs-vpp",
