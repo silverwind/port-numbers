@@ -35948,6 +35948,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "5666/tcp": {
+    "name": "nrpe",
+    "description": "Nagios Remote Plugin Executor"
+  },
+  "5666/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "5670/tcp": {
     "name": "filemq",
     "description": "ZeroMQ file publish-subscribe protocol"

@@ -31842,6 +31842,12 @@
     ],
     "description": "Ventureforth Mobile"
   },
+  "nrpe": {
+    "ports": [
+      "5666/tcp"
+    ],
+    "description": "Nagios Remote Plugin Executor"
+  },
   "filemq": {
     "ports": [
       "5670/tcp"
