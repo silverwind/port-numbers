@@ -26795,6 +26795,12 @@
     ],
     "description": "Assuria Log Manager"
   },
+  "minirem": {
+    "ports": [
+      "4120/tcp"
+    ],
+    "description": "MiniRem Remote Telemetry and Control"
+  },
   "e-builder": {
     "ports": [
       "4121/tcp",

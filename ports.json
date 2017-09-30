@@ -30166,6 +30166,14 @@
     "name": "assuria-slm",
     "description": "Assuria Log Manager"
   },
+  "4120/tcp": {
+    "name": "minirem",
+    "description": "MiniRem Remote Telemetry and Control"
+  },
+  "4120/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4121/tcp": {
     "name": "e-builder",
     "description": "e-Builder Application Communication"
