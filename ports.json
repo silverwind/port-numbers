@@ -42174,6 +42174,14 @@
     "name": "glrpc",
     "description": "Groove GLRPC"
   },
+  "9081/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "9081/udp": {
+    "name": "cisco-aqos",
+    "description": "Required for Adaptive Quality of Service"
+  },
   "9082/sctp": {
     "name": "lcs-ap",
     "description": "LCS Application Protocol"

@@ -37268,6 +37268,12 @@
     ],
     "description": "Groove GLRPC"
   },
+  "cisco-aqos": {
+    "ports": [
+      "9081/udp"
+    ],
+    "description": "Required for Adaptive Quality of Service"
+  },
   "lcs-ap": {
     "ports": [
       "9082/sctp"
