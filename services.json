@@ -42453,5 +42453,11 @@
       "49001/udp"
     ],
     "description": "Nuance Unity Service Discovery Protocol"
+  },
+  "inspider": {
+    "ports": [
+      "49150/tcp"
+    ],
+    "description": "InSpider System"
   }
 }

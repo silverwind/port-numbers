@@ -48111,5 +48111,13 @@
   "49001/udp": {
     "name": "nusdp-disc",
     "description": "Nuance Unity Service Discovery Protocol"
+  },
+  "49150/tcp": {
+    "name": "inspider",
+    "description": "InSpider System"
+  },
+  "49150/udp": {
+    "name": "",
+    "description": "Reserved"
   }
 }
