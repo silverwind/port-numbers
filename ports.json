@@ -45804,6 +45804,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "21212/tcp": {
+    "name": "trinket-agent",
+    "description": "Distributed artificial intelligence"
+  },
+  "21212/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "21221/tcp": {
     "name": "aigairserver",
     "description": "Services for Air Server"

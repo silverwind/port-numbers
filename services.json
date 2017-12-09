@@ -40422,6 +40422,12 @@
     ],
     "description": "Notezilla.Lan Server"
   },
+  "trinket-agent": {
+    "ports": [
+      "21212/tcp"
+    ],
+    "description": "Distributed artificial intelligence"
+  },
   "aigairserver": {
     "ports": [
       "21221/tcp"
