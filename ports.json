@@ -5606,7 +5606,7 @@
   },
   "993/tcp": {
     "name": "imaps",
-    "description": "imap4 protocol over TLS/SSL"
+    "description": "IMAP over TLS protocol"
   },
   "993/udp": {
     "name": "imaps",
@@ -5622,7 +5622,7 @@
   },
   "995/tcp": {
     "name": "pop3s",
-    "description": "pop3 protocol over TLS/SSL (was spop3)"
+    "description": "POP3 over TLS protocol"
   },
   "995/udp": {
     "name": "pop3s",
@@ -47135,6 +47135,14 @@
   "33434/udp": {
     "name": "traceroute",
     "description": "traceroute use"
+  },
+  "33435/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "33435/udp": {
+    "name": "mtrace",
+    "description": "IP Multicast Traceroute"
   },
   "33656/tcp": {
     "name": "snip-slave",

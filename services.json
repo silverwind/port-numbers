@@ -2672,6 +2672,12 @@
     ],
     "description": "URL Rendesvous Directory for SSM"
   },
+  "submissions": {
+    "ports": [
+      "465/tcp"
+    ],
+    "description": "Message Submission over TLS protocol"
+  },
   "igmpv3lite": {
     "ports": [
       "465/udp"
@@ -4961,14 +4967,14 @@
       "993/tcp",
       "993/udp"
     ],
-    "description": "imap4 protocol over TLS/SSL"
+    "description": "IMAP over TLS protocol"
   },
   "pop3s": {
     "ports": [
       "995/tcp",
       "995/udp"
     ],
-    "description": "pop3 protocol over TLS/SSL (was spop3)"
+    "description": "POP3 over TLS protocol"
   },
   "vsinet": {
     "ports": [
@@ -41597,6 +41603,12 @@
       "33434/udp"
     ],
     "description": "traceroute use"
+  },
+  "mtrace": {
+    "ports": [
+      "33435/udp"
+    ],
+    "description": "IP Multicast Traceroute"
   },
   "snip-slave": {
     "ports": [
