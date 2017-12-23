@@ -36077,16 +36077,16 @@
     "description": "BrightCore control & data transfer exchange"
   },
   "5683/tcp": {
-    "name": "",
-    "description": "Reserved"
+    "name": "coap",
+    "description": "Constrained Application Protocol (CoAP)"
   },
   "5683/udp": {
     "name": "coap",
     "description": "Constrained Application Protocol"
   },
   "5684/tcp": {
-    "name": "",
-    "description": "Reserved"
+    "name": "coaps",
+    "description": "Constrained Application Protocol (CoAP)"
   },
   "5684/udp": {
     "name": "coaps",

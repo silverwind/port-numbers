@@ -31959,15 +31959,17 @@
   },
   "coap": {
     "ports": [
+      "5683/tcp",
       "5683/udp"
     ],
-    "description": "Constrained Application Protocol"
+    "description": "Constrained Application Protocol (CoAP)"
   },
   "coaps": {
     "ports": [
+      "5684/tcp",
       "5684/udp"
     ],
-    "description": "DTLS-secured CoAP"
+    "description": "Constrained Application Protocol (CoAP)"
   },
   "gog-multiplayer": {
     "ports": [
