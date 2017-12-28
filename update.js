@@ -24,18 +24,17 @@ function exit(err) {
   process.exit(1);
 }
 
-/* Fields:
- *
- * [ 'Service Name', 'Port Number', 'Transport Protocol', 'Description', 'Assignee', 'Contact', 'Registration Date', 'Modification Date',
- * 'Reference', 'Service Code', 'Known Unauthorized Uses', 'Assignment Notes' ]
- *
- * Examples:
- *
- * [ 'www', '80', 'udp', 'World Wide Web HTTP', '', '', '', '', '', '', '', 'This is a duplicate of the "http" service and should not be used for discovery purposes.' ]
- * [ 'ntp', '123', 'tcp', 'Network Time Protocol', '[Dave_Mills]', '[Dave_Mills]', '', '', '[RFC5905]', '', '', '' ]
- * [ 'http', '80', 'tcp', 'World Wide Web HTTP', '', '', '', '', '', '', '', 'Defined TXT keys: u=<username> p=<password> path=<path to document>' ]
- *
- */
+// Fields:
+//
+// [ 'Service Name', 'Port Number', 'Transport Protocol', 'Description', 'Assignee', 'Contact', 'Registration Date', 'Modification Date',
+// 'Reference', 'Service Code', 'Known Unauthorized Uses', 'Assignment Notes' ]
+//
+// Examples:
+//
+// [ 'www', '80', 'udp', 'World Wide Web HTTP', '', '', '', '', '', '', '', 'This is a duplicate of the "http" service and should not be used for discovery purposes.' ]
+// [ 'ntp', '123', 'tcp', 'Network Time Protocol', '[Dave_Mills]', '[Dave_Mills]', '', '', '[RFC5905]', '', '', '' ]
+// [ 'http', '80', 'tcp', 'World Wide Web HTTP', '', '', '', '', '', '', '', 'Defined TXT keys: u=<username> p=<password> path=<path to document>' ]
+//
 
 function parsePorts(data, cb) {
   const output = {};
