@@ -32896,11 +32896,11 @@
   },
   "4840/tcp": {
     "name": "opcua-tcp",
-    "description": "OPC UA TCP Protocol"
+    "description": "OPC UA Connection Protocol"
   },
   "4840/udp": {
     "name": "opcua-udp",
-    "description": "OPC UA TCP Protocol"
+    "description": "OPC UA Multicast Datagram Protocol"
   },
   "4841/tcp": {
     "name": "quosa",
