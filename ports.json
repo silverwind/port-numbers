@@ -3144,7 +3144,7 @@
   },
   "465/tcp": {
     "name": "urd",
-    "description": "URL Rendesvous Directory for SSM"
+    "description": "URL Rendezvous Directory for SSM"
   },
   "465/udp": {
     "name": "igmpv3lite",

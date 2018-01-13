@@ -2670,7 +2670,7 @@
     "ports": [
       "465/tcp"
     ],
-    "description": "URL Rendesvous Directory for SSM"
+    "description": "URL Rendezvous Directory for SSM"
   },
   "submissions": {
     "ports": [
