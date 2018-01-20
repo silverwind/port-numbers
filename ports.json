@@ -39462,6 +39462,14 @@
     "name": "daqstream",
     "description": "Streaming of measurement data"
   },
+  "7420/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "7420/udp": {
+    "name": "ipluminary",
+    "description": "Multichannel real-time lighting control"
+  },
   "7421/tcp": {
     "name": "mtportmon",
     "description": "Matisse Port Monitor"
@@ -40449,6 +40457,14 @@
   "8003/udp": {
     "name": "mcreport",
     "description": "Mulberry Connect Reporting Service"
+  },
+  "8004/tcp": {
+    "name": "p2pevolvenet",
+    "description": "Opensource Evolv Enterprise Platform P2P Network Node Connection Protocol"
+  },
+  "8004/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "8005/tcp": {
     "name": "mxi",

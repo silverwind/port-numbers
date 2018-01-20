@@ -34960,6 +34960,12 @@
     ],
     "description": "Streaming of measurement data"
   },
+  "ipluminary": {
+    "ports": [
+      "7420/udp"
+    ],
+    "description": "Multichannel real-time lighting control"
+  },
   "mtportmon": {
     "ports": [
       "7421/tcp",
@@ -35794,6 +35800,12 @@
       "8003/udp"
     ],
     "description": "Mulberry Connect Reporting Service"
+  },
+  "p2pevolvenet": {
+    "ports": [
+      "8004/tcp"
+    ],
+    "description": "Opensource Evolv Enterprise Platform P2P Network Node Connection Protocol"
   },
   "mxi": {
     "ports": [
