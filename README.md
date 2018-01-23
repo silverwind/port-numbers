@@ -4,32 +4,32 @@
 
 ### Installation
 ```
-$ npm install --save port-numbers
+$ npm i port-numbers
 ```
 ### Example
 ```js
-var pn = require("port-numbers");
+const portNumbers = require('port-numbers');
 
-pn.getService(80);
+portNumbers.getService(80);
 //=> { name: 'http', description: 'World Wide Web HTTP' }
-pn.getService(3306);
+portNumbers.getService(3306);
 //=> { name: 'mysql', description: 'MySQL' }
-pn.getService(123, "udp");
+portNumbers.getService(123, 'udp');
 
-pn.getPort('redis');
+portNumbers.getPort('redis');
 //=> { port: '6379', protocol: 'tcp', description: 'An advanced key-value cache and store' }
-pn.getPort("postgresql");
+portNumbers.getPort('postgresql');
 //=> { port: '5432', protocol: 'tcp', description: 'PostgreSQL Database' }
-pn.getPort('ntp', 'udp');
+portNumbers.getPort('ntp', 'udp');
 //=> { port: 123, protocol: 'udp', description: 'Network Time Protocol' }
 ```
 
-### API
-#### .getService(port[, protocol])
+### APIs
+#### portNumbers.getService(port[, protocol])
 - `port` *Number* : the port to lookup. Required.
 - `protocol` *String* : the protocol. Default: `tcp`.
 
-#### .getPort(service[, protocol])
+#### portNumbers.getPort(service[, protocol])
 - `service` *String* : the service to lookup. Required.
 - `protocol` *String* : the protocol. Default: `tcp`.
 

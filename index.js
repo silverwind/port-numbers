@@ -1,10 +1,10 @@
 "use strict";
 
-const pn = module.exports = {};
+const portNumbers = module.exports = {};
 let ports, services;
 
 // port -> service
-pn.getService = function getService(port, protocol) {
+portNumbers.getService = function getService(port, protocol) {
   if (typeof port !== "number") {
     throw new Error("expected a 'number'");
   }
@@ -21,7 +21,7 @@ pn.getService = function getService(port, protocol) {
 };
 
 // service -> port
-pn.getPort = function getPort(service, protocol) {
+portNumbers.getPort = function getPort(service, protocol) {
   if (typeof service !== "string") {
     throw new Error("expected a 'string'");
   }
