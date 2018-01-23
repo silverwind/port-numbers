@@ -1,7 +1,7 @@
 "use strict";
 
-const pn = module.exports = {};
-let ports, services;
+var pn = module.exports = {};
+var ports, services;
 
 // port -> service
 pn.getService = function getService(port, protocol) {
