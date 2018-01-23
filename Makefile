@@ -3,6 +3,7 @@ lint:
 
 test:
 	$(MAKE) lint
+	node --trace-deprecation --throw-deprecation test.js
 
 publish:
 	git push -u --tags origin master
