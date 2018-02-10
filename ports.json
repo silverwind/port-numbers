@@ -14325,12 +14325,12 @@
     "description": "HSL StoRM"
   },
   "2114/tcp": {
-    "name": "newheights",
-    "description": "NEWHEIGHTS"
+    "name": "ariascribe",
+    "description": "Classical Music Meta-Data Access and Enhancement"
   },
   "2114/udp": {
-    "name": "newheights",
-    "description": "NEWHEIGHTS"
+    "name": "ariascribe",
+    "description": "Classical Music Meta-Data Access and Enhancement"
   },
   "2115/tcp": {
     "name": "kdm",
@@ -39849,6 +39849,14 @@
   "7648/udp": {
     "name": "cuseeme",
     "description": "bonjour-cuseeme"
+  },
+  "7663/tcp": {
+    "name": "rome",
+    "description": "Proprietary immutable distributed data storage"
+  },
+  "7663/udp": {
+    "name": "rome",
+    "description": "Proprietary immutable distributed data storage"
   },
   "7672/tcp": {
     "name": "imqstomp",

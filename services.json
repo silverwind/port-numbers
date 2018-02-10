@@ -12780,12 +12780,12 @@
     ],
     "description": "HSL StoRM"
   },
-  "newheights": {
+  "ariascribe": {
     "ports": [
       "2114/tcp",
       "2114/udp"
     ],
-    "description": "NEWHEIGHTS"
+    "description": "Classical Music Meta-Data Access and Enhancement"
   },
   "kdm": {
     "ports": [
@@ -35288,6 +35288,13 @@
       "7648/udp"
     ],
     "description": "bonjour-cuseeme"
+  },
+  "rome": {
+    "ports": [
+      "7663/tcp",
+      "7663/udp"
+    ],
+    "description": "Proprietary immutable distributed data storage"
   },
   "imqstomp": {
     "ports": [
