@@ -34521,6 +34521,18 @@
     ],
     "description": "IWGADTS Aircraft Housekeeping Message"
   },
+  "iba-cfg": {
+    "ports": [
+      "7072/tcp"
+    ],
+    "description": "iba Device Configuration Protocol"
+  },
+  "iba-cfg-disc": {
+    "ports": [
+      "7072/udp"
+    ],
+    "description": "iba Device Configuration Protocol"
+  },
   "martalk": {
     "ports": [
       "7073/tcp"
@@ -42427,6 +42439,12 @@
       "48005/tcp"
     ],
     "description": "NimbusDB Control"
+  },
+  "juliar": {
+    "ports": [
+      "48048/tcp"
+    ],
+    "description": "Juliar Programming Language Protocol"
   },
   "3gpp-cbsp": {
     "ports": [

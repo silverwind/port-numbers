@@ -38950,6 +38950,14 @@
     "name": "iwg1",
     "description": "IWGADTS Aircraft Housekeeping Message"
   },
+  "7072/tcp": {
+    "name": "iba-cfg",
+    "description": "iba Device Configuration Protocol"
+  },
+  "7072/udp": {
+    "name": "iba-cfg-disc",
+    "description": "iba Device Configuration Protocol"
+  },
   "7073/tcp": {
     "name": "martalk",
     "description": "MarTalk protocol"
@@ -48077,6 +48085,14 @@
     "description": "NimbusDB Control"
   },
   "48005/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "48048/tcp": {
+    "name": "juliar",
+    "description": "Juliar Programming Language Protocol"
+  },
+  "48048/udp": {
     "name": "",
     "description": "Reserved"
   },
