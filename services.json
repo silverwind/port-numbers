@@ -34488,6 +34488,12 @@
     ],
     "description": "Vormetric Service II"
   },
+  "loreji-panel": {
+    "ports": [
+      "7026/tcp"
+    ],
+    "description": "Loreji Webhosting Panel"
+  },
   "op-probe": {
     "ports": [
       "7030/tcp",

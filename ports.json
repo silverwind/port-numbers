@@ -38910,6 +38910,14 @@
     "name": "vmsvc-2",
     "description": "Vormetric Service II"
   },
+  "7026/tcp": {
+    "name": "loreji-panel",
+    "description": "Loreji Webhosting Panel"
+  },
+  "7026/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "7030/tcp": {
     "name": "op-probe",
     "description": "ObjectPlanet probe"
