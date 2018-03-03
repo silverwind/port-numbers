@@ -47776,6 +47776,14 @@
     "name": "shaperai-disc",
     "description": "Shaper Automation Server Management Discovery"
   },
+  "43438/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "43438/udp": {
+    "name": "hmip-routing",
+    "description": "HmIP LAN Routing"
+  },
   "43439/tcp": {
     "name": "eq3-update",
     "description": "EQ3 firmware update"

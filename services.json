@@ -42150,6 +42150,12 @@
     ],
     "description": "Shaper Automation Server Management Discovery"
   },
+  "hmip-routing": {
+    "ports": [
+      "43438/udp"
+    ],
+    "description": "HmIP LAN Routing"
+  },
   "eq3-update": {
     "ports": [
       "43439/tcp"
