@@ -42126,6 +42126,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "9011/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "9011/udp": {
+    "name": "d-star",
+    "description": "D-Star Routing digital voice+data for amateur radio"
+  },
   "9020/tcp": {
     "name": "tambora",
     "description": "TAMBORA"

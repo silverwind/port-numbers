@@ -37233,6 +37233,12 @@
     ],
     "description": "Secure Data Replicator Protocol"
   },
+  "d-star": {
+    "ports": [
+      "9011/udp"
+    ],
+    "description": "D-Star Routing digital voice+data for amateur radio"
+  },
   "tambora": {
     "ports": [
       "9020/tcp",
