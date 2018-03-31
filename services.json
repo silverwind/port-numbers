@@ -28044,7 +28044,7 @@
     ],
     "description": "Colnod Binary Protocol"
   },
-  "nvm-express": {
+  "nvme": {
     "ports": [
       "4420/tcp",
       "4420/udp"
@@ -35857,6 +35857,12 @@
       "8007/udp"
     ],
     "description": "I/O oriented cluster computing software"
+  },
+  "nvme-disc": {
+    "ports": [
+      "8009/tcp"
+    ],
+    "description": "NVMe over Fabrics Discovery Service"
   },
   "qbdb": {
     "ports": [

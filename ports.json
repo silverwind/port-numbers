@@ -31531,11 +31531,11 @@
     "description": "Reserved"
   },
   "4420/tcp": {
-    "name": "nvm-express",
+    "name": "nvme",
     "description": "NVM Express over Fabrics storage access"
   },
   "4420/udp": {
-    "name": "nvm-express",
+    "name": "nvme",
     "description": "NVM Express over Fabrics storage access"
   },
   "4421/tcp": {
@@ -40521,6 +40521,14 @@
   "8008/udp": {
     "name": "http-alt",
     "description": "HTTP Alternate"
+  },
+  "8009/tcp": {
+    "name": "nvme-disc",
+    "description": "NVMe over Fabrics Discovery Service"
+  },
+  "8009/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "8019/tcp": {
     "name": "qbdb",
