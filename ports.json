@@ -34215,8 +34215,8 @@
     "description": "ESRI SDE Instance Discovery"
   },
   "5153/tcp": {
-    "name": "toruxserver",
-    "description": "ToruX Game Server"
+    "name": "",
+    "description": "Reserved"
   },
   "5153/udp": {
     "name": "",

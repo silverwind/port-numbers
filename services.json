@@ -30356,12 +30356,6 @@
     ],
     "description": "ESRI SDE Instance Discovery"
   },
-  "toruxserver": {
-    "ports": [
-      "5153/tcp"
-    ],
-    "description": "ToruX Game Server"
-  },
   "bzflag": {
     "ports": [
       "5154/tcp",
