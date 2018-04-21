@@ -15,6 +15,7 @@ portNumbers.getService(80);
 portNumbers.getService(3306);
 //=> { name: 'mysql', description: 'MySQL' }
 portNumbers.getService(123, 'udp');
+//=> { name: 'ntp', description: 'Network Time Protocol' }
 
 portNumbers.getPort('redis');
 //=> { port: '6379', protocol: 'tcp', description: 'An advanced key-value cache and store' }
