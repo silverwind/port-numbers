@@ -10,17 +10,17 @@ $ npm i port-numbers
 ```js
 const portNumbers = require('port-numbers');
 
-portNumbers.getService(80);
-//=> { name: 'http', description: 'World Wide Web HTTP' }
-portNumbers.getService(3306);
-//=> { name: 'mysql', description: 'MySQL' }
+portNumbers.getService(6379);
+//=> { name: 'redis', description: 'An advanced key-value cache and store' }
+portNumbers.getService(26257);
+//=> { name: 'cockroach', description: 'CockroachDB' }
 portNumbers.getService(123, 'udp');
 //=> { name: 'ntp', description: 'Network Time Protocol' }
 
 portNumbers.getPort('redis');
-//=> { port: '6379', protocol: 'tcp', description: 'An advanced key-value cache and store' }
-portNumbers.getPort('postgresql');
-//=> { port: '5432', protocol: 'tcp', description: 'PostgreSQL Database' }
+//=> { port: 6379, protocol: 'tcp', description: 'An advanced key-value cache and store' }
+portNumbers.getPort('cockroach');
+//=> { port: 26257, protocol: 'tcp', description: 'CockroachDB' }
 portNumbers.getPort('ntp', 'udp');
 //=> { port: 123, protocol: 'udp', description: 'Network Time Protocol' }
 ```
