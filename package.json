@@ -28,9 +28,9 @@
     "services.json"
   ],
   "devDependencies": {
-    "csv-parse": "2.0.0",
-    "eslint": "^4.16.0",
-    "got": "^8.0.3",
-    "updates": "^2.1.0"
+    "csv-parse": "2.2.0",
+    "eslint": "^4.19.1",
+    "got": "^8.3.0",
+    "updates": "^2.4.1"
   }
 }
