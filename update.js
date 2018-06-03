@@ -6,12 +6,12 @@ const got    = require("got");
 const parse  = require("csv-parse");
 const fs     = require("fs");
 
-got(source).catch(console.error).then(function(res) {
-  parse(res.body, null, function(err, data) {
+got(source).catch(console.error).then(res => {
+  parse(res.body, null, (err, data) => {
     if (err) return exit(err);
-    parsePorts(data, function(err) {
+    parsePorts(data, err => {
       if (err) return exit(err);
-      parseServices(data, function(err) {
+      parseServices(data, err => {
         if (err) return exit(err);
         process.exit(0);
       });
@@ -38,7 +38,7 @@ function exit(err) {
 
 function parsePorts(data, cb) {
   const output = {};
-  data.forEach(function(entry) {
+  data.forEach(entry => {
     if (entry[1] && entry[2] && !output[entry[1] + "/" + entry[2]] && !isNaN(Number(entry[1]))) {
       output[entry[1] + "/" + entry[2]] = {
         name: entry[0],
@@ -51,7 +51,7 @@ function parsePorts(data, cb) {
 
 function parseServices(data, cb) {
   const output = {};
-  data.forEach(function(entry) {
+  data.forEach(entry => {
     if (!output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
       entry[0].length && !isNaN(Number(entry[1]))) {
       output[entry[0]] = {

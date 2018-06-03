@@ -41,9 +41,7 @@ portNumbers.getPort = function getPort(service, protocol) {
   }
 
   // filter non-matching protocols
-  const port = entry.ports.filter(function(port) {
-    return /\w+$/.exec(port)[0] === protocol;
-  })[0];
+  const port = entry.ports.filter(port => /\w+$/.exec(port)[0] === protocol)[0];
 
   if (!port) {
     return null;
