@@ -33110,6 +33110,22 @@
     "name": "abbs",
     "description": "ABBS"
   },
+  "4888/tcp": {
+    "name": "xcap-portal",
+    "description": "xcap code analysis portal public user access"
+  },
+  "4888/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4889/tcp": {
+    "name": "xcap-control",
+    "description": "xcap code analysis portal cluster control and administration"
+  },
+  "4889/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4894/tcp": {
     "name": "lyskom",
     "description": "LysKOM Protocol A"

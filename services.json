@@ -29406,6 +29406,18 @@
     ],
     "description": "ABBS"
   },
+  "xcap-portal": {
+    "ports": [
+      "4888/tcp"
+    ],
+    "description": "xcap code analysis portal public user access"
+  },
+  "xcap-control": {
+    "ports": [
+      "4889/tcp"
+    ],
+    "description": "xcap code analysis portal cluster control and administration"
+  },
   "lyskom": {
     "ports": [
       "4894/tcp",
