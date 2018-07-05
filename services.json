@@ -35898,6 +35898,13 @@
     ],
     "description": "oa-system"
   },
+  "arca-api": {
+    "ports": [
+      "8023/tcp",
+      "8023/udp"
+    ],
+    "description": "ARCATrust vault API"
+  },
   "ca-audit-da": {
     "ports": [
       "8025/tcp",

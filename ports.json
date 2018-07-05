@@ -40578,6 +40578,14 @@
     "name": "oa-system",
     "description": "oa-system"
   },
+  "8023/tcp": {
+    "name": "arca-api",
+    "description": "ARCATrust vault API"
+  },
+  "8023/udp": {
+    "name": "arca-api",
+    "description": "ARCATrust vault API"
+  },
   "8025/tcp": {
     "name": "ca-audit-da",
     "description": "CA Audit Distribution Agent"
