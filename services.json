@@ -3877,6 +3877,12 @@
     ],
     "description": "IPP (Internet Printing Protocol)"
   },
+  "ipps": {
+    "ports": [
+      "631/tcp"
+    ],
+    "description": "Internet Printing Protocol over HTTPS"
+  },
   "bmpp": {
     "ports": [
       "632/tcp",
