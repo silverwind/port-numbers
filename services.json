@@ -37499,6 +37499,13 @@
     ],
     "description": "AstergateFax Control Service"
   },
+  "hexxorecore": {
+    "ports": [
+      "9111/tcp",
+      "9111/udp"
+    ],
+    "description": "Multiple Purpose, Distributed Message Bus"
+  },
   "mxit": {
     "ports": [
       "9119/tcp",

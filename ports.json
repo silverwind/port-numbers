@@ -42422,6 +42422,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "9111/tcp": {
+    "name": "hexxorecore",
+    "description": "Multiple Purpose, Distributed Message Bus"
+  },
+  "9111/udp": {
+    "name": "hexxorecore",
+    "description": "Multiple Purpose, Distributed Message Bus"
+  },
   "9119/tcp": {
     "name": "mxit",
     "description": "MXit Instant Messaging"
