@@ -1,7 +1,9 @@
-BIN:=node_modules/.bin
+
+lint:
+	npx eslint --color --quiet *.js
 
 test:
-	$(BIN)/eslint --color --quiet *.js
+	$(MAKE) lint
 	node --trace-deprecation --throw-deprecation --trace-warnings test.js
 
 publish:
@@ -9,9 +11,9 @@ publish:
 	npm publish
 
 update:
-	$(BIN)/updates -u
+	npx updates -u
 	rm -rf node_modules
-	yarn
+	npm i --no-package-lock
 
 npm-patch:
 	npm version patch

@@ -28,10 +28,10 @@
     "services.json"
   ],
   "devDependencies": {
-    "csv-parse": "2.4.0",
-    "eslint": "^4.19.1",
-    "eslint-config-silverwind": "^1.0.42",
-    "got": "^8.3.1",
-    "updates": "^3.0.0"
+    "csv-parse": "4.3.3",
+    "eslint": "^5.15.1",
+    "eslint-config-silverwind": "^2.1.0",
+    "got": "^9.6.0",
+    "updates": "^7.2.0"
   }
 }

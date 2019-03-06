@@ -2,12 +2,12 @@
 "use strict";
 
 const source = "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv";
-const got    = require("got");
-const parse  = require("csv-parse");
-const fs     = require("fs");
+const got = require("got");
+const csvParse = require("csv-parse");
+const fs = require("fs");
 
 got(source).catch(console.error).then(res => {
-  parse(res.body, null, (err, data) => {
+  csvParse(res.body, {}, (err, data) => {
     if (err) return exit(err);
     parsePorts(data, err => {
       if (err) return exit(err);
@@ -23,18 +23,6 @@ function exit(err) {
   console.error(err);
   process.exit(1);
 }
-
-// Fields:
-//
-// [ 'Service Name', 'Port Number', 'Transport Protocol', 'Description', 'Assignee', 'Contact', 'Registration Date', 'Modification Date',
-// 'Reference', 'Service Code', 'Known Unauthorized Uses', 'Assignment Notes' ]
-//
-// Examples:
-//
-// [ 'www', '80', 'udp', 'World Wide Web HTTP', '', '', '', '', '', '', '', 'This is a duplicate of the "http" service and should not be used for discovery purposes.' ]
-// [ 'ntp', '123', 'tcp', 'Network Time Protocol', '[Dave_Mills]', '[Dave_Mills]', '', '', '[RFC5905]', '', '', '' ]
-// [ 'http', '80', 'tcp', 'World Wide Web HTTP', '', '', '', '', '', '', '', 'Defined TXT keys: u=<username> p=<password> path=<path to document>' ]
-//
 
 function parsePorts(data, cb) {
   const output = {};
