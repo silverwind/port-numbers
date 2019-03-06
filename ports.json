@@ -5457,16 +5457,16 @@
     "description": "OWAMP-Control"
   },
   "861/udp": {
-    "name": "owamp-control",
-    "description": "OWAMP-Control"
+    "name": "owamp-test",
+    "description": "OWAMP-Test"
   },
   "862/tcp": {
     "name": "twamp-control",
-    "description": "Two-way Active Measurement Protocol (TWAMP) Control"
+    "description": "TWAMP-Control"
   },
   "862/udp": {
-    "name": "twamp-control",
-    "description": "Two-way Active Measurement Protocol (TWAMP) Control"
+    "name": "twamp-test",
+    "description": "TWAMP-Test Receiver Port"
   },
   "873/tcp": {
     "name": "rsync",
@@ -16345,8 +16345,8 @@
     "description": "L3-HBMon"
   },
   "2371/tcp": {
-    "name": "hp-rda",
-    "description": "HP Remote Device Access"
+    "name": "rda",
+    "description": "Remote Device Access"
   },
   "2371/udp": {
     "name": "",
@@ -19210,7 +19210,7 @@
   },
   "2731/udp": {
     "name": "fyre-messanger",
-    "description": "Fyre Messagner"
+    "description": "Fyre Messanger"
   },
   "2732/tcp": {
     "name": "g5m",
@@ -26792,7 +26792,7 @@
   },
   "3697/udp": {
     "name": "nw-license",
-    "description": "NavisWorks Licnese System"
+    "description": "NavisWorks License System"
   },
   "3698/tcp": {
     "name": "sagectlpanel",
@@ -27024,7 +27024,7 @@
   },
   "3726/udp": {
     "name": "array-manager",
-    "description": "Xyartex Array Manager"
+    "description": "Xyratex Array Manager"
   },
   "3727/tcp": {
     "name": "e-mdu",
@@ -27216,7 +27216,7 @@
   },
   "3750/udp": {
     "name": "cbos-ip-port",
-    "description": "CBOS/IP ncapsalatoin port"
+    "description": "CBOS/IP ncapsalation port"
   },
   "3751/tcp": {
     "name": "gprs-cube",
@@ -28008,7 +28008,7 @@
   },
   "3849/udp": {
     "name": "spw-dnspreload",
-    "description": "SPACEWAY DNS Prelaod"
+    "description": "SPACEWAY DNS Preload"
   },
   "3850/tcp": {
     "name": "qtms-bootstrap",
@@ -28564,7 +28564,7 @@
   },
   "3917/udp": {
     "name": "aftmux",
-    "description": "AFT multiples port"
+    "description": "AFT multiplex port"
   },
   "3918/tcp": {
     "name": "pktcablemmcops",
@@ -28732,7 +28732,7 @@
   },
   "3938/udp": {
     "name": "dbcontrol-agent",
-    "description": "Oracel dbControl Agent po"
+    "description": "Oracle dbControl Agent po"
   },
   "3939/tcp": {
     "name": "aamp",
@@ -31027,16 +31027,16 @@
     "description": "Gaia Connector Protocol"
   },
   "4341/tcp": {
-    "name": "lisp-data",
-    "description": "LISP Data Packets"
+    "name": "",
+    "description": "Reserved"
   },
   "4341/udp": {
     "name": "lisp-data",
     "description": "LISP Data Packets"
   },
   "4342/tcp": {
-    "name": "lisp-cons",
-    "description": "LISP-CONS Control"
+    "name": "",
+    "description": "Reserved"
   },
   "4342/udp": {
     "name": "lisp-control",
@@ -39244,7 +39244,7 @@
   },
   "7227/udp": {
     "name": "ramp",
-    "description": "Registry A $ M Protocol"
+    "description": "Registry A & M Protocol"
   },
   "7228/tcp": {
     "name": "citrixupp",
@@ -40546,6 +40546,22 @@
     "name": "",
     "description": "Reserved"
   },
+  "8015/tcp": {
+    "name": "cfg-cloud",
+    "description": "Configuration Cloud Service"
+  },
+  "8015/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8016/tcp": {
+    "name": "ads-s",
+    "description": "Beckhoff Automation Device Specification"
+  },
+  "8016/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "8019/tcp": {
     "name": "qbdb",
     "description": "QB DB Dynamic Port"
@@ -41178,6 +41194,14 @@
     "name": "lm-webwatcher",
     "description": "LM Webwatcher"
   },
+  "8211/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8211/udp": {
+    "name": "aruba-papi",
+    "description": "Aruba Networks AP management"
+  },
   "8230/tcp": {
     "name": "rexecj",
     "description": "RexecJ Server"
@@ -41209,6 +41233,14 @@
   "8243/udp": {
     "name": "synapse-nhttps",
     "description": "Synapse Non Blocking HTTPS"
+  },
+  "8266/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8266/udp": {
+    "name": "espeasy-p2p",
+    "description": "ESPeasy peer-2-peer communication"
   },
   "8270/tcp": {
     "name": "robot-remote",
@@ -41853,6 +41885,14 @@
   "8805/udp": {
     "name": "pfcp",
     "description": "Destination Port number for PFCP"
+  },
+  "8807/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8807/udp": {
+    "name": "hes-clip",
+    "description": "HES-CLIP Interoperability protocol"
   },
   "8808/tcp": {
     "name": "",
@@ -44416,7 +44456,7 @@
   },
   "11967/udp": {
     "name": "sysinfo-sp",
-    "description": "SysInfo Sercice Protocol"
+    "description": "SysInfo Service Protocol"
   },
   "11997/sctp": {
     "name": "wmereceiving",
@@ -46364,6 +46404,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "24323/tcp": {
+    "name": "vrmg-ip",
+    "description": "Verimag mobile class protocol over TCP"
+  },
+  "24323/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "24386/tcp": {
     "name": "intel-rci",
     "description": "Intel RCI"
@@ -46703,6 +46751,22 @@
   "26489/udp": {
     "name": "exonet",
     "description": "EXOnet"
+  },
+  "27010/tcp": {
+    "name": "flex-lmadmin",
+    "description": "A protocol for managing license services"
+  },
+  "27010/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "27017/tcp": {
+    "name": "mongodb",
+    "description": "Mongo database system"
+  },
+  "27017/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "27345/tcp": {
     "name": "imagepump",
@@ -47302,7 +47366,7 @@
   },
   "34980/udp": {
     "name": "ethercat",
-    "description": "EhterCAT Port"
+    "description": "EtherCAT Port"
   },
   "35000/tcp": {
     "name": "heathview",
@@ -47603,6 +47667,18 @@
   "38422/sctp": {
     "name": "xn-control",
     "description": "Xn Control Plane (3GPP)"
+  },
+  "38462/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "38462/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "38462/sctp": {
+    "name": "e1-interface",
+    "description": "E1 signalling transport (3GPP)"
   },
   "38472/tcp": {
     "name": "",

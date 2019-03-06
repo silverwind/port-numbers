@@ -3866,7 +3866,8 @@
   "rda": {
     "ports": [
       "630/tcp",
-      "630/udp"
+      "630/udp",
+      "2371/tcp"
     ],
     "description": "RDA"
   },
@@ -4825,17 +4826,27 @@
   },
   "owamp-control": {
     "ports": [
-      "861/tcp",
-      "861/udp"
+      "861/tcp"
     ],
     "description": "OWAMP-Control"
   },
+  "owamp-test": {
+    "ports": [
+      "861/udp"
+    ],
+    "description": "OWAMP-Test"
+  },
   "twamp-control": {
     "ports": [
-      "862/tcp",
+      "862/tcp"
+    ],
+    "description": "TWAMP-Control"
+  },
+  "twamp-test": {
+    "ports": [
       "862/udp"
     ],
-    "description": "Two-way Active Measurement Protocol (TWAMP) Control"
+    "description": "TWAMP-Test Receiver Port"
   },
   "rsync": {
     "ports": [
@@ -14589,12 +14600,6 @@
       "2370/udp"
     ],
     "description": "L3-HBMon"
-  },
-  "hp-rda": {
-    "ports": [
-      "2371/tcp"
-    ],
-    "description": "HP Remote Device Access"
   },
   "lanmessenger": {
     "ports": [
@@ -27599,16 +27604,9 @@
   },
   "lisp-data": {
     "ports": [
-      "4341/tcp",
       "4341/udp"
     ],
     "description": "LISP Data Packets"
-  },
-  "lisp-cons": {
-    "ports": [
-      "4342/tcp"
-    ],
-    "description": "LISP-CONS Control"
   },
   "lisp-control": {
     "ports": [
@@ -35876,6 +35874,18 @@
     ],
     "description": "NVMe over Fabrics Discovery Service"
   },
+  "cfg-cloud": {
+    "ports": [
+      "8015/tcp"
+    ],
+    "description": "Configuration Cloud Service"
+  },
+  "ads-s": {
+    "ports": [
+      "8016/tcp"
+    ],
+    "description": "Beckhoff Automation Device Specification"
+  },
   "qbdb": {
     "ports": [
       "8019/tcp",
@@ -36399,6 +36409,12 @@
     ],
     "description": "LM Webwatcher"
   },
+  "aruba-papi": {
+    "ports": [
+      "8211/udp"
+    ],
+    "description": "Aruba Networks AP management"
+  },
   "rexecj": {
     "ports": [
       "8230/tcp",
@@ -36424,6 +36440,12 @@
       "8243/udp"
     ],
     "description": "Synapse Non Blocking HTTPS"
+  },
+  "espeasy-p2p": {
+    "ports": [
+      "8266/udp"
+    ],
+    "description": "ESPeasy peer-2-peer communication"
   },
   "robot-remote": {
     "ports": [
@@ -36967,6 +36989,12 @@
       "8805/udp"
     ],
     "description": "Destination Port number for PFCP"
+  },
+  "hes-clip": {
+    "ports": [
+      "8807/udp"
+    ],
+    "description": "HES-CLIP Interoperability protocol"
   },
   "ssports-bcast": {
     "ports": [
@@ -40914,6 +40942,12 @@
     ],
     "description": "Transport of Human Interface Device data streams"
   },
+  "vrmg-ip": {
+    "ports": [
+      "24323/tcp"
+    ],
+    "description": "Verimag mobile class protocol over TCP"
+  },
   "intel-rci": {
     "ports": [
       "24386/tcp",
@@ -41222,6 +41256,18 @@
       "26489/udp"
     ],
     "description": "EXOnet"
+  },
+  "flex-lmadmin": {
+    "ports": [
+      "27010/tcp"
+    ],
+    "description": "A protocol for managing license services"
+  },
+  "mongodb": {
+    "ports": [
+      "27017/tcp"
+    ],
+    "description": "Mongo database system"
   },
   "imagepump": {
     "ports": [
@@ -41998,6 +42044,12 @@
       "38422/sctp"
     ],
     "description": "Xn Control Plane (3GPP)"
+  },
+  "e1-interface": {
+    "ports": [
+      "38462/sctp"
+    ],
+    "description": "E1 signalling transport (3GPP)"
   },
   "f1-control": {
     "ports": [
