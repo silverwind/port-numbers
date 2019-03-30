@@ -34938,7 +34938,7 @@
   },
   "5349/tcp": {
     "name": "stuns",
-    "description": "STUN over TLS"
+    "description": "Session Traversal Utilities for NAT (STUN) port"
   },
   "5349/udp": {
     "name": "stuns",
