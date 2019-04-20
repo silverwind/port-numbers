@@ -30982,6 +30982,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "4332/tcp": {
+    "name": "getty-focus",
+    "description": "Getty Images FOCUS service"
+  },
+  "4332/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4333/tcp": {
     "name": "ahsp",
     "description": "ArrowHead Service Protocol (AHSP)"
@@ -41901,6 +41909,14 @@
   "8808/udp": {
     "name": "ssports-bcast",
     "description": "STATSports Broadcast Service"
+  },
+  "8809/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8809/udp": {
+    "name": "3gpp-monp",
+    "description": "MCPTT Off-Network Protocol (MONP)"
   },
   "8873/tcp": {
     "name": "dxspider",

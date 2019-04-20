@@ -27569,6 +27569,12 @@
     ],
     "description": "ktickets REST API for event management and ticketing systems (embedded POS devices)"
   },
+  "getty-focus": {
+    "ports": [
+      "4332/tcp"
+    ],
+    "description": "Getty Images FOCUS service"
+  },
   "ahsp": {
     "ports": [
       "4333/tcp",
@@ -37001,6 +37007,12 @@
       "8808/udp"
     ],
     "description": "STATSports Broadcast Service"
+  },
+  "3gpp-monp": {
+    "ports": [
+      "8809/udp"
+    ],
+    "description": "MCPTT Off-Network Protocol (MONP)"
   },
   "dxspider": {
     "ports": [
