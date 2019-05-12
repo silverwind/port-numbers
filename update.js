@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+#!/usr/bin/env node
 "use strict";
 
 const source = "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv";
@@ -64,5 +65,5 @@ function cleanupDescription(str) {
   // force description to be single-line
   str = str.replace(/[\s\n]+/g, " ");
 
-  return str;
+  return (str || "").trim();
 }
