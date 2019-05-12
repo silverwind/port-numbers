@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-#!/usr/bin/env node
 "use strict";
 
 const source = "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv";
