@@ -288,7 +288,7 @@
       "63/tcp",
       "63/udp"
     ],
-    "description": "whois++ "
+    "description": "whois++"
   },
   "whois++": {
     "ports": [
@@ -318,7 +318,7 @@
       "150/tcp",
       "150/udp"
     ],
-    "description": "Oracle SQL*NET "
+    "description": "Oracle SQL*NET"
   },
   "sql*net": {
     "ports": [
@@ -1044,7 +1044,7 @@
       "172/tcp",
       "172/udp"
     ],
-    "description": "Network Innovations CL/1 "
+    "description": "Network Innovations CL/1"
   },
   "cl/1": {
     "ports": [
@@ -1320,7 +1320,7 @@
       "210/tcp",
       "210/udp"
     ],
-    "description": "ANSI Z39.50 "
+    "description": "ANSI Z39.50"
   },
   "z39.50": {
     "ports": [
@@ -1334,7 +1334,7 @@
       "211/tcp",
       "211/udp"
     ],
-    "description": "Texas Instruments 914C/G Terminal "
+    "description": "Texas Instruments 914C/G Terminal"
   },
   "914c/g": {
     "ports": [
@@ -1474,7 +1474,7 @@
       "247/tcp",
       "247/udp"
     ],
-    "description": "SUBNTBCST_TFTP "
+    "description": "SUBNTBCST_TFTP"
   },
   "subntbcst_tftp": {
     "ports": [
@@ -1917,7 +1917,7 @@
       "363/tcp",
       "363/udp"
     ],
-    "description": "RSVP Tunnel "
+    "description": "RSVP Tunnel"
   },
   "rsvp_tunnel": {
     "ports": [
@@ -2379,7 +2379,7 @@
       "428/tcp",
       "428/udp"
     ],
-    "description": "OCS_CMU "
+    "description": "OCS_CMU"
   },
   "ocs_cmu": {
     "ports": [
@@ -2393,7 +2393,7 @@
       "429/tcp",
       "429/udp"
     ],
-    "description": "OCS_AMU "
+    "description": "OCS_AMU"
   },
   "ocs_amu": {
     "ports": [
@@ -2491,7 +2491,7 @@
       "442/tcp",
       "442/udp"
     ],
-    "description": "cvc_hostd "
+    "description": "cvc_hostd"
   },
   "cvc_hostd": {
     "ports": [
@@ -3826,7 +3826,7 @@
       "625/tcp",
       "625/udp"
     ],
-    "description": "DEC DLM "
+    "description": "DEC DLM"
   },
   "dec_dlm": {
     "ports": [
@@ -4867,7 +4867,7 @@
       "887/tcp",
       "887/udp"
     ],
-    "description": "ICL coNETion server info "
+    "description": "ICL coNETion server info"
   },
   "iclcnet_svinfo": {
     "ports": [
@@ -5340,7 +5340,7 @@
       "1067/tcp",
       "1067/udp"
     ],
-    "description": "Installation Bootstrap Proto. Serv. "
+    "description": "Installation Bootstrap Proto. Serv."
   },
   "instl_boots": {
     "ports": [
@@ -5354,7 +5354,7 @@
       "1068/tcp",
       "1068/udp"
     ],
-    "description": "Installation Bootstrap Proto. Cli. "
+    "description": "Installation Bootstrap Proto. Cli."
   },
   "instl_bootc": {
     "ports": [
@@ -5850,7 +5850,7 @@
       "1138/tcp",
       "1138/udp"
     ],
-    "description": "encrypted admin requests "
+    "description": "encrypted admin requests"
   },
   "encrypted_admin": {
     "ports": [
@@ -7081,7 +7081,7 @@
       "1313/tcp",
       "1313/udp"
     ],
-    "description": "BMC_PATROLDB "
+    "description": "BMC_PATROLDB"
   },
   "bmc_patroldb": {
     "ports": [
@@ -7566,7 +7566,7 @@
       "3900/tcp",
       "3900/udp"
     ],
-    "description": "udt_os "
+    "description": "udt_os"
   },
   "udt_os": {
     "ports": [
@@ -7596,7 +7596,7 @@
       "1385/tcp",
       "1385/udp"
     ],
-    "description": "Atex Publishing License Manager "
+    "description": "Atex Publishing License Manager"
   },
   "atex_elmd": {
     "ports": [
@@ -7819,7 +7819,7 @@
       "1416/tcp",
       "1416/udp"
     ],
-    "description": "Novell LU6.2 "
+    "description": "Novell LU6.2"
   },
   "novell-lu6.2": {
     "ports": [
@@ -8092,7 +8092,7 @@
       "1454/tcp",
       "1454/udp"
     ],
-    "description": "interHDL License Manager "
+    "description": "interHDL License Manager"
   },
   "interhdl_elmd": {
     "ports": [
@@ -8148,7 +8148,7 @@
       "1461/tcp",
       "1461/udp"
     ],
-    "description": "IBM Wireless LAN "
+    "description": "IBM Wireless LAN"
   },
   "ibm_wrless_lan": {
     "ports": [
@@ -8176,7 +8176,7 @@
       "1464/tcp",
       "1464/udp"
     ],
-    "description": "MSL License Manager "
+    "description": "MSL License Manager"
   },
   "msl_lmd": {
     "ports": [
@@ -8327,7 +8327,7 @@
       "1486/tcp",
       "1486/udp"
     ],
-    "description": "nms_topo_serv "
+    "description": "nms_topo_serv"
   },
   "nms_topo_serv": {
     "ports": [
@@ -8376,7 +8376,7 @@
       "1493/tcp",
       "1493/udp"
     ],
-    "description": "netmap_lm "
+    "description": "netmap_lm"
   },
   "netmap_lm": {
     "ports": [
@@ -8837,7 +8837,7 @@
       "1556/tcp",
       "1556/udp"
     ],
-    "description": "VERITAS Private Branch Exchange "
+    "description": "VERITAS Private Branch Exchange"
   },
   "veritas_pbx": {
     "ports": [
@@ -9066,7 +9066,7 @@
       "1587/tcp",
       "1587/udp"
     ],
-    "description": "pra_elmd "
+    "description": "pra_elmd"
   },
   "pra_elmd": {
     "ports": [
@@ -9526,7 +9526,7 @@
       "1651/tcp",
       "1651/udp"
     ],
-    "description": "shiva_confsrvr "
+    "description": "shiva_confsrvr"
   },
   "shiva_confsrvr": {
     "ports": [
@@ -13542,7 +13542,7 @@
       "2222/tcp",
       "2222/udp"
     ],
-    "description": "EtherNet/IP I/O "
+    "description": "EtherNet/IP I/O"
   },
   "EtherNet/IP-1": {
     "ports": [
@@ -14361,7 +14361,7 @@
       "2340/tcp",
       "2340/udp"
     ],
-    "description": "WRS Registry "
+    "description": "WRS Registry"
   },
   "wrs_registry": {
     "ports": [
@@ -14410,7 +14410,7 @@
       "2346/tcp",
       "2346/udp"
     ],
-    "description": "Game Connection Port "
+    "description": "Game Connection Port"
   },
   "redstorm_join": {
     "ports": [
@@ -14424,7 +14424,7 @@
       "2347/tcp",
       "2347/udp"
     ],
-    "description": "Game Announcement and Location "
+    "description": "Game Announcement and Location"
   },
   "redstorm_find": {
     "ports": [
@@ -14438,7 +14438,7 @@
       "2348/tcp",
       "2348/udp"
     ],
-    "description": "Information to query for game status "
+    "description": "Information to query for game status"
   },
   "redstorm_info": {
     "ports": [
@@ -14452,7 +14452,7 @@
       "2349/tcp",
       "2349/udp"
     ],
-    "description": "Diagnostics Port "
+    "description": "Diagnostics Port"
   },
   "redstorm_diag": {
     "ports": [
@@ -14758,7 +14758,7 @@
       "2395/tcp",
       "2395/udp"
     ],
-    "description": "LAN900 Remote "
+    "description": "LAN900 Remote"
   },
   "lan900_remote": {
     "ports": [
@@ -15111,7 +15111,7 @@
       "2446/tcp",
       "2446/udp"
     ],
-    "description": "bues_service "
+    "description": "bues_service"
   },
   "bues_service": {
     "ports": [
@@ -15685,7 +15685,7 @@
       "2528/tcp",
       "2528/udp"
     ],
-    "description": "NCR CCL "
+    "description": "NCR CCL"
   },
   "ncr_ccl": {
     "ports": [
@@ -16576,7 +16576,7 @@
       "2654/tcp",
       "2654/udp"
     ],
-    "description": "Corel VNC Admin "
+    "description": "Corel VNC Admin"
   },
   "corel_vncadmin": {
     "ports": [
@@ -18370,7 +18370,7 @@
       "2916/tcp",
       "2916/udp"
     ],
-    "description": "Elvin Server "
+    "description": "Elvin Server"
   },
   "elvin_server": {
     "ports": [
@@ -18384,7 +18384,7 @@
       "2917/tcp",
       "2917/udp"
     ],
-    "description": "Elvin Client "
+    "description": "Elvin Client"
   },
   "elvin_client": {
     "ports": [
@@ -19083,7 +19083,7 @@
       "3014/tcp",
       "3014/udp"
     ],
-    "description": "Broker Service "
+    "description": "Broker Service"
   },
   "broker_service": {
     "ports": [
@@ -19104,7 +19104,7 @@
       "3016/tcp",
       "3016/udp"
     ],
-    "description": "Notify Server "
+    "description": "Notify Server"
   },
   "notify_srvr": {
     "ports": [
@@ -19118,7 +19118,7 @@
       "3017/tcp",
       "3017/udp"
     ],
-    "description": "Event Listener "
+    "description": "Event Listener"
   },
   "event_listener": {
     "ports": [
@@ -19132,7 +19132,7 @@
       "3018/tcp",
       "3018/udp"
     ],
-    "description": "Service Registry "
+    "description": "Service Registry"
   },
   "srvc_registry": {
     "ports": [
@@ -19146,7 +19146,7 @@
       "3019/tcp",
       "3019/udp"
     ],
-    "description": "Resource Manager "
+    "description": "Resource Manager"
   },
   "resource_mgr": {
     "ports": [
@@ -19188,7 +19188,7 @@
       "3024/tcp",
       "3024/udp"
     ],
-    "description": "NDS_SSO "
+    "description": "NDS_SSO"
   },
   "nds_sso": {
     "ports": [
@@ -19216,7 +19216,7 @@
       "3027/tcp",
       "3027/udp"
     ],
-    "description": "LiebDevMgmt_C "
+    "description": "LiebDevMgmt_C"
   },
   "LiebDevMgmt_C": {
     "ports": [
@@ -19230,7 +19230,7 @@
       "3028/tcp",
       "3028/udp"
     ],
-    "description": "LiebDevMgmt_DM "
+    "description": "LiebDevMgmt_DM"
   },
   "LiebDevMgmt_DM": {
     "ports": [
@@ -19244,7 +19244,7 @@
       "3029/tcp",
       "3029/udp"
     ],
-    "description": "LiebDevMgmt_A "
+    "description": "LiebDevMgmt_A"
   },
   "LiebDevMgmt_A": {
     "ports": [
@@ -19391,7 +19391,7 @@
       "3050/tcp",
       "3050/udp"
     ],
-    "description": "gds_db "
+    "description": "gds_db"
   },
   "gds_db": {
     "ports": [
@@ -19607,7 +19607,7 @@
       "3080/tcp",
       "3080/udp"
     ],
-    "description": "stm_pproc "
+    "description": "stm_pproc"
   },
   "stm_pproc": {
     "ports": [
@@ -21730,7 +21730,7 @@
       "3396/tcp",
       "3396/udp"
     ],
-    "description": "Printer Agent "
+    "description": "Printer Agent"
   },
   "printer_agent": {
     "ports": [
@@ -25109,7 +25109,7 @@
       "3876/tcp",
       "3876/udp"
     ],
-    "description": "DirectoryLockdown Agent "
+    "description": "DirectoryLockdown Agent"
   },
   "dl_agent": {
     "ports": [
@@ -25543,7 +25543,7 @@
       "3938/tcp",
       "3938/udp"
     ],
-    "description": "Oracle dbControl Agent po "
+    "description": "Oracle dbControl Agent po"
   },
   "dbcontrol_agent": {
     "ports": [
@@ -25886,7 +25886,7 @@
       "3986/tcp",
       "3986/udp"
     ],
-    "description": "MAPPER workstation server "
+    "description": "MAPPER workstation server"
   },
   "mapper-ws_ethd": {
     "ports": [
@@ -26390,7 +26390,7 @@
       "4060/tcp",
       "4060/udp"
     ],
-    "description": "DSMETER Inter-Agent Transfer Channel "
+    "description": "DSMETER Inter-Agent Transfer Channel"
   },
   "dsmeter_iatc": {
     "ports": [
@@ -26432,7 +26432,7 @@
       "4065/tcp",
       "4065/udp"
     ],
-    "description": "Avanti Common Data "
+    "description": "Avanti Common Data"
   },
   "avanti_cdp": {
     "ports": [
@@ -26900,7 +26900,7 @@
       "4132/tcp",
       "4132/udp"
     ],
-    "description": "NUTS Daemon "
+    "description": "NUTS Daemon"
   },
   "nuts_dem": {
     "ports": [
@@ -26914,7 +26914,7 @@
       "4133/tcp",
       "4133/udp"
     ],
-    "description": "NUTS Bootp Server "
+    "description": "NUTS Bootp Server"
   },
   "nuts_bootp": {
     "ports": [
@@ -26970,7 +26970,7 @@
       "4140/tcp",
       "4140/udp"
     ],
-    "description": "Cedros Fraud Detection System "
+    "description": "Cedros Fraud Detection System"
   },
   "cedros_fds": {
     "ports": [
@@ -27047,7 +27047,7 @@
       "4151/tcp",
       "4151/udp"
     ],
-    "description": "Men & Mice Remote Control "
+    "description": "Men & Mice Remote Control"
   },
   "menandmice_noh": {
     "ports": [
@@ -27061,7 +27061,7 @@
       "4152/tcp",
       "4152/udp"
     ],
-    "description": "iDigTech Multiplex "
+    "description": "iDigTech Multiplex"
   },
   "idig_mux": {
     "ports": [
@@ -27297,7 +27297,7 @@
       "4184/tcp",
       "4184/udp"
     ],
-    "description": "UNIVERSE SUITE MESSAGE SERVICE "
+    "description": "UNIVERSE SUITE MESSAGE SERVICE"
   },
   "universe_suite": {
     "ports": [
@@ -27323,7 +27323,7 @@
     "ports": [
       "4187/tcp"
     ],
-    "description": "Cascade Proxy "
+    "description": "Cascade Proxy"
   },
   "csc_proxy": {
     "ports": [
@@ -27743,7 +27743,7 @@
     "ports": [
       "4360/tcp"
     ],
-    "description": "Matrix VNet Communication Protocol "
+    "description": "Matrix VNet Communication Protocol"
   },
   "matrix_vnet": {
     "ports": [
@@ -27788,7 +27788,7 @@
       "4370/tcp",
       "4370/udp"
     ],
-    "description": "ELPRO V2 Protocol Tunnel "
+    "description": "ELPRO V2 Protocol Tunnel"
   },
   "elpro_tunnel": {
     "ports": [
@@ -29273,7 +29273,7 @@
       "4846/tcp",
       "4846/udp"
     ],
-    "description": "Contamac ICM Service "
+    "description": "Contamac ICM Service"
   },
   "contamac_icm": {
     "ports": [
@@ -29453,7 +29453,7 @@
     "ports": [
       "4901/tcp"
     ],
-    "description": "FileLocator Remote Search Agent "
+    "description": "FileLocator Remote Search Agent"
   },
   "flr_agent": {
     "ports": [
@@ -30335,7 +30335,7 @@
       "5145/tcp",
       "5145/udp"
     ],
-    "description": "RMONITOR SECURE "
+    "description": "RMONITOR SECURE"
   },
   "rmonitor_secure": {
     "ports": [
@@ -30439,7 +30439,7 @@
       "5165/tcp",
       "5165/udp"
     ],
-    "description": "ife_1corp "
+    "description": "ife_1corp"
   },
   "ife_icorp": {
     "ports": [
@@ -33092,7 +33092,7 @@
       "6301/tcp",
       "6301/udp"
     ],
-    "description": "BMC CONTROL-D LDAP SERVER "
+    "description": "BMC CONTROL-D LDAP SERVER"
   },
   "bmc_ctd_ldap": {
     "ports": [
@@ -33335,7 +33335,7 @@
       "6444/tcp",
       "6444/udp"
     ],
-    "description": "Grid Engine Qmaster Service "
+    "description": "Grid Engine Qmaster Service"
   },
   "sge_qmaster": {
     "ports": [
@@ -33349,7 +33349,7 @@
       "6445/tcp",
       "6445/udp"
     ],
-    "description": "Grid Engine Execution Service "
+    "description": "Grid Engine Execution Service"
   },
   "sge_execd": {
     "ports": [
@@ -33475,7 +33475,7 @@
       "6501/tcp",
       "6501/udp"
     ],
-    "description": "BoKS Servc "
+    "description": "BoKS Servc"
   },
   "boks_servc": {
     "ports": [
@@ -33489,7 +33489,7 @@
       "6502/tcp",
       "6502/udp"
     ],
-    "description": "BoKS Servm "
+    "description": "BoKS Servm"
   },
   "boks_servm": {
     "ports": [
@@ -33503,7 +33503,7 @@
       "6503/tcp",
       "6503/udp"
     ],
-    "description": "BoKS Clntd "
+    "description": "BoKS Clntd"
   },
   "boks_clntd": {
     "ports": [
@@ -33517,7 +33517,7 @@
       "6505/tcp",
       "6505/udp"
     ],
-    "description": "BoKS Admin Private Port "
+    "description": "BoKS Admin Private Port"
   },
   "badm_priv": {
     "ports": [
@@ -33531,7 +33531,7 @@
       "6506/tcp",
       "6506/udp"
     ],
-    "description": "BoKS Admin Public Port "
+    "description": "BoKS Admin Public Port"
   },
   "badm_pub": {
     "ports": [
@@ -33545,7 +33545,7 @@
       "6507/tcp",
       "6507/udp"
     ],
-    "description": "BoKS Dir Server, Private Port "
+    "description": "BoKS Dir Server, Private Port"
   },
   "bdir_priv": {
     "ports": [
@@ -33559,7 +33559,7 @@
       "6508/tcp",
       "6508/udp"
     ],
-    "description": "BoKS Dir Server, Public Port "
+    "description": "BoKS Dir Server, Public Port"
   },
   "bdir_pub": {
     "ports": [
@@ -33675,7 +33675,7 @@
     "ports": [
       "6568/tcp"
     ],
-    "description": "CanIt Storage Manager "
+    "description": "CanIt Storage Manager"
   },
   "canit_store": {
     "ports": [
@@ -33897,7 +33897,7 @@
       "6672/tcp",
       "6672/udp"
     ],
-    "description": "vision_server "
+    "description": "vision_server"
   },
   "vision_server": {
     "ports": [
@@ -33911,7 +33911,7 @@
       "6673/tcp",
       "6673/udp"
     ],
-    "description": "vision_elmd "
+    "description": "vision_elmd"
   },
   "vision_elmd": {
     "ports": [
@@ -38137,7 +38137,7 @@
     "ports": [
       "9616/tcp"
     ],
-    "description": "eRunbook Agent "
+    "description": "eRunbook Agent"
   },
   "erunbook_agent": {
     "ports": [
@@ -38149,7 +38149,7 @@
     "ports": [
       "9617/tcp"
     ],
-    "description": "eRunbook Server "
+    "description": "eRunbook Server"
   },
   "erunbook_server": {
     "ports": [
@@ -38576,7 +38576,7 @@
       "10003/tcp",
       "10003/udp"
     ],
-    "description": "EMC-Documentum Content Server Product "
+    "description": "EMC-Documentum Content Server Product"
   },
   "documentum_s": {
     "ports": [
@@ -40459,7 +40459,7 @@
       "20034/tcp",
       "20034/udp"
     ],
-    "description": "NetBurner ID Port "
+    "description": "NetBurner ID Port"
   },
   "nburn_id": {
     "ports": [
@@ -40971,7 +40971,7 @@
       "24386/tcp",
       "24386/udp"
     ],
-    "description": "Intel RCI "
+    "description": "Intel RCI"
   },
   "intel_rci": {
     "ports": [
@@ -41519,7 +41519,7 @@
     "ports": [
       "31685/tcp"
     ],
-    "description": "DS Expert Monitor "
+    "description": "DS Expert Monitor"
   },
   "dsx_monitor": {
     "ports": [
@@ -41539,7 +41539,7 @@
       "31948/tcp",
       "31948/udp"
     ],
-    "description": "Embedded Device Configuration Protocol TX "
+    "description": "Embedded Device Configuration Protocol TX"
   },
   "iceedcp_tx": {
     "ports": [
@@ -41553,7 +41553,7 @@
       "31949/tcp",
       "31949/udp"
     ],
-    "description": "Embedded Device Configuration Protocol RX "
+    "description": "Embedded Device Configuration Protocol RX"
   },
   "iceedcp_rx": {
     "ports": [
@@ -42351,7 +42351,7 @@
       "44818/tcp",
       "44818/udp"
     ],
-    "description": "EtherNet/IP messaging "
+    "description": "EtherNet/IP messaging"
   },
   "EtherNet/IP-2": {
     "ports": [
