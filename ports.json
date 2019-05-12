@@ -517,11 +517,11 @@
   },
   "63/tcp": {
     "name": "whoispp",
-    "description": "whois++"
+    "description": "whois++ "
   },
   "63/udp": {
     "name": "whoispp",
-    "description": "whois++"
+    "description": "whois++ "
   },
   "64/tcp": {
     "name": "covia",
@@ -541,11 +541,11 @@
   },
   "66/tcp": {
     "name": "sql-net",
-    "description": "Oracle SQL*NET"
+    "description": "Oracle SQL*NET "
   },
   "66/udp": {
     "name": "sql-net",
-    "description": "Oracle SQL*NET"
+    "description": "Oracle SQL*NET "
   },
   "67/tcp": {
     "name": "bootps",
@@ -1368,11 +1368,11 @@
   },
   "172/tcp": {
     "name": "cl-1",
-    "description": "Network Innovations CL/1"
+    "description": "Network Innovations CL/1 "
   },
   "172/udp": {
     "name": "cl-1",
-    "description": "Network Innovations CL/1"
+    "description": "Network Innovations CL/1 "
   },
   "173/tcp": {
     "name": "xyplex-mux",
@@ -1676,19 +1676,19 @@
   },
   "210/tcp": {
     "name": "z39-50",
-    "description": "ANSI Z39.50"
+    "description": "ANSI Z39.50 "
   },
   "210/udp": {
     "name": "z39-50",
-    "description": "ANSI Z39.50"
+    "description": "ANSI Z39.50 "
   },
   "211/tcp": {
     "name": "914c-g",
-    "description": "Texas Instruments 914C/G Terminal"
+    "description": "Texas Instruments 914C/G Terminal "
   },
   "211/udp": {
     "name": "914c-g",
-    "description": "Texas Instruments 914C/G Terminal"
+    "description": "Texas Instruments 914C/G Terminal "
   },
   "212/tcp": {
     "name": "anet",
@@ -1836,11 +1836,11 @@
   },
   "247/tcp": {
     "name": "subntbcst-tftp",
-    "description": "SUBNTBCST_TFTP"
+    "description": "SUBNTBCST_TFTP "
   },
   "247/udp": {
     "name": "subntbcst-tftp",
-    "description": "SUBNTBCST_TFTP"
+    "description": "SUBNTBCST_TFTP "
   },
   "248/tcp": {
     "name": "bhfhs",
@@ -2324,11 +2324,11 @@
   },
   "363/tcp": {
     "name": "rsvp-tunnel",
-    "description": "RSVP Tunnel"
+    "description": "RSVP Tunnel "
   },
   "363/udp": {
     "name": "rsvp-tunnel",
-    "description": "RSVP Tunnel"
+    "description": "RSVP Tunnel "
   },
   "364/tcp": {
     "name": "aurora-cmgr",
@@ -2844,19 +2844,19 @@
   },
   "428/tcp": {
     "name": "ocs-cmu",
-    "description": "OCS_CMU"
+    "description": "OCS_CMU "
   },
   "428/udp": {
     "name": "ocs-cmu",
-    "description": "OCS_CMU"
+    "description": "OCS_CMU "
   },
   "429/tcp": {
     "name": "ocs-amu",
-    "description": "OCS_AMU"
+    "description": "OCS_AMU "
   },
   "429/udp": {
     "name": "ocs-amu",
-    "description": "OCS_AMU"
+    "description": "OCS_AMU "
   },
   "430/tcp": {
     "name": "utmpsd",
@@ -2956,11 +2956,11 @@
   },
   "442/tcp": {
     "name": "cvc-hostd",
-    "description": "cvc_hostd"
+    "description": "cvc_hostd "
   },
   "442/udp": {
     "name": "cvc-hostd",
-    "description": "cvc_hostd"
+    "description": "cvc_hostd "
   },
   "443/tcp": {
     "name": "https",
@@ -4406,11 +4406,11 @@
   },
   "625/tcp": {
     "name": "dec-dlm",
-    "description": "DEC DLM"
+    "description": "DEC DLM "
   },
   "625/udp": {
     "name": "dec-dlm",
-    "description": "DEC DLM"
+    "description": "DEC DLM "
   },
   "626/tcp": {
     "name": "asia",
@@ -5486,11 +5486,11 @@
   },
   "887/tcp": {
     "name": "iclcnet-svinfo",
-    "description": "ICL coNETion server info"
+    "description": "ICL coNETion server info "
   },
   "887/udp": {
     "name": "iclcnet-svinfo",
-    "description": "ICL coNETion server info"
+    "description": "ICL coNETion server info "
   },
   "888/tcp": {
     "name": "accessbuilder",
@@ -6035,19 +6035,19 @@
   },
   "1067/tcp": {
     "name": "instl-boots",
-    "description": "Installation Bootstrap Proto. Serv."
+    "description": "Installation Bootstrap Proto. Serv. "
   },
   "1067/udp": {
     "name": "instl-boots",
-    "description": "Installation Bootstrap Proto. Serv."
+    "description": "Installation Bootstrap Proto. Serv. "
   },
   "1068/tcp": {
     "name": "instl-bootc",
-    "description": "Installation Bootstrap Proto. Cli."
+    "description": "Installation Bootstrap Proto. Cli. "
   },
   "1068/udp": {
     "name": "instl-bootc",
-    "description": "Installation Bootstrap Proto. Cli."
+    "description": "Installation Bootstrap Proto. Cli. "
   },
   "1069/tcp": {
     "name": "cognex-insight",
@@ -6599,11 +6599,11 @@
   },
   "1138/tcp": {
     "name": "encrypted-admin",
-    "description": "encrypted admin requests"
+    "description": "encrypted admin requests "
   },
   "1138/udp": {
     "name": "encrypted-admin",
-    "description": "encrypted admin requests"
+    "description": "encrypted admin requests "
   },
   "1139/tcp": {
     "name": "evm",
@@ -8003,11 +8003,11 @@
   },
   "1313/tcp": {
     "name": "bmc-patroldb",
-    "description": "BMC_PATROLDB"
+    "description": "BMC_PATROLDB "
   },
   "1313/udp": {
     "name": "bmc-patroldb",
-    "description": "BMC_PATROLDB"
+    "description": "BMC_PATROLDB "
   },
   "1314/tcp": {
     "name": "pdps",
@@ -8555,11 +8555,11 @@
   },
   "1382/tcp": {
     "name": "udt-os",
-    "description": "udt_os"
+    "description": "udt_os "
   },
   "1382/udp": {
     "name": "udt-os",
-    "description": "udt_os"
+    "description": "udt_os "
   },
   "1383/tcp": {
     "name": "gwha",
@@ -8579,11 +8579,11 @@
   },
   "1385/tcp": {
     "name": "atex-elmd",
-    "description": "Atex Publishing License Manager"
+    "description": "Atex Publishing License Manager "
   },
   "1385/udp": {
     "name": "atex-elmd",
-    "description": "Atex Publishing License Manager"
+    "description": "Atex Publishing License Manager "
   },
   "1386/tcp": {
     "name": "checksum",
@@ -8827,11 +8827,11 @@
   },
   "1416/tcp": {
     "name": "novell-lu6-2",
-    "description": "Novell LU6.2"
+    "description": "Novell LU6.2 "
   },
   "1416/udp": {
     "name": "novell-lu6-2",
-    "description": "Novell LU6.2"
+    "description": "Novell LU6.2 "
   },
   "1417/tcp": {
     "name": "timbuktu-srv1",
@@ -9131,11 +9131,11 @@
   },
   "1454/tcp": {
     "name": "interhdl-elmd",
-    "description": "interHDL License Manager"
+    "description": "interHDL License Manager "
   },
   "1454/udp": {
     "name": "interhdl-elmd",
-    "description": "interHDL License Manager"
+    "description": "interHDL License Manager "
   },
   "1455/tcp": {
     "name": "esl-lm",
@@ -9187,11 +9187,11 @@
   },
   "1461/tcp": {
     "name": "ibm-wrless-lan",
-    "description": "IBM Wireless LAN"
+    "description": "IBM Wireless LAN "
   },
   "1461/udp": {
     "name": "ibm-wrless-lan",
-    "description": "IBM Wireless LAN"
+    "description": "IBM Wireless LAN "
   },
   "1462/tcp": {
     "name": "world-lm",
@@ -9211,11 +9211,11 @@
   },
   "1464/tcp": {
     "name": "msl-lmd",
-    "description": "MSL License Manager"
+    "description": "MSL License Manager "
   },
   "1464/udp": {
     "name": "msl-lmd",
-    "description": "MSL License Manager"
+    "description": "MSL License Manager "
   },
   "1465/tcp": {
     "name": "pipes",
@@ -9387,11 +9387,11 @@
   },
   "1486/tcp": {
     "name": "nms-topo-serv",
-    "description": "nms_topo_serv"
+    "description": "nms_topo_serv "
   },
   "1486/udp": {
     "name": "nms-topo-serv",
-    "description": "nms_topo_serv"
+    "description": "nms_topo_serv "
   },
   "1487/tcp": {
     "name": "localinfosrvr",
@@ -9435,11 +9435,11 @@
   },
   "1493/tcp": {
     "name": "netmap-lm",
-    "description": "netmap_lm"
+    "description": "netmap_lm "
   },
   "1493/udp": {
     "name": "netmap-lm",
-    "description": "netmap_lm"
+    "description": "netmap_lm "
   },
   "1494/tcp": {
     "name": "ica",
@@ -9939,11 +9939,11 @@
   },
   "1556/tcp": {
     "name": "veritas-pbx",
-    "description": "VERITAS Private Branch Exchange"
+    "description": "VERITAS Private Branch Exchange "
   },
   "1556/udp": {
     "name": "veritas-pbx",
-    "description": "VERITAS Private Branch Exchange"
+    "description": "VERITAS Private Branch Exchange "
   },
   "1557/tcp": {
     "name": "arbortext-lm",
@@ -10187,11 +10187,11 @@
   },
   "1587/tcp": {
     "name": "pra-elmd",
-    "description": "pra_elmd"
+    "description": "pra_elmd "
   },
   "1587/udp": {
     "name": "pra-elmd",
-    "description": "pra_elmd"
+    "description": "pra_elmd "
   },
   "1588/tcp": {
     "name": "triquest-lm",
@@ -10699,11 +10699,11 @@
   },
   "1651/tcp": {
     "name": "shiva-confsrvr",
-    "description": "shiva_confsrvr"
+    "description": "shiva_confsrvr "
   },
   "1651/udp": {
     "name": "shiva-confsrvr",
-    "description": "shiva_confsrvr"
+    "description": "shiva_confsrvr "
   },
   "1652/tcp": {
     "name": "xnmp",
@@ -15166,11 +15166,11 @@
   },
   "2222/tcp": {
     "name": "EtherNet-IP-1",
-    "description": "EtherNet/IP I/O"
+    "description": "EtherNet/IP I/O "
   },
   "2222/udp": {
     "name": "EtherNet-IP-1",
-    "description": "EtherNet/IP I/O"
+    "description": "EtherNet/IP I/O "
   },
   "2223/tcp": {
     "name": "rockwell-csp2",
@@ -16106,11 +16106,11 @@
   },
   "2340/tcp": {
     "name": "wrs-registry",
-    "description": "WRS Registry"
+    "description": "WRS Registry "
   },
   "2340/udp": {
     "name": "wrs-registry",
-    "description": "WRS Registry"
+    "description": "WRS Registry "
   },
   "2341/tcp": {
     "name": "xiostatus",
@@ -16154,35 +16154,35 @@
   },
   "2346/tcp": {
     "name": "redstorm-join",
-    "description": "Game Connection Port"
+    "description": "Game Connection Port "
   },
   "2346/udp": {
     "name": "redstorm-join",
-    "description": "Game Connection Port"
+    "description": "Game Connection Port "
   },
   "2347/tcp": {
     "name": "redstorm-find",
-    "description": "Game Announcement and Location"
+    "description": "Game Announcement and Location "
   },
   "2347/udp": {
     "name": "redstorm-find",
-    "description": "Game Announcement and Location"
+    "description": "Game Announcement and Location "
   },
   "2348/tcp": {
     "name": "redstorm-info",
-    "description": "Information to query for game status"
+    "description": "Information to query for game status "
   },
   "2348/udp": {
     "name": "redstorm-info",
-    "description": "Information to query for game status"
+    "description": "Information to query for game status "
   },
   "2349/tcp": {
     "name": "redstorm-diag",
-    "description": "Diagnostics Port"
+    "description": "Diagnostics Port "
   },
   "2349/udp": {
     "name": "redstorm-diag",
-    "description": "Diagnostics Port"
+    "description": "Diagnostics Port "
   },
   "2350/tcp": {
     "name": "psbserver",
@@ -16526,11 +16526,11 @@
   },
   "2395/tcp": {
     "name": "lan900-remote",
-    "description": "LAN900 Remote"
+    "description": "LAN900 Remote "
   },
   "2395/udp": {
     "name": "lan900-remote",
-    "description": "LAN900 Remote"
+    "description": "LAN900 Remote "
   },
   "2396/tcp": {
     "name": "wusage",
@@ -16934,11 +16934,11 @@
   },
   "2446/tcp": {
     "name": "bues-service",
-    "description": "bues_service"
+    "description": "bues_service "
   },
   "2446/udp": {
     "name": "bues-service",
-    "description": "bues_service"
+    "description": "bues_service "
   },
   "2447/tcp": {
     "name": "ovwdb",
@@ -17590,11 +17590,11 @@
   },
   "2528/tcp": {
     "name": "ncr-ccl",
-    "description": "NCR CCL"
+    "description": "NCR CCL "
   },
   "2528/udp": {
     "name": "ncr-ccl",
-    "description": "NCR CCL"
+    "description": "NCR CCL "
   },
   "2529/tcp": {
     "name": "utsftp",
@@ -18598,11 +18598,11 @@
   },
   "2654/tcp": {
     "name": "corel-vncadmin",
-    "description": "Corel VNC Admin"
+    "description": "Corel VNC Admin "
   },
   "2654/udp": {
     "name": "corel-vncadmin",
-    "description": "Corel VNC Admin"
+    "description": "Corel VNC Admin "
   },
   "2655/tcp": {
     "name": "unglue",
@@ -20660,19 +20660,19 @@
   },
   "2916/tcp": {
     "name": "elvin-server",
-    "description": "Elvin Server"
+    "description": "Elvin Server "
   },
   "2916/udp": {
     "name": "elvin-server",
-    "description": "Elvin Server"
+    "description": "Elvin Server "
   },
   "2917/tcp": {
     "name": "elvin-client",
-    "description": "Elvin Client"
+    "description": "Elvin Client "
   },
   "2917/udp": {
     "name": "elvin-client",
-    "description": "Elvin Client"
+    "description": "Elvin Client "
   },
   "2918/tcp": {
     "name": "kastenchasepad",
@@ -21444,11 +21444,11 @@
   },
   "3014/tcp": {
     "name": "broker-service",
-    "description": "Broker Service"
+    "description": "Broker Service "
   },
   "3014/udp": {
     "name": "broker-service",
-    "description": "Broker Service"
+    "description": "Broker Service "
   },
   "3015/tcp": {
     "name": "nati-dstp",
@@ -21460,35 +21460,35 @@
   },
   "3016/tcp": {
     "name": "notify-srvr",
-    "description": "Notify Server"
+    "description": "Notify Server "
   },
   "3016/udp": {
     "name": "notify-srvr",
-    "description": "Notify Server"
+    "description": "Notify Server "
   },
   "3017/tcp": {
     "name": "event-listener",
-    "description": "Event Listener"
+    "description": "Event Listener "
   },
   "3017/udp": {
     "name": "event-listener",
-    "description": "Event Listener"
+    "description": "Event Listener "
   },
   "3018/tcp": {
     "name": "srvc-registry",
-    "description": "Service Registry"
+    "description": "Service Registry "
   },
   "3018/udp": {
     "name": "srvc-registry",
-    "description": "Service Registry"
+    "description": "Service Registry "
   },
   "3019/tcp": {
     "name": "resource-mgr",
-    "description": "Resource Manager"
+    "description": "Resource Manager "
   },
   "3019/udp": {
     "name": "resource-mgr",
-    "description": "Resource Manager"
+    "description": "Resource Manager "
   },
   "3020/tcp": {
     "name": "cifs",
@@ -21524,11 +21524,11 @@
   },
   "3024/tcp": {
     "name": "nds-sso",
-    "description": "NDS_SSO"
+    "description": "NDS_SSO "
   },
   "3024/udp": {
     "name": "nds-sso",
-    "description": "NDS_SSO"
+    "description": "NDS_SSO "
   },
   "3025/tcp": {
     "name": "arepa-raft",
@@ -21548,27 +21548,27 @@
   },
   "3027/tcp": {
     "name": "LiebDevMgmt-C",
-    "description": "LiebDevMgmt_C"
+    "description": "LiebDevMgmt_C "
   },
   "3027/udp": {
     "name": "LiebDevMgmt-C",
-    "description": "LiebDevMgmt_C"
+    "description": "LiebDevMgmt_C "
   },
   "3028/tcp": {
     "name": "LiebDevMgmt-DM",
-    "description": "LiebDevMgmt_DM"
+    "description": "LiebDevMgmt_DM "
   },
   "3028/udp": {
     "name": "LiebDevMgmt-DM",
-    "description": "LiebDevMgmt_DM"
+    "description": "LiebDevMgmt_DM "
   },
   "3029/tcp": {
     "name": "LiebDevMgmt-A",
-    "description": "LiebDevMgmt_A"
+    "description": "LiebDevMgmt_A "
   },
   "3029/udp": {
     "name": "LiebDevMgmt-A",
-    "description": "LiebDevMgmt_A"
+    "description": "LiebDevMgmt_A "
   },
   "3030/tcp": {
     "name": "arepa-cas",
@@ -21732,11 +21732,11 @@
   },
   "3050/tcp": {
     "name": "gds-db",
-    "description": "gds_db"
+    "description": "gds_db "
   },
   "3050/udp": {
     "name": "gds-db",
-    "description": "gds_db"
+    "description": "gds_db "
   },
   "3051/tcp": {
     "name": "galaxy-server",
@@ -21972,11 +21972,11 @@
   },
   "3080/tcp": {
     "name": "stm-pproc",
-    "description": "stm_pproc"
+    "description": "stm_pproc "
   },
   "3080/udp": {
     "name": "stm-pproc",
-    "description": "stm_pproc"
+    "description": "stm_pproc "
   },
   "3081/tcp": {
     "name": "tl1-lv",
@@ -24408,11 +24408,11 @@
   },
   "3396/tcp": {
     "name": "printer-agent",
-    "description": "Printer Agent"
+    "description": "Printer Agent "
   },
   "3396/udp": {
     "name": "printer-agent",
-    "description": "Printer Agent"
+    "description": "Printer Agent "
   },
   "3397/tcp": {
     "name": "cloanto-lm",
@@ -28232,11 +28232,11 @@
   },
   "3876/tcp": {
     "name": "dl-agent",
-    "description": "DirectoryLockdown Agent"
+    "description": "DirectoryLockdown Agent "
   },
   "3876/udp": {
     "name": "dl-agent",
-    "description": "DirectoryLockdown Agent"
+    "description": "DirectoryLockdown Agent "
   },
   "3877/tcp": {
     "name": "xmpcr-interface",
@@ -28424,11 +28424,11 @@
   },
   "3900/tcp": {
     "name": "udt-os",
-    "description": "Unidata UDT OS"
+    "description": "Unidata UDT OS "
   },
   "3900/udp": {
     "name": "udt-os",
-    "description": "Unidata UDT OS"
+    "description": "Unidata UDT OS "
   },
   "3901/tcp": {
     "name": "nimsh",
@@ -28728,11 +28728,11 @@
   },
   "3938/tcp": {
     "name": "dbcontrol-agent",
-    "description": "Oracle dbControl Agent po"
+    "description": "Oracle dbControl Agent po "
   },
   "3938/udp": {
     "name": "dbcontrol-agent",
-    "description": "Oracle dbControl Agent po"
+    "description": "Oracle dbControl Agent po "
   },
   "3939/tcp": {
     "name": "aamp",
@@ -29112,11 +29112,11 @@
   },
   "3986/tcp": {
     "name": "mapper-ws-ethd",
-    "description": "MAPPER workstation server"
+    "description": "MAPPER workstation server "
   },
   "3986/udp": {
     "name": "mapper-ws-ethd",
-    "description": "MAPPER workstation server"
+    "description": "MAPPER workstation server "
   },
   "3987/tcp": {
     "name": "centerline",
@@ -29688,11 +29688,11 @@
   },
   "4060/tcp": {
     "name": "dsmeter-iatc",
-    "description": "DSMETER Inter-Agent Transfer Channel"
+    "description": "DSMETER Inter-Agent Transfer Channel "
   },
   "4060/udp": {
     "name": "dsmeter-iatc",
-    "description": "DSMETER Inter-Agent Transfer Channel"
+    "description": "DSMETER Inter-Agent Transfer Channel "
   },
   "4061/tcp": {
     "name": "ice-location",
@@ -29728,11 +29728,11 @@
   },
   "4065/tcp": {
     "name": "avanti-cdp",
-    "description": "Avanti Common Data"
+    "description": "Avanti Common Data "
   },
   "4065/udp": {
     "name": "avanti-cdp",
-    "description": "Avanti Common Data"
+    "description": "Avanti Common Data "
   },
   "4066/tcp": {
     "name": "pmas",
@@ -30264,19 +30264,19 @@
   },
   "4132/tcp": {
     "name": "nuts-dem",
-    "description": "NUTS Daemon"
+    "description": "NUTS Daemon "
   },
   "4132/udp": {
     "name": "nuts-dem",
-    "description": "NUTS Daemon"
+    "description": "NUTS Daemon "
   },
   "4133/tcp": {
     "name": "nuts-bootp",
-    "description": "NUTS Bootp Server"
+    "description": "NUTS Bootp Server "
   },
   "4133/udp": {
     "name": "nuts-bootp",
-    "description": "NUTS Bootp Server"
+    "description": "NUTS Bootp Server "
   },
   "4134/tcp": {
     "name": "nifty-hmi",
@@ -30328,11 +30328,11 @@
   },
   "4140/tcp": {
     "name": "cedros-fds",
-    "description": "Cedros Fraud Detection System"
+    "description": "Cedros Fraud Detection System "
   },
   "4140/udp": {
     "name": "cedros-fds",
-    "description": "Cedros Fraud Detection System"
+    "description": "Cedros Fraud Detection System "
   },
   "4141/tcp": {
     "name": "oirtgsvc",
@@ -30408,19 +30408,19 @@
   },
   "4151/tcp": {
     "name": "menandmice-noh",
-    "description": "Men & Mice Remote Control"
+    "description": "Men & Mice Remote Control "
   },
   "4151/udp": {
     "name": "menandmice-noh",
-    "description": "Men & Mice Remote Control"
+    "description": "Men & Mice Remote Control "
   },
   "4152/tcp": {
     "name": "idig-mux",
-    "description": "iDigTech Multiplex"
+    "description": "iDigTech Multiplex "
   },
   "4152/udp": {
     "name": "idig-mux",
-    "description": "iDigTech Multiplex"
+    "description": "iDigTech Multiplex "
   },
   "4153/tcp": {
     "name": "mbl-battd",
@@ -30672,11 +30672,11 @@
   },
   "4184/tcp": {
     "name": "universe-suite",
-    "description": "UNIVERSE SUITE MESSAGE SERVICE"
+    "description": "UNIVERSE SUITE MESSAGE SERVICE "
   },
   "4184/udp": {
     "name": "universe-suite",
-    "description": "UNIVERSE SUITE MESSAGE SERVICE"
+    "description": "UNIVERSE SUITE MESSAGE SERVICE "
   },
   "4185/tcp": {
     "name": "wcpp",
@@ -30696,7 +30696,7 @@
   },
   "4187/tcp": {
     "name": "csc-proxy",
-    "description": "Cascade Proxy"
+    "description": "Cascade Proxy "
   },
   "4187/udp": {
     "name": "",
@@ -31188,7 +31188,7 @@
   },
   "4360/tcp": {
     "name": "matrix-vnet",
-    "description": "Matrix VNet Communication Protocol"
+    "description": "Matrix VNet Communication Protocol "
   },
   "4360/udp": {
     "name": "",
@@ -31236,11 +31236,11 @@
   },
   "4370/tcp": {
     "name": "elpro-tunnel",
-    "description": "ELPRO V2 Protocol Tunnel"
+    "description": "ELPRO V2 Protocol Tunnel "
   },
   "4370/udp": {
     "name": "elpro-tunnel",
-    "description": "ELPRO V2 Protocol Tunnel"
+    "description": "ELPRO V2 Protocol Tunnel "
   },
   "4371/tcp": {
     "name": "l2c-control",
@@ -32952,11 +32952,11 @@
   },
   "4846/tcp": {
     "name": "contamac-icm",
-    "description": "Contamac ICM Service"
+    "description": "Contamac ICM Service "
   },
   "4846/udp": {
     "name": "contamac-icm",
-    "description": "Contamac ICM Service"
+    "description": "Contamac ICM Service "
   },
   "4847/tcp": {
     "name": "wfc",
@@ -33160,7 +33160,7 @@
   },
   "4901/tcp": {
     "name": "flr-agent",
-    "description": "FileLocator Remote Search Agent"
+    "description": "FileLocator Remote Search Agent "
   },
   "4901/udp": {
     "name": "",
@@ -34200,11 +34200,11 @@
   },
   "5145/tcp": {
     "name": "rmonitor-secure",
-    "description": "RMONITOR SECURE"
+    "description": "RMONITOR SECURE "
   },
   "5145/udp": {
     "name": "rmonitor-secure",
-    "description": "RMONITOR SECURE"
+    "description": "RMONITOR SECURE "
   },
   "5146/tcp": {
     "name": "social-alarm",
@@ -34312,11 +34312,11 @@
   },
   "5165/tcp": {
     "name": "ife-icorp",
-    "description": "ife_1corp"
+    "description": "ife_1corp "
   },
   "5165/udp": {
     "name": "ife-icorp",
-    "description": "ife_1corp"
+    "description": "ife_1corp "
   },
   "5166/tcp": {
     "name": "winpcs",
@@ -37398,11 +37398,11 @@
   },
   "6301/tcp": {
     "name": "bmc-ctd-ldap",
-    "description": "BMC CONTROL-D LDAP SERVER"
+    "description": "BMC CONTROL-D LDAP SERVER "
   },
   "6301/udp": {
     "name": "bmc-ctd-ldap",
-    "description": "BMC CONTROL-D LDAP SERVER"
+    "description": "BMC CONTROL-D LDAP SERVER "
   },
   "6306/tcp": {
     "name": "ufmp",
@@ -37654,19 +37654,19 @@
   },
   "6444/tcp": {
     "name": "sge-qmaster",
-    "description": "Grid Engine Qmaster Service"
+    "description": "Grid Engine Qmaster Service "
   },
   "6444/udp": {
     "name": "sge-qmaster",
-    "description": "Grid Engine Qmaster Service"
+    "description": "Grid Engine Qmaster Service "
   },
   "6445/tcp": {
     "name": "sge-execd",
-    "description": "Grid Engine Execution Service"
+    "description": "Grid Engine Execution Service "
   },
   "6445/udp": {
     "name": "sge-execd",
-    "description": "Grid Engine Execution Service"
+    "description": "Grid Engine Execution Service "
   },
   "6446/tcp": {
     "name": "mysql-proxy",
@@ -37798,59 +37798,59 @@
   },
   "6501/tcp": {
     "name": "boks-servc",
-    "description": "BoKS Servc"
+    "description": "BoKS Servc "
   },
   "6501/udp": {
     "name": "boks-servc",
-    "description": "BoKS Servc"
+    "description": "BoKS Servc "
   },
   "6502/tcp": {
     "name": "boks-servm",
-    "description": "BoKS Servm"
+    "description": "BoKS Servm "
   },
   "6502/udp": {
     "name": "boks-servm",
-    "description": "BoKS Servm"
+    "description": "BoKS Servm "
   },
   "6503/tcp": {
     "name": "boks-clntd",
-    "description": "BoKS Clntd"
+    "description": "BoKS Clntd "
   },
   "6503/udp": {
     "name": "boks-clntd",
-    "description": "BoKS Clntd"
+    "description": "BoKS Clntd "
   },
   "6505/tcp": {
     "name": "badm-priv",
-    "description": "BoKS Admin Private Port"
+    "description": "BoKS Admin Private Port "
   },
   "6505/udp": {
     "name": "badm-priv",
-    "description": "BoKS Admin Private Port"
+    "description": "BoKS Admin Private Port "
   },
   "6506/tcp": {
     "name": "badm-pub",
-    "description": "BoKS Admin Public Port"
+    "description": "BoKS Admin Public Port "
   },
   "6506/udp": {
     "name": "badm-pub",
-    "description": "BoKS Admin Public Port"
+    "description": "BoKS Admin Public Port "
   },
   "6507/tcp": {
     "name": "bdir-priv",
-    "description": "BoKS Dir Server, Private Port"
+    "description": "BoKS Dir Server, Private Port "
   },
   "6507/udp": {
     "name": "bdir-priv",
-    "description": "BoKS Dir Server, Private Port"
+    "description": "BoKS Dir Server, Private Port "
   },
   "6508/tcp": {
     "name": "bdir-pub",
-    "description": "BoKS Dir Server, Public Port"
+    "description": "BoKS Dir Server, Public Port "
   },
   "6508/udp": {
     "name": "bdir-pub",
-    "description": "BoKS Dir Server, Public Port"
+    "description": "BoKS Dir Server, Public Port "
   },
   "6509/tcp": {
     "name": "mgcs-mfp-port",
@@ -37976,7 +37976,7 @@
   },
   "6568/tcp": {
     "name": "canit-store",
-    "description": "CanIt Storage Manager"
+    "description": "CanIt Storage Manager "
   },
   "6568/udp": {
     "name": "rp-reputation",
@@ -38232,19 +38232,19 @@
   },
   "6672/tcp": {
     "name": "vision-server",
-    "description": "vision_server"
+    "description": "vision_server "
   },
   "6672/udp": {
     "name": "vision-server",
-    "description": "vision_server"
+    "description": "vision_server "
   },
   "6673/tcp": {
     "name": "vision-elmd",
-    "description": "vision_elmd"
+    "description": "vision_elmd "
   },
   "6673/udp": {
     "name": "vision-elmd",
-    "description": "vision_elmd"
+    "description": "vision_elmd "
   },
   "6678/tcp": {
     "name": "vfbp",
@@ -42886,6 +42886,14 @@
     "name": "guibase",
     "description": "guibase"
   },
+  "9339/tcp": {
+    "name": "gnmi-gnoi",
+    "description": "gRPC Network Mgmt/Operations Interface"
+  },
+  "9339/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "9343/tcp": {
     "name": "mpidcmgr",
     "description": "MpIdcMgr"
@@ -43176,7 +43184,7 @@
   },
   "9616/tcp": {
     "name": "erunbook-agent",
-    "description": "eRunbook Agent"
+    "description": "eRunbook Agent "
   },
   "9616/udp": {
     "name": "",
@@ -43184,7 +43192,7 @@
   },
   "9617/tcp": {
     "name": "erunbook-server",
-    "description": "eRunbook Server"
+    "description": "eRunbook Server "
   },
   "9617/udp": {
     "name": "",
@@ -43668,11 +43676,11 @@
   },
   "10003/tcp": {
     "name": "documentum-s",
-    "description": "EMC-Documentum Content Server Product"
+    "description": "EMC-Documentum Content Server Product "
   },
   "10003/udp": {
     "name": "documentum-s",
-    "description": "EMC-Documentum Content Server Product"
+    "description": "EMC-Documentum Content Server Product "
   },
   "10004/tcp": {
     "name": "emcrmirccd",
@@ -45842,11 +45850,11 @@
   },
   "20034/tcp": {
     "name": "nburn-id",
-    "description": "NetBurner ID Port"
+    "description": "NetBurner ID Port "
   },
   "20034/udp": {
     "name": "nburn-id",
-    "description": "NetBurner ID Port"
+    "description": "NetBurner ID Port "
   },
   "20046/tcp": {
     "name": "tmophl7mts",
@@ -46430,11 +46438,11 @@
   },
   "24386/tcp": {
     "name": "intel-rci",
-    "description": "Intel RCI"
+    "description": "Intel RCI "
   },
   "24386/udp": {
     "name": "intel-rci",
-    "description": "Intel RCI"
+    "description": "Intel RCI "
   },
   "24465/tcp": {
     "name": "tonidods",
@@ -47066,7 +47074,7 @@
   },
   "31685/tcp": {
     "name": "dsx-monitor",
-    "description": "DS Expert Monitor"
+    "description": "DS Expert Monitor "
   },
   "31685/udp": {
     "name": "",
@@ -47082,19 +47090,19 @@
   },
   "31948/tcp": {
     "name": "iceedcp-tx",
-    "description": "Embedded Device Configuration Protocol TX"
+    "description": "Embedded Device Configuration Protocol TX "
   },
   "31948/udp": {
     "name": "iceedcp-tx",
-    "description": "Embedded Device Configuration Protocol TX"
+    "description": "Embedded Device Configuration Protocol TX "
   },
   "31949/tcp": {
     "name": "iceedcp-rx",
-    "description": "Embedded Device Configuration Protocol RX"
+    "description": "Embedded Device Configuration Protocol RX "
   },
   "31949/udp": {
     "name": "iceedcp-rx",
-    "description": "Embedded Device Configuration Protocol RX"
+    "description": "Embedded Device Configuration Protocol RX "
   },
   "32034/tcp": {
     "name": "iracinghelper",
@@ -48014,11 +48022,11 @@
   },
   "44818/tcp": {
     "name": "EtherNet-IP-2",
-    "description": "EtherNet/IP messaging"
+    "description": "EtherNet/IP messaging "
   },
   "44818/udp": {
     "name": "EtherNet-IP-2",
-    "description": "EtherNet/IP messaging"
+    "description": "EtherNet/IP messaging "
   },
   "44900/tcp": {
     "name": "m3da",
