@@ -44482,6 +44482,14 @@
     "name": "sysinfo-sp",
     "description": "SysInfo Service Protocol"
   },
+  "11971/tcp": {
+    "name": "tibsd",
+    "description": "TiBS Service"
+  },
+  "11971/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "11997/sctp": {
     "name": "wmereceiving",
     "description": "WorldMailExpress"

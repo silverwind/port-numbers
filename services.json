@@ -39269,6 +39269,12 @@
     ],
     "description": "SysInfo Service Protocol"
   },
+  "tibsd": {
+    "ports": [
+      "11971/tcp"
+    ],
+    "description": "TiBS Service"
+  },
   "wmereceiving": {
     "ports": [
       "11997/sctp"
