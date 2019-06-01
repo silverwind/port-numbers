@@ -36173,6 +36173,12 @@
     ],
     "description": "Oracle Kernel zones migration server"
   },
+  "skynetflow": {
+    "ports": [
+      "8111/udp"
+    ],
+    "description": "Skynetflow network services"
+  },
   "mtl8000-matrix": {
     "ports": [
       "8115/tcp",

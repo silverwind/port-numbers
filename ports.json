@@ -40914,6 +40914,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "8111/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8111/udp": {
+    "name": "skynetflow",
+    "description": "Skynetflow network services"
+  },
   "8115/tcp": {
     "name": "mtl8000-matrix",
     "description": "MTL8000 Matrix"
