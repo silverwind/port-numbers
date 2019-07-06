@@ -13383,13 +13383,6 @@
     ],
     "description": "OneHome Service Port"
   },
-  "ici": {
-    "ports": [
-      "2200/tcp",
-      "2200/udp"
-    ],
-    "description": "ICI"
-  },
   "ats": {
     "ports": [
       "2201/tcp",

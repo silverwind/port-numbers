@@ -14989,12 +14989,12 @@
     "description": "OneHome Service Port"
   },
   "2200/tcp": {
-    "name": "ici",
-    "description": "ICI"
+    "name": "",
+    "description": "Reserved"
   },
   "2200/udp": {
-    "name": "ici",
-    "description": "ICI"
+    "name": "",
+    "description": "Reserved"
   },
   "2201/tcp": {
     "name": "ats",
