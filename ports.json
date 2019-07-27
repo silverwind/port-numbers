@@ -41838,6 +41838,14 @@
     "name": "amcs",
     "description": "Agilent Connectivity Service"
   },
+  "8767/tcp": {
+    "name": "core-of-source",
+    "description": "Online mobile multiplayer game"
+  },
+  "8767/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "8770/tcp": {
     "name": "dpap",
     "description": "Digital Photo Access Protocol (iPhoto)"
