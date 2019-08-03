@@ -45988,6 +45988,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "21213/tcp": {
+    "name": "cohesity-agent",
+    "description": "Cohesity backup agents"
+  },
+  "21213/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "21221/tcp": {
     "name": "aigairserver",
     "description": "Services for Air Server"
