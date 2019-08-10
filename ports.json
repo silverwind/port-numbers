@@ -17037,11 +17037,11 @@
     "description": "griffin"
   },
   "2459/tcp": {
-    "name": "community",
+    "name": "xrpl",
     "description": "Community"
   },
   "2459/udp": {
-    "name": "community",
+    "name": "xrpl",
     "description": "Community"
   },
   "2460/tcp": {
@@ -40841,6 +40841,14 @@
   "8083/udp": {
     "name": "us-srv",
     "description": "Utilistor (Server)"
+  },
+  "8084/tcp": {
+    "name": "websnp",
+    "description": "Snarl Network Protocol over HTTP"
+  },
+  "8084/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "8086/tcp": {
     "name": "d-s-n",

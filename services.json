@@ -15197,7 +15197,7 @@
     ],
     "description": "griffin"
   },
-  "community": {
+  "xrpl": {
     "ports": [
       "2459/tcp",
       "2459/udp"
@@ -36106,6 +36106,12 @@
       "8083/udp"
     ],
     "description": "Utilistor (Server)"
+  },
+  "websnp": {
+    "ports": [
+      "8084/tcp"
+    ],
+    "description": "Snarl Network Protocol over HTTP"
   },
   "d-s-n": {
     "ports": [
