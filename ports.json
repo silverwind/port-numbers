@@ -26115,12 +26115,12 @@
     "description": "Six Degrees Port"
   },
   "3612/tcp": {
-    "name": "hp-dataprotect",
-    "description": "HP Data Protector"
+    "name": "dataprotector",
+    "description": "Micro Focus Data Protector"
   },
   "3612/udp": {
-    "name": "hp-dataprotect",
-    "description": "HP Data Protector"
+    "name": "dataprotector",
+    "description": "Micro Focus Data Protector"
   },
   "3613/tcp": {
     "name": "alaris-disc",
@@ -35661,8 +35661,8 @@
     "description": "Reserved"
   },
   "5565/tcp": {
-    "name": "hpe-dp-bura",
-    "description": "HPE Advanced BURA"
+    "name": "dp-bura",
+    "description": "Data Protector BURA"
   },
   "5565/udp": {
     "name": "",
@@ -43393,6 +43393,14 @@
   "9876/tcp": {
     "name": "sd",
     "description": "Session Director"
+  },
+  "9877/tcp": {
+    "name": "x510",
+    "description": "The X.510 wrapper protocol"
+  },
+  "9877/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "9878/udp": {
     "name": "kca-service",

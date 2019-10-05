@@ -23244,12 +23244,12 @@
     ],
     "description": "Six Degrees Port"
   },
-  "hp-dataprotect": {
+  "dataprotector": {
     "ports": [
       "3612/tcp",
       "3612/udp"
     ],
-    "description": "HP Data Protector"
+    "description": "Micro Focus Data Protector"
   },
   "alaris-disc": {
     "ports": [
@@ -31591,11 +31591,11 @@
     ],
     "description": "Sandlab FARENET"
   },
-  "hpe-dp-bura": {
+  "dp-bura": {
     "ports": [
       "5565/tcp"
     ],
-    "description": "HPE Advanced BURA"
+    "description": "Data Protector BURA"
   },
   "westec-connect": {
     "ports": [
@@ -38315,6 +38315,12 @@
       "9876/tcp"
     ],
     "description": "Session Director"
+  },
+  "x510": {
+    "ports": [
+      "9877/tcp"
+    ],
+    "description": "The X.510 wrapper protocol"
   },
   "kca-service": {
     "ports": [
