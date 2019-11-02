@@ -6992,20 +6992,6 @@
     ],
     "description": "H.323 Secure Call Control Signalling"
   },
-  "ci3-software-1": {
-    "ports": [
-      "1301/tcp",
-      "1301/udp"
-    ],
-    "description": "CI3-Software-1"
-  },
-  "ci3-software-2": {
-    "ports": [
-      "1302/tcp",
-      "1302/udp"
-    ],
-    "description": "CI3-Software-2"
-  },
   "sftsrv": {
     "ports": [
       "1303/tcp",

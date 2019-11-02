@@ -7906,20 +7906,20 @@
     "description": "H.323 Secure Call Control Signalling"
   },
   "1301/tcp": {
-    "name": "ci3-software-1",
-    "description": "CI3-Software-1"
+    "name": "",
+    "description": "Reserved"
   },
   "1301/udp": {
-    "name": "ci3-software-1",
-    "description": "CI3-Software-1"
+    "name": "",
+    "description": "Reserved"
   },
   "1302/tcp": {
-    "name": "ci3-software-2",
-    "description": "CI3-Software-2"
+    "name": "",
+    "description": "Reserved"
   },
   "1302/udp": {
-    "name": "ci3-software-2",
-    "description": "CI3-Software-2"
+    "name": "",
+    "description": "Reserved"
   },
   "1303/tcp": {
     "name": "sftsrv",
