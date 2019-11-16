@@ -22045,7 +22045,7 @@
       "3445/tcp",
       "3445/udp"
     ],
-    "description": "Media Object Network"
+    "description": "Media Object Network Protocol"
   },
   "3comfaxrpc": {
     "ports": [

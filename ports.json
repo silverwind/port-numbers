@@ -24784,11 +24784,11 @@
   },
   "3445/tcp": {
     "name": "monp",
-    "description": "Media Object Network"
+    "description": "Media Object Network Protocol"
   },
   "3445/udp": {
     "name": "monp",
-    "description": "Media Object Network"
+    "description": "Media Object Network Protocol"
   },
   "3446/tcp": {
     "name": "3comfaxrpc",
