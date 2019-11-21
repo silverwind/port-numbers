@@ -9,7 +9,7 @@
     "test": "make test"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "keywords": [
     "port",
@@ -28,10 +28,11 @@
     "services.json"
   ],
   "devDependencies": {
-    "csv-parse": "^4.6.5",
-    "eslint": "^6.6.0",
-    "eslint-config-silverwind": "^5.0.0",
-    "got": "^9.6.0",
-    "updates": "^9.0.1"
+    "csv-parse": "4.6.5",
+    "eslint": "6.6.0",
+    "eslint-config-silverwind": "5.0.0",
+    "got": "9.6.0",
+    "updates": "9.0.1",
+    "versions": "7.0.2"
   }
 }

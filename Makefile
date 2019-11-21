@@ -1,31 +1,32 @@
-
-lint:
-	npx eslint --color --quiet *.js
-
 test:
-	$(MAKE) lint
-	node --trace-deprecation --throw-deprecation --trace-warnings test.js
+	npx eslint --color --quiet *.js
+	node --trace-deprecation --throw-deprecation test.js
 
 publish:
 	git push -u --tags origin master
 	npm publish
 
-update:
-	npx updates -u
+deps:
 	rm -rf node_modules
-	npm i --no-package-lock
+	npm i
 
-npm-patch:
-	npm version patch
+update:
+	node updates.js -cu
+	$(MAKE) deps
 
-npm-minor:
-	npm version minor
+patch:
+	$(MAKE) test
+	npx versions -C patch
+	$(MAKE) publish
 
-npm-major:
-	npm version major
+minor:
+	$(MAKE) test
+	npx versions -C minor
+	$(MAKE) publish
 
-patch: test npm-patch publish
-minor: test npm-minor publish
-major: test npm-major publish
+major:
+	$(MAKE) test
+	npx versions -C major
+	$(MAKE) publish
 
-.PHONY: test publish update patch minor major npm-patch npm-minor npm-major
+.PHONY: test publish deps update patch minor major

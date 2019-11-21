@@ -11,18 +11,18 @@ $ npm i port-numbers
 const portNumbers = require('port-numbers');
 
 portNumbers.getService(6379);
-//=> { name: 'redis', description: 'An advanced key-value cache and store' }
+// { name: 'redis', description: 'An advanced key-value cache and store' }
 portNumbers.getService(26257);
-//=> { name: 'cockroach', description: 'CockroachDB' }
+// { name: 'cockroach', description: 'CockroachDB' }
 portNumbers.getService(123, 'udp');
-//=> { name: 'ntp', description: 'Network Time Protocol' }
+// { name: 'ntp', description: 'Network Time Protocol' }
 
 portNumbers.getPort('redis');
-//=> { port: 6379, protocol: 'tcp', description: 'An advanced key-value cache and store' }
+// { port: 6379, protocol: 'tcp', description: 'An advanced key-value cache and store' }
 portNumbers.getPort('cockroach');
-//=> { port: 26257, protocol: 'tcp', description: 'CockroachDB' }
+// { port: 26257, protocol: 'tcp', description: 'CockroachDB' }
 portNumbers.getPort('ntp', 'udp');
-//=> { port: 123, protocol: 'udp', description: 'Network Time Protocol' }
+// { port: 123, protocol: 'udp', description: 'Network Time Protocol' }
 ```
 
 ### APIs
