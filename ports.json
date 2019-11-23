@@ -41854,6 +41854,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "8768/tcp": {
+    "name": "sandpolis",
+    "description": "Sandpolis Server"
+  },
+  "8768/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "8770/tcp": {
     "name": "dpap",
     "description": "Digital Photo Access Protocol (iPhoto)"

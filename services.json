@@ -36939,6 +36939,12 @@
     ],
     "description": "Online mobile multiplayer game"
   },
+  "sandpolis": {
+    "ports": [
+      "8768/tcp"
+    ],
+    "description": "Sandpolis Server"
+  },
   "dpap": {
     "ports": [
       "8770/tcp",
