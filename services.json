@@ -42348,6 +42348,12 @@
     ],
     "description": "Cognex DataMan Management Protocol"
   },
+  "acronis-backup": {
+    "ports": [
+      "44445/tcp"
+    ],
+    "description": "Acronis Backup Gateway service port"
+  },
   "domiq": {
     "ports": [
       "44544/udp"

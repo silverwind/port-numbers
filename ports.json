@@ -48052,6 +48052,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "44445/tcp": {
+    "name": "acronis-backup",
+    "description": "Acronis Backup Gateway service port"
+  },
+  "44445/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "44544/tcp": {
     "name": "",
     "description": "Reserved"
