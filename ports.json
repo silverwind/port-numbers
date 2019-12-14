@@ -39712,11 +39712,11 @@
   },
   "7547/tcp": {
     "name": "cwmp",
-    "description": "DSL Forum CWMP"
+    "description": "Broadband Forum CWMP"
   },
   "7547/udp": {
     "name": "cwmp",
-    "description": "DSL Forum CWMP"
+    "description": "Broadband Forum CWMP"
   },
   "7548/tcp": {
     "name": "tidp",

@@ -35154,7 +35154,7 @@
       "7547/tcp",
       "7547/udp"
     ],
-    "description": "DSL Forum CWMP"
+    "description": "Broadband Forum CWMP"
   },
   "tidp": {
     "ports": [
