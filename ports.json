@@ -41862,6 +41862,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "8769/tcp": {
+    "name": "oktaauthenticat",
+    "description": "Okta MultiPlatform Access Mgmt for Cloud Svcs"
+  },
+  "8769/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "8770/tcp": {
     "name": "dpap",
     "description": "Digital Photo Access Protocol (iPhoto)"

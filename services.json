@@ -36945,6 +36945,12 @@
     ],
     "description": "Sandpolis Server"
   },
+  "oktaauthenticat": {
+    "ports": [
+      "8769/tcp"
+    ],
+    "description": "Okta MultiPlatform Access Mgmt for Cloud Svcs"
+  },
   "dpap": {
     "ports": [
       "8770/tcp",
