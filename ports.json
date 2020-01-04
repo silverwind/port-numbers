@@ -46920,6 +46920,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "28010/tcp": {
+    "name": "gruber-cashreg",
+    "description": "Gruber cash registry protocol"
+  },
+  "28010/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "28119/tcp": {
     "name": "",
     "description": "Reserved"

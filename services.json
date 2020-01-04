@@ -41368,6 +41368,12 @@
     ],
     "description": "PQ Service"
   },
+  "gruber-cashreg": {
+    "ports": [
+      "28010/tcp"
+    ],
+    "description": "Gruber cash registry protocol"
+  },
   "a27-ran-ran": {
     "ports": [
       "28119/udp"
