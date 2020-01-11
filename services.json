@@ -36880,6 +36880,12 @@
     ],
     "description": "VNYX Primary Port"
   },
+  "semi-grpc": {
+    "ports": [
+      "8710/tcp"
+    ],
+    "description": "gRPC for SEMI Standards implementations"
+  },
   "nvc": {
     "ports": [
       "8711/tcp"
@@ -38651,6 +38657,12 @@
     ],
     "description": "Hardware configuration and maintenance"
   },
+  "cefd-vmp": {
+    "ports": [
+      "10023/udp"
+    ],
+    "description": "Comtech EF-Data's Vipersat Management Protocol"
+  },
   "zabbix-agent": {
     "ports": [
       "10050/tcp",
@@ -39008,12 +39020,6 @@
       "11001/udp"
     ],
     "description": "Metasys"
-  },
-  "cefd-vmp": {
-    "ports": [
-      "10023/udp"
-    ],
-    "description": "Comtech EF-Data's Vipersat Management Protocol"
   },
   "weave": {
     "ports": [

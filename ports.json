@@ -41782,6 +41782,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "8710/tcp": {
+    "name": "semi-grpc",
+    "description": "gRPC for SEMI Standards implementations"
+  },
+  "8710/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "8711/tcp": {
     "name": "nvc",
     "description": "Nuance Voice Control"
@@ -43794,6 +43802,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "10023/udp": {
+    "name": "cefd-vmp",
+    "description": "Comtech EF-Data's Vipersat Management Protocol"
+  },
+  "10023/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "10050/tcp": {
     "name": "zabbix-agent",
     "description": "Zabbix Agent"
@@ -44201,14 +44217,6 @@
   "11001/udp": {
     "name": "metasys",
     "description": "Metasys"
-  },
-  "10023/udp": {
-    "name": "cefd-vmp",
-    "description": "Comtech EF-Data's Vipersat Management Protocol"
-  },
-  "10023/tcp": {
-    "name": "",
-    "description": "Reserved"
   },
   "11095/tcp": {
     "name": "weave",
