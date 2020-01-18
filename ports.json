@@ -32194,6 +32194,14 @@
     "name": "ventoso",
     "description": "Bidirectional single port remote radio VOIP and Control stream"
   },
+  "4646/tcp": {
+    "name": "dots-signal",
+    "description": "Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel"
+  },
+  "4646/udp": {
+    "name": "dots-signal",
+    "description": "Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel"
+  },
   "4658/tcp": {
     "name": "playsta2-app",
     "description": "PlayStation2 App Port"
@@ -47343,6 +47351,14 @@
   "32896/udp": {
     "name": "idmgratm",
     "description": "Attachmate ID Manager"
+  },
+  "33000/tcp": {
+    "name": "wg-endpt-comms",
+    "description": "WatchGuard Endpoint Communications"
+  },
+  "33000/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "33060/tcp": {
     "name": "mysqlx",

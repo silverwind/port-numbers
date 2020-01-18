@@ -28589,6 +28589,13 @@
     ],
     "description": "Bidirectional single port remote radio VOIP and Control stream"
   },
+  "dots-signal": {
+    "ports": [
+      "4646/tcp",
+      "4646/udp"
+    ],
+    "description": "Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel"
+  },
   "playsta2-app": {
     "ports": [
       "4658/tcp",
@@ -41738,6 +41745,12 @@
       "32896/udp"
     ],
     "description": "Attachmate ID Manager"
+  },
+  "wg-endpt-comms": {
+    "ports": [
+      "33000/tcp"
+    ],
+    "description": "WatchGuard Endpoint Communications"
   },
   "mysqlx": {
     "ports": [
