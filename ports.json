@@ -38610,6 +38610,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "6924/tcp": {
+    "name": "split-ping",
+    "description": "Ping with RX/TX latency/loss split"
+  },
+  "6924/udp": {
+    "name": "split-ping",
+    "description": "Ping with RX/TX latency/loss split"
+  },
   "6935/tcp": {
     "name": "ethoscan",
     "description": "EthoScan Service"
@@ -44079,6 +44087,14 @@
     "description": "BalanceNG session table synchronization protocol"
   },
   "10439/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "10443/tcp": {
+    "name": "cirrossp",
+    "description": "CirrosSP Workstation Communication"
+  },
+  "10443/udp": {
     "name": "",
     "description": "Reserved"
   },

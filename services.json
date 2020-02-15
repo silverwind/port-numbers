@@ -34194,6 +34194,13 @@
     ],
     "description": "Novell Jetstream messaging protocol"
   },
+  "split-ping": {
+    "ports": [
+      "6924/tcp",
+      "6924/udp"
+    ],
+    "description": "Ping with RX/TX latency/loss split"
+  },
   "ethoscan": {
     "ports": [
       "6935/tcp",
@@ -38907,6 +38914,12 @@
       "10439/udp"
     ],
     "description": "BalanceNG session table synchronization protocol"
+  },
+  "cirrossp": {
+    "ports": [
+      "10443/tcp"
+    ],
+    "description": "CirrosSP Workstation Communication"
   },
   "hip-nat-t": {
     "ports": [
