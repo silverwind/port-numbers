@@ -33303,6 +33303,12 @@
     ],
     "description": "PgBouncer"
   },
+  "heliosd": {
+    "ports": [
+      "6440/tcp"
+    ],
+    "description": "heliosd daemon"
+  },
   "tarp": {
     "ports": [
       "6442/tcp"

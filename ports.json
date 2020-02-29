@@ -37644,6 +37644,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "6440/tcp": {
+    "name": "heliosd",
+    "description": "heliosd daemon"
+  },
+  "6440/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "6442/tcp": {
     "name": "tarp",
     "description": "Transitory Application Request Protocol"
