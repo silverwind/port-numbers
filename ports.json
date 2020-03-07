@@ -20243,11 +20243,11 @@
     "description": "Sonar Data"
   },
   "2864/tcp": {
-    "name": "astromed-main",
+    "name": "astronova-main",
     "description": "main 5001 cmd"
   },
   "2864/udp": {
-    "name": "astromed-main",
+    "name": "astronova-main",
     "description": "main 5001 cmd"
   },
   "2865/tcp": {

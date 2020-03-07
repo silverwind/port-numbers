@@ -17986,7 +17986,7 @@
     ],
     "description": "Sonar Data"
   },
-  "astromed-main": {
+  "astronova-main": {
     "ports": [
       "2864/tcp",
       "2864/udp"
