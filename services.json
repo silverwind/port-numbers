@@ -37898,6 +37898,12 @@
     ],
     "description": "Sphinx search server (MySQL listener)"
   },
+  "sapms": {
+    "ports": [
+      "9310/tcp"
+    ],
+    "description": "SAP Message Server"
+  },
   "sphinxapi": {
     "ports": [
       "9312/tcp"

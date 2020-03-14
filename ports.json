@@ -42934,6 +42934,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "9310/tcp": {
+    "name": "sapms",
+    "description": "SAP Message Server"
+  },
+  "9310/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "9312/tcp": {
     "name": "sphinxapi",
     "description": "Sphinx search server"
