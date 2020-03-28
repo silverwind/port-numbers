@@ -1,7 +1,6 @@
 "use strict";
 
-const getService = require(".").getService;
-const getPort = require(".").getPort;
+const {getService, getPort} = require(".");
 const {test, expect} = global;
 
 test("getService", () => {

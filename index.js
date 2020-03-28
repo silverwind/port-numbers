@@ -3,15 +3,14 @@
 let ports, services;
 
 // port -> service
-module.exports.getService = function getService(port, protocol = "tcp") {
+module.exports.getService = (port, protocol = "tcp") => {
   if (typeof port !== "number") throw new Error("expected a 'number'");
   if (!ports) ports = require("./ports.json");
-
   return ports[`${port}/${protocol}`] || null;
 };
 
 // service -> port
-module.exports.getPort = function getPort(service, protocol = "tcp") {
+module.exports.getPort = (service, protocol = "tcp") => {
   if (typeof service !== "string") throw new Error("expected a 'string'");
   if (!services) services = require("./services.json");
 
