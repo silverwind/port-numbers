@@ -1,27 +1,29 @@
 "use strict";
 
-const assert = require("assert");
 const getService = require(".").getService;
 const getPort = require(".").getPort;
+const {test, expect} = global;
 
-assert(getService(80).name === "http");
-assert(getService(80, "tcp").name === "http");
-assert(getService(53, "udp").name === "domain");
-assert(getService(3306).name === "mysql");
-assert(getService(12345).name === "italk");
+test("getService", () => {
+  expect(getService(12345).name).toEqual("italk");
+  expect(getService(3306).name).toEqual("mysql");
+  expect(getService(53, "udp").name).toEqual("domain");
+  expect(getService(65536)).toEqual(null);
+  expect(getService(68).description).toEqual("Bootstrap Protocol Client");
+  expect(getService(70).description).toEqual("Gopher");
+  expect(getService(80).name).toEqual("http");
+  expect(getService(80, "tcp").name).toEqual("http");
+  expect(getService(9).description).toEqual("Discard");
+});
 
-assert(getPort("http").port === 80);
-assert(getPort("ntp").port === 123);
-assert(getPort("https").port === 443);
-assert(getPort("mysql").port === 3306);
-assert(getPort("italk").port === 12345);
-
-assert(getService(9).description === "Discard");
-assert(getService(70).description === "Gopher");
-assert(getService(68).description === "Bootstrap Protocol Client");
-assert(getPort("tftp").description === "Trivial File Transfer");
-assert(getPort("ssh").description === "The Secure Shell (SSH) Protocol");
-assert(getPort("snmp").description === "SNMP");
-
-assert(getService(65536) === null);
-assert(getPort("doesnotexist") === null);
+test("getPort", () => {
+  expect(getPort("doesnotexist")).toEqual(null);
+  expect(getPort("http").port).toEqual(80);
+  expect(getPort("https").port).toEqual(443);
+  expect(getPort("italk").port).toEqual(12345);
+  expect(getPort("mysql").port).toEqual(3306);
+  expect(getPort("ntp").port).toEqual(123);
+  expect(getPort("snmp").description).toEqual("SNMP");
+  expect(getPort("ssh").description).toEqual("The Secure Shell (SSH) Protocol");
+  expect(getPort("tftp").description).toEqual("Trivial File Transfer");
+});

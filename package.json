@@ -9,8 +9,13 @@
     "test": "make test"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
+  "files": [
+    "index.js",
+    "ports.json",
+    "services.json"
+  ],
   "keywords": [
     "port",
     "port-numbers",
@@ -22,17 +27,16 @@
     "iana",
     "well-known"
   ],
-  "files": [
-    "index.js",
-    "ports.json",
-    "services.json"
-  ],
   "devDependencies": {
-    "csv-parse": "4.6.5",
-    "eslint": "6.6.0",
-    "eslint-config-silverwind": "5.0.0",
-    "got": "9.6.0",
-    "updates": "9.0.1",
-    "versions": "7.0.2"
+    "csv-parse": "4.8.8",
+    "eslint": "6.8.0",
+    "eslint-config-silverwind": "11.0.2",
+    "got": "10.7.0",
+    "jest": "25.2.3",
+    "updates": "10.2.6",
+    "versions": "8.2.7"
+  },
+  "jest": {
+    "verbose": false
   }
 }
