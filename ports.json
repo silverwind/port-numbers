@@ -39250,7 +39250,7 @@
     "name": "pon-ictp",
     "description": "Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON (Passive Optical Network) systems"
   },
-  "7702/udp": {
+  "7202/udp": {
     "name": "",
     "description": "Reserved"
   },
