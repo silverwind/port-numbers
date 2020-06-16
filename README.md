@@ -24,12 +24,12 @@ getPort('ntp', 'udp');
 // { port: 123, protocol: 'udp', description: 'Network Time Protocol' }
 ```
 
-### APIs
-#### portNumbers.getService(port[, protocol])
+### API
+#### getService(port[, protocol])
 - `port` *Number* : the port to lookup. Required.
 - `protocol` *String* : the protocol. Default: `tcp`.
 
-#### portNumbers.getPort(service[, protocol])
+#### getPort(service[, protocol])
 - `service` *String* : the service to lookup. Required.
 - `protocol` *String* : the protocol. Default: `tcp`.
 
