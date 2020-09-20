@@ -19,7 +19,7 @@ module.exports.getPort = (service, protocol = "tcp") => {
   if (!entry) return null;
 
   // filter non-matching protocols
-  const port = entry.ports.filter(port => /\w+$/.exec(port)[0] === protocol)[0];
+  const port = entry.ports.find(port => /\w+$/.exec(port)[0] === protocol);
   if (!port) return null;
 
   // return the first matching port

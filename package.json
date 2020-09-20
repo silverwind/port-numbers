@@ -28,13 +28,13 @@
     "well-known"
   ],
   "devDependencies": {
-    "csv-parse": "4.8.8",
-    "eslint": "6.8.0",
-    "eslint-config-silverwind": "11.0.2",
-    "got": "10.7.0",
-    "jest": "25.2.3",
-    "updates": "10.2.6",
-    "versions": "8.2.7"
+    "csv-parse": "4.12.0",
+    "eslint": "7.9.0",
+    "eslint-config-silverwind": "18.0.9",
+    "got": "11.7.0",
+    "jest": "26.4.2",
+    "updates": "11.1.4",
+    "versions": "8.4.3"
   },
   "jest": {
     "verbose": false

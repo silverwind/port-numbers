@@ -27,7 +27,7 @@ function exit(err) {
 function parsePorts(data, cb) {
   const output = {};
   data.forEach(entry => {
-    if (entry[1] && entry[2] && !output[`${entry[1]}/${entry[2]}`] && !isNaN(Number(entry[1]))) {
+    if (entry[1] && entry[2] && !output[`${entry[1]}/${entry[2]}`] && !Number.isNaN(Number(entry[1]))) {
       output[`${entry[1]}/${entry[2]}`] = {
         name: entry[0],
         description: cleanupDescription(entry[3]),
@@ -41,13 +41,13 @@ function parseServices(data, cb) {
   const output = {};
   data.forEach(entry => {
     if (!output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
-      entry[0].length && !isNaN(Number(entry[1]))) {
+      entry[0].length && !Number.isNaN(Number(entry[1]))) {
       output[entry[0]] = {
         ports: [`${Number(entry[1])}/${entry[2]}`],
         description: cleanupDescription(entry[3]),
       };
     } else if (output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
-           entry[0].length && !isNaN(Number(entry[1])) &&
+           entry[0].length && !Number.isNaN(Number(entry[1])) &&
            !output[entry[0]].ports.includes(`${Number(entry[1])}/${entry[2]}`)) {
       output[entry[0]].ports.push(`${entry[1]}/${entry[2]}`);
     }
