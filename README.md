@@ -1,5 +1,6 @@
 # port-numbers
-[![](https://img.shields.io/npm/v/port-numbers.svg?style=flat)](https://www.npmjs.org/package/port-numbers) [![](https://img.shields.io/npm/dm/port-numbers.svg)](https://www.npmjs.org/package/port-numbers)
+[![](https://img.shields.io/npm/v/port-numbers.svg?style=flat)](https://www.npmjs.org/package/port-numbers) [![](https://img.shields.io/npm/dm/port-numbers.svg)](https://www.npmjs.org/package/port-numbers) [![](https://packagephobia.com/badge?p=port-numbers)](https://packagephobia.com/result?p=port-numbers)
+
 > Get information on network port numbers and services, based on [IANA's public listing](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml).
 
 ### Usage
@@ -7,7 +8,7 @@
 npm i port-numbers
 ```
 ```js
-const {getService, getPort} = require('port-numbers');
+import {getService, getPort} from "port-numbers";
 
 getService(6379);
 // { name: 'redis', description: 'An advanced key-value cache and store' }
