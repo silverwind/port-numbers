@@ -1139,8 +1139,8 @@
     "description": "Internet Message Access Protocol"
   },
   "143/udp": {
-    "name": "imap",
-    "description": "Internet Message Access Protocol"
+    "name": "",
+    "description": "Reserved"
   },
   "144/tcp": {
     "name": "uma",
@@ -2428,11 +2428,11 @@
   },
   "376/tcp": {
     "name": "nip",
-    "description": "Amiga Envoy Network Inquiry Proto"
+    "description": "Amiga Envoy Network Inquiry Protocol"
   },
   "376/udp": {
     "name": "nip",
-    "description": "Amiga Envoy Network Inquiry Proto"
+    "description": "Amiga Envoy Network Inquiry Protocol"
   },
   "377/tcp": {
     "name": "tnETOS",
@@ -5430,11 +5430,11 @@
   },
   "853/tcp": {
     "name": "domain-s",
-    "description": "DNS query-response protocol run over TLS/DTLS"
+    "description": "DNS query-response protocol run over TLS"
   },
   "853/udp": {
     "name": "domain-s",
-    "description": "DNS query-response protocol run over TLS/DTLS"
+    "description": "DNS query-response protocol run over DTLS or QUIC"
   },
   "854/tcp": {
     "name": "dlep",
@@ -5564,6 +5564,22 @@
     "name": "apex-edge",
     "description": "APEX endpoint-relay service"
   },
+  "914/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "914/udp": {
+    "name": "rift-lies",
+    "description": "Routing in Fat Trees Link Information Elements (TEMPORARY - registered 2023-02-17, expires 2024-02-17)"
+  },
+  "915/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "915/udp": {
+    "name": "rift-ties",
+    "description": "Routing in Fat Trees Topology Information Elements (TEMPORARY - registered 2023-02-17, expires 2024-02-17)"
+  },
   "953/tcp": {
     "name": "rndc",
     "description": "BIND9 remote name daemon controller"
@@ -5609,8 +5625,8 @@
     "description": "IMAP over TLS protocol"
   },
   "993/udp": {
-    "name": "imaps",
-    "description": "imap4 protocol over TLS/SSL"
+    "name": "",
+    "description": "Reserved"
   },
   "994/tcp": {
     "name": "",
@@ -9714,12 +9730,16 @@
     "description": "oracle"
   },
   "1528/tcp": {
-    "name": "",
-    "description": "Reserved"
+    "name": "norp",
+    "description": "Not Only a Routeing Protocol"
   },
   "1528/udp": {
-    "name": "ngr-t",
-    "description": "NGR transport protocol for mobile ad-hoc networks"
+    "name": "norp",
+    "description": "Not Only a Routeing Protocol"
+  },
+  "1528/sctp": {
+    "name": "norp",
+    "description": "Not Only a Routeing Protocol"
   },
   "1529/tcp": {
     "name": "coauthor",
@@ -15464,6 +15484,14 @@
     "name": "rcts",
     "description": "Rotorcraft Communications Test System"
   },
+  "2259/tcp": {
+    "name": "bid-serv",
+    "description": "BIF identifiers resolution service"
+  },
+  "2259/udp": {
+    "name": "bid-serv",
+    "description": "BIF identifiers resolution service"
+  },
   "2260/tcp": {
     "name": "apc-2260",
     "description": "APC 2260"
@@ -16395,6 +16423,14 @@
   "2377/udp": {
     "name": "",
     "description": "Reserved"
+  },
+  "2378/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "2378/udp": {
+    "name": "dali",
+    "description": "DALI lighting control"
   },
   "2379/tcp": {
     "name": "etcd-client",
@@ -20314,6 +20350,14 @@
     "name": "radix",
     "description": "RADIX"
   },
+  "2873/tcp": {
+    "name": "psrt",
+    "description": "PubSub Realtime Telemetry Protocol"
+  },
+  "2873/udp": {
+    "name": "psrt",
+    "description": "PubSub Realtime Telemetry Protocol"
+  },
   "2874/tcp": {
     "name": "dxmessagebase1",
     "description": "DX Message Base Transport Protocol"
@@ -23725,6 +23769,14 @@
   "3300/udp": {
     "name": "",
     "description": "Reserved"
+  },
+  "3301/tcp": {
+    "name": "tarantool",
+    "description": "Tarantool in-memory computing platform"
+  },
+  "3301/udp": {
+    "name": "tarantool",
+    "description": "Tarantool in-memory computing platform"
   },
   "3302/tcp": {
     "name": "mcs-fastmail",
@@ -29015,11 +29067,11 @@
     "description": "ConnectShip Progistics"
   },
   "3974/tcp": {
-    "name": "citysearch",
+    "name": "xk22",
     "description": "Remote Applicant Tracking Service"
   },
   "3974/udp": {
-    "name": "citysearch",
+    "name": "xk22",
     "description": "Remote Applicant Tracking Service"
   },
   "3975/tcp": {
@@ -29063,12 +29115,12 @@
     "description": "Smith Micro Wide Area Network Service"
   },
   "3980/tcp": {
-    "name": "acms",
-    "description": "Aircraft Cabin Management System"
+    "name": "",
+    "description": "Reserved"
   },
   "3980/udp": {
-    "name": "acms",
-    "description": "Aircraft Cabin Management System"
+    "name": "",
+    "description": "Reserved"
   },
   "3981/tcp": {
     "name": "starfish",
@@ -30750,6 +30802,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "4194/tcp": {
+    "name": "spdm",
+    "description": "Security Protocol and Data Model"
+  },
+  "4194/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "4195/tcp": {
     "name": "aws-wsp",
     "description": "AWS protocol for cloud remoting solution"
@@ -30910,6 +30970,22 @@
     "name": "",
     "description": "Reserved"
   },
+  "4317/tcp": {
+    "name": "opentelemetry",
+    "description": "OpenTelemetry Protocol"
+  },
+  "4317/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "4319/tcp": {
+    "name": "fox-skytale",
+    "description": "Fox SkyTale encrypted communication"
+  },
+  "4319/udp": {
+    "name": "fox-skytale",
+    "description": "Fox SkyTale encrypted communication"
+  },
   "4320/tcp": {
     "name": "fdt-rcatp",
     "description": "FDT Remote Categorization Protocol"
@@ -30943,20 +31019,20 @@
     "description": "TRIM ICE Service"
   },
   "4325/tcp": {
-    "name": "geognosisman",
-    "description": "Cadcorp GeognoSIS Manager Service"
+    "name": "geognosisadmin",
+    "description": "Cadcorp GeognoSIS Administrator"
   },
   "4325/udp": {
     "name": "geognosisman",
-    "description": "Cadcorp GeognoSIS Manager Service"
+    "description": "Cadcorp GeognoSIS Administrator"
   },
   "4326/tcp": {
     "name": "geognosis",
-    "description": "Cadcorp GeognoSIS Service"
+    "description": "Cadcorp GeognoSIS"
   },
   "4326/udp": {
     "name": "geognosis",
-    "description": "Cadcorp GeognoSIS Service"
+    "description": "Cadcorp GeognoSIS"
   },
   "4327/tcp": {
     "name": "jaxer-web",
@@ -32228,11 +32304,11 @@
   },
   "4646/tcp": {
     "name": "dots-signal",
-    "description": "Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel"
+    "description": "Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel Protocol. The service name is used to construct the SRV service names \"_dots-signal._udp\" and \"_dots-signal._tcp\" for discovering DOTS servers used to establish DOTS signal channel."
   },
   "4646/udp": {
     "name": "dots-signal",
-    "description": "Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel"
+    "description": "Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel Protocol. The service name is used to construct the SRV service names \"_dots-signal._udp\" and \"_dots-signal._tcp\" for discovering DOTS servers used to establish DOTS signal channel."
   },
   "4658/tcp": {
     "name": "playsta2-app",
@@ -32869,6 +32945,14 @@
   "4791/tcp": {
     "name": "",
     "description": "Reserved"
+  },
+  "4792/tcp": {
+    "name": "unified-bus",
+    "description": "IP Routable Unified Bus"
+  },
+  "4792/udp": {
+    "name": "unified-bus",
+    "description": "IP Routable Unified Bus"
   },
   "4800/tcp": {
     "name": "iims",
@@ -33639,12 +33723,12 @@
     "description": "Infobright Database Server"
   },
   "5030/tcp": {
-    "name": "surfpass",
-    "description": "SurfPass"
+    "name": "",
+    "description": "Reserved"
   },
   "5030/udp": {
-    "name": "surfpass",
-    "description": "SurfPass"
+    "name": "",
+    "description": "Reserved"
   },
   "5031/tcp": {
     "name": "",
@@ -34639,6 +34723,22 @@
   "5237/udp": {
     "name": "mnet-discovery",
     "description": "m-net discovery"
+  },
+  "5242/tcp": {
+    "name": "attune",
+    "description": "ATTUne API"
+  },
+  "5242/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "5243/tcp": {
+    "name": "xycstatus",
+    "description": "xyClient Status API and rendevous point"
+  },
+  "5243/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "5245/tcp": {
     "name": "downtools",
@@ -35652,6 +35752,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "5540/tcp": {
+    "name": "matter",
+    "description": "Matter Operational Discovery and Communi"
+  },
+  "5540/udp": {
+    "name": "matter",
+    "description": "Matter Operational Discovery and Communi"
+  },
   "5550/tcp": {
     "name": "cbus",
     "description": "Model Railway control using the CBUS message protocol"
@@ -36493,12 +36601,12 @@
     "description": "NetAgent"
   },
   "5777/tcp": {
-    "name": "dali-port",
-    "description": "DALI Port"
+    "name": "starfield-io",
+    "description": "Control commands and responses"
   },
   "5777/udp": {
-    "name": "dali-port",
-    "description": "DALI Port"
+    "name": "starfield-io",
+    "description": "Control commands and responses"
   },
   "5780/tcp": {
     "name": "vts-rpc",
@@ -36580,6 +36688,14 @@
     "name": "spdp",
     "description": "Simple Peered Discovery Protocol"
   },
+  "5798/tcp": {
+    "name": "enlabel-dpl",
+    "description": "Proprietary Website deployment service"
+  },
+  "5798/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "5813/tcp": {
     "name": "icmpd",
     "description": "ICMPD"
@@ -36595,6 +36711,14 @@
   "5814/udp": {
     "name": "spt-automation",
     "description": "Support Automation"
+  },
+  "5820/tcp": {
+    "name": "autopassdaemon",
+    "description": "AutoPass licensing"
+  },
+  "5820/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "5841/tcp": {
     "name": "shiprush-d-ch",
@@ -36652,49 +36776,133 @@
     "name": "rfb",
     "description": "Remote Framebuffer"
   },
+  "5903/tcp": {
+    "name": "ff-ice",
+    "description": "Flight & Flow Info for Collaborative Env"
+  },
+  "5903/udp": {
+    "name": "ff-ice",
+    "description": "Flight & Flow Info for Collaborative Env"
+  },
+  "5903/sctp": {
+    "name": "ff-ice",
+    "description": "Flight & Flow Info for Collaborative Env"
+  },
+  "5904/tcp": {
+    "name": "ag-swim",
+    "description": "Air-Ground SWIM"
+  },
+  "5904/udp": {
+    "name": "ag-swim",
+    "description": "Air-Ground SWIM"
+  },
+  "5904/sctp": {
+    "name": "ag-swim",
+    "description": "Air-Ground SWIM"
+  },
+  "5905/tcp": {
+    "name": "asmgcs",
+    "description": "Adv Surface Mvmnt and Guidance Cont Sys"
+  },
+  "5905/udp": {
+    "name": "asmgcs",
+    "description": "Adv Surface Mvmnt and Guidance Cont Sys"
+  },
+  "5905/sctp": {
+    "name": "asmgcs",
+    "description": "Adv Surface Mvmnt and Guidance Cont Sys"
+  },
+  "5906/tcp": {
+    "name": "rpas-c2",
+    "description": "Remotely Piloted Vehicle C&C"
+  },
+  "5906/udp": {
+    "name": "rpas-c2",
+    "description": "Remotely Piloted Vehicle C&C"
+  },
+  "5906/sctp": {
+    "name": "rpas-c2",
+    "description": "Remotely Piloted Vehicle C&C"
+  },
+  "5907/tcp": {
+    "name": "dsd",
+    "description": "Distress and Safety Data App"
+  },
+  "5907/udp": {
+    "name": "dsd",
+    "description": "Distress and Safety Data App"
+  },
+  "5907/sctp": {
+    "name": "dsd",
+    "description": "Distress and Safety Data App"
+  },
+  "5908/tcp": {
+    "name": "ipsma",
+    "description": "IPS Management Application"
+  },
+  "5908/udp": {
+    "name": "ipsma",
+    "description": "IPS Management Application"
+  },
+  "5908/sctp": {
+    "name": "ipsma",
+    "description": "IPS Management Application"
+  },
+  "5909/tcp": {
+    "name": "agma",
+    "description": "Air-ground media advisory"
+  },
+  "5909/udp": {
+    "name": "agma",
+    "description": "Air-ground media advisory"
+  },
+  "5909/sctp": {
+    "name": "agma",
+    "description": "Air-ground media advisory"
+  },
   "5910/tcp": {
-    "name": "cm",
-    "description": "Context Management"
+    "name": "ats-atn",
+    "description": "Air Traffic Services applications using ATN"
   },
   "5910/udp": {
-    "name": "cm",
-    "description": "Context Management"
+    "name": "ats-atn",
+    "description": "Air Traffic Services applications using ATN"
   },
   "5910/sctp": {
     "name": "cm",
     "description": "Context Management"
   },
   "5911/tcp": {
-    "name": "cpdlc",
-    "description": "Controller Pilot Data Link Communication"
+    "name": "ats-acars",
+    "description": "Air Traffic Services applications using ACARS"
   },
   "5911/udp": {
-    "name": "cpdlc",
-    "description": "Controller Pilot Data Link Communication"
+    "name": "ats-acars",
+    "description": "Air Traffic Services applications using ACARS"
   },
   "5911/sctp": {
     "name": "cpdlc",
     "description": "Controller Pilot Data Link Communication"
   },
   "5912/tcp": {
-    "name": "fis",
-    "description": "Flight Information Services"
+    "name": "ais-met",
+    "description": "Aeronautical Information Service/Meteorological applications using ACARS"
   },
   "5912/udp": {
-    "name": "fis",
-    "description": "Flight Information Services"
+    "name": "ais-met",
+    "description": "Aeronautical Information Service/Meteorological applications using ACARS"
   },
   "5912/sctp": {
     "name": "fis",
     "description": "Flight Information Services"
   },
   "5913/tcp": {
-    "name": "ads-c",
-    "description": "Automatic Dependent Surveillance"
+    "name": "aoc-acars",
+    "description": "Airline operational communications applications using ACARS"
   },
   "5913/udp": {
-    "name": "ads-c",
-    "description": "Automatic Dependent Surveillance"
+    "name": "aoc-acars",
+    "description": "Airline operational communications applications using ACARS"
   },
   "5913/sctp": {
     "name": "ads-c",
@@ -36801,6 +37009,14 @@
     "description": "DMTF WBEM CIM REST"
   },
   "5993/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "5994/tcp": {
+    "name": "rms-agent",
+    "description": "RMS Agent Listening Service"
+  },
+  "5994/udp": {
     "name": "",
     "description": "Reserved"
   },
@@ -38774,6 +38990,14 @@
     "name": "conductor-mpx",
     "description": "conductor for multiplex"
   },
+  "6980/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "6980/udp": {
+    "name": "qolyester",
+    "description": "QoS-extended OLSR protocol"
+  },
   "6997/tcp": {
     "name": "MobilitySrv",
     "description": "Mobility XE Protocol"
@@ -39141,6 +39365,14 @@
   "7121/udp": {
     "name": "virprot-lm",
     "description": "Virtual Prototypes License Manager"
+  },
+  "7123/tcp": {
+    "name": "snif",
+    "description": "End-to-end TLS Relay Control Connection"
+  },
+  "7123/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "7128/tcp": {
     "name": "scenidm",
@@ -40027,12 +40259,12 @@
     "description": "Sun App Server - HTTPS"
   },
   "7680/tcp": {
-    "name": "pando-pub",
-    "description": "Pando Media Public Distribution"
+    "name": "ms-do",
+    "description": "Microsoft Delivery Optimization Peer-to-Peer"
   },
   "7680/udp": {
-    "name": "pando-pub",
-    "description": "Pando Media Public Distribution"
+    "name": "ms-do",
+    "description": "Microsoft Delivery Optimization Peer-to-Peer"
   },
   "7683/tcp": {
     "name": "dmt",
@@ -40057,6 +40289,14 @@
   "7689/udp": {
     "name": "collaber",
     "description": "Collaber Network Service"
+  },
+  "7690/tcp": {
+    "name": "sovd",
+    "description": "Service-Oriented Vehicle Diagnostics"
+  },
+  "7690/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "7697/tcp": {
     "name": "klio",
@@ -40649,6 +40889,14 @@
   "8016/udp": {
     "name": "",
     "description": "Reserved"
+  },
+  "8017/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8017/udp": {
+    "name": "cisco-cloudsec",
+    "description": "Cisco Cloudsec Dataplane Port Number"
   },
   "8019/tcp": {
     "name": "qbdb",
@@ -41363,12 +41611,12 @@
     "description": "Reserved"
   },
   "8276/tcp": {
-    "name": "pando-sec",
-    "description": "Pando Media Controlled Distribution"
+    "name": "ms-mcc",
+    "description": "Microsoft Connected Cache"
   },
   "8276/udp": {
-    "name": "pando-sec",
-    "description": "Pando Media Controlled Distribution"
+    "name": "ms-mcc",
+    "description": "Microsoft Connected Cache"
   },
   "8280/tcp": {
     "name": "synapse-nhttp",
@@ -41609,6 +41857,22 @@
   "8423/udp": {
     "name": "",
     "description": "Reserved"
+  },
+  "8432/tcp": {
+    "name": "pgbackrest",
+    "description": "PostgreSQL Backup"
+  },
+  "8432/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8433/tcp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "8433/udp": {
+    "name": "aws-as2",
+    "description": "Non Persistent Desktop and Application Streaming"
   },
   "8442/tcp": {
     "name": "cybro-a-bus",
@@ -42165,6 +42429,14 @@
   "8901/udp": {
     "name": "jmb-cds2",
     "description": "JMB-CDS 2"
+  },
+  "8908/tcp": {
+    "name": "dpp",
+    "description": "WFA Device Provisioning Protocol"
+  },
+  "8908/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "8910/tcp": {
     "name": "manyone-http",
@@ -43038,6 +43310,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "9340/tcp": {
+    "name": "gribi",
+    "description": "gRPC Routing Information Base Interface"
+  },
+  "9340/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "9343/tcp": {
     "name": "mpidcmgr",
     "description": "MpIdcMgr"
@@ -43237,6 +43517,14 @@
   "9555/udp": {
     "name": "trispen-sra",
     "description": "Trispen Secure Remote Access"
+  },
+  "9559/tcp": {
+    "name": "p4runtime",
+    "description": "P4Runtime gRPC Service"
+  },
+  "9559/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "9592/tcp": {
     "name": "ldgateway",
@@ -44514,6 +44802,18 @@
     "name": "memcache",
     "description": "Memory cache service"
   },
+  "11235/tcp": {
+    "name": "xcompute",
+    "description": "numerical systems messaging"
+  },
+  "11235/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "11235/sctp": {
+    "name": "xcompute",
+    "description": "numerical systems messaging"
+  },
   "11319/tcp": {
     "name": "imip",
     "description": "IMIP"
@@ -44837,6 +45137,14 @@
   "12345/udp": {
     "name": "italk",
     "description": "Italk Chat System"
+  },
+  "12546/tcp": {
+    "name": "carb-repl-ctrl",
+    "description": "Carbonite Server Replication Control"
+  },
+  "12546/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "12753/tcp": {
     "name": "tsaf",
@@ -45496,6 +45804,14 @@
   "17007/udp": {
     "name": "isode-dua"
   },
+  "17010/tcp": {
+    "name": "ncpu",
+    "description": "Plan 9 cpu port"
+  },
+  "17010/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "17184/tcp": {
     "name": "vestasdlp",
     "description": "Vestas Data Layer Protocol"
@@ -45944,6 +46260,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "19790/tcp": {
+    "name": "faircom-db",
+    "description": "FairCom Database"
+  },
+  "19790/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "19998/tcp": {
     "name": "iec-104-sec",
     "description": "IEC 60870-5-104 process control - secure"
@@ -45960,6 +46284,10 @@
     "name": "dnp-sec",
     "description": "Distributed Network Protocol - Secure"
   },
+  "19999/sctp": {
+    "name": "dnp-sec",
+    "description": "Distributed Network Protocol - secured"
+  },
   "20000/tcp": {
     "name": "dnp",
     "description": "DNP"
@@ -45967,6 +46295,10 @@
   "20000/udp": {
     "name": "dnp",
     "description": "DNP"
+  },
+  "20000/sctp": {
+    "name": "dnp",
+    "description": "Distributed Network Protocol"
   },
   "20001/tcp": {
     "name": "microsan",
@@ -46108,6 +46440,14 @@
     "name": "track",
     "description": "Track"
   },
+  "20810/tcp": {
+    "name": "crtech-nlm",
+    "description": "CRTech NLM"
+  },
+  "20810/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "20999/tcp": {
     "name": "athand-mmp",
     "description": "At Hand MMP"
@@ -46187,6 +46527,10 @@
   "21800/udp": {
     "name": "tvpm",
     "description": "TVNC Pro Multiplexing"
+  },
+  "21801/tcp": {
+    "name": "sal",
+    "description": "Safe AutoLogon"
   },
   "21845/tcp": {
     "name": "webphone",
@@ -46315,6 +46659,14 @@
   "22305/udp": {
     "name": "cis",
     "description": "CompactIS Tunnel"
+  },
+  "22333/tcp": {
+    "name": "showcockpit-net",
+    "description": "ShowCockpit Networking"
+  },
+  "22333/udp": {
+    "name": "showcockpit-net",
+    "description": "ShowCockpit Networking"
   },
   "22335/tcp": {
     "name": "shrewd-control",
@@ -47048,6 +47400,14 @@
     "name": "",
     "description": "Reserved"
   },
+  "28080/tcp": {
+    "name": "thor-engine",
+    "description": "thor/server - ML engine"
+  },
+  "28080/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "28119/tcp": {
     "name": "",
     "description": "Reserved"
@@ -47239,6 +47599,14 @@
   "31029/udp": {
     "name": "yawn",
     "description": "YaWN - Yet Another Windows Notifier"
+  },
+  "31337/tcp": {
+    "name": "eldim",
+    "description": "eldim is a secure file upload proxy"
+  },
+  "31337/udp": {
+    "name": "eldim",
+    "description": "eldim is a secure file upload proxy"
   },
   "31400/tcp": {
     "name": "pace-licensed",
@@ -47944,6 +48312,14 @@
     "name": "f1-control",
     "description": "F1 Control Plane (3GPP)"
   },
+  "38638/tcp": {
+    "name": "psqlmws",
+    "description": "Premier SQL Middleware Server"
+  },
+  "38638/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
   "38800/tcp": {
     "name": "sruth",
     "description": "Sruth is a service for the distribution of routinely- generated but arbitrary files based on a publish/subscribe distribution model and implemented using a peer-to-peer transport mechanism"
@@ -47957,6 +48333,14 @@
     "description": "Security approval process for use of the secRMM SafeCopy program"
   },
   "38865/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "39063/tcp": {
+    "name": "vroa",
+    "description": "Children's hearing test/Telemedicine"
+  },
+  "39063/udp": {
     "name": "",
     "description": "Reserved"
   },
@@ -48103,6 +48487,14 @@
   "42510/udp": {
     "name": "caerpc",
     "description": "CA eTrust RPC"
+  },
+  "42999/tcp": {
+    "name": "curiosity",
+    "description": "API endpoint for search application"
+  },
+  "42999/udp": {
+    "name": "",
+    "description": "Reserved"
   },
   "43000/tcp": {
     "name": "recvr-rc",

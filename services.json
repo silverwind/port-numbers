@@ -843,8 +843,7 @@
   },
   "imap": {
     "ports": [
-      "143/tcp",
-      "143/udp"
+      "143/tcp"
     ],
     "description": "Internet Message Access Protocol"
   },
@@ -2015,7 +2014,7 @@
       "376/tcp",
       "376/udp"
     ],
-    "description": "Amiga Envoy Network Inquiry Proto"
+    "description": "Amiga Envoy Network Inquiry Protocol"
   },
   "tnETOS": {
     "ports": [
@@ -4808,7 +4807,7 @@
       "853/tcp",
       "853/udp"
     ],
-    "description": "DNS query-response protocol run over TLS/DTLS"
+    "description": "DNS query-response protocol run over TLS"
   },
   "dlep": {
     "ports": [
@@ -4945,6 +4944,18 @@
     ],
     "description": "APEX endpoint-relay service"
   },
+  "rift-lies": {
+    "ports": [
+      "914/udp"
+    ],
+    "description": "Routing in Fat Trees Link Information Elements (TEMPORARY - registered 2023-02-17, expires 2024-02-17)"
+  },
+  "rift-ties": {
+    "ports": [
+      "915/udp"
+    ],
+    "description": "Routing in Fat Trees Topology Information Elements (TEMPORARY - registered 2023-02-17, expires 2024-02-17)"
+  },
   "rndc": {
     "ports": [
       "953/tcp"
@@ -4981,8 +4992,7 @@
   },
   "imaps": {
     "ports": [
-      "993/tcp",
-      "993/udp"
+      "993/tcp"
     ],
     "description": "IMAP over TLS protocol"
   },
@@ -8618,11 +8628,13 @@
     ],
     "description": "oracle"
   },
-  "ngr-t": {
+  "norp": {
     "ports": [
-      "1528/udp"
+      "1528/tcp",
+      "1528/udp",
+      "1528/sctp"
     ],
-    "description": "NGR transport protocol for mobile ad-hoc networks"
+    "description": "Not Only a Routeing Protocol"
   },
   "coauthor": {
     "ports": [
@@ -13782,6 +13794,13 @@
     ],
     "description": "Rotorcraft Communications Test System"
   },
+  "bid-serv": {
+    "ports": [
+      "2259/tcp",
+      "2259/udp"
+    ],
+    "description": "BIF identifiers resolution service"
+  },
   "apc-2260": {
     "ports": [
       "2260/tcp",
@@ -14616,6 +14635,12 @@
       "2377/tcp"
     ],
     "description": "RPC interface for Docker Swarm"
+  },
+  "dali": {
+    "ports": [
+      "2378/udp"
+    ],
+    "description": "DALI lighting control"
   },
   "etcd-client": {
     "ports": [
@@ -18049,6 +18074,13 @@
     ],
     "description": "RADIX"
   },
+  "psrt": {
+    "ports": [
+      "2873/tcp",
+      "2873/udp"
+    ],
+    "description": "PubSub Realtime Telemetry Protocol"
+  },
   "dxmessagebase1": {
     "ports": [
       "2874/tcp",
@@ -21124,6 +21156,13 @@
       "3300/tcp"
     ],
     "description": "Ceph monitor"
+  },
+  "tarantool": {
+    "ports": [
+      "3301/tcp",
+      "3301/udp"
+    ],
+    "description": "Tarantool in-memory computing platform"
   },
   "mcs-fastmail": {
     "ports": [
@@ -25776,7 +25815,7 @@
     ],
     "description": "ConnectShip Progistics"
   },
-  "citysearch": {
+  "xk22": {
     "ports": [
       "3974/tcp",
       "3974/udp"
@@ -25817,13 +25856,6 @@
       "3979/udp"
     ],
     "description": "Smith Micro Wide Area Network Service"
-  },
-  "acms": {
-    "ports": [
-      "3980/tcp",
-      "3980/udp"
-    ],
-    "description": "Aircraft Cabin Management System"
   },
   "starfish": {
     "ports": [
@@ -27353,6 +27385,12 @@
     ],
     "description": "PxPlus remote file srvr"
   },
+  "spdm": {
+    "ports": [
+      "4194/tcp"
+    ],
+    "description": "Security Protocol and Data Model"
+  },
   "aws-wsp": {
     "ports": [
       "4195/tcp",
@@ -27483,6 +27521,19 @@
     ],
     "description": "ChoiceView Client"
   },
+  "opentelemetry": {
+    "ports": [
+      "4317/tcp"
+    ],
+    "description": "OpenTelemetry Protocol"
+  },
+  "fox-skytale": {
+    "ports": [
+      "4319/tcp",
+      "4319/udp"
+    ],
+    "description": "Fox SkyTale encrypted communication"
+  },
   "fdt-rcatp": {
     "ports": [
       "4320/tcp",
@@ -27511,19 +27562,24 @@
     ],
     "description": "TRIM ICE Service"
   },
+  "geognosisadmin": {
+    "ports": [
+      "4325/tcp"
+    ],
+    "description": "Cadcorp GeognoSIS Administrator"
+  },
   "geognosisman": {
     "ports": [
-      "4325/tcp",
       "4325/udp"
     ],
-    "description": "Cadcorp GeognoSIS Manager Service"
+    "description": "Cadcorp GeognoSIS Administrator"
   },
   "geognosis": {
     "ports": [
       "4326/tcp",
       "4326/udp"
     ],
-    "description": "Cadcorp GeognoSIS Service"
+    "description": "Cadcorp GeognoSIS"
   },
   "jaxer-web": {
     "ports": [
@@ -28615,7 +28671,7 @@
       "4646/tcp",
       "4646/udp"
     ],
-    "description": "Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel"
+    "description": "Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel Protocol. The service name is used to construct the SRV service names \"_dots-signal._udp\" and \"_dots-signal._tcp\" for discovering DOTS servers used to establish DOTS signal channel."
   },
   "playsta2-app": {
     "ports": [
@@ -29160,6 +29216,13 @@
       "4791/udp"
     ],
     "description": "IP Routable RocE"
+  },
+  "unified-bus": {
+    "ports": [
+      "4792/tcp",
+      "4792/udp"
+    ],
+    "description": "IP Routable Unified Bus"
   },
   "iims": {
     "ports": [
@@ -29831,13 +29894,6 @@
       "5029/udp"
     ],
     "description": "Infobright Database Server"
-  },
-  "surfpass": {
-    "ports": [
-      "5030/tcp",
-      "5030/udp"
-    ],
-    "description": "SurfPass"
   },
   "dmp": {
     "ports": [
@@ -30684,6 +30740,18 @@
       "5237/udp"
     ],
     "description": "m-net discovery"
+  },
+  "attune": {
+    "ports": [
+      "5242/tcp"
+    ],
+    "description": "ATTUne API"
+  },
+  "xycstatus": {
+    "ports": [
+      "5243/tcp"
+    ],
+    "description": "xyClient Status API and rendevous point"
   },
   "downtools": {
     "ports": [
@@ -31565,6 +31633,13 @@
     ],
     "description": "PowerSysLab Electrical Management"
   },
+  "matter": {
+    "ports": [
+      "5540/tcp",
+      "5540/udp"
+    ],
+    "description": "Matter Operational Discovery and Communi"
+  },
   "cbus": {
     "ports": [
       "5550/tcp"
@@ -32285,12 +32360,12 @@
     ],
     "description": "NetAgent"
   },
-  "dali-port": {
+  "starfield-io": {
     "ports": [
       "5777/tcp",
       "5777/udp"
     ],
-    "description": "DALI Port"
+    "description": "Control commands and responses"
   },
   "vts-rpc": {
     "ports": [
@@ -32357,6 +32432,12 @@
     ],
     "description": "Simple Peered Discovery Protocol"
   },
+  "enlabel-dpl": {
+    "ports": [
+      "5798/tcp"
+    ],
+    "description": "Proprietary Website deployment service"
+  },
   "icmpd": {
     "ports": [
       "5813/tcp",
@@ -32370,6 +32451,12 @@
       "5814/udp"
     ],
     "description": "Support Automation"
+  },
+  "autopassdaemon": {
+    "ports": [
+      "5820/tcp"
+    ],
+    "description": "AutoPass licensing"
   },
   "shiprush-d-ch": {
     "ports": [
@@ -32417,34 +32504,110 @@
     ],
     "description": "Remote Framebuffer"
   },
-  "cm": {
+  "ff-ice": {
+    "ports": [
+      "5903/tcp",
+      "5903/udp",
+      "5903/sctp"
+    ],
+    "description": "Flight & Flow Info for Collaborative Env"
+  },
+  "ag-swim": {
+    "ports": [
+      "5904/tcp",
+      "5904/udp",
+      "5904/sctp"
+    ],
+    "description": "Air-Ground SWIM"
+  },
+  "asmgcs": {
+    "ports": [
+      "5905/tcp",
+      "5905/udp",
+      "5905/sctp"
+    ],
+    "description": "Adv Surface Mvmnt and Guidance Cont Sys"
+  },
+  "rpas-c2": {
+    "ports": [
+      "5906/tcp",
+      "5906/udp",
+      "5906/sctp"
+    ],
+    "description": "Remotely Piloted Vehicle C&C"
+  },
+  "dsd": {
+    "ports": [
+      "5907/tcp",
+      "5907/udp",
+      "5907/sctp"
+    ],
+    "description": "Distress and Safety Data App"
+  },
+  "ipsma": {
+    "ports": [
+      "5908/tcp",
+      "5908/udp",
+      "5908/sctp"
+    ],
+    "description": "IPS Management Application"
+  },
+  "agma": {
+    "ports": [
+      "5909/tcp",
+      "5909/udp",
+      "5909/sctp"
+    ],
+    "description": "Air-ground media advisory"
+  },
+  "ats-atn": {
     "ports": [
       "5910/tcp",
-      "5910/udp",
+      "5910/udp"
+    ],
+    "description": "Air Traffic Services applications using ATN"
+  },
+  "cm": {
+    "ports": [
       "5910/sctp"
     ],
     "description": "Context Management"
   },
-  "cpdlc": {
+  "ats-acars": {
     "ports": [
       "5911/tcp",
-      "5911/udp",
+      "5911/udp"
+    ],
+    "description": "Air Traffic Services applications using ACARS"
+  },
+  "cpdlc": {
+    "ports": [
       "5911/sctp"
     ],
     "description": "Controller Pilot Data Link Communication"
   },
-  "fis": {
+  "ais-met": {
     "ports": [
       "5912/tcp",
-      "5912/udp",
+      "5912/udp"
+    ],
+    "description": "Aeronautical Information Service/Meteorological applications using ACARS"
+  },
+  "fis": {
+    "ports": [
       "5912/sctp"
     ],
     "description": "Flight Information Services"
   },
-  "ads-c": {
+  "aoc-acars": {
     "ports": [
       "5913/tcp",
-      "5913/udp",
+      "5913/udp"
+    ],
+    "description": "Airline operational communications applications using ACARS"
+  },
+  "ads-c": {
+    "ports": [
       "5913/sctp"
     ],
     "description": "Automatic Dependent Surveillance"
@@ -32538,6 +32701,12 @@
       "5993/tcp"
     ],
     "description": "DMTF WBEM CIM REST"
+  },
+  "rms-agent": {
+    "ports": [
+      "5994/tcp"
+    ],
+    "description": "RMS Agent Listening Service"
   },
   "cvsup": {
     "ports": [
@@ -34329,6 +34498,12 @@
     ],
     "description": "conductor for multiplex"
   },
+  "qolyester": {
+    "ports": [
+      "6980/udp"
+    ],
+    "description": "QoS-extended OLSR protocol"
+  },
   "MobilitySrv": {
     "ports": [
       "6997/tcp",
@@ -34651,6 +34826,12 @@
       "7121/udp"
     ],
     "description": "Virtual Prototypes License Manager"
+  },
+  "snif": {
+    "ports": [
+      "7123/tcp"
+    ],
+    "description": "End-to-end TLS Relay Control Connection"
   },
   "scenidm": {
     "ports": [
@@ -35408,12 +35589,12 @@
     ],
     "description": "Sun App Server - HTTPS"
   },
-  "pando-pub": {
+  "ms-do": {
     "ports": [
       "7680/tcp",
       "7680/udp"
     ],
-    "description": "Pando Media Public Distribution"
+    "description": "Microsoft Delivery Optimization Peer-to-Peer"
   },
   "dmt": {
     "ports": [
@@ -35433,6 +35614,12 @@
       "7689/udp"
     ],
     "description": "Collaber Network Service"
+  },
+  "sovd": {
+    "ports": [
+      "7690/tcp"
+    ],
+    "description": "Service-Oriented Vehicle Diagnostics"
   },
   "klio": {
     "ports": [
@@ -35929,6 +36116,12 @@
       "8016/tcp"
     ],
     "description": "Beckhoff Automation Device Specification"
+  },
+  "cisco-cloudsec": {
+    "ports": [
+      "8017/udp"
+    ],
+    "description": "Cisco Cloudsec Dataplane Port Number"
   },
   "qbdb": {
     "ports": [
@@ -36516,12 +36709,12 @@
     ],
     "description": "Robot Framework Remote Library Interface"
   },
-  "pando-sec": {
+  "ms-mcc": {
     "ports": [
       "8276/tcp",
       "8276/udp"
     ],
-    "description": "Pando Media Controlled Distribution"
+    "description": "Microsoft Connected Cache"
   },
   "synapse-nhttp": {
     "ports": [
@@ -36716,6 +36909,18 @@
       "8423/tcp"
     ],
     "description": "Aristech text-to-speech server"
+  },
+  "pgbackrest": {
+    "ports": [
+      "8432/tcp"
+    ],
+    "description": "PostgreSQL Backup"
+  },
+  "aws-as2": {
+    "ports": [
+      "8433/udp"
+    ],
+    "description": "Non Persistent Desktop and Application Streaming"
   },
   "cybro-a-bus": {
     "ports": [
@@ -37226,6 +37431,12 @@
       "8901/udp"
     ],
     "description": "JMB-CDS 2"
+  },
+  "dpp": {
+    "ports": [
+      "8908/tcp"
+    ],
+    "description": "WFA Device Provisioning Protocol"
   },
   "manyone-http": {
     "ports": [
@@ -37976,6 +38187,12 @@
     ],
     "description": "gRPC Network Mgmt/Operations Interface"
   },
+  "gribi": {
+    "ports": [
+      "9340/tcp"
+    ],
+    "description": "gRPC Routing Information Base Interface"
+  },
   "mpidcmgr": {
     "ports": [
       "9343/tcp",
@@ -38143,6 +38360,12 @@
       "9555/udp"
     ],
     "description": "Trispen Secure Remote Access"
+  },
+  "p4runtime": {
+    "ports": [
+      "9559/tcp"
+    ],
+    "description": "P4Runtime gRPC Service"
   },
   "ldgateway": {
     "ports": [
@@ -39255,6 +39478,13 @@
     ],
     "description": "Memory cache service"
   },
+  "xcompute": {
+    "ports": [
+      "11235/tcp",
+      "11235/sctp"
+    ],
+    "description": "numerical systems messaging"
+  },
   "imip": {
     "ports": [
       "11319/tcp",
@@ -39542,6 +39772,12 @@
       "12345/udp"
     ],
     "description": "Italk Chat System"
+  },
+  "carb-repl-ctrl": {
+    "ports": [
+      "12546/tcp"
+    ],
+    "description": "Carbonite Server Replication Control"
   },
   "tsaf": {
     "ports": [
@@ -40104,6 +40340,12 @@
       "17007/udp"
     ]
   },
+  "ncpu": {
+    "ports": [
+      "17010/tcp"
+    ],
+    "description": "Plan 9 cpu port"
+  },
   "vestasdlp": {
     "ports": [
       "17184/tcp"
@@ -40498,6 +40740,12 @@
     ],
     "description": "Mesh Link Establishment"
   },
+  "faircom-db": {
+    "ports": [
+      "19790/tcp"
+    ],
+    "description": "FairCom Database"
+  },
   "iec-104-sec": {
     "ports": [
       "19998/tcp"
@@ -40507,14 +40755,16 @@
   "dnp-sec": {
     "ports": [
       "19999/tcp",
-      "19999/udp"
+      "19999/udp",
+      "19999/sctp"
     ],
     "description": "Distributed Network Protocol - Secure"
   },
   "dnp": {
     "ports": [
       "20000/tcp",
-      "20000/udp"
+      "20000/udp",
+      "20000/sctp"
     ],
     "description": "DNP"
   },
@@ -40642,6 +40892,12 @@
     ],
     "description": "Track"
   },
+  "crtech-nlm": {
+    "ports": [
+      "20810/tcp"
+    ],
+    "description": "CRTech NLM"
+  },
   "athand-mmp": {
     "ports": [
       "20999/tcp",
@@ -40706,6 +40962,12 @@
       "21800/udp"
     ],
     "description": "TVNC Pro Multiplexing"
+  },
+  "sal": {
+    "ports": [
+      "21801/tcp"
+    ],
+    "description": "Safe AutoLogon"
   },
   "webphone": {
     "ports": [
@@ -40810,6 +41072,13 @@
       "22305/udp"
     ],
     "description": "CompactIS Tunnel"
+  },
+  "showcockpit-net": {
+    "ports": [
+      "22333/tcp",
+      "22333/udp"
+    ],
+    "description": "ShowCockpit Networking"
   },
   "shrewd-control": {
     "ports": [
@@ -41464,6 +41733,12 @@
     ],
     "description": "Gruber cash registry protocol"
   },
+  "thor-engine": {
+    "ports": [
+      "28080/tcp"
+    ],
+    "description": "thor/server - ML engine"
+  },
   "a27-ran-ran": {
     "ports": [
       "28119/udp"
@@ -41616,6 +41891,13 @@
       "31029/udp"
     ],
     "description": "YaWN - Yet Another Windows Notifier"
+  },
+  "eldim": {
+    "ports": [
+      "31337/tcp",
+      "31337/udp"
+    ],
+    "description": "eldim is a secure file upload proxy"
   },
   "pace-licensed": {
     "ports": [
@@ -42222,6 +42504,12 @@
     ],
     "description": "F1 Control Plane (3GPP)"
   },
+  "psqlmws": {
+    "ports": [
+      "38638/tcp"
+    ],
+    "description": "Premier SQL Middleware Server"
+  },
   "sruth": {
     "ports": [
       "38800/tcp"
@@ -42233,6 +42521,12 @@
       "38865/tcp"
     ],
     "description": "Security approval process for use of the secRMM SafeCopy program"
+  },
+  "vroa": {
+    "ports": [
+      "39063/tcp"
+    ],
+    "description": "Children's hearing test/Telemedicine"
   },
   "turbonote-1": {
     "ports": [
@@ -42353,6 +42647,12 @@
       "42510/udp"
     ],
     "description": "CA eTrust RPC"
+  },
+  "curiosity": {
+    "ports": [
+      "42999/tcp"
+    ],
+    "description": "API endpoint for search application"
   },
   "recvr-rc": {
     "ports": [

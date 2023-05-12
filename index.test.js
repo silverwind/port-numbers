@@ -1,7 +1,4 @@
-"use strict";
-
-const {getService, getPort} = require(".");
-const {test, expect} = global;
+import {getService, getPort} from "./index.js";
 
 test("getService", () => {
   expect(getService(12345).name).toEqual("italk");

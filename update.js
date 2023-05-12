@@ -1,68 +1,76 @@
 #!/usr/bin/env node
-"use strict";
+import {fetch as undiciFetch} from "undici";
+import fetchEnhanced from "fetch-enhanced";
+import {csvParse} from "d3-dsv";
+import {writeFile} from "node:fs/promises";
 
+const fetch = fetchEnhanced(undiciFetch, {undici: true});
 const source = "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv";
-const got = require("got");
-const csvParse = require("csv-parse");
-const fs = require("fs");
+const portsFile = new URL("ports.json", import.meta.url);
+const servicesFile = new URL("services.json", import.meta.url);
 
-got(source).catch(console.error).then(res => {
-  csvParse(res.body, {}, (err, data) => {
-    if (err) return exit(err);
-    parsePorts(data, err => {
-      if (err) return exit(err);
-      parseServices(data, err => {
-        if (err) return exit(err);
-        process.exit(0);
-      });
-    });
-  });
-});
-
-function exit(err) {
-  console.error(err);
-  process.exit(1);
-}
-
-function parsePorts(data, cb) {
+async function parsePorts(data) {
   const output = {};
-  data.forEach(entry => {
-    if (entry[1] && entry[2] && !output[`${entry[1]}/${entry[2]}`] && !Number.isNaN(Number(entry[1]))) {
-      output[`${entry[1]}/${entry[2]}`] = {
-        name: entry[0],
-        description: cleanupDescription(entry[3]),
+  for (const {"Service Name": name, "Port Number": port, "Transport Protocol": proto, "Description": descr} of data) {
+    if (
+      port && proto &&
+      !output[`${port}/${proto}`] &&
+      !Number.isNaN(Number(port))
+    ) {
+      output[`${port}/${proto}`] = {
+        name,
+        description: cleanupDescription(descr),
       };
     }
-  });
-  fs.writeFile("./ports.json", JSON.stringify(output, null, 2), cb);
+  }
+  await writeFile(portsFile, JSON.stringify(output, null, 2));
 }
 
-function parseServices(data, cb) {
+async function parseServices(data) {
   const output = {};
-  data.forEach(entry => {
-    if (!output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
-      entry[0].length && !Number.isNaN(Number(entry[1]))) {
-      output[entry[0]] = {
-        ports: [`${Number(entry[1])}/${entry[2]}`],
-        description: cleanupDescription(entry[3]),
+  for (const {"Service Name": name, "Port Number": port, "Transport Protocol": proto, "Description": descr} of data) {
+    if (
+      !output[name] && port && proto && typeof name === "string" &&
+      name.length && !Number.isNaN(Number(port))
+    ) {
+      output[name] = {
+        ports: [`${Number(port)}/${proto}`],
+        description: cleanupDescription(descr),
       };
-    } else if (output[entry[0]] && entry[1] && entry[2] && typeof entry[0] === "string" &&
-           entry[0].length && !Number.isNaN(Number(entry[1])) &&
-           !output[entry[0]].ports.includes(`${Number(entry[1])}/${entry[2]}`)) {
-      output[entry[0]].ports.push(`${entry[1]}/${entry[2]}`);
+    } else if (
+      output[name] && port && proto && typeof name === "string" &&
+      name.length && !Number.isNaN(Number(port)) &&
+      !output[name].ports.includes(`${Number(port)}/${proto}`)
+    ) {
+      output[name].ports.push(`${port}/${proto}`);
     }
-  });
-  fs.writeFile("./services.json", JSON.stringify(output, null, 2), cb);
+  }
+  await writeFile(servicesFile, JSON.stringify(output, null, 2));
 }
 
 function cleanupDescription(str) {
   if (!str) return undefined;
 
   // remove historical descriptions
-  str = str.replace(/\nIANA assigned this.*/gm, "");
+  str = str.replace(/\nIANA assigned this.*/g, "");
 
   // force description to be single-line
-  str = str.replace(/[\s\n]+/g, " ");
+  str = str.replace(/\s+/g, " ");
 
   return (str || "").trim();
 }
+
+function exit(err) {
+  if (err) console.error(err);
+  process.exit(err ? 1 : 0);
+}
+
+async function main() {
+  const res = await fetch(source);
+  const text = await res.text();
+  const data = csvParse(text);
+  await parsePorts(data);
+  await parseServices(data);
+}
+
+main().then(exit).catch(exit);

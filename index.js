@@ -1,18 +1,18 @@
-"use strict";
+import {readFileSync} from "node:fs";
 
 let ports, services;
 
 // port -> service
-module.exports.getService = (port, protocol = "tcp") => {
+export function getService(port, protocol = "tcp") {
   if (typeof port !== "number") throw new Error("expected a 'number'");
-  if (!ports) ports = require("./ports.json");
+  if (!ports) ports = JSON.parse(readFileSync(new URL("ports.json", import.meta.url)));
   return ports[`${port}/${protocol}`] || null;
-};
+}
 
 // service -> port
-module.exports.getPort = (service, protocol = "tcp") => {
+export function getPort(service, protocol = "tcp") {
   if (typeof service !== "string") throw new Error("expected a 'string'");
-  if (!services) services = require("./services.json");
+  if (!services) services = JSON.parse(readFileSync(new URL("services.json", import.meta.url)));
 
   // services are always lowercase
   const entry = services[service.toLowerCase()];
@@ -28,4 +28,4 @@ module.exports.getPort = (service, protocol = "tcp") => {
     protocol: /\w+$/.exec(port)[0],
     description: entry.description
   };
-};
+}
