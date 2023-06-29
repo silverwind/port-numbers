@@ -17,13 +17,13 @@
   ],
   "devDependencies": {
     "d3-dsv": "3.0.1",
-    "eslint": "8.41.0",
-    "eslint-config-silverwind": "73.0.0",
+    "eslint": "8.43.0",
+    "eslint-config-silverwind": "73.0.4",
     "fetch-enhanced": "11.1.1",
-    "got": "12.6.0",
     "undici": "5.22.1",
-    "updates": "14.1.0",
-    "versions": "11.0.0",
-    "vitest": "0.31.1"
+    "updates": "14.2.9",
+    "versions": "11.0.1",
+    "vitest": "0.32.2",
+    "vitest-config-silverwind": "2.0.0"
   }
 }
