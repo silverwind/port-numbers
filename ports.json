@@ -16364,6 +16364,14 @@
     "name": "opentable",
     "description": "OpenTable"
   },
+  "2369/tcp": {
+    "name": "bif-p2p",
+    "description": "Blockchain Identifier InFrastructure P2P"
+  },
+  "2369/udp": {
+    "name": "bif-p2p",
+    "description": "Blockchain Identifier InFrastructure P2P"
+  },
   "2370/tcp": {
     "name": "l3-hbmon",
     "description": "L3-HBMon"
@@ -45327,6 +45335,14 @@
     "description": "Blackmagic Design Streaming Server"
   },
   "13823/udp": {
+    "name": "",
+    "description": "Reserved"
+  },
+  "13832/tcp": {
+    "name": "a-trust-rpc",
+    "description": "Certificate Management and Issuing"
+  },
+  "13832/udp": {
     "name": "",
     "description": "Reserved"
   },

@@ -14592,6 +14592,13 @@
     ],
     "description": "OpenTable"
   },
+  "bif-p2p": {
+    "ports": [
+      "2369/tcp",
+      "2369/udp"
+    ],
+    "description": "Blockchain Identifier InFrastructure P2P"
+  },
   "l3-hbmon": {
     "ports": [
       "2370/tcp",
@@ -39947,6 +39954,12 @@
       "13823/tcp"
     ],
     "description": "Blackmagic Design Streaming Server"
+  },
+  "a-trust-rpc": {
+    "ports": [
+      "13832/tcp"
+    ],
+    "description": "Certificate Management and Issuing"
   },
   "ucontrol": {
     "ports": [
