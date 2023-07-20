@@ -1,19 +1,16 @@
 {
   "name": "port-numbers",
   "version": "7.1.0",
-  "description": "Get information on network port numbers and services, based on IANA's public listing",
+  "description": "Holds information on network port numbers, based on IANA's data",
   "author": "silverwind",
   "repository": "silverwind/port-numbers",
   "license": "BSD-2-Clause",
   "type": "module",
   "sideEffects": false,
-  "engines": {
-    "node": ">=16"
-  },
+  "main": "./index.json",
+  "exports": "./index.json",
   "files": [
-    "./index.js",
-    "./ports.json",
-    "./services.json"
+    "./index.json"
   ],
   "devDependencies": {
     "d3-dsv": "3.0.1",

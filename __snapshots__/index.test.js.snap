@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ports 1`] = `
+[
+  "",
+  "Reserved",
+]
+`;
+
+exports[`ports 2`] = `
+[
+  "mysql",
+  "MySQL",
+]
+`;
+
+exports[`ports 3`] = `
+[
+  "domain",
+  "Domain Name Server",
+]
+`;
+
+exports[`ports 4`] = `undefined`;
+
+exports[`ports 5`] = `
+[
+  "www-http",
+  "World Wide Web HTTP",
+]
+`;

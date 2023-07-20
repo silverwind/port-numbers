@@ -13,6 +13,10 @@ lint: node_modules
 test: lint node_modules
 	npx vitest
 
+.PHONY: test-update
+test-update: lint node_modules
+	npx vitest --update
+
 .PHONY: publish
 publish: node_modules
 	git push -u --tags origin master

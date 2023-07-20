@@ -5,59 +5,12 @@ import {csvParse} from "d3-dsv";
 import {writeFile} from "node:fs/promises";
 
 const fetch = fetchEnhanced(undiciFetch, {undici: true});
-const source = "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv";
-const portsFile = new URL("ports.json", import.meta.url);
-const servicesFile = new URL("services.json", import.meta.url);
-
-async function parsePorts(data) {
-  const output = {};
-  for (const {"Service Name": name, "Port Number": port, "Transport Protocol": proto, "Description": descr} of data) {
-    if (
-      port && proto &&
-      !output[`${port}/${proto}`] &&
-      !Number.isNaN(Number(port))
-    ) {
-      output[`${port}/${proto}`] = {
-        name,
-        description: cleanupDescription(descr),
-      };
-    }
-  }
-  await writeFile(portsFile, JSON.stringify(output, null, 2));
-}
-
-async function parseServices(data) {
-  const output = {};
-  for (const {"Service Name": name, "Port Number": port, "Transport Protocol": proto, "Description": descr} of data) {
-    if (
-      !output[name] && port && proto && typeof name === "string" &&
-      name.length && !Number.isNaN(Number(port))
-    ) {
-      output[name] = {
-        ports: [`${Number(port)}/${proto}`],
-        description: cleanupDescription(descr),
-      };
-    } else if (
-      output[name] && port && proto && typeof name === "string" &&
-      name.length && !Number.isNaN(Number(port)) &&
-      !output[name].ports.includes(`${Number(port)}/${proto}`)
-    ) {
-      output[name].ports.push(`${port}/${proto}`);
-    }
-  }
-  await writeFile(servicesFile, JSON.stringify(output, null, 2));
-}
 
 function cleanupDescription(str) {
-  if (!str) return undefined;
-
-  // remove historical descriptions
-  str = str.replace(/\nIANA assigned this.*/g, "");
-
-  // force description to be single-line
-  str = str.replace(/\s+/g, " ");
-
-  return (str || "").trim();
+  return (str || "")
+    .replace(/\nIANA assigned this.*/g, "")  // remove historical descriptions
+    .replace(/\s+/g, " ") // force description to be single-line
+    .trim();
 }
 
 function exit(err) {
@@ -66,11 +19,21 @@ function exit(err) {
 }
 
 async function main() {
-  const res = await fetch(source);
+  const res = await fetch("https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv");
   const text = await res.text();
-  const data = csvParse(text);
-  await parsePorts(data);
-  await parseServices(data);
+
+  const output = {};
+  for (const {
+    "Service Name": name,
+    "Port Number": port,
+    "Transport Protocol": proto,
+    "Description": descr,
+  } of csvParse(text)) {
+    if (port && proto && !Number.isNaN(Number(port))) {
+      output[`${port}/${proto}`] = [name, cleanupDescription(descr)];
+    }
+  }
+  await writeFile(new URL("index.json", import.meta.url), JSON.stringify(output));
 }
 
 main().then(exit).catch(exit);
