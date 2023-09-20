@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import {fetch} from "undici";
 import {csvParse} from "d3-dsv";
-import {writeFile} from "node:fs/promises";
+import {writeFileSync} from "node:fs";
 
 function cleanupDescription(str) {
   return (str || "")
@@ -30,7 +30,7 @@ async function main() {
       output[`${port}/${proto}`] = [name, cleanupDescription(descr)];
     }
   }
-  await writeFile(new URL("index.json", import.meta.url), JSON.stringify(output, null, 1));
+  writeFileSync(new URL("index.json", import.meta.url), JSON.stringify(output, null, 1));
 }
 
 main().then(exit).catch(exit);
