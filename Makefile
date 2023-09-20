@@ -7,7 +7,7 @@ deps: node_modules
 
 .PHONY: data
 data:
-	node updates.js
+	node update.js
 
 .PHONY: lint
 lint: node_modules
