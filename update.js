@@ -1,10 +1,7 @@
 #!/usr/bin/env node
-import {fetch as undiciFetch} from "undici";
-import fetchEnhanced from "fetch-enhanced";
+import {fetch} from "undici";
 import {csvParse} from "d3-dsv";
 import {writeFile} from "node:fs/promises";
-
-const fetch = fetchEnhanced(undiciFetch, {undici: true});
 
 function cleanupDescription(str) {
   return (str || "")
