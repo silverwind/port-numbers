@@ -33,7 +33,7 @@ async function main() {
       output[`${port}/${proto}`] = [name, cleanupDescription(descr)];
     }
   }
-  await writeFile(new URL("index.json", import.meta.url), JSON.stringify(output));
+  await writeFile(new URL("index.json", import.meta.url), JSON.stringify(output, null, 1));
 }
 
 main().then(exit).catch(exit);
