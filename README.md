@@ -5,7 +5,7 @@ npm module that holds information on network port numbers based on [IANA's data]
 
 ### Usage
 ```js
-import ports from "port-numbers";
+import ports from "port-numbers" assert { type: "json" };;
 
 ports["6379/tcp"];
 // ["redis", "An advanced key-value cache and store"]
