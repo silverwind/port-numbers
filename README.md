@@ -4,8 +4,12 @@
 npm module that holds information on network port numbers based on [IANA's data](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml).
 
 ### Usage
+
+Depending on your environment you may need to use [import attributes](https://github.com/tc39/proposal-import-attributes), [import assertions](https://nodejs.org/api/esm.html#import-assertions) or [nothing at all](https://bun.sh/guides/runtime/import-json).
+
+
 ```js
-import ports from "port-numbers" assert { type: "json" };;
+import ports from "port-numbers";
 
 ports["6379/tcp"];
 // ["redis", "An advanced key-value cache and store"]
