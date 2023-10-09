@@ -15,7 +15,7 @@ jobs:
           node-version: 20
           registry-url: https://registry.npmjs.org
       - run: make deps
-      - run: make data
+      - run: make update-data
       - run: |
           if [[ $(git status --porcelain --untracked-files=no) ]]; then
             make test

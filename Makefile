@@ -5,9 +5,9 @@ node_modules: package-lock.json
 .PHONY: deps
 deps: node_modules
 
-.PHONY: data
-data:
-	node update.js
+.PHONY: update-data
+update-data:
+	node update-data.js
 
 .PHONY: lint
 lint: node_modules
