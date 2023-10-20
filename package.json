@@ -3,7 +3,10 @@
   "version": "8.0.3",
   "description": "Holds information on network port numbers, based on IANA's data",
   "author": "silverwind",
-  "repository": "silverwind/port-numbers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silverwind/port-numbers.git"
+  },
   "license": "BSD-2-Clause",
   "type": "module",
   "sideEffects": false,
