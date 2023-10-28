@@ -42283,6 +42283,14 @@
   "",
   "Reserved"
  ],
+ "8668/tcp": [
+  "spartan",
+  "Spartan management"
+ ],
+ "8668/udp": [
+  "",
+  "Reserved"
+ ],
  "8675/tcp": [
   "msi-cps-rm",
   "Motorola Solutions Customer Programming Software for Radio Management"
