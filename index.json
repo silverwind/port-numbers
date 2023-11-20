@@ -2292,12 +2292,12 @@
   "Shrinkwrap"
  ],
  "359/tcp": [
-  "nsrmp",
-  "Network Security Risk Management Protocol"
+  "",
+  "Reserved"
  ],
  "359/udp": [
-  "nsrmp",
-  "Network Security Risk Management Protocol"
+  "",
+  "Reserved"
  ],
  "360/tcp": [
   "scoi2odialog",
