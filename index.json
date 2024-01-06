@@ -35923,6 +35923,14 @@
   "matter",
   "Matter Operational Discovery and Communi"
  ],
+ "5543/tcp": [
+  "qftest-licserve",
+  "QF-Test License Server"
+ ],
+ "5543/udp": [
+  "",
+  "Reserved"
+ ],
  "5550/tcp": [
   "cbus",
   "Model Railway control using the CBUS message protocol"
@@ -41312,8 +41320,8 @@
   "Gadu-Gadu"
  ],
  "8077/tcp": [
-  "mles",
-  "Mles is a client-server data distribution protocol targeted to serve as a lightweight and reliable distributed publish/subscribe database service."
+  "",
+  "Reserved"
  ],
  "8077/udp": [
   "",
