@@ -18,7 +18,6 @@ jobs:
       - run: make update-data
       - run: |
           if [[ $(git status --porcelain --untracked-files=no) ]]; then
-            make test
             git fetch --unshallow --quiet --tags
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
