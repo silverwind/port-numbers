@@ -47355,6 +47355,14 @@
   "icl-twobase10",
   "icl-twobase10"
  ],
+ "25100/tcp": [
+  "db2c-tls",
+  "IBM Db2 Client Interface - Encrypted"
+ ],
+ "25100/udp": [
+  "",
+  "Reserved"
+ ],
  "25471/sctp": [
   "rna",
   "RNSAP User Adaptation for Iurh"
