@@ -22776,12 +22776,12 @@
   "Indura Collector"
  ],
  "3157/tcp": [
-  "e3consultants",
-  "CCC Listener Port"
+  "lsa-comm",
+  "LSA Communicator"
  ],
  "3157/udp": [
-  "e3consultants",
-  "CCC Listener Port"
+  "lsa-comm",
+  "LSA Communicator"
  ],
  "3158/tcp": [
   "stvp",
