@@ -1,6 +1,6 @@
 {
   "name": "port-numbers",
-  "version": "8.0.9",
+  "version": "8.0.10",
   "description": "Holds information on network port numbers, based on IANA's data",
   "author": "silverwind",
   "repository": {
