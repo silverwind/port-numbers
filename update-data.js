@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import {fetch} from "undici";
 import {csvParse} from "d3-dsv";
 import {writeFileSync} from "node:fs";
 
