@@ -9,7 +9,7 @@ Depending on your environment you may need to use [import attributes](https://gi
 
 
 ```js
-import ports from "port-numbers";
+import ports from "port-numbers" with {type: "json"};
 
 ports["6379/tcp"];
 // ["redis", "An advanced key-value cache and store"]
