@@ -5625,7 +5625,7 @@
  ],
  "914/udp": [
   "rift-lies",
-  "Routing in Fat Trees Link Information Elements (TEMPORARY - registered 2023-02-17, extension registered 2024-01-12, expires 2025-02-17)"
+  "Routing in Fat Trees Link Information Element"
  ],
  "915/tcp": [
   "",
@@ -5633,7 +5633,7 @@
  ],
  "915/udp": [
   "rift-ties",
-  "Routing in Fat Trees Topology Information Elements (TEMPORARY - registered 2023-02-17, extension registered 2024-01-12, expires 2025-02-17)"
+  "Routing in Fat Trees Topology Information Element"
  ],
  "953/tcp": [
   "rndc",
