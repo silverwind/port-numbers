@@ -12089,11 +12089,11 @@
  ],
  "1815/tcp": [
   "mmpft",
-  "MMPFT"
+  "Manufacturing messaging protocol for factory transmission"
  ],
  "1815/udp": [
   "mmpft",
-  "MMPFT"
+  "Manufacturing messaging protocol for factory transmission"
  ],
  "1816/tcp": [
   "harp",
