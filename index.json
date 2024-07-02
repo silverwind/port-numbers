@@ -37863,6 +37863,14 @@
   "nav-data",
   "Navtech Radar Sensor Data"
  ],
+ "6318/tcp": [
+  "iona-data",
+  "IONA Measurement and control data"
+ ],
+ "6318/udp": [
+  "",
+  "Reserved"
+ ],
  "6320/tcp": [
   "repsvc",
   "Double-Take Replication Service"
