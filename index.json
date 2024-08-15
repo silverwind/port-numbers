@@ -40291,6 +40291,14 @@
   "coherence-disc",
   "Oracle Coherence Cluster discovery service"
  ],
+ "7575/tcp": [
+  "wtmi-panel",
+  "Main access port for WTMI Panel"
+ ],
+ "7575/udp": [
+  "",
+  "Reserved"
+ ],
  "7588/tcp": [
   "sun-lm",
   "Sun License Manager"
