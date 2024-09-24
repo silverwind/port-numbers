@@ -47551,6 +47551,14 @@
   "",
   "Reserved"
  ],
+ "27016/tcp": [
+  "chlenix",
+  "Cloud hosting environment network"
+ ],
+ "27016/udp": [
+  "",
+  "Reserved"
+ ],
  "27017/tcp": [
   "mongodb",
   "Mongo database system"
