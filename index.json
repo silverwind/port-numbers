@@ -37079,6 +37079,18 @@
   "ads-c",
   "Automatic Dependent Surveillance"
  ],
+ "5914/tcp": [
+  "ipsdtls",
+  "Security for Internet Protocol Suite"
+ ],
+ "5914/udp": [
+  "ipsdtls",
+  "Security for Internet Protocol Suite"
+ ],
+ "5914/sctp": [
+  "ipsdtls",
+  "Security for Internet Protocol Suite"
+ ],
  "5963/tcp": [
   "indy",
   "Indy Application Server"
