@@ -19891,6 +19891,14 @@
   "initlsmsad",
   "initlsmsad"
  ],
+ "2794/tcp": [
+  "urp",
+  "Uniform Resource Platform"
+ ],
+ "2794/udp": [
+  "urp",
+  "Uniform Resource Platform"
+ ],
  "2795/tcp": [
   "livestats",
   "LiveStats"
