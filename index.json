@@ -23792,11 +23792,11 @@
   "Datusorb"
  ],
  "3283/tcp": [
-  "Apple Remote Desktop (Net Assistant)",
+  "net-assistant",
   "Net Assistant"
  ],
  "3283/udp": [
-  "Apple Remote Desktop (Net Assistant)",
+  "net-assistant",
   "Net Assistant"
  ],
  "3284/tcp": [
@@ -26868,11 +26868,11 @@
   "DataGuardianLT"
  ],
  "3679/tcp": [
-  "Escale (Newton Dock)",
+  "newton-dock",
   "Newton Dock"
  ],
  "3679/udp": [
-  "Escale (Newton Dock)",
+  "newton-dock",
   "Newton Dock"
  ],
  "3680/tcp": [
