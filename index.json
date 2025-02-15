@@ -16,20 +16,20 @@
   "TCP Port Service Multiplexer"
  ],
  "2/tcp": [
-  "compressnet",
-  "Management Utility"
+  "",
+  "Reserved"
  ],
  "2/udp": [
-  "compressnet",
-  "Management Utility"
+  "",
+  "Reserved"
  ],
  "3/tcp": [
-  "compressnet",
-  "Compression Process"
+  "",
+  "Reserved"
  ],
  "3/udp": [
-  "compressnet",
-  "Compression Process"
+  "",
+  "Reserved"
  ],
  "4/tcp": [
   "",
