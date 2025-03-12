@@ -48963,6 +48963,14 @@
   "invision-ag",
   "InVision AG"
  ],
+ "45185/tcp": [
+  "witsnet",
+  "Wire and Wireless transfer on synchroniz"
+ ],
+ "45185/udp": [
+  "witsnet",
+  "Wire and Wireless transfer on synchroniz"
+ ],
  "45514/tcp": [
   "cloudcheck",
   "ASSIA CloudCheck WiFi Management System"
