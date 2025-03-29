@@ -40419,6 +40419,14 @@
   "rome",
   "Proprietary immutable distributed data storage"
  ],
+ "7668/tcp": [
+  "authoritygate",
+  "AuthorityGate Secure API communication for Orchestrated task sequencing"
+ ],
+ "7668/udp": [
+  "",
+  "Reserved"
+ ],
  "7672/tcp": [
   "imqstomp",
   "iMQ STOMP Server"
