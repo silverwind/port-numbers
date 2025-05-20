@@ -32103,6 +32103,14 @@
   "a25-fap-fgw",
   "A25 (FAP-FGW)"
  ],
+ "4503/tcp": [
+  "",
+  "Reserved"
+ ],
+ "4503/udp": [
+  "m-bus-oms",
+  "M-Bus-OMS over UDP"
+ ],
  "4534/tcp": [
   "",
   "Reserved"
