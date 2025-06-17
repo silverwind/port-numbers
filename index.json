@@ -33127,6 +33127,14 @@
   "unified-bus",
   "IP Routable Unified Bus"
  ],
+ "4793/tcp": [
+  "",
+  "Reserved"
+ ],
+ "4793/udp": [
+  "uet",
+  "Ultra Ethernet Transport"
+ ],
  "4800/tcp": [
   "iims",
   "Icona Instant Messenging System"
