@@ -2027,6 +2027,14 @@
   "k-block",
   "K-BLOCK"
  ],
+ "300/tcp": [
+  "tacacss",
+  "TLS Secure Login Host Protocol (TACACSS)"
+ ],
+ "300/udp": [
+  "",
+  "Reserved"
+ ],
  "308/tcp": [
   "novastorbakcup",
   "Novastor Backup"
