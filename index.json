@@ -5452,28 +5452,28 @@
   "NETCONF over SSH"
  ],
  "831/tcp": [
-  "netconf-beep",
-  "NETCONF over BEEP"
+  "",
+  "Reserved"
  ],
  "831/udp": [
-  "netconf-beep",
-  "NETCONF over BEEP"
+  "",
+  "Reserved"
  ],
  "832/tcp": [
-  "netconfsoaphttp",
-  "NETCONF for SOAP over HTTPS"
+  "",
+  "Reserved"
  ],
  "832/udp": [
-  "netconfsoaphttp",
-  "NETCONF for SOAP over HTTPS"
+  "",
+  "Reserved"
  ],
  "833/tcp": [
-  "netconfsoapbeep",
-  "NETCONF for SOAP over BEEP"
+  "",
+  "Reserved"
  ],
  "833/udp": [
-  "netconfsoapbeep",
-  "NETCONF for SOAP over BEEP"
+  "",
+  "Reserved"
  ],
  "847/tcp": [
   "dhcp-failover2",
@@ -8185,11 +8185,11 @@
  ],
  "1325/tcp": [
   "dx-instrument",
-  "DX-Instrument"
+  "Thermo Fisher Scientific Instrumentation (Formally Dionex)"
  ],
  "1325/udp": [
   "dx-instrument",
-  "DX-Instrument"
+  "Thermo Fisher Scientific Instrumentation (Formally Dionex)"
  ],
  "1326/tcp": [
   "wimsic",
@@ -13416,12 +13416,12 @@
   "UniSQL Java"
  ],
  "1980/tcp": [
-  "pearldoc-xact",
-  "PearlDoc XACT"
+  "panquest-xact",
+  "PanQuest XACT"
  ],
  "1980/udp": [
-  "pearldoc-xact",
-  "PearlDoc XACT"
+  "panquest-xact",
+  "PanQuest XACT"
  ],
  "1981/tcp": [
   "p2pq",
@@ -31152,12 +31152,12 @@
   "Reserved"
  ],
  "4319/tcp": [
-  "fox-skytale",
-  "Fox SkyTale encrypted communication"
+  "skytale",
+  "Sentyron SkyTale encrypted communication"
  ],
  "4319/udp": [
-  "fox-skytale",
-  "Fox SkyTale encrypted communication"
+  "skytale",
+  "Sentyron SkyTale encrypted communication"
  ],
  "4320/tcp": [
   "fdt-rcatp",
@@ -31748,12 +31748,12 @@
   "SmallChat"
  ],
  "4413/tcp": [
-  "avi-nms",
-  "AVI Systems NMS"
+  "vision-mon",
+  "FORTÉ Vision Monitoring platform"
  ],
  "4413/udp": [
-  "avi-nms-disc",
-  "AVI Systems NMS"
+  "vision-mon-disc",
+  "FORTÉ Vision Monitoring platform"
  ],
  "4414/tcp": [
   "updog",
@@ -44259,6 +44259,14 @@
   "",
   "Reserved"
  ],
+ "9986/tcp": [
+  "kaostransport",
+  "KAOS secure message transport protocol for safety-critical environments"
+ ],
+ "9986/udp": [
+  "",
+  "Reserved"
+ ],
  "9987/tcp": [
   "dsm-scm-target",
   "DSM/SCM Target Interface"
@@ -45124,6 +45132,14 @@
   "Lenbrook Service Discovery Protocol"
  ],
  "11430/tcp": [
+  "",
+  "Reserved"
+ ],
+ "11434/tcp": [
+  "ollama",
+  "Ollama"
+ ],
+ "11434/udp": [
   "",
   "Reserved"
  ],
@@ -46771,6 +46787,14 @@
   "",
   "Reserved"
  ],
+ "21337/tcp": [
+  "xahaud",
+  "Xahau P2P network protocol"
+ ],
+ "21337/udp": [
+  "",
+  "Reserved"
+ ],
  "21553/tcp": [
   "rdm-tfs",
   "Raima RDM TFS"
@@ -47278,6 +47302,14 @@
  "24577/udp": [
   "bilobit-update",
   "bilobit Service Update"
+ ],
+ "24601/udp": [
+  "udpstp",
+  "UDP-based IP-Layer Capacity and performance measurement protocol"
+ ],
+ "24601/tcp": [
+  "",
+  "Reserved"
  ],
  "24666/tcp": [
   "sdtvwcam",
@@ -48884,12 +48916,12 @@
   "PCP server (pmcd)"
  ],
  "44322/tcp": [
-  "pmcdproxy",
-  "PCP server (pmcd) proxy"
+  "pmproxy",
+  "PCP proxy (pmproxy)"
  ],
  "44322/udp": [
-  "pmcdproxy",
-  "PCP server (pmcd) proxy"
+  "pmproxy",
+  "PCP proxy (pmproxy)"
  ],
  "44323/tcp": [
   "pmwebapi",
