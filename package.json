@@ -17,8 +17,9 @@
   ],
   "devDependencies": {
     "d3-dsv": "3.0.1",
-    "eslint": "8.57.0",
-    "eslint-config-silverwind": "85.1.4",
+    "eslint": "9.39.2",
+    "eslint-config-silverwind": "120.1.2",
+    "typescript-config-silverwind": "14.0.0",
     "updates": "16.1.1",
     "versions": "12.0.2",
     "vitest": "1.6.0",
