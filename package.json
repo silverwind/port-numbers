@@ -21,6 +21,7 @@
     "eslint-config-silverwind": "120.1.2",
     "typescript-config-silverwind": "14.0.0",
     "updates": "16.1.1",
+    "updates-config-silverwind": "1.0.3",
     "versions": "12.0.2",
     "vitest": "1.6.0",
     "vitest-config-silverwind": "9.0.6"
