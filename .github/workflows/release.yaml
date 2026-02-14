@@ -23,5 +23,4 @@ jobs:
           node-version: latest
           registry-url: "https://registry.npmjs.org"
       - run: make deps
-      - run: make build
       - run: make publish
