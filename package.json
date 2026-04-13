@@ -18,13 +18,13 @@
   "devDependencies": {
     "d3-dsv": "3.0.1",
     "eslint": "9.39.2",
-    "eslint-config-silverwind": "122.0.4",
-    "typescript-config-silverwind": "15.0.0",
-    "updates": "17.8.2",
-    "updates-config-silverwind": "1.0.3",
+    "eslint-config-silverwind": "131.0.4",
+    "typescript-config-silverwind": "17.0.0",
+    "updates": "17.15.2",
+    "updates-config-silverwind": "2.1.0",
     "versions": "14.3.1",
-    "vitest": "4.0.18",
-    "vitest-config-silverwind": "10.6.3"
+    "vitest": "4.1.4",
+    "vitest-config-silverwind": "11.1.4"
   },
-  "packageManager": "pnpm@10.30.3"
+  "packageManager": "pnpm@10.33.0"
 }
