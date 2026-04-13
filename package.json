@@ -19,6 +19,7 @@
     "d3-dsv": "3.0.1",
     "eslint": "9.39.2",
     "eslint-config-silverwind": "131.0.4",
+    "jest-extended": "7.0.0",
     "typescript-config-silverwind": "17.0.0",
     "updates": "17.15.2",
     "updates-config-silverwind": "2.1.0",
