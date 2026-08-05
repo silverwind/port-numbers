@@ -21,6 +21,5 @@ jobs:
         with:
           cache: pnpm
           node-version: latest
-          registry-url: "https://registry.npmjs.org"
       - run: make deps
       - run: make publish
