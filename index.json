@@ -5021,7 +5021,7 @@
  ],
  "700/udp": [
   "epp",
-  "Extensible Provisioning Protocol"
+  "EPP running over QUIC"
  ],
  "701/tcp": [
   "lmp",
@@ -32059,6 +32059,14 @@
   "",
   "Reserved"
  ],
+ "4480/tcp": [
+  "agtp",
+  "Agent Transfer Protocol"
+ ],
+ "4480/udp": [
+  "agtp-quic",
+  "Agent Transfer Protocol over QUIC"
+ ],
  "4484/tcp": [
   "hpssmgmt",
   "hpssmgmt service"
@@ -33142,6 +33150,14 @@
  "4793/udp": [
   "uet",
   "Ultra Ethernet Transport"
+ ],
+ "4794/tcp": [
+  "",
+  "Reserved"
+ ],
+ "4794/udp": [
+  "veroce",
+  "veRoCE Transport Protocol"
  ],
  "4800/tcp": [
   "iims",
@@ -35246,6 +35262,14 @@
  "5318/udp": [
   "",
   "Reserved"
+ ],
+ "5319/tcp": [
+  "roughtime",
+  "Roughtime time synchronization"
+ ],
+ "5319/udp": [
+  "roughtime",
+  "Roughtime time synchronization"
  ],
  "5320/tcp": [
   "bsfserver-zn",
@@ -38543,6 +38567,14 @@
   "",
   "Reserved"
  ],
+ "6610/tcp": [
+  "bencher",
+  "Bencher API"
+ ],
+ "6610/udp": [
+  "bencher",
+  "Bencher API"
+ ],
  "6619/tcp": [
   "odette-ftps",
   "ODETTE-FTP over TLS/SSL"
@@ -39593,11 +39625,11 @@
  ],
  "7123/tcp": [
   "snif",
-  "End-to-end TLS Relay Control Connection"
+  "SNIF End-to-End TLS Relay Control Connection"
  ],
  "7123/udp": [
-  "",
-  "Reserved"
+  "snif",
+  "SNIF End-to-End TLS Relay over QUIC"
  ],
  "7128/tcp": [
   "scenidm",
@@ -43230,6 +43262,14 @@
  "9164/udp": [
   "apani5",
   "apani5"
+ ],
+ "9183/tcp": [
+  "sirius-agent",
+  "Sirius Configuration Agent"
+ ],
+ "9183/udp": [
+  "sirius-agent",
+  "Sirius Configuration Agent"
  ],
  "9191/tcp": [
   "sun-as-jpda",
@@ -47305,7 +47345,7 @@
  ],
  "24601/udp": [
   "udpstp",
-  "UDP-based IP-Layer Capacity and performance measurement protocol"
+  "UDP-based IP-Layer Capacity and Performance Measurement protocol"
  ],
  "24601/tcp": [
   "",
@@ -47891,6 +47931,14 @@
   "",
   "Reserved"
  ],
+ "30939/tcp": [
+  "dilithium3",
+  "Persistent peer-to-peer connections for block propagation, transaction relay, and BFT consensus message exchange."
+ ],
+ "30939/udp": [
+  "dilithium3",
+  "Kademlia DHT peer discovery and routing table maintenance."
+ ],
  "30999/tcp": [
   "ovobs",
   "OpenView Service Desk Client"
@@ -48290,6 +48338,22 @@
  "34964/udp": [
   "profinet-cm",
   "PROFInet Context Manager"
+ ],
+ "34965/tcp": [
+  "profinet-cm-sec",
+  "PROFINET secure connection management and key provisioning"
+ ],
+ "34965/udp": [
+  "profinet-cm-sec",
+  "PROFINET secure connection management and key provisioning"
+ ],
+ "34966/tcp": [
+  "",
+  "Reserved"
+ ],
+ "34966/udp": [
+  "profinet-rt-sec",
+  "PROFINET secure real-time data transfer over UDP (unicast and multicast)"
  ],
  "34980/tcp": [
   "ethercat",
