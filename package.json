@@ -16,20 +16,20 @@
     "./index.json"
   ],
   "devDependencies": {
-    "@types/d3-dsv": "3.0.3",
-    "@types/node": "25.8.0",
-    "@typescript/native-preview": "7.0.0-dev.20260515.1",
+    "@types/d3-dsv": "3.0.7",
+    "@types/node": "26.1.2",
+    "@typescript/native-preview": "7.0.0-dev.20260707.2",
     "d3-dsv": "3.0.1",
     "eslint": "10.4.0",
-    "eslint-config-silverwind": "133.0.2",
+    "eslint-config-silverwind": "144.0.0",
     "jest-extended": "7.0.0",
     "typescript": "6.0.3",
-    "typescript-config-silverwind": "18.0.0",
-    "updates": "17.16.12",
-    "updates-config-silverwind": "4.0.0",
-    "versions": "15.0.4",
-    "vitest": "4.1.6",
-    "vitest-config-silverwind": "11.3.5"
+    "typescript-config-silverwind": "20.0.3",
+    "updates": "18.0.0",
+    "updates-config-silverwind": "4.0.5",
+    "versions": "15.3.2",
+    "vitest": "4.1.10",
+    "vitest-config-silverwind": "11.5.0"
   },
-  "packageManager": "pnpm@11.5.2"
+  "packageManager": "pnpm@11.20.0"
 }

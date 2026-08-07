@@ -11,12 +11,7 @@ function cleanupDescription(str: string | undefined): string {
     .trim();
 }
 
-function exit(err?: Error | void) {
-  if (err) console.error(err);
-  exitProcess(err ? 1 : 0);
-}
-
-async function main() {
+try {
   const res = await fetch("https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv");
   const text = await res.text();
 
@@ -32,6 +27,7 @@ async function main() {
     }
   }
   writeFileSync(new URL("index.json", import.meta.url), JSON.stringify(output, null, 1));
+} catch (err) {
+  console.error(err);
+  exitProcess(1);
 }
-
-main().then(exit).catch(exit);
