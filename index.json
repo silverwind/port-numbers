@@ -35980,8 +35980,8 @@
   "Matter Operational Discovery and Communi"
  ],
  "5543/tcp": [
-  "qftest-licserve",
-  "QF-Test License Server"
+  "qftest-lic-mcp",
+  "QF-Test License Server / QF-Test MCP Server"
  ],
  "5543/udp": [
   "",
