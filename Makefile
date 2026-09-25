@@ -18,6 +18,7 @@ lint-fix: node_modules
 .PHONY: test
 test: node_modules lint
 	pnpm exec vitest
+	bun test --only-failures --concurrent
 
 .PHONY: test-update
 test-update: node_modules lint
