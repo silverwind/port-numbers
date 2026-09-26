@@ -10,6 +10,7 @@ function cleanupDescription(str: string | undefined): string {
 }
 
 const res = await fetch("https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv");
+if (!res.ok) throw new Error(`Fetching IANA data failed with HTTP ${res.status}`);
 
 const output: Record<string, Array<string>> = {};
 for (const {
