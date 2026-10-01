@@ -31772,12 +31772,12 @@
   "Reserved"
  ],
  "4416/tcp": [
-  "pjj-player",
-  "PJJ Media Player"
+  "newmood-player",
+  "Newmood Media Player"
  ],
  "4416/udp": [
-  "pjj-player-disc",
-  "PJJ Media Player discovery"
+  "newmood-player",
+  "Newmood Media Player discovery"
  ],
  "4417/tcp": [
   "workflowdir",
