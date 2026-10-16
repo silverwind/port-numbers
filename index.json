@@ -33531,6 +33531,14 @@
   "",
   "Reserved"
  ],
+ "4930/tcp": [
+  "fmsg",
+  "Host-to-host messaging"
+ ],
+ "4930/udp": [
+  "",
+  "Reserved"
+ ],
  "4936/udp": [
   "an-signaling",
   "Signal protocol port for autonomic networking"
