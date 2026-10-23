@@ -41155,6 +41155,14 @@
   "",
   "Reserved"
  ],
+ "8011/udp": [
+  "bier-echo",
+  "The UDP destination port number for the IP/UDP encapsulated BIER Echo Reply message."
+ ],
+ "8011/tcp": [
+  "",
+  "Reserved"
+ ],
  "8015/tcp": [
   "cfg-cloud",
   "Configuration Cloud Service"
