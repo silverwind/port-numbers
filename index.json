@@ -41227,6 +41227,14 @@
   "arca-api",
   "ARCATrust vault API"
  ],
+ "8024/udp": [
+  "gaap",
+  "GAAP Control Packets"
+ ],
+ "8024/tcp": [
+  "",
+  "Reserved"
+ ],
  "8025/tcp": [
   "ca-audit-da",
   "CA Audit Distribution Agent"
