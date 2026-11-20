@@ -39655,6 +39655,14 @@
   "scenccs",
   "Catalog Content Search"
  ],
+ "7151/tcp": [
+  "ambesasql",
+  "AmbesaSQL Database Server"
+ ],
+ "7151/udp": [
+  "",
+  "Reserved"
+ ],
  "7161/tcp": [
   "cabsm-comm",
   "CA BSM Comm"
