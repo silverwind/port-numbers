@@ -14245,11 +14245,11 @@
  ],
  "2083/tcp": [
   "radsec",
-  "Secure Radius Service"
+  "Secure RADIUS Service"
  ],
  "2083/udp": [
   "radsec",
-  "Secure Radius Service"
+  "Secure RADIUS Service"
  ],
  "2084/tcp": [
   "sunclustergeo",
